@@ -1,0 +1,6 @@
+# Optional graph rendering
+matplotlib
+networkx
+
+# Optional Responses API token/cost runner
+openai

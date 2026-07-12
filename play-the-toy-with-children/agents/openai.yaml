@@ -1,0 +1,4 @@
+interface:
+  display_name: "Play the Toy with Children"
+  short_description: "Auditable research from clue to sourced output"
+  default_prompt: "Use $play-the-toy-with-children to turn this research clue into a source-audited literature map, claim ledger, lineage, and bounded report."
