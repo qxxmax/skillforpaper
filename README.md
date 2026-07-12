@@ -1,5 +1,7 @@
 # Play the Toy with Children
 
+## 终于完成 Part 1 了
+
 An auditable research skill and one worked literature-review case: the
 Stochastic Path Sampler (SPS) for lattice field theory.
 
@@ -73,4 +75,3 @@ The repository demonstrates an auditable literature workflow and records its
 observable outputs. It does not claim that the current data compare two fully
 identified models, provide API pricing, or prove one runtime is intrinsically
 faster. A controlled two-model protocol is included for the next experiment.
-
