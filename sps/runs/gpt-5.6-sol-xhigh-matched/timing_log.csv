@@ -1,0 +1,6 @@
+event,epoch,iso8601,elapsed_from_start_seconds,note
+orchestrator_start,1783850589,2026-07-12T12:03:09+0200,0,user-supplied locked start
+first_local_probe,1783850632,2026-07-12T12:03:52+0200,43,runtime date probe
+identity_confirmed,1783850664,2026-07-12T12:04:24+0200,75,arXiv identity independently recovered
+fresh_freeze,1783851596,2026-07-12T12:19:56+0200,1007,pre-comparison content freeze
+final_validation,1783851934,2026-07-12T12:25:34+0200,1345,post-comparison amendment and final QA

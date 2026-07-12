@@ -1,0 +1,37 @@
+query_id,family,source,query,facet,parent_evidence
+Q01,root,OpenAlex,"""Stochastic Path Sampler For Lattice Field Theory""",identity,root title
+Q02,root,Crossref,"""Stochastic Path Sampler For Lattice Field Theory""",identity,root title
+Q03,root,arXiv,"ti:""Stochastic Path Sampler For Lattice Field Theory""",identity,root title
+Q04,backward,root_bibliography,all live root references,lineage,root TeX
+Q05,forward,OpenAlex,works citing arXiv:2606.13790,forward,root arXiv ID
+Q06,author,OpenAlex,"""Shiyang Chen"" lattice sampler",author,root title page
+Q07,author,OpenAlex,"""Moxian Qian"" lattice sampler",author,root title page
+Q08,author,OpenAlex,"""Gert Aarts"" lattice sampler",author,root title page
+Q09,author,OpenAlex,"""Biagio Lucini"" lattice sampler",author,root title page
+Q10,author,OpenAlex,"""Kai Zhou"" lattice sampler",author,root title page
+Q11,keyword,OpenAlex,critical slowing down sampling,failure,K02
+Q12,keyword,OpenAlex,topological freezing sampling,failure,K03
+Q13,keyword,OpenAlex,trajectory-level balance sampling,mechanism,K06
+Q14,keyword,OpenAlex,forward and backward stochastic dynamics sampling,mechanism,K07
+Q15,keyword,OpenAlex,path-space variational free energy sampling,objective,K08
+Q16,keyword,OpenAlex,entropy production sampling,objective,K09
+Q17,keyword,OpenAlex,Independence Metropolis sampling,correction,K10
+Q18,keyword,OpenAlex,normalizing flows sampling,adjacent_method,K12
+Q19,keyword,OpenAlex,continuous normalizing flows sampling,adjacent_method,K13
+Q20,keyword,OpenAlex,autoregressive networks sampling,adjacent_method,K14
+Q21,keyword,OpenAlex,stochastic normalizing flows sampling,adjacent_method,K15
+Q22,keyword,OpenAlex,diffusion sampling,adjacent_method,K16
+Q23,keyword,OpenAlex,mode collapse sampling,failure,K18
+Q24,keyword,OpenAlex,gauge equivariant sampling,extension,K19
+Q25,keyword,arXiv,"all:""path-space variational free energy"" AND all:""lattice field""",objective,K08
+Q26,keyword,arXiv,"all:""entropy production"" AND all:""lattice field""",objective,K09
+Q27,keyword,arXiv,"all:""Independence Metropolis"" AND all:""lattice field""",correction,K10
+Q28,keyword,arXiv,"all:""normalizing flows"" AND all:""lattice field""",adjacent_method,K12
+Q29,keyword,arXiv,"all:""continuous normalizing flows"" AND all:""lattice field""",adjacent_method,K13
+Q30,keyword,arXiv,"all:""autoregressive networks"" AND all:""lattice field""",adjacent_method,K14
+Q31,adjacent,OpenAlex,learned sampler exact correction unnormalized target,correction,K10;K04
+Q32,adversarial,OpenAlex,generative sampler critical slowing mode collapse,failure,K02;K18
+Q33,extension,OpenAlex,gauge equivariant sampler topological freezing,extension,K03;K19
+Q34,evaluation,Crossref,lattice sampler training cost autocorrelation,evaluation,K21;K22
+Q35,source_link,Crossref,2606.13790,identity,root arXiv ID
+Q36,closure,OpenAlex,path space sampler stochastic control diffusion,lineage,K07;K17

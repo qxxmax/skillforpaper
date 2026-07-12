@@ -1,0 +1,37 @@
+QueryID,Round,RouteFamily,AxisCombination,QueryString,DomainLock,NegativeTerms,SourceTermIDs,TargetSource,ExpectedFacet,Status
+F01,R0,root,identity_x_exact_title,Stochastic Path Sampler For Lattice Field Theory,lattice field theory,,T001;T002,OpenAlex,root_identity,executed
+F02,R0,root,oral_clue_x_alias,SPS Moxian Qian stochastic path sampler,lattice sampler,,T001;T003,OpenAlex,root_identity,executed
+F03,R0,source_link,title_x_primary_source,Stochastic Path Sampler arXiv 2606.13790,primary paper,,T001,OpenAlex,source_verification,executed
+F04,R1,backward,root_x_references,ROOT_REFERENCED_WORKS,root paper,,T001,OpenAlex,backward_lineage,executed
+F05,R1,forward,root_x_citing_works,ROOT_CITING_WORKS,root paper,,T001,OpenAlex,forward_lineage,executed
+F06,R1,author,author_x_sampler,Moxian Qian lattice sampler,lattice field theory,,T003,OpenAlex,author_lineage,executed
+F07,R1,collaborator,author_x_sampler,Shiyang Chen lattice field sampler,lattice field theory,,T004,OpenAlex,collaborator_lineage,executed
+F08,R1,collaborator,author_x_diffusion,Gert Aarts diffusion lattice field theory,lattice field theory,,T005,OpenAlex,collaborator_lineage,executed
+F09,R1,collaborator,author_x_machine_learning,Biagio Lucini machine learning lattice sampling,lattice field theory,,T006,OpenAlex,collaborator_lineage,executed
+F10,R1,collaborator,author_x_sampler,Kai Zhou lattice field sampler,lattice field theory,,T007,OpenAlex,collaborator_lineage,executed
+F11,R1,normalized_keyword,mechanism_x_balance,trajectory level balance stochastic sampler,sampling,,T008,OpenAlex,correctness_mechanism,executed
+F12,R1,normalized_keyword,objective_x_path_space,path space variational free energy sampler,sampling,,T009,OpenAlex,training_objective,executed
+F13,R1,normalized_keyword,objective_x_entropy,entropy production learned diffusion sampler,sampling,,T010,OpenAlex,training_objective,executed
+F14,R1,normalized_keyword,dynamics_x_bidirectional,learned forward backward drifts stochastic sampling,sampling,,T011,OpenAlex,dynamics,executed
+F15,R1,normalized_keyword,physics_x_dynamics,stochastic quantization neural sampler lattice field theory,lattice field theory,,T012,OpenAlex,physics_lineage,executed
+F16,R1,normalized_keyword,correction_x_proposal,independence Metropolis Hastings learned diffusion proposal,sampling,,T013,OpenAlex,exactness,executed
+F17,R1,adjacent,method_x_domain,stochastic normalizing flow lattice field theory,lattice field theory,,T014,OpenAlex,adjacent_method,executed
+F18,R1,adjacent,method_x_domain,nonequilibrium transport sampler lattice field theory,lattice field theory,,T015,OpenAlex,adjacent_method,executed
+F19,R1,adjacent,method_x_target,diffusion sampler unnormalized target action,sampling,,T016,OpenAlex,data_free_sampling,executed
+F20,R1,adjacent,architecture_x_model,autoregressive network phi4 Monte Carlo,lattice phi4,,T017,OpenAlex,adjacent_architecture,executed
+F21,R1,adjacent,architecture_x_domain,continuous normalizing flow lattice quantum field theory,lattice field theory,,T018,OpenAlex,adjacent_architecture,executed
+F22,R1,adversarial,older_x_same_method,older path space stochastic control sampler pre-2022,sampling,,T009;T019,OpenAlex,priority_challenge,executed
+F23,R1,adversarial,failure_x_method,negative result mode collapse lattice normalizing flow,lattice field theory,,T020,OpenAlex,failure_mode,executed
+F24,R1,adversarial,scaling_x_method,scaling limitation learned lattice field sampler computational cost,lattice field theory,,T021,OpenAlex,scaling_boundary,executed
+F25,R1,adversarial,review_x_domain,review machine learning sampling lattice field theory,lattice field theory,,T022,OpenAlex,alternative_framing,executed
+F26,R1,source_link,title_x_crossref,Stochastic Path Sampler For Lattice Field Theory,primary paper,,T001,Crossref,doi_source_check,executed
+F27,R1,source_link,title_x_arxiv,au:Moxian_Qian AND cat:hep-lat,hep-lat,,T003,arXiv,author_source_check,executed
+F28,R1,adjacent,balance_x_method,GFlowNet trajectory balance diffusion sampler,sampling,,T008;T023,OpenAlex,adjacent_balance,executed
+F29,R2,closure,missing_facets_x_safety,lattice field learned sampler gauge fermion topology transfer,lattice field theory,,T020;T024;T025,OpenAlex,closure_round_1,executed
+F30,R3,closure,recency_x_domain,2025 2026 generative sampler lattice field theory diffusion flow,lattice field theory,,T022,OpenAlex,closure_round_2,executed
+L01,R1,legacy,exactness_x_correction,exactness Metropolis Hastings correction learned sampler,sampling,,T013,OpenAlex,exactness_MH,executed
+L02,R1,legacy,failure_x_composite,mode collapse tails composite MCMC learned proposals,sampling,,T020,OpenAlex,mode_collapse_tails_composite_MCMC,executed
+L03,R1,legacy,objective_x_variance,log variance path space loss importance weights,sampling,,T009;T010,OpenAlex,log_variance_path_space_loss,executed
+L04,R1,legacy,gauge_x_topology,gauge topology diffusion sampler lattice field theory,lattice gauge theory,,T024,OpenAlex,gauge_topology_diffusion,executed
+L05,R1,legacy,fermion_x_scaling,pseudofermion dynamical fermion scaling learned lattice sampler,lattice fermions,,T025,OpenAlex,pseudofermion_dynamical_fermion_scaling,executed
+L06,R1,legacy,transfer_x_volume,lattice size parameter transfer learned sampler,lattice field theory,,T021,OpenAlex,lattice_size_parameter_transfer,executed

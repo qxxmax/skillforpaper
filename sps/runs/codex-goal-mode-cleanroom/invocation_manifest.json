@@ -1,0 +1,13 @@
+{
+  "run_id": "play_the_toy_sps_cleanroom_run6_20260712_165942",
+  "oral_clue": "SPS / Moxian Qian stochastic path sampler",
+  "start_epoch": 1783868382,
+  "start_iso8601": "2026-07-12T16:59:42+0200",
+  "execution_mode": "Codex goal mode clean-room",
+  "skill": {
+    "path": "play-the-toy-with-children/SKILL.md",
+    "sha256": "2138f1b7f862ad73409cbd6966330d57f09d3c978e4a4af481b90a472621a5ed"
+  },
+  "previous_result_access": "forbidden",
+  "token_policy": "Record goal-level aggregate on completion; never estimate unavailable subdivisions."
+}

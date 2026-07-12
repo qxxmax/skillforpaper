@@ -1,0 +1,5 @@
+event,epoch,iso8601,elapsed_from_start_seconds,note
+goal_run_start,1783865738,2026-07-12T16:15:38+0200,0,full skill protocol locked
+identity_confirmed,1783865740,2026-07-12T16:15:40+0200,2,arXiv identity independently recovered
+fresh_freeze,1783866976,2026-07-12T16:36:16+0200,1238,pre-comparison content freeze
+final_validation,1783867171,2026-07-12T16:39:31+0200,1433,post-comparison amendment and final QA

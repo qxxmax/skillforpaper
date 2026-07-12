@@ -1,0 +1,23 @@
+digraph LiteratureLineage {
+  graph [rankdir=LR, bgcolor="white", pad="0.3", nodesep="0.55", ranksep="0.9"];
+  node [shape=box, style="rounded,filled", fontname="Arial", fontsize=12, margin="0.12,0.08", color="#888888", fillcolor="#f6f8fa"];
+  edge [fontname="Arial", fontsize=10, color="#666666", arrowsize=0.7];
+
+  Seed [label="SEED / sentinel", fillcolor="#ddeeff", color="#0366d6", penwidth=2];
+  Ancestor [label="LANDMARK ancestor", fillcolor="#f0f0f0", color="#6a737d"];
+  Core [label="GREEN core method", fillcolor="#dff6dd", color="#22863a", penwidth=2.2];
+  Application [label="GREEN application / evaluation", fillcolor="#dff6dd", color="#22863a", penwidth=2.2];
+  Secondary [label="SECONDARY relevant but narrow", fillcolor="#eaf7ea", color="#34a853", penwidth=1.5];
+  Caution [label="CAUTION conflict / limitation", fillcolor="#fff5b1", color="#b08800", penwidth=2];
+  Excluded [label="EXCLUDED background-only", fillcolor="#ffe3e3", color="#cb2431", penwidth=2];
+  Uncertain [label="UNCERTAIN needs full text", fillcolor="#fff5b1", color="#b08800", penwidth=2];
+
+  Seed -> Ancestor [label="reviews", color="#6f42c1", penwidth=1.8];
+  Seed -> Core [label="reviews", color="#6f42c1", penwidth=1.8];
+  Ancestor -> Core [label="uses_method", color="#0366d6", penwidth=2];
+  Core -> Application [label="extends / validates", color="#22863a", penwidth=2.2];
+  Core -> Secondary [label="same_dataset", color="#22863a", penwidth=1.4];
+  Application -> Caution [label="contrasts", color="#cb2431", style=dashed, penwidth=2];
+  Core -> Excluded [label="background_only", color="#888888", style=dotted, penwidth=1.4];
+  Application -> Uncertain [label="open_gap", color="#b08800", style=dashed, penwidth=1.6];
+}

@@ -1,0 +1,6 @@
+Stage,Count,Meaning,SourceTable,DeduplicationKey,Filter
+root_references,58,Live root bibliography entries screened individually,root_bibliography_screening.csv,ref_no,all
+route_candidates,578,Deduplicated route metadata candidates,candidate_screening_table.csv,normalized_title,all
+screen_relevant,198,Title-screen included or monitor,candidate_screening_table.csv,CandidateID,Decision!=exclude
+source_verified,27,Authoritative URL plus readable primary PDF,source_matrix.csv,ArxivID,green_check
+claim_anchored,27,Four-dimension full-text reading completed,fulltext_reading_notes.csv,PaperID,all

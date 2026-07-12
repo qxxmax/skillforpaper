@@ -1,0 +1,81 @@
+author,paper_count,arxiv_ids,clusters
+Alessandro Nada,6,2201.08862;2210.03139;2409.15937;2409.18861;2412.19109;2601.20708,Stochastic flows
+Elia Cellini,6,2201.08862;2210.03139;2409.15937;2409.18861;2412.19109;2601.20708,Stochastic flows
+Daniel C. Hackett,5,2003.06413;2106.05934;2107.00734;2208.03832;2211.07541,Normalizing flows;Scaling / multiscale
+Denis Boyda,5,2003.06413;2106.05934;2107.00734;2208.03832;2211.07541,Normalizing flows;Scaling / multiscale
+Michael S. Albergo,5,2003.06413;2106.05934;2107.00734;2208.03832;2211.07541,Normalizing flows;Scaling / multiscale
+Phiala E. Shanahan,5,2003.06413;2106.05934;2107.00734;2208.03832;2211.07541,Normalizing flows;Scaling / multiscale
+Gert Aarts,4,2311.03578;2502.05504;2606.13790;2607.08505,Diffusion;SPS
+Gurtej Kanwar,4,2003.06413;2106.05934;2107.00734;2208.03832,Normalizing flows
+Michele Caselle,4,2201.08862;2210.03139;2409.15937;2412.19109,Stochastic flows
+Sébastien Racanière,4,2003.06413;2106.05934;2208.03832;2211.07541,Normalizing flows;Scaling / multiscale
+Danilo Jimenez Rezende,3,2003.06413;2208.03832;2211.07541,Normalizing flows;Scaling / multiscale
+Julian M. Urban,3,2106.05934;2208.03832;2211.07541,Normalizing flows;Scaling / multiscale
+K. Cranmer,3,2003.06413;2208.03832;2211.07541,Normalizing flows;Scaling / multiscale
+Kai Zhou,3,2311.03578;2502.05504;2606.13790,Diffusion;SPS
+Lingxiao Wang,3,2311.03578;2502.05504;2607.08505,Diffusion
+Moxian Qian,3,2512.19575;2605.11199;2606.13790,Autoregressive;Diagnostics / theory;SPS
+Aleksandar Botev,2,2208.03832;2211.07541,Normalizing flows;Scaling / multiscale
+Alexander Matthews,2,2208.03832;2211.07541,Normalizing flows;Scaling / multiscale
+Ali Razavi,2,2208.03832;2211.07541,Normalizing flows;Scaling / multiscale
+Andrea Bulgarelli,2,2409.18861;2601.20708,Stochastic flows
+Biagio Lucini,2,2606.13790;2607.08505,Diffusion;SPS
+Fernando Romero-López,2,2208.03832;2211.07541,Normalizing flows;Scaling / multiscale
+Kyle Cranmer,2,2106.05934;2107.00734,Normalizing flows
+Marco Panero,2,2201.08862;2210.03139,Stochastic flows
+Ryan Abbott,2,2208.03832;2211.07541,Normalizing flows;Scaling / multiscale
+Shiyang Chen,2,2512.19575;2606.13790,Autoregressive;SPS
+"Vargas, Francisco",2,2302.13834;2307.01050,Path-space control
+A. Singha,1,2604.10209,Scaling / multiscale
+"Aarts, Gert",1,2309.17082,Diffusion
+"Albergo, M. S.",1,1904.12072,Normalizing flows
+"Albergo, Michael S.",1,2410.02711,Path-space control
+Ankur Singha,1,2306.00581,Normalizing flows
+"Arora, Vipul",1,2306.00581,Normalizing flows
+"Blessing, Denis",1,2307.01050,Path-space control
+"Chen, Yongxin",1,2111.15141,Path-space control
+Chung-Chun Hsieh,1,2107.00734,Normalizing flows
+Claudio Bonanno,1,2601.20708,Stochastic flows
+Danilo J. Rezende,1,2106.05934,Normalizing flows
+Dario Panfalone,1,2601.20708,Stochastic flows
+Davide Vadacchino,1,2601.20708,Stochastic flows
+Diaa E. Habibi,1,2607.08505,Diffusion
+Dipankar Chakrabarti,1,2306.00581,Normalizing flows
+"Doucet, Arnaud",1,2302.13834,Path-space control
+E. Cellini,1,2604.10209,Scaling / multiscale
+"El-Khadra, Aida",1,2510.26081,Diffusion
+Giulio Biroli,1,2605.12597,Diagnostics / theory
+"Grathwohl, Will",1,2302.13834,Path-space control
+J. Kauffmann,1,2604.10209,Scaling / multiscale
+Javad Komijani,1,2605.06134,Diffusion
+Jiunn-Wei Chen,1,2107.00734,Normalizing flows
+Julius Berner,1,2211.01364,Path-space control
+K. Jansen,1,2604.10209,Scaling / multiscale
+Kai-Feng Chen,1,2107.00734,Normalizing flows
+"Kanwar, G.",1,1904.12072,Normalizing flows
+Karen Ullrich,1,2211.01364,Path-space control
+"Komijani, Javad",1,2510.26081,Diffusion
+Lara Turgut,1,2605.06134,Diffusion
+Lorenz Richter,1,2211.01364,Path-space control
+Lorenzo Verzichelli,1,2601.20708,Stochastic flows
+Luca Maria Del Bono,1,2605.12597,Diagnostics / theory
+Marina K. Marinkovic,1,2605.06134,Diffusion
+"Marinkovic, Marina",1,2510.26081,Diffusion
+Marylou Gabrie,1,2605.12597,Diagnostics / theory
+"N \""u sken, Nikolas",1,2307.01050,Path-space control
+"Padhy, Shreyas",1,2307.01050,Path-space control
+Patrick Charbonneau,1,2605.12597,Diagnostics / theory
+Qianteng Zhu,1,2502.05504,Diffusion
+S. Nakajima,1,2604.10209,Scaling / multiscale
+Sahil Pontula,1,2107.00734,Normalizing flows
+"Shanahan, P. E.",1,1904.12072,Normalizing flows
+Urs Wenger,1,2604.12416,Scaling / multiscale
+"Vanden-Eijnden, Eric",1,2410.02711,Path-space control
+"Vega, Octavio",1,2510.26081,Diffusion
+Vikas Kanaujia,1,2510.21330,Normalizing flows
+Vipul Arora,1,2510.21330,Normalizing flows
+"Wang, Lingxiao",1,2309.17082,Diffusion
+Wei Wang,1,2502.05504,Diffusion
+Yang-yang Tan,1,2607.08505,Diffusion
+"Zhang, Qinsheng",1,2111.15141,Path-space control
+"Zhou, Kai",1,2309.17082,Diffusion

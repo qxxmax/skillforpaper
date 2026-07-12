@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": {
+    "31_selected_fulltexts": true,
+    "31_verified_pdfs": true,
+    "731_verified_pages": true,
+    "31_manual_reading_rows": true,
+    "155_evidence_entries": true,
+    "all_claim_evidence_resolves": true,
+    "all_numbers_anchored": true,
+    "all_core_links_canonical": true,
+    "all_relations_have_checked_basis": true,
+    "public_graph_is_subset": true,
+    "keyword_query_relation_validator_pass": true,
+    "dependency_scan_pass": true,
+    "graphs_present": true,
+    "five_key_source_renders": true,
+    "workbook_valid_zip": true,
+    "no_partial_downloads": true
+  }
+}

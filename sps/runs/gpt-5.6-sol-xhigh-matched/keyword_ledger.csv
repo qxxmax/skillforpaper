@@ -1,0 +1,26 @@
+TermID,CanonicalTerm,OriginalPhrase,Axis,Synonyms,Acronyms,BroaderTerm,NeighborTerms,NegativeMeanings,SourcePaperID,SourceSection,SourceAnchor,ProvenanceType,Confidence,Status
+T001,stochastic path sampler,Stochastic Path Sampler,method,,SPS,,,,P_ROOT,title/abstract,p.1,source_anchor,high,searched
+T002,lattice field theory,lattice field theory,domain_benchmark,,LFT,,,,P_ROOT,abstract,p.1,source_anchor,high,searched
+T003,Moxian Qian,Moxian Qian,domain_benchmark,,,,,,P_ROOT,author line,p.1,source_anchor,high,searched
+T004,Shiyang Chen,Shiyang Chen,domain_benchmark,,,,,,P_ROOT,author line,p.1,source_anchor,high,searched
+T005,Gert Aarts,Gert Aarts,domain_benchmark,,,,,,P_ROOT,author line,p.1,source_anchor,high,searched
+T006,Biagio Lucini,Biagio Lucini,domain_benchmark,,,,,,P_ROOT,author line,p.1,source_anchor,high,searched
+T007,Kai Zhou,Kai Zhou,domain_benchmark,,,,,,P_ROOT,author line,p.1,source_anchor,high,searched
+T008,trajectory-level balance,trajectory-level balance,correction_validation,,global trajectory balance,,,,P_ROOT,SPS objective,pp.4-6,source_anchor,high,searched
+T009,path-space variational free energy,path-space variational free energy,method,,path-space KL,,,,P_ROOT,SPS loss,pp.5-7,source_anchor,high,searched
+T010,entropy production,entropy-production upper bound,learned_object,,irreversibility,,,,P_ROOT,SPS loss,"pp.2,6",source_anchor,high,searched
+T011,forward and backward drifts,forward and backward stochastic dynamics,learned_object,,bidirectional drifts,,,,P_ROOT,path dynamics,pp.4-7,source_anchor,high,searched
+T012,stochastic quantization,stochastic-quantization-inspired,method,,SQ,,,,P_ROOT,positioning,pp.2-3,source_anchor,high,searched
+T013,independence Metropolis-Hastings,extended-space Independence Metropolis-Hastings,correction_validation,,IMH,,,,P_ROOT,exact correction,pp.7-9,source_anchor,high,searched
+T014,stochastic normalizing flow,stochastic normalizing flows,method,,SNF,,,,P_2201_08862,framework,pp.5-12,source_anchor,high,searched
+T015,nonequilibrium transport sampler,non-equilibrium transport sampler,method,,NETS,,,,P_2410_02711,method,pp.3-9,source_anchor,high,searched
+T016,unnormalized target,target density known up to normalization,problem,,,,,,P_2111_15141,sampling problem,pp.1-3,source_anchor,high,searched
+T017,autoregressive network,variational autoregressive network,method,,VAN,,,,P_2512_19575,method,pp.5-9,source_anchor,high,searched
+T018,continuous normalizing flow,equivariant continuous flows,method,,CNF,,,,P_2207_00283,method,pp.4-7,source_anchor,high,searched
+T019,stochastic control sampler,stochastic control approach for sampling,method,,PIS,,,,P_2111_15141,title/method,pp.1-7,source_anchor,high,searched
+T020,mode collapse,mode collapse,limitation_direction,,tail failure,,,,P_2107_00734,failure analysis,pp.1-3,source_anchor,high,searched
+T021,volume scaling,scalability to larger volumes,limitation_direction,,lattice-size transfer,,,,P_ROOT,Conclusion,pp.20-21,source_anchor,high,searched
+T022,learned lattice sampler,neural samplers for lattice field theory,method,,,,,,P_2605_11199,Introduction,p.1,source_anchor,high,searched
+T023,GFlowNet,GFlowNet-inspired,method,,generative flow network,,,,P_2502_02127,method,pp.3-6,source_anchor,high,searched
+T024,gauge topology,topological freezing,limitation_direction,,gauge topology,,,,P_2502_05504,Introduction,pp.2-4,source_anchor,high,searched
+T025,pseudofermion scaling,pseudofermion variables,limitation_direction,,dynamical fermions,,,,P_2106_05934,fermion flow,pp.5-10,source_anchor,high,searched

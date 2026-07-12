@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "root_references": 58,
+  "direct_edges": 58,
+  "direct_edges_validated": 58,
+  "bibliography_confirmed_forward_edges": 1,
+  "forward_note": "One confirmed bibliography-only edge: 2607.08505 ref. 40 names SPS, but [40] is absent from the body. It is held from the public direct-lineage graph.",
+  "errors": []
+}

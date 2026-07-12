@@ -1,0 +1,90 @@
+{
+  "status": "complete",
+  "runtime_assignment": {
+    "model": "gpt-5.6-sol",
+    "reasoning_effort": "xhigh",
+    "agent_id": "019f55c8-3c0e-79b2-8a24-3d521e4250d6",
+    "agent_id_kind": "CODEX_THREAD_ID",
+    "confirmation_basis": "locked orchestrator assignment; runtime task ID exposed",
+    "service_tier": "unavailable"
+  },
+  "timing": {
+    "orchestrator_start_epoch": 1783850589,
+    "orchestrator_start_iso": "2026-07-12T12:03:09+0200",
+    "run_end_epoch": 1783851934,
+    "run_end_iso": "2026-07-12T12:25:34+0200",
+    "elapsed_seconds": 1345,
+    "elapsed_hms": "00:22:25",
+    "fresh_freeze_epoch": 1783851596,
+    "fresh_freeze_elapsed_seconds": 1007
+  },
+  "coverage": {
+    "root_direct_references_screened": 58,
+    "root_core_or_foundation_includes": 46,
+    "root_context_includes": 12,
+    "deduplicated_route_candidates": 578,
+    "screen_include": 138,
+    "screen_monitor": 60,
+    "screen_exclude": 380,
+    "source_verified_records": 27,
+    "local_source_pdfs": 27,
+    "local_pdf_pages": 611,
+    "local_pdf_bytes": 61864278,
+    "local_extracted_texts": 27,
+    "four_dimension_reading_records": 27,
+    "closure_rounds": 2
+  },
+  "routes": {
+    "fresh_queries": 30,
+    "legacy_concept_queries_executed": 6,
+    "route_family_counts": {
+      "adjacent": 6,
+      "adversarial": 4,
+      "author": 1,
+      "backward": 1,
+      "closure": 2,
+      "collaborator": 4,
+      "forward": 1,
+      "legacy": 6,
+      "normalized_keyword": 6,
+      "root": 2,
+      "source_link": 3
+    }
+  },
+  "ledgers": {
+    "claims": 10,
+    "numerical_rows": 6,
+    "keywords": 25,
+    "relations": 65,
+    "direct_citation_edges": 58,
+    "bibliography_only_forward_edges": 1,
+    "evidence_records": 108
+  },
+  "access": {
+    "logical_network_operations": 77,
+    "successful": 75,
+    "blocked_or_failed": 2
+  },
+  "files": {
+    "output_files": 205,
+    "output_bytes": 96959971
+  },
+  "usage": {
+    "input_tokens": "unavailable",
+    "output_tokens": "unavailable",
+    "cache_read_tokens": "unavailable",
+    "cache_write_tokens": "unavailable",
+    "total_tokens": "unavailable",
+    "reason": "Exact model token and cache counters are not exposed to this assistant runtime; no estimate substituted."
+  },
+  "validation": {
+    "keyword_query_graph": "PASS",
+    "direct_citation_edges": "PASS",
+    "pdf_integrity": "PASS",
+    "visual_graph_inspection": "PASS",
+    "csv_json_parse": "PASS",
+    "cost_matching_boundary": "PASS",
+    "prior_outputs_read_only": "PASS",
+    "final_package": "PASS"
+  }
+}

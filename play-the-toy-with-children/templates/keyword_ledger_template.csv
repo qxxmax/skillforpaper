@@ -1,0 +1,3 @@
+TermID,CanonicalTerm,OriginalPhrase,Axis,Synonyms,Acronyms,BroaderTerm,NeighborTerms,NegativeMeanings,SourcePaperID,SourceSection,SourceAnchor,ProvenanceType,Confidence,Status
+T001,,,,,,,,,,,,source_anchor,,seed
+

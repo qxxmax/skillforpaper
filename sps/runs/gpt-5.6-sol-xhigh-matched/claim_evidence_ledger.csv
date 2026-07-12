@@ -1,0 +1,11 @@
+ClaimID,Claim,EvidenceIDs,Strength,Boundary
+CL01,"SPS is a data-free learned proposal mechanism, but exact sampling claims rely on extended-space IMH.",EV-26-M,supported,Do not call raw SPS proposals exact.
+CL02,The SPS objective is a path-space forward/backward KL or entropy-production upper bound.,EV-26-M,supported,Do not claim entropy minimization alone proves finite-training endpoint exactness.
+CL03,Corrected SPS matches measured phi4 observables through the tested L=64 setup.,EV-26-R,supported,"Bound to Lx8, lambda and kappa range tested."
+CL04,The reported SPS/HMC autocorrelation values are in different algorithmic units and are not cost matched.,EV-26-R;EV-26-L,supported,Never translate the ratio into wall-clock speedup.
+CL05,Mode coverage remains a first-class risk for learned independent proposals.,EV-05-P;EV-05-L,established_context,Do not infer universal tail coverage from magnetization histograms.
+CL06,"Path-space learned samplers predate SPS in PIS, DDS, and related transport formulations.",EV-07-M;EV-12-M;EV-14-M,established_context,"Novelty is the LFT adaptation/correction package, not path-space control in general."
+CL07,Gauge and fermion extensions require symmetry and auxiliary-variable machinery absent from the scalar SPS benchmark.,EV-02-M;EV-04-M,supported_context,"Future direction, not demonstrated SPS capability."
+CL08,"Cross-volume transfer is demonstrated by adjacent diffusion/CNF work, while SPS trains each (kappa,L) separately.",EV-10-R;EV-20-R;EV-27-R;EV-26-L,supported,Do not attribute adjacent transfer results to SPS.
+CL09,Learned diffusion can itself exhibit critical slowing unless architecture/locality address it.,EV-25-R,supported_adversarial,Controlled Gaussian large-n setting only.
+CL10,External July 2026 evidence strengthens transfer feasibility but also retains observable-specific residual bias.,EV-27-R;EV-27-L,supported,It lists SPS only in the bibliography and is not an SPS experiment or discussion.

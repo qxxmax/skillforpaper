@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+
+# Keep downloaded literature and full-text caches outside Git.
+sources/
+source_pdfs/
+fulltext_cache/
+

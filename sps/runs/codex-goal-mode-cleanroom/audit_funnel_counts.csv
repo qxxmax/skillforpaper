@@ -1,0 +1,7 @@
+stage,count,source
+raw route records,671,route_results.csv + web_seed_candidates.csv
+deduplicated candidates,594,candidate_screening_table.csv
+include or monitor,108,candidate_screening_table.csv + round2_discovered_candidates.csv
+selected full texts,31,selected_fulltexts.csv
+verified and manually read,31,manual_reading_notes.csv
+papers supporting synthesis claims,18,claim_source_ledger.csv

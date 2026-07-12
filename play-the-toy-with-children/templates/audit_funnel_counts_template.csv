@@ -1,0 +1,6 @@
+Stage,Count,Meaning,SourceTable,DeduplicationKey,Filter
+candidate,100,Unique records discovered,candidate_pool.csv,DOI_or_arXiv_or_title_year,all
+screened,60,Records passing title and abstract screening,candidate_screening.csv,RecordID,Decision=include
+source_verified,45,Records with a checked primary source URL,source_link_verification.csv,RecordID,VerificationStatus=verified
+full_text_read,20,Records read beyond metadata and abstract,literature_matrix.csv,RecordID,EvidenceLevel=full_text
+claim_core,10,Records supporting a public claim,claim_source_ledger.csv,RecordID,ClaimStatus=approved

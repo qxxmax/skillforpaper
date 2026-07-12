@@ -1,0 +1,723 @@
+QueryID,Rank,SourceID,DOI,Title,Year,CitedByCount,PrimaryURL
+F01,1,https://openalex.org/W2132353975,https://doi.org/10.1137/1113026,The Description of a Random Field by Means of Conditional Probabilities and Conditions of Its Regularity,1968,709,https://doi.org/10.1137/1113026
+F01,2,https://openalex.org/W2941443959,https://doi.org/10.1103/physrevd.100.034515,Flow-based generative models for Markov chain Monte Carlo in lattice field theory,2019,228,https://doi.org/10.1103/physrevd.100.034515
+F01,3,https://openalex.org/W2090251478,https://doi.org/10.1214/aoap/1019487508,Analysis of a nonreversible Markov chain sampler,2000,284,https://doi.org/10.1214/aoap/1019487508
+F01,4,https://openalex.org/W2013164703,https://doi.org/10.1214/ss/1028905934,Simulating normalizing constants: from importance sampling to bridge sampling to path sampling,1998,992,https://doi.org/10.1214/ss/1028905934
+F01,5,https://openalex.org/W3042241440,https://doi.org/10.1103/physrevlett.126.032001,Estimation of Thermodynamic Observables in Lattice Field Theories with Deep Generative Models,2021,117,https://doi.org/10.1103/physrevlett.126.032001
+F01,6,https://openalex.org/W2129999749,https://doi.org/10.1561/2200000013,An Introduction to Conditional Random Fields,2012,529,https://doi.org/10.1561/2200000013
+F01,7,https://openalex.org/W4396748050,https://doi.org/10.1007/jhep05(2024)060,Diffusion models as stochastic quantization in lattice field theory,2024,23,https://doi.org/10.1007/jhep05(2024)060
+F01,8,https://openalex.org/W2055649245,https://doi.org/10.1137/1115049,Prescribing a System of Random Variables by Conditional Distributions,1970,606,https://doi.org/10.1137/1115049
+F01,9,https://openalex.org/W2165991407,https://doi.org/10.1111/1467-9868.00301,Perfect Slice Samplers,2001,79,https://doi.org/10.1111/1467-9868.00301
+F01,10,https://openalex.org/W2943121181,https://doi.org/10.5465/annals.2017.0099,Topic Modeling in Management Research: Rendering New Theory from Textual Data,2019,594,https://doi.org/10.5465/annals.2017.0099
+F01,11,https://openalex.org/W2033637727,https://doi.org/10.1214/aop/1024404276,Stochastic models of interacting systems,1997,94,https://doi.org/10.1214/aop/1024404276
+F01,12,https://openalex.org/W4389674942,https://doi.org/10.21468/scipostphys.15.6.238,Learning lattice quantum field theories with equivariant continuous flows,2023,35,https://doi.org/10.21468/scipostphys.15.6.238
+F01,13,https://openalex.org/W7164973951,,Stochastic Path Sampler For Lattice Field Theory,2026,0,https://arxiv.org/abs/2606.13790
+F01,14,https://openalex.org/W7164828431,https://doi.org/10.48550/arxiv.2606.13790,Stochastic Path Sampler For Lattice Field Theory,2026,0,https://doi.org/10.48550/arxiv.2606.13790
+F01,15,https://openalex.org/W2122809012,https://doi.org/10.1198/jcgs.2009.06148,Bayesian Inference in Hidden Markov Random Fields for Binary Data Defined on Large Lattices,2009,66,https://doi.org/10.1198/jcgs.2009.06148
+F01,16,https://openalex.org/W2566971417,https://doi.org/10.1016/j.physrep.2017.07.007,Random walks and diffusion on networks,2017,648,https://doi.org/10.1016/j.physrep.2017.07.007
+F01,17,https://openalex.org/W4311845634,https://doi.org/10.22323/1.430.0005,Stochastic normalizing flows for lattice field theory,2022,9,https://doi.org/10.22323/1.430.0005
+F01,18,https://openalex.org/W4327938911,https://doi.org/10.1103/physrevd.107.l051504,Learning trivializing gradient flows for lattice gauge theories,2023,32,https://doi.org/10.1103/physrevd.107.l051504
+F01,19,https://openalex.org/W2055201760,https://doi.org/10.1109/access.2014.2302442,Sampling-Based Robot Motion Planning: A Review,2014,784,https://doi.org/10.1109/access.2014.2302442
+F01,20,https://openalex.org/W4389750777,https://doi.org/10.2172/2229681,"Quantum Optimization: Potential, Challenges, and the Path Forward",2023,64,https://doi.org/10.2172/2229681
+F01,21,https://openalex.org/W4288702334,https://doi.org/10.1103/physrevd.106.014514,Flow-based sampling in the lattice Schwinger model at criticality,2022,35,https://doi.org/10.1103/physrevd.106.014514
+F01,22,https://openalex.org/W3048457240,https://doi.org/10.1103/physrevd.103.074504,"Sampling using<mml:math xmlns:mml=""http://www.w3.org/1998/Math/MathML"" display=""inline""><mml:mrow><mml:mi>SU</mml:mi><mml:mo stretchy=""false"">(</mml:mo><mml:mi>N</mml:mi><mml:mo stretchy=""false"">)</mml:mo></mml:mrow></mml:math>gauge equivariant flows",2021,114,https://doi.org/10.1103/physrevd.103.074504
+F01,23,https://openalex.org/W3102853179,,,,312,https://hdl.handle.net/1983/151f015d-01e6-4da4-ac4f-393e704937ba
+F01,24,https://openalex.org/W2060224627,https://doi.org/10.1007/s00477-010-0431-y,Long-term time-dependent stochastic modelling of extreme waves,2010,71,https://doi.org/10.1007/s00477-010-0431-y
+F01,25,https://openalex.org/W4361297350,https://doi.org/10.1103/physrevresearch.5.013216,Gauge-invariant and anyonic-symmetric autoregressive neural network for quantum lattice models,2023,49,https://doi.org/10.1103/physrevresearch.5.013216
+F04,1,https://openalex.org/W2047467783,,,,,
+F05,1,https://openalex.org/W2020999234,https://doi.org/10.1109/tpami.1984.4767596,"Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images",1984,17993,https://doi.org/10.1109/tpami.1984.4767596
+F05,2,https://openalex.org/W1565611252,https://doi.org/10.1017/9781108899727,An Introduction to Symbolic Dynamics and Coding,1995,2217,https://doi.org/10.1017/9781108899727
+F05,3,https://openalex.org/W2150692003,https://doi.org/10.1109/tpami.2003.1227984,Automatic linguistic indexing of pictures by a statistical modeling approach,2003,1087,https://doi.org/10.1109/tpami.2003.1227984
+F05,4,https://openalex.org/W1997063559,https://doi.org/10.1080/02664769300000058,"Stochastic relaxation, Gibbs distributions and the Bayesian restoration of images*",1993,983,https://doi.org/10.1080/02664769300000058
+F05,5,https://openalex.org/W4213265037,https://doi.org/10.1016/0001-8708(70)90034-4,Interaction of Markov processes,1970,976,https://doi.org/10.1016/0001-8708(70)90034-4
+F05,6,https://openalex.org/W4238113606,https://doi.org/10.1017/cbo9780511617546,Thermodynamic Formalism,2004,871,https://doi.org/10.1017/cbo9780511617546
+F05,7,https://openalex.org/W4241385190,https://doi.org/10.1016/b978-0-08-051581-6.50057-x,"Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images",1987,769,https://doi.org/10.1016/b978-0-08-051581-6.50057-x
+F05,8,https://openalex.org/W2141630748,https://doi.org/10.1007/bf01049004,Quantum equilibrium and the origin of absolute uncertainty,1992,706,https://doi.org/10.1007/bf01049004
+F05,9,https://openalex.org/W2055649245,https://doi.org/10.1137/1115049,Prescribing a System of Random Variables by Conditional Distributions,1970,606,https://doi.org/10.1137/1115049
+F05,10,https://openalex.org/W3102764684,,QUANTUM EQUILIBRIUM AND THE ORIGIN OF ABSOLUTE UNCERTAINTY,2015,567,http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.677.4296
+F05,11,https://openalex.org/W2147301465,https://doi.org/10.1007/978-1-4612-0459-6_5,Interaction of Markov Processes,1991,547,https://doi.org/10.1007/978-1-4612-0459-6_5
+F05,12,https://openalex.org/W2137253512,https://doi.org/10.5555/1248659.1248693,Classification in Networked Data: A Toolkit and a Univariate Case Study,2007,450,https://archive.nyu.edu/bitstream/2451/14122/1/CeDER-04-08-2.pdf
+F05,13,https://openalex.org/W2006296538,https://doi.org/10.1016/0304-4068(74)90035-4,Random economies with many interacting agents,1974,442,https://doi.org/10.1016/0304-4068(74)90035-4
+F05,14,https://openalex.org/W2600289236,https://doi.org/10.1007/bf01048183,Regularity properties and pathologies of position-space renormalization-group transformations: Scope and limitations of Gibbsian theory,1993,417,https://doi.org/10.1007/bf01048183
+F05,15,https://openalex.org/W3034954837,https://doi.org/10.1038/s41467-020-19597-w,On-the-fly closed-loop materials discovery via Bayesian active learning,2020,409,https://doi.org/10.1038/s41467-020-19597-w
+F05,16,https://openalex.org/W2765846489,https://doi.org/10.1017/9781316882603,Statistical Mechanics of Lattice Systems,2017,364,https://doi.org/10.1017/9781316882603
+F05,17,https://openalex.org/W2117802905,https://doi.org/10.1007/bf01022985,Discontinuity of the magnetization in one-dimensional 1/�x?y�2 Ising and Potts models,1988,363,https://doi.org/10.1007/bf01022985
+F05,18,https://openalex.org/W2080278546,https://doi.org/10.1016/c2013-0-02200-1,Foundations of Statistical Mechanics,1970,360,https://doi.org/10.1016/c2013-0-02200-1
+F05,19,https://openalex.org/W2058557176,https://doi.org/10.1007/bf01762666,Some systems with unique equilibrium states,1974,344,https://doi.org/10.1007/bf01762666
+F05,20,https://openalex.org/W2089020156,https://doi.org/10.1017/s0143385799146820,Thermodynamic formalism for countable Markov shifts,1999,344,https://doi.org/10.1017/s0143385799146820
+F05,21,https://openalex.org/W1561968718,https://doi.org/10.1007/bfb0112756,Entropy and equilibrium states in classical statistical mechanics,2007,317,https://doi.org/10.1007/bfb0112756
+F05,22,https://openalex.org/W125580901,https://doi.org/10.1017/cbo9781139137119,Mathematics of Two-Dimensional Turbulence,2012,266,https://doi.org/10.1017/cbo9781139137119
+F05,23,https://openalex.org/W2023313458,https://doi.org/10.1007/s10955-006-9175-y,Rigorous Inequalities Between Length and Time Scales in Glassy Systems,2006,247,https://doi.org/10.1007/s10955-006-9175-y
+F05,24,https://openalex.org/W2076672847,https://doi.org/10.1088/0034-4885/48/11/002,Diffuse x-ray scattering and models of disorder,1985,246,https://doi.org/10.1088/0034-4885/48/11/002
+F05,25,https://openalex.org/W4211085380,https://doi.org/10.1088/0034-4885/42/12/002,Foundations of statistical mechanics,1979,237,https://doi.org/10.1088/0034-4885/42/12/002
+F05,26,https://openalex.org/W2029668118,https://doi.org/10.1007/bf01011714,Gibbs and Markov random systems with constraints,1974,191,https://doi.org/10.1007/bf01011714
+F05,27,https://openalex.org/W1991449081,https://doi.org/10.1016/j.jeconom.2009.02.009,Central limit theorems and uniform laws of large numbers for arrays of random fields,2009,184,https://doi.org/10.1016/j.jeconom.2009.02.009
+F05,28,https://openalex.org/W2167463576,https://doi.org/10.1002/mana.19790880109,Integral and Differential Characterizations of the GIBBS Process,1979,176,https://doi.org/10.1002/mana.19790880109
+F05,29,https://openalex.org/W2043285245,https://doi.org/10.1007/bf00341287,Parametric Inference for imperfectly observed Gibbsian fields,1989,160,https://doi.org/10.1007/bf00341287
+F05,30,https://openalex.org/W1972212960,https://doi.org/10.1080/00029890.1971.11992710,Markov Random Fields and Gibbs Ensembles,1971,157,https://doi.org/10.1080/00029890.1971.11992710
+F05,31,https://openalex.org/W629383433,,Thermodynamic Formalism : The Mathematical Structure of Equilibrium Statistical Mechanics,2004,154,https://ci.nii.ac.jp/ncid/BA69190541
+F05,32,https://openalex.org/W1993142206,https://doi.org/10.1016/0370-1573(84)90081-4,The strategy for computing the hadronic mass spectrum,1984,147,https://doi.org/10.1016/0370-1573(84)90081-4
+F05,33,https://openalex.org/W1990838964,https://doi.org/10.1080/17442509908834179,On the convergence of markovian stochastic algorithms with rapidly decreasing ergodicity rates,1999,145,https://doi.org/10.1080/17442509908834179
+F05,34,https://openalex.org/W2056262613,https://doi.org/10.1006/jctb.1999.1899,Graph Homomorphisms and Phase Transitions,1999,144,https://doi.org/10.1006/jctb.1999.1899
+F05,35,https://openalex.org/W2063682545,https://doi.org/10.1088/0305-4470/13/12/021,Generating functions for enumerating self-avoiding rings on the square lattice,1980,142,https://doi.org/10.1088/0305-4470/13/12/021
+F05,36,https://openalex.org/W1993576330,https://doi.org/10.1137/1135031,On Pure Phases of the Ising Model on the Bethe Lattices,1991,140,https://doi.org/10.1137/1135031
+F05,37,https://openalex.org/W2019792447,https://doi.org/10.1561/2000000035,Markov Random Fields in Image Segmentation,2012,105,https://doi.org/10.1561/2000000035
+F05,38,https://openalex.org/W2100045227,https://doi.org/10.5555/1577069.1755879,Cautious Collective Classification,2009,77,http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.170.9461
+F05,39,https://openalex.org/W2090111809,https://doi.org/10.1016/0378-4371(82)90161-3,Do turbulent crystals exist?,1982,59,https://doi.org/10.1016/0378-4371(82)90161-3
+F05,40,https://openalex.org/W2051035252,https://doi.org/10.1016/s0304-4149(97)00090-2,Every “lower psi-mixing” Markov chain is “interlaced rho-mixing”,1997,53,https://doi.org/10.1016/s0304-4149(97)00090-2
+F05,41,https://openalex.org/W2021967765,https://doi.org/10.1063/1.1666601,Proof of the charge superselection rule in local relativistic quantum field theory,1974,344,https://doi.org/10.1063/1.1666601
+F05,42,https://openalex.org/W2066098600,https://doi.org/10.1016/0370-2693(83)90930-9,A measurement of the string tension near the continuum limit,1983,330,https://doi.org/10.1016/0370-2693(83)90930-9
+F05,43,https://openalex.org/W2171765626,https://doi.org/10.1109/42.97590,Partial volume tissue classification of multichannel magnetic resonance images-a mixel model,1991,281,https://doi.org/10.1109/42.97590
+F05,44,https://openalex.org/W1964810115,https://doi.org/10.1016/0378-4371(86)90188-3,An itinerant electron model with crystalline or magnetic long range order,1986,259,https://doi.org/10.1016/0378-4371(86)90188-3
+F05,45,https://openalex.org/W2041295559,https://doi.org/10.2307/1426297,The statistical analysis of spatial pattern,1974,216,https://doi.org/10.2307/1426297
+F05,46,https://openalex.org/W2012032973,https://doi.org/10.1007/bf02199113,Absence of phase transition for antiferromagnetic Potts models via the Dobrushin uniqueness theorem,1997,205,https://doi.org/10.1007/bf02199113
+F05,47,https://openalex.org/W2063089780,https://doi.org/10.1007/bf01015566,Statistical mechanics of probabilistic cellular automata,1990,198,https://doi.org/10.1007/bf01015566
+F05,48,https://openalex.org/W1998228578,https://doi.org/10.1137/1117073,Gibbs State Describing Coexistence of Phases for a Three-Dimensional Ising Model,1973,197,https://doi.org/10.1137/1117073
+F05,49,https://openalex.org/W1971837735,https://doi.org/10.1007/bf01942696,Translation invariance and instability of phase coexistence in the two dimensional Ising system,1980,163,https://doi.org/10.1007/bf01942696
+F05,50,https://openalex.org/W1616786285,https://doi.org/10.1007/bfb0103571,Towards a theory of landscapes,2008,141,https://doi.org/10.1007/bfb0103571
+F07,1,https://openalex.org/W7135020858,https://doi.org/10.1007/jhep03(2026)111,Physics-conditioned diffusion models for lattice gauge theory,2026,2,https://doi.org/10.1007/jhep03(2026)111
+F07,2,https://openalex.org/W4406794538,https://doi.org/10.48550/arxiv.2501.13799,Rudraksh: A compact and lightweight post-quantum key-encapsulation mechanism,2025,1,http://arxiv.org/abs/2501.13799
+F07,3,https://openalex.org/W4407384902,https://doi.org/10.48550/arxiv.2502.05504,Physics-Conditioned Diffusion Models for Lattice Gauge Theory,2025,0,http://arxiv.org/abs/2502.05504
+F07,4,https://openalex.org/W2997095629,https://doi.org/10.18174/496730,Electrochemical phosphorus removal and recovery,2019,4,https://doi.org/10.18174/496730
+F07,5,https://openalex.org/W2623309117,,Long Range Hybrid Plasmonics,2013,0,http://hdl.handle.net/1807/69981
+F07,6,https://openalex.org/W2519584046,,"On Ants, Islands and Evolution",2015,0,http://www.lib.ncsu.edu/resolver/1840.16/10777
+F08,1,https://openalex.org/W4388515621,https://doi.org/10.48550/arxiv.2311.03578,Generative Diffusion Models for Lattice Field Theory,2023,2,http://arxiv.org/abs/2311.03578
+F08,2,https://openalex.org/W4406704747,https://doi.org/10.22323/1.466.0037,Diffusion models and stochastic quantisation in lattice field theory,2025,2,https://doi.org/10.22323/1.466.0037
+F08,3,https://openalex.org/W4353064323,https://doi.org/10.1103/physrevd.107.054508,Heavy quark diffusion coefficient with gradient flow,2023,33,https://doi.org/10.1103/physrevd.107.054508
+F08,4,https://openalex.org/W2042785466,https://doi.org/10.1088/1126-6708/2004/10/017,Tachyonic preheating using 2PI-1/N dynamics and the classical approximation,2004,111,https://doi.org/10.1088/1126-6708/2004/10/017
+F08,5,https://openalex.org/W3030284184,https://doi.org/10.1103/revmodphys.93.035003,QCD thermalization: <i>Ab initio</i> approaches and interdisciplinary connections,2021,224,https://doi.org/10.1103/revmodphys.93.035003
+F08,6,https://openalex.org/W4392911175,https://doi.org/10.1103/physrevd.109.054508,Reconstructing lattice QCD spectral functions with stochastic pole expansion and Nevanlinna analytic continuation,2024,9,https://doi.org/10.1103/physrevd.109.054508
+F08,7,https://openalex.org/W3042421934,https://doi.org/10.1103/physrevd.102.114503,Shear viscosity of a classical Yang-Mills field,2020,7,https://doi.org/10.1103/physrevd.102.114503
+F08,8,https://openalex.org/W2976511025,https://doi.org/10.22323/1.336.0147,Sphaleron rate in lattice gluodynamics,2019,3,https://doi.org/10.22323/1.336.0147
+F08,9,https://openalex.org/W4400105125,https://doi.org/10.1103/physrevd.111.034505,Electrical conductivity of the quark-gluon plasma in the presence of strong magnetic fields,2025,12,https://doi.org/10.1103/physrevd.111.034505
+F08,10,https://openalex.org/W2964152414,https://doi.org/10.22323/1.042.0001,Transport and spectral functions in high-temperature QCD,2008,9,https://doi.org/10.22323/1.042.0001
+F08,11,https://openalex.org/W1972229054,https://doi.org/10.1088/1126-6708/2007/04/031,Holographic meson melting,2007,79,https://doi.org/10.1088/1126-6708/2007/04/031
+F08,12,https://openalex.org/W2612660495,https://doi.org/10.1007/jhep08(2017)064,Fate of in-medium heavy quarks via a Lindblad equation,2017,31,https://doi.org/10.1007/jhep08(2017)064
+F08,13,https://openalex.org/W3065951921,https://doi.org/10.25534/tuprints-00013254,Transverse momentum broadening of high-energy partons from 3D lattice EQCD simulations,2020,1,
+F08,14,https://openalex.org/W3015858461,https://doi.org/10.1103/physrevd.102.014515,"Deconfinement transition line with the complex Langevin equation up to <mml:math xmlns:mml=""http://www.w3.org/1998/Math/MathML"" display=""inline""><mml:mi>μ</mml:mi><mml:mo stretchy=""false"">/</mml:mo><mml:mi>T</mml:mi><mml:mo>∼</mml:mo><mml:mn>5</mml:mn></mml:math>",2020,26,https://doi.org/10.1103/physrevd.102.014515
+F08,15,https://openalex.org/W4402703711,https://doi.org/10.48550/arxiv.2408.14077,The effect of vorticity on the dynamical magnetic fields in heavy-ion collisions,2024,1,http://arxiv.org/abs/2408.14077
+F08,16,https://openalex.org/W1753578492,https://doi.org/10.22323/1.164.0016,High Temperature QCD,2012,2,https://doi.org/10.22323/1.164.0016
+F08,17,https://openalex.org/W3207349710,https://doi.org/10.22323/1.396.0119,Electromagnetic conductivity of quark-gluon plasma at non-zero baryon density,2022,4,https://doi.org/10.22323/1.396.0119
+F08,18,https://openalex.org/W7160726880,,Diffusion model for SU(N) gauge theories,2026,0,https://arxiv.org/abs/2605.06134
+F08,19,https://openalex.org/W1583930169,,A synchrotron small-angle X-ray scattering study of order/disorder in colloidal crystals,2004,1,https://dspace.library.uu.nl/handle/1874/783
+F08,20,https://openalex.org/W4321452416,https://doi.org/10.23889/suthesis.62707,Meson spectroscopy at non-zero temperature using lattice QCD,2023,0,http://dx.doi.org/10.23889/suthesis.62707
+F08,21,https://openalex.org/W99709937,https://doi.org/10.3990/1.9789090271637,Physics and technology development of multilayer EUV reflective optics,2012,6,https://doi.org/10.3990/1.9789090271637
+F08,22,https://openalex.org/W2919771501,,Non-equilibrium Field Theory of Condensed Matter Systems - Periodic Driving and Quantum Quenches,2018,0,http://mediatum.ub.tum.de/node?id=1455522
+F08,23,https://openalex.org/W4292939164,https://doi.org/10.17760/d20439251,A correspondence between neural networks and quantum field theory,2022,0,https://doi.org/10.17760/d20439251
+F08,24,https://openalex.org/W4391362326,https://doi.org/10.21248/gups.81898,Real-Time lattice simulations of the glasma coupled to fermions,2024,0,http://dx.doi.org/10.21248/gups.81898
+F08,25,https://openalex.org/W2743532693,https://doi.org/10.15476/elte.2015.054,Heavy quark systems at finite temperature from lattice QCD,2015,0,http://dx.doi.org/10.15476/elte.2015.054
+F09,1,https://openalex.org/W4384780405,https://doi.org/10.1016/j.ppnp.2023.104070,Phase Transitions in Particle Physics,2023,84,https://doi.org/10.1016/j.ppnp.2023.104070
+F09,2,https://openalex.org/W4390268928,https://doi.org/10.22323/1.453.0013,Learning Trivializing Flows in a $\phi^4$ theory from coarser lattices,2023,1,https://doi.org/10.22323/1.453.0013
+F09,3,https://openalex.org/W4310360682,https://doi.org/10.22323/1.430.0387,Persistent homology as a probe for center vortices and deconfinement in SU(2) lattice gauge theory,2022,2,https://doi.org/10.22323/1.430.0387
+F09,4,https://openalex.org/W4315881573,https://doi.org/10.48550/arxiv.2301.04382,Phase Transitions in Particle Physics -- Results and Perspectives from Lattice Quantum Chromo-Dynamics,2023,1,http://arxiv.org/abs/2301.04382
+F09,5,https://openalex.org/W4297411649,https://doi.org/10.22331/q-2026-04-10-2058,A streamlined quantum algorithm for topological data analysis with exponentially fewer qubits,2026,15,https://doi.org/10.22331/q-2026-04-10-2058
+F09,6,https://openalex.org/W4226355682,https://doi.org/10.1140/epjc/s10052-022-11048-8,"Theory, phenomenology, and experimental avenues for dark showers",2022,45,https://biblio.vub.ac.be/vubir/(4301b94e-4c0d-4017-850f-758519f903a9).html
+F09,7,https://openalex.org/W4387427736,https://doi.org/10.48550/arxiv.2310.03381,Learning Trivializing Flows in a $ϕ^4$ theory from coarser lattices,2023,0,http://arxiv.org/abs/2310.03381
+F09,8,https://openalex.org/W4285999726,https://doi.org/10.23889/suthesis.60555,Quantum field-theoretic machine learning and the renormalization group,2022,0,https://doi.org/10.23889/suthesis.60555
+F09,9,https://openalex.org/W4404317995,https://doi.org/10.48550/arxiv.2410.21034,Inferring the Isotropic-nematic Phase Transition with Generative Machine Learning,2024,0,http://arxiv.org/abs/2410.21034
+F09,10,https://openalex.org/W7126001245,,Generalizable Equivariant Diffusion Models for Non-Abelian Lattice Gauge Theory,2026,0,http://arxiv.org/abs/2601.19552
+F09,11,https://openalex.org/W3101414257,https://doi.org/10.22032/dbt.46754,N = 1 supersymmetric Yang-Mills theory and adjoint QCD on the lattice,2020,0,http://uri.gbv.de/document/gvk:ppn:1738268055
+F09,12,https://openalex.org/W7116871445,https://doi.org/10.1103/l3m1-hr48,"Exotic decays and collider signatures of pseudo-Nambu-Goldstone bosons in the <mml:math xmlns:mml=""http://www.w3.org/1998/Math/MathML"" display=""inline""> <mml:mrow> <mml:mi>S</mml:mi> <mml:mi>U</mml:mi> <mml:mo stretchy=""false"">(</mml:mo> <mml:mn>5</mml:mn> <mml:mo stretchy=""false"">)</mml:mo> <mml:mo>/</mml:mo> <mml:mi>S</mml:mi> <mml:mi>O</mml:mi> <mml:mo stretchy=""false"">(</mml:mo> <mml:mn>5</mml:mn> <mml:mo stretchy=""false"">)</mml:mo> </mml:mrow> </mml:math> composite Higgs model",2025,1,https://doi.org/10.1103/l3m1-hr48
+F09,13,https://openalex.org/W4407644259,https://doi.org/10.22323/1.466.0395,Topological Data Analysis of Abelian Magnetic Monopoles in Gauge Theories,2025,0,https://doi.org/10.22323/1.466.0395
+F09,14,https://openalex.org/W4308585009,https://doi.org/10.23889/suthesis.61816,Applications of Topological Data Analysis to Statistical Physics and Quantum Field Theories,2022,0,https://doi.org/10.23889/suthesis.61816
+F09,15,https://openalex.org/W3049646419,https://doi.org/10.22323/1.256.0390,Platform Independent Profiling of a QCD Code,2017,0,https://doi.org/10.22323/1.256.0390
+F09,16,https://openalex.org/W4407091787,https://doi.org/10.48550/arxiv.2501.19320,Topological Data Analysis of Abelian Magnetic Monopoles in Gauge Theories,2025,0,http://arxiv.org/abs/2501.19320
+F09,17,https://openalex.org/W4391632084,,Constrained curve fitting for semi-parametric models with radial basis function networks,2024,0,http://arxiv.org/abs/2402.04175
+F09,18,https://openalex.org/W7153670095,,An Algebraic Introduction to Persistence,2026,0,https://arxiv.org/abs/2604.07022
+F09,19,https://openalex.org/W4221165100,https://doi.org/10.1140/epjc/s10052-022-11048-8,"Theory, phenomenology, and experimental avenues for dark showers: a Snowmass 2021 report",2022,0,https://doi.org/10.1140/epjc/s10052-022-11048-8
+F09,20,https://openalex.org/W4405655235,https://doi.org/10.48550/arxiv.2412.15081,Eigenstate Preparation on Quantum Computers,2024,0,http://arxiv.org/abs/2412.15081
+F09,21,https://openalex.org/W4292939164,https://doi.org/10.17760/d20439251,A correspondence between neural networks and quantum field theory,2022,0,https://doi.org/10.17760/d20439251
+F10,1,https://openalex.org/W4317941514,https://doi.org/10.1103/physrevd.107.014512,Conditional normalizing flow for Markov chain Monte Carlo sampling in the critical region of lattice field theory,2023,28,https://doi.org/10.1103/physrevd.107.014512
+F10,2,https://openalex.org/W4385644662,https://doi.org/10.22331/q-2023-08-08-1076,Classical models may be a better explanation of the Jiuzhang 1.0 Gaussian Boson Sampler than its targeted squeezed light model,2023,17,https://doi.org/10.22331/q-2023-08-08-1076
+F10,3,https://openalex.org/W4388515621,https://doi.org/10.48550/arxiv.2311.03578,Generative Diffusion Models for Lattice Field Theory,2023,2,http://arxiv.org/abs/2311.03578
+F10,4,https://openalex.org/W3082860856,https://doi.org/10.1145/3406325.3451093,Indistinguishability obfuscation from well-founded assumptions,2021,227,https://doi.org/10.1145/3406325.3451093
+F10,5,https://openalex.org/W4414534718,https://doi.org/10.21468/scipostphys.19.3.077,Super-resolving normalising flows for lattice field theories,2025,1,https://doi.org/10.21468/scipostphys.19.3.077
+F10,6,https://openalex.org/W3214275744,https://doi.org/10.1103/prxquantum.2.040201,How To Use Neural Networks To Investigate Quantum Many-Body Physics,2021,80,https://doi.org/10.1103/prxquantum.2.040201
+F10,7,https://openalex.org/W3185288957,https://doi.org/10.2824/92307,Post-Quantum Cryptography: Current state and quantum mitigation,2021,31,https://research.tue.nl/nl/publications/ad93d053-a85c-4ace-bdd4-9cbe1a75d6bd
+F10,8,https://openalex.org/W4293077571,https://doi.org/10.46586/tches.v2022.i3.223-263,Don’t Reject This: Key-Recovery Timing Attacks Due to Rejection-Sampling in HQC and BIKE,2022,44,https://doi.org/10.46586/tches.v2022.i3.223-263
+F10,9,https://openalex.org/W4394678631,https://doi.org/10.1145/3656579,A Survey of Multi-modal Knowledge Graphs: Technologies and Trends,2024,76,https://doi.org/10.1145/3656579
+F10,10,https://openalex.org/W1998154103,https://doi.org/10.5194/acp-14-505-2014,"Long-range transport of giant particles in Asian dust identified by physical, mineralogical, and meteorological analysis",2014,86,https://doi.org/10.5194/acp-14-505-2014
+F10,11,https://openalex.org/W3159164431,https://doi.org/10.46586/tches.v2022.i1.414-460,Masked Accelerators and Instruction Set Extensions for Post-Quantum Cryptography,2021,85,https://doi.org/10.46586/tches.v2022.i1.414-460
+F10,12,https://openalex.org/W4392578291,https://doi.org/10.1088/2515-7639/ad31b5,2024 roadmap on magnetic microscopy techniques and their applications in materials science,2024,33,https://doi.org/10.1088/2515-7639/ad31b5
+F10,13,https://openalex.org/W4377989990,https://doi.org/10.1002/adma.202301585,Efficient Therapy of Inflammatory Bowel Disease (IBD) with Highly Specific and Durable Targeted Ta<sub>2</sub>C Modified with Chondroitin Sulfate (TACS),2023,97,https://doi.org/10.1002/adma.202301585
+F10,14,https://openalex.org/W4388215209,https://doi.org/10.1016/j.jbc.2023.105416,SLC3A2 N-glycosylation and Golgi remodeling regulate SLC7A amino acid exchangers and stress mitigation,2023,21,https://doi.org/10.1016/j.jbc.2023.105416
+F10,15,https://openalex.org/W4388021057,https://doi.org/10.1103/physrevd.108.074518,"Sampling <mml:math xmlns:mml=""http://www.w3.org/1998/Math/MathML"" display=""inline""><mml:mi>U</mml:mi><mml:mo stretchy=""false"">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy=""false"">)</mml:mo></mml:math> gauge theory using a retrainable conditional flow-based model",2023,7,https://doi.org/10.1103/physrevd.108.074518
+F10,16,https://openalex.org/W3212128483,https://doi.org/10.3390/ma14226763,Computed Tomography as a Characterization Tool for Engineered Scaffolds with Biomedical Applications,2021,20,https://dx.doi.org/10.3390/ma14226763
+F10,17,https://openalex.org/W4386443168,https://doi.org/10.1145/3620668,Quantum Combinatorial Optimization in the NISQ Era: A Systematic Mapping Study,2023,18,https://doi.org/10.1145/3620668
+F10,18,https://openalex.org/W4229039593,https://doi.org/10.1021/acsearthspacechem.2c00031,Dynamic Responses of Trace Metal Bioaccessibility to Fluctuating Redox Conditions in Wetland Soils and Stream Sediments,2022,42,https://doi.org/10.1021/acsearthspacechem.2c00031
+F10,19,https://openalex.org/W3093849689,https://doi.org/10.48550/arxiv.2010.12135,Graph Geometry Interaction Learning,2020,21,http://arxiv.org/abs/2010.12135
+F10,20,https://openalex.org/W2885676805,https://doi.org/10.5281/zenodo.1314289,Dependent Relational Gamma Process Models For Longitudinal Networks,2018,15,http://tubiblio.ulb.tu-darmstadt.de/106666/
+F10,21,https://openalex.org/W2985516053,https://doi.org/10.1109/cvpr42600.2020.00611,Effectively Unbiased FID and Inception Score and Where to Find Them,2020,17,https://doi.org/10.1109/cvpr42600.2020.00611
+F10,22,https://openalex.org/W4379278294,https://doi.org/10.48550/arxiv.2306.00581,Sampling U(1) gauge theory using a re-trainable conditional flow-based model,2023,3,http://arxiv.org/abs/2306.00581
+F10,23,https://openalex.org/W4388453254,https://doi.org/10.1002/cssc.202301284,Revolutionizing Solid‐State NASICON Sodium Batteries: Enhanced Ionic Conductivity Estimation through Multivariate Experimental Parameters Leveraging Machine Learning,2023,13,https://doi.org/10.1002/cssc.202301284
+F10,24,https://openalex.org/W4402686705,https://doi.org/10.1145/3696208,Scabbard: An Exploratory Study on Hardware Aware Design Choices of Learning with Rounding-based Key Encapsulation Mechanisms,2024,4,https://doi.org/10.1145/3696208
+F10,25,https://openalex.org/W2909685849,https://doi.org/10.1155/2019/5736563,Production of Reduced Graphene Oxide Platelets from Graphite Flakes Using the Fenton Reaction as an Alternative to Harmful Oxidizing Agents,2019,14,https://doi.org/10.1155/2019/5736563
+F11,1,https://openalex.org/W2051137788,https://doi.org/10.1371/journal.pcbi.1002211,Neural Dynamics as Sampling: A Model for Stochastic Computation in Recurrent Networks of Spiking Neurons,2011,407,https://doi.org/10.1371/journal.pcbi.1002211
+F11,2,https://openalex.org/W2253619190,https://doi.org/10.1007/s10955-016-1491-2,Variance Reduction Using Nonreversible Langevin Samplers,2016,117,https://doi.org/10.1007/s10955-016-1491-2
+F11,3,https://openalex.org/W2157955324,https://doi.org/10.1007/s10994-008-5057-7,Improving the structure MCMC sampler for Bayesian networks by introducing a new edge reversal move,2008,142,https://doi.org/10.1007/s10994-008-5057-7
+F11,4,https://openalex.org/W3100688298,https://doi.org/10.1080/01621459.2020.1847120,Stochastic Gradient Markov Chain Monte Carlo,2020,137,https://doi.org/10.1080/01621459.2020.1847120
+F11,5,https://openalex.org/W2167543722,https://doi.org/10.1186/1752-0509-4-99,Parameter inference for discretely observed stochastic kinetic models using stochastic gradient descent,2010,71,https://doi.org/10.1186/1752-0509-4-99
+F11,6,https://openalex.org/W3401598,,Distributed Stochastic Gradient MCMC,2014,84,http://ece.duke.edu/~lcarin/icml2014_Ahn.pdf
+F11,7,https://openalex.org/W1774344329,https://doi.org/10.1109/jstsp.2015.2496908,A Survey of Stochastic Simulation and Optimization Methods in Signal Processing,2015,136,https://doi.org/10.1109/jstsp.2015.2496908
+F11,8,https://openalex.org/W2100465167,https://doi.org/10.5194/esd-1-1-2010,"A new model of Holocene peatland net primary production, decomposition, water balance, and peat accumulation",2010,284,https://doi.org/10.5194/esd-1-1-2010
+F11,9,https://openalex.org/W4283370837,https://doi.org/10.1162/rest_a_01213,Addressing COVID-19 Outliers in BVARs with Stochastic Volatility,2022,116,https://doi.org/10.1162/rest_a_01213
+F11,10,https://openalex.org/W1846292136,https://doi.org/10.3150/15-bej785,Uniform ergodicity of the iterated conditional SMC and geometric ergodicity of particle Gibbs samplers,2017,59,https://doi.org/10.3150/15-bej785
+F11,11,https://openalex.org/W2173126837,https://doi.org/10.1016/j.envsoft.2015.08.013,"Markov chain Monte Carlo simulation using the DREAM software package: Theory, concepts, and MATLAB implementation",2015,875,https://doi.org/10.1016/j.envsoft.2015.08.013
+F11,12,https://openalex.org/W2013029834,https://doi.org/10.1029/2009jf001260,Stochastic modeling in sediment dynamics: Exner equation for planar bed incipient bed load transport conditions,2010,127,https://doi.org/10.1029/2009jf001260
+F11,13,https://openalex.org/W2011375014,https://doi.org/10.1016/j.cageo.2005.10.015,Application of parallel computing to stochastic parameter estimation in environmental models,2006,70,https://doi.org/10.1016/j.cageo.2005.10.015
+F11,14,https://openalex.org/W2081915704,https://doi.org/10.1017/s0016672302005633,A logistic mixture model for characterizing genetic determinants causing differentiation in growth trajectories,2002,72,https://doi.org/10.1017/s0016672302005633
+F11,15,https://openalex.org/W4221158242,https://doi.org/10.1103/physrevx.13.041017,Path Weight Sampling: Exact Monte Carlo Computation of the Mutual Information between Stochastic Trajectories,2023,18,https://doi.org/10.1103/physrevx.13.041017
+F11,16,https://openalex.org/W3037482492,https://doi.org/10.48550/arxiv.1802.08705,PDDLStream: Integrating Symbolic Planners and Blackbox Samplers via Optimistic Adaptive Planning,2018,26,http://arxiv.org/abs/1802.08705
+F11,17,https://openalex.org/W2159966599,https://doi.org/10.5194/nhess-9-831-2009,Bayesian stochastic modeling of a spherical rock bouncing on a coarse soil,2009,31,https://doi.org/10.5194/nhess-9-831-2009
+F11,18,https://openalex.org/W4313039234,https://doi.org/10.1109/tiv.2022.3214777,Mixed-Integer and Conditional Trajectory Planning for an Autonomous Mining Truck in Loading/Dumping Scenarios: A Global Optimization Approach,2022,74,https://doi.org/10.1109/tiv.2022.3214777
+F11,19,https://openalex.org/W4396748050,https://doi.org/10.1007/jhep05(2024)060,Diffusion models as stochastic quantization in lattice field theory,2024,23,https://doi.org/10.1007/jhep05(2024)060
+F11,20,https://openalex.org/W3128782210,https://doi.org/10.1038/s43586-020-00001-2,Bayesian statistics and modelling,2021,1177,https://doi.org/10.1038/s43586-020-00001-2
+F11,21,https://openalex.org/W1743960514,https://doi.org/10.1023/a:1020206129842,Population Markov Chain Monte Carlo,2003,80,https://doi.org/10.1023/a:1020206129842
+F11,22,https://openalex.org/W3038620055,https://doi.org/10.1101/2020.06.29.20142851,Modeling the early phase of the Belgian COVID-19 epidemic using a stochastic compartmental model and studying its implied future trajectories,2020,18,https://doi.org/10.1101/2020.06.29.20142851
+F11,23,https://openalex.org/W2038049133,https://doi.org/10.1016/j.jcp.2014.07.051,Spatially adaptive stochastic methods for fluid–structure interactions subject to thermal fluctuations in domains with complex geometries,2014,24,https://doi.org/10.1016/j.jcp.2014.07.051
+F11,24,https://openalex.org/W4387389604,https://doi.org/10.48550/arxiv.2310.02279,Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion,2023,15,http://arxiv.org/abs/2310.02279
+F11,25,https://openalex.org/W2497694760,,Multiscale integrators for stochastic differential equations and irreversible Langevin samplers,2017,4,http://arxiv.org/abs/1606.09539v2
+F12,1,https://openalex.org/W1516111018,https://doi.org/10.1023/a:1007665907178,An Introduction to Variational Methods for Graphical Models,1999,3781,https://doi.org/10.1023/a:1007665907178
+F12,2,https://openalex.org/W2963561977,,The bouncy particle sampler: A non-reversible rejection free Markov chain Monte Carlo method,2017,194,https://ora.ox.ac.uk/objects/uuid:301047da-e7f2-4cd7-9026-fdd5c3046903
+F12,3,https://openalex.org/W3197167612,https://doi.org/10.1109/access.2021.3108177,A Comprehensive Review of Coverage Path Planning in Robotics Using Classical and Heuristic Algorithms,2021,321,https://doi.org/10.1109/access.2021.3108177
+F12,4,https://openalex.org/W3204937802,https://doi.org/10.1109/tpami.2021.3116668,"Deep Generative Modelling: A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models",2021,627,https://durham-repository.worktribe.com/output/1232078
+F12,5,https://openalex.org/W2130916877,https://doi.org/10.1007/s10686-011-9247-0,Design concepts for the Cherenkov Telescope Array CTA: an advanced facility for ground-based high-energy gamma-ray astronomy,2011,922,https://doi.org/10.1007/s10686-011-9247-0
+F12,6,https://openalex.org/W2043432627,https://doi.org/10.1080/01621459.1995.10476590,Annealing Markov Chain Monte Carlo with Applications to Ancestral Inference,1995,855,https://doi.org/10.1080/01621459.1995.10476590
+F12,7,https://openalex.org/W1982651819,https://doi.org/10.1063/1.4890371,Accelerated weight histogram method for exploring free energy landscapes,2014,112,https://doi.org/10.1063/1.4890371
+F12,8,https://openalex.org/W2138124994,https://doi.org/10.5194/acp-10-7467-2010,"Long term measurements of sulfur dioxide, nitrogen dioxide, ammonia, nitric acid and ozone in Africa using passive samplers",2010,158,https://doi.org/10.5194/acp-10-7467-2010
+F12,9,https://openalex.org/W1613865483,https://doi.org/10.1063/1.2709596,"An introduction to stochastic control theory, path integrals and reinforcement learning",2007,122,https://doi.org/10.1063/1.2709596
+F12,10,https://openalex.org/W2212757119,https://doi.org/10.1080/01621459.2017.1294075,The Bouncy Particle Sampler: A Nonreversible Rejection-Free Markov Chain Monte Carlo Method,2017,28,https://doi.org/10.1080/01621459.2017.1294075
+F12,11,https://openalex.org/W2956901944,https://doi.org/10.1007/s42452-019-0872-y,A survey on multi-robot coverage path planning for model reconstruction and mapping,2019,175,https://doi.org/10.1007/s42452-019-0872-y
+F12,12,https://openalex.org/W2886027640,https://doi.org/10.1214/20-aap1659,Randomized Hamiltonian Monte Carlo as scaling limit of the bouncy particle sampler and dimension-free convergence rates,2021,37,https://doi.org/10.1214/20-aap1659
+F12,13,https://openalex.org/W4387580187,https://doi.org/10.1038/s43588-023-00526-y,A universal programmable Gaussian boson sampler for drug discovery,2023,45,https://doi.org/10.1038/s43588-023-00526-y
+F12,14,https://openalex.org/W4403066672,https://doi.org/10.3847/2041-8213/ad6f9f,The Dark Energy Survey: Cosmology Results with ∼1500 New High-redshift Type Ia Supernovae Using the Full 5 yr Data Set,2024,396,https://doi.org/10.3847/2041-8213/ad6f9f
+F12,15,https://openalex.org/W2130761473,https://doi.org/10.1111/1467-9876.00113,Model-Based Geostatistics,1998,2211,https://doi.org/10.1111/1467-9876.00113
+F12,16,https://openalex.org/W3203195683,https://doi.org/10.1016/j.ymssp.2021.108471,An efficient and robust sampler for Bayesian inference: Transitional Ensemble Markov Chain Monte Carlo,2021,49,https://doi.org/10.1016/j.ymssp.2021.108471
+F12,17,https://openalex.org/W2015626078,https://doi.org/10.4310/cms.2004.v2.n4.a7,Conditional Path Sampling of SDEs and the Langevin MCMC Method,2004,95,https://doi.org/10.4310/cms.2004.v2.n4.a7
+F12,18,https://openalex.org/W2147307434,https://doi.org/10.1093/molbev/msh112,A Bayesian Mixture Model for Across-Site Heterogeneities in the Amino-Acid Replacement Process,2004,1608,https://doi.org/10.1093/molbev/msh112
+F12,19,https://openalex.org/W3034772724,https://doi.org/10.1007/s42484-020-00033-7,Variational quantum Boltzmann machines,2021,98,https://doi.org/10.1007/s42484-020-00033-7
+F12,20,https://openalex.org/W2061274933,https://doi.org/10.1111/1365-2656.12357,Space‐use behaviour of woodland caribou based on a cognitive movement model,2015,122,https://doi.org/10.1111/1365-2656.12357
+F12,21,https://openalex.org/W2171834532,https://doi.org/10.2307/3680997,3-D Sound for Virtual Reality and Multimedia,1995,872,https://doi.org/10.2307/3680997
+F12,22,https://openalex.org/W1980486847,https://doi.org/10.1063/1.1544070,Internal structure and expansion dynamics of laser ablation plumes into ambient gases,2003,541,https://doi.org/10.1063/1.1544070
+F12,23,https://openalex.org/W3024586266,https://doi.org/10.1088/2632-2153/abc17d,Quantum machine learning in high energy physics,2020,103,https://doi.org/10.1088/2632-2153/abc17d
+F12,24,https://openalex.org/W1984268382,https://doi.org/10.1214/06-ba126,Variational Bayesian learning of directed graphical models with hidden variables,2006,103,https://doi.org/10.1214/06-ba126
+F12,25,https://openalex.org/W1480561599,https://doi.org/10.48550/arxiv.1302.6182,Adaptive Hamiltonian and Riemann Manifold Monte Carlo Samplers,2013,27,http://arxiv.org/abs/1302.6182
+F13,1,https://openalex.org/W4379958469,https://doi.org/10.48550/arxiv.2306.04542,On the Design Fundamentals of Diffusion Models: A Survey,2023,47,http://arxiv.org/abs/2306.04542
+F13,2,https://openalex.org/W4379089699,https://doi.org/10.48550/arxiv.2305.20009,Protein Design with Guided Discrete Diffusion,2023,18,http://arxiv.org/abs/2305.20009
+F13,3,https://openalex.org/W4394867632,https://doi.org/10.1016/j.neucom.2024.128373,Generative diffusion models: A survey of current theoretical developments,2024,16,https://doi.org/10.1016/j.neucom.2024.128373
+F13,4,https://openalex.org/W4367174885,https://doi.org/10.3390/jimaging9040081,Deep Learning Approaches for Data Augmentation in Medical Imaging: A Review,2023,256,https://doi.org/10.3390/jimaging9040081
+F13,5,https://openalex.org/W2123585936,https://doi.org/10.1017/atsip.2013.9,"A tutorial survey of architectures, algorithms, and applications for deep learning",2014,739,https://doi.org/10.1017/atsip.2013.9
+F13,6,https://openalex.org/W4410479490,https://doi.org/10.1155/int/9987535,A Review of Deepfake and Its Detection: From Generative Adversarial Networks to Diffusion Models,2025,15,https://doi.org/10.1155/int/9987535
+F13,7,https://openalex.org/W2198814043,https://doi.org/10.1575/1912/7305,"Using passive samplers to assess bioavailability, toxicity, and reactivity of hydrophobic organic chemicals (HOCs)",2015,5,https://doi.org/10.1575/1912/7305
+F13,8,https://openalex.org/W4391766422,https://doi.org/10.48550/arxiv.2402.06079,DiscDiff: Latent Diffusion Model for DNA Sequence Generation,2024,6,http://arxiv.org/abs/2402.06079
+F13,9,https://openalex.org/W4390875033,https://doi.org/10.1007/s11633-023-1459-z,Deep Industrial Image Anomaly Detection: A Survey,2024,341,https://doi.org/10.1007/s11633-023-1459-z
+F13,10,https://openalex.org/W4409347803,https://doi.org/10.1609/aaai.v39i19.34248,LazyDiT: Lazy Learning for the Acceleration of Diffusion Transformers,2025,3,https://doi.org/10.1609/aaai.v39i19.34248
+F13,11,https://openalex.org/W4407359505,https://doi.org/10.48550/arxiv.2502.06685,"No Trick, No Treat: Pursuits and Challenges Towards Simulation-free Training of Neural Samplers",2025,2,http://arxiv.org/abs/2502.06685
+F13,12,https://openalex.org/W4389983853,https://doi.org/10.48550/arxiv.2312.10903,Robust Node Representation Learning via Graph Variational Diffusion Networks,2023,3,http://arxiv.org/abs/2312.10903
+F13,13,https://openalex.org/W4390667445,https://doi.org/10.1016/j.jiixd.2024.01.002,Automated data processing and feature engineering for deep learning and big data applications: A survey,2024,135,https://doi.org/10.1016/j.jiixd.2024.01.002
+F13,14,https://openalex.org/W2884129013,https://doi.org/10.1007/s10596-019-09850-7,Parametric generation of conditional geological realizations using generative neural networks,2019,112,https://doi.org/10.1007/s10596-019-09850-7
+F13,15,https://openalex.org/W4213328653,https://doi.org/10.21175/rad.abstr.book.2021.28.20,Radiation monitoring system,2021,275,http://doi.org/10.21175/rad.abstr.book.2021.28.20
+F13,16,https://openalex.org/W4213346811,https://doi.org/10.21175/rad.abstr.book.2021.31.12,TLD-100 post-irradiation fading characteristics according to IEC 62387:2020 standard,2021,273,https://doi.org/10.21175/rad.abstr.book.2021.31.12
+F13,17,https://openalex.org/W4407244598,https://doi.org/10.48550/arxiv.2502.03645,MNE: overparametrized neural evolution with applications to diffusion processes and sampling,2025,1,http://arxiv.org/abs/2502.03645
+F13,18,https://openalex.org/W4404353202,https://doi.org/10.70064/mt.v8i1.1075,Diffused Seeing,2024,14,https://doi.org/10.70064/mt.v8i1.1075
+F13,19,https://openalex.org/W3159986971,https://doi.org/10.1039/d1mh00495f,Toward autonomous design and synthesis of novel inorganic materials,2021,152,https://doi.org/10.1039/d1mh00495f
+F13,20,https://openalex.org/W4387356177,https://doi.org/10.48550/arxiv.2310.02054,AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model,2023,1,http://arxiv.org/abs/2310.02054
+F13,21,https://openalex.org/W4388093462,https://doi.org/10.48550/arxiv.2310.19427,Refining Diffusion Planner for Reliable Behavior Synthesis by Automatic Detection of Infeasible Plans,2023,1,http://arxiv.org/abs/2310.19427
+F13,22,https://openalex.org/W4327993492,https://doi.org/10.48550/arxiv.2303.10158,Data-centric Artificial Intelligence: A Survey,2023,100,http://arxiv.org/abs/2303.10158
+F13,23,https://openalex.org/W4393044553,https://doi.org/10.1038/s41587-024-02173-8,Starfysh integrates spatial transcriptomic and histologic data to reveal heterogeneous tumor–immune hubs,2024,57,https://doi.org/10.1038/s41587-024-02173-8
+F13,24,https://openalex.org/W4311708135,https://doi.org/10.3389/fonc.2022.1047215,A review of deep learning-based deformable medical image registration,2022,84,https://doi.org/10.3389/fonc.2022.1047215
+F13,25,https://openalex.org/W2888330107,https://doi.org/10.5772/intechopen.72325,"Controlled Experiments of Hillslope Coevolution at the Biosphere 2 Landscape Evolution Observatory: Toward Prediction of Coupled Hydrological, Biogeochemical, and Ecological Change",2018,16,https://doi.org/10.5772/intechopen.72325
+F14,1,https://openalex.org/W3163993681,https://doi.org/10.1038/s42254-021-00314-5,Physics-informed machine learning,2021,6820,https://doi.org/10.1038/s42254-021-00314-5
+F14,2,https://openalex.org/W4388891334,https://doi.org/10.48550/arxiv.1804.07010,Forward-Backward Stochastic Neural Networks: Deep Learning of High-dimensional Partial Differential Equations,2018,45,http://arxiv.org/abs/1804.07010
+F14,3,https://openalex.org/W4288039037,https://doi.org/10.1007/s10915-022-01939-z,Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next,2022,2375,https://doi.org/10.1007/s10915-022-01939-z
+F14,4,https://openalex.org/W1613865483,https://doi.org/10.1063/1.2709596,"An introduction to stochastic control theory, path integrals and reinforcement learning",2007,122,https://doi.org/10.1063/1.2709596
+F14,5,https://openalex.org/W2053773581,https://doi.org/10.1016/j.neuroimage.2005.10.045,Dynamic causal modeling of evoked responses in EEG and MEG,2006,644,https://doi.org/10.1016/j.neuroimage.2005.10.045
+F14,6,https://openalex.org/W2005402688,https://doi.org/10.1214/aop/1078415827,Sample path properties of the stochastic flows,2004,46,https://doi.org/10.1214/aop/1078415827
+F14,7,https://openalex.org/W3205566932,https://doi.org/10.1177/02783649211047890,Constrained stochastic optimal control with learned importance sampling: A path integral approach,2021,24,https://doi.org/10.1177/02783649211047890
+F14,8,https://openalex.org/W4401389039,https://doi.org/10.1038/s41586-024-07687-4,Fully forward mode training for optical neural networks,2024,134,https://doi.org/10.1038/s41586-024-07687-4
+F14,9,https://openalex.org/W4324144082,https://doi.org/10.1080/00207543.2023.2177049,Toward supply chain viability theory: from lessons learned through COVID-19 pandemic to viable ecosystems,2023,167,https://doi.org/10.1080/00207543.2023.2177049
+F14,10,https://openalex.org/W4392843672,https://doi.org/10.1146/annurev-physchem-083122-125941,Enhanced Sampling with Machine Learning,2024,124,https://doi.org/10.1146/annurev-physchem-083122-125941
+F14,11,https://openalex.org/W4322576964,https://doi.org/10.1109/comst.2023.3249835,"On the Road to 6G: Visions, Requirements, Key Technologies, and Testbeds",2023,1927,https://doi.org/10.1109/comst.2023.3249835
+F14,12,https://openalex.org/W1752690783,https://doi.org/10.1007/s10955-016-1446-7,Adaptive Importance Sampling for Control and Inference,2016,90,https://doi.org/10.1007/s10955-016-1446-7
+F14,13,https://openalex.org/W2123459560,https://doi.org/10.48550/arxiv.1509.01149,Model Predictive Path Integral Control using Covariance Variable Importance Sampling,2015,71,https://arxiv.org/abs/1509.01149
+F14,14,https://openalex.org/W2907537824,https://doi.org/10.15607/rss.2019.xv.011,Learning to Walk Via Deep Reinforcement Learning,2019,436,https://doi.org/10.15607/rss.2019.xv.011
+F14,15,https://openalex.org/W2069327268,https://doi.org/10.1103/revmodphys.81.387,Artificial Brownian motors: Controlling transport on the nanoscale,2009,1584,https://doi.org/10.1103/revmodphys.81.387
+F14,16,https://openalex.org/W2978556704,https://doi.org/10.1109/access.2019.2944389,Evaluating Indoor Positioning Systems in a Shopping Mall: The Lessons Learned From the IPIN 2018 Competition,2019,80,https://doi.org/10.1109/access.2019.2944389
+F14,17,https://openalex.org/W2143775898,https://doi.org/10.1257/089533002320951037,Decentralization of Governance and Development,2002,1791,https://doi.org/10.1257/089533002320951037
+F14,18,https://openalex.org/W2112169299,,What have we learned from Evolutionary Game Theory so far,1997,58,http://hdl.handle.net/10419/94851
+F14,19,https://openalex.org/W1984020445,https://doi.org/10.1109/access.2014.2325029,Big Data Deep Learning: Challenges and Perspectives,2014,1258,https://doi.org/10.1109/access.2014.2325029
+F14,20,https://openalex.org/W4366091323,https://doi.org/10.1007/s10462-023-10466-8,"Deep learning modelling techniques: current progress, applications, advantages, and challenges",2023,974,https://doi.org/10.1007/s10462-023-10466-8
+F14,21,https://openalex.org/W3132191748,https://doi.org/10.1109/jproc.2021.3060483,Explaining Deep Neural Networks and Beyond: A Review of Methods and Applications,2021,1337,https://doi.org/10.1109/jproc.2021.3060483
+F14,22,https://openalex.org/W3204639595,https://doi.org/10.1145/3474369.3486873,Investigating Labelless Drift Adaptation for Malware Detection,2021,28,https://doi.org/10.1145/3474369.3486873
+F14,23,https://openalex.org/W3139657805,https://doi.org/10.1109/jproc.2021.3067593,Advancing Neuromorphic Computing With Loihi: A Survey of Results and Outlook,2021,625,https://doi.org/10.1109/jproc.2021.3067593
+F14,24,https://openalex.org/W3089807094,https://doi.org/10.3934/dcdsb.2023151,Deep learning algorithms for solving high-dimensional nonlinear backward stochastic differential equations,2023,10,https://doi.org/10.3934/dcdsb.2023151
+F14,25,https://openalex.org/W2943495267,https://doi.org/10.1101/622803,Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences,2019,399,https://doi.org/10.1101/622803
+F15,1,https://openalex.org/W4396748050,https://doi.org/10.1007/jhep05(2024)060,Diffusion models as stochastic quantization in lattice field theory,2024,23,https://doi.org/10.1007/jhep05(2024)060
+F15,2,https://openalex.org/W4361297350,https://doi.org/10.1103/physrevresearch.5.013216,Gauge-invariant and anyonic-symmetric autoregressive neural network for quantum lattice models,2023,49,https://doi.org/10.1103/physrevresearch.5.013216
+F15,3,https://openalex.org/W4387294073,https://doi.org/10.48550/arxiv.2309.17082,Diffusion Models as Stochastic Quantization in Lattice Field Theory,2023,3,http://arxiv.org/abs/2309.17082
+F15,4,https://openalex.org/W3214275744,https://doi.org/10.1103/prxquantum.2.040201,How To Use Neural Networks To Investigate Quantum Many-Body Physics,2021,80,https://doi.org/10.1103/prxquantum.2.040201
+F15,5,https://openalex.org/W2123585936,https://doi.org/10.1017/atsip.2013.9,"A tutorial survey of architectures, algorithms, and applications for deep learning",2014,739,https://doi.org/10.1017/atsip.2013.9
+F15,6,https://openalex.org/W2019792447,https://doi.org/10.1561/2000000035,Markov Random Fields in Image Segmentation,2012,105,https://doi.org/10.1561/2000000035
+F15,7,https://openalex.org/W1606472461,,Markov Random Fields and Images,1998,77,https://ir.cwi.nl/pub/18338
+F15,8,https://openalex.org/W4385583918,https://doi.org/10.1038/s42254-023-00616-w,Advances in machine-learning-based sampling motivated by lattice quantum chromodynamics,2023,30,https://doi.org/10.1038/s42254-023-00616-w
+F15,9,https://openalex.org/W1555941908,,Stochastic Digital Circuits for Probabilistic Inference,2008,23,http://hdl.handle.net/1721.1/43712
+F15,10,https://openalex.org/W4406704747,https://doi.org/10.22323/1.466.0037,Diffusion models and stochastic quantisation in lattice field theory,2025,2,https://doi.org/10.22323/1.466.0037
+F15,11,https://openalex.org/W4392020250,https://doi.org/10.1140/epjp/s13360-024-05311-y,Neural-network quantum states for many-body physics,2024,38,https://doi.org/10.1140/epjp/s13360-024-05311-y
+F15,12,https://openalex.org/W4388515621,https://doi.org/10.48550/arxiv.2311.03578,Generative Diffusion Models for Lattice Field Theory,2023,2,http://arxiv.org/abs/2311.03578
+F15,13,https://openalex.org/W3198206768,https://doi.org/10.1103/physrevresearch.5.033071,Benchmarking variational quantum eigensolvers for the square-octagon-lattice Kitaev model,2023,27,https://doi.org/10.1103/physrevresearch.5.033071
+F15,14,https://openalex.org/W4293126226,https://doi.org/10.21468/scipostphyscodeb.7,NetKet 3: Machine Learning Toolbox for Many-Body Quantum Systems,2022,141,https://doi.org/10.21468/scipostphyscodeb.7
+F15,15,https://openalex.org/W2056456657,https://doi.org/10.1155/2012/530759,Recent Advances on Filtering and Control for Nonlinear Stochastic Complex Systems with Incomplete Information: A Survey,2011,17,https://doi.org/10.1155/2012/530759
+F15,16,https://openalex.org/W3195321391,https://doi.org/10.1038/s41598-021-95523-4,Learning spin liquids on a honeycomb lattice with artificial neural networks,2021,4,https://doi.org/10.1038/s41598-021-95523-4
+F15,17,https://openalex.org/W4384392950,https://doi.org/10.48550/arxiv.2307.06936,An atomic boson sampler,2023,4,http://arxiv.org/abs/2307.06936
+F15,18,https://openalex.org/W2605841998,,Stochastic Nested Aggregation for Images and Random Fields,2007,5,http://hdl.handle.net/10012/2998
+F15,19,https://openalex.org/W7135020858,https://doi.org/10.1007/jhep03(2026)111,Physics-conditioned diffusion models for lattice gauge theory,2026,2,https://doi.org/10.1007/jhep03(2026)111
+F15,20,https://openalex.org/W4403834027,https://doi.org/10.1038/s42254-024-00770-9,Challenges and opportunities in quantum optimization,2024,155,https://doi.org/10.1038/s42254-024-00770-9
+F15,21,https://openalex.org/W4381730100,https://doi.org/10.21468/scipostphys.14.6.171,Autoregressive neural Slater-Jastrow ansatz for variational Monte Carlo simulation,2023,10,https://doi.org/10.21468/scipostphys.14.6.171
+F15,22,https://openalex.org/W4414534718,https://doi.org/10.21468/scipostphys.19.3.077,Super-resolving normalising flows for lattice field theories,2025,1,https://doi.org/10.21468/scipostphys.19.3.077
+F15,23,https://openalex.org/W4385347905,https://doi.org/10.21203/rs.3.rs-3179504/v1,An atomic boson sampler,2023,2,http://dx.doi.org/10.21203/rs.3.rs-3179504/v1
+F15,24,https://openalex.org/W4400875845,https://doi.org/10.3390/s24144719,DOA Estimation on One-Bit Quantization Observations through Noise-Boosted Multiple Signal Classification,2024,7,https://doi.org/10.3390/s24144719
+F15,25,https://openalex.org/W4389750777,https://doi.org/10.2172/2229681,"Quantum Optimization: Potential, Challenges, and the Path Forward",2023,64,https://doi.org/10.2172/2229681
+F16,1,https://openalex.org/W32980360,https://doi.org/10.1214/aos/1056562461,Slice sampling,2003,1358,https://doi.org/10.1214/aos/1056562461
+F16,2,https://openalex.org/W2163174637,https://doi.org/10.1214/10-sts327,The Random Walk Metropolis: Linking Theory and Practice Through a Case Study,2010,105,https://doi.org/10.1214/10-sts327
+F16,3,https://openalex.org/W4306908092,https://doi.org/10.1093/biomet/asac056,Optimal design of the Barker proposal and other locally balanced Metropolis–Hastings algorithms,2022,8,https://doi.org/10.1093/biomet/asac056
+F16,4,https://openalex.org/W2811395263,https://doi.org/10.1137/16m1082469,"Survey of Multifidelity Methods in Uncertainty Propagation, Inference, and Optimization",2018,1027,https://doi.org/10.1137/16m1082469
+F16,5,https://openalex.org/W3204937802,https://doi.org/10.1109/tpami.2021.3116668,"Deep Generative Modelling: A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models",2021,627,https://durham-repository.worktribe.com/output/1232078
+F16,6,https://openalex.org/W2128709328,https://doi.org/10.1080/01621459.2018.1448827,Speeding Up MCMC by Efficient Data Subsampling,2018,160,https://doi.org/10.1080/01621459.2018.1448827
+F16,7,https://openalex.org/W2044346605,https://doi.org/10.1214/09-ejs525,Semiparametric regression during 2003–2007,2009,252,https://doi.org/10.1214/09-ejs525
+F16,8,https://openalex.org/W4386528643,https://doi.org/10.48550/arxiv.2309.01454,Accelerating Markov Chain Monte Carlo sampling with diffusion models,2023,1,http://arxiv.org/abs/2309.01454
+F16,9,https://openalex.org/W3135287914,https://doi.org/10.1109/tpami.2021.3116668,"Deep Generative Modelling: A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models",2021,72,https://doi.org/10.1109/tpami.2021.3116668
+F16,10,https://openalex.org/W2548353158,https://doi.org/10.1109/tmi.2016.2623608,Quantifying Registration Uncertainty With Sparse Bayesian Modelling,2016,42,https://doi.org/10.1109/tmi.2016.2623608
+F16,11,https://openalex.org/W4390647713,https://doi.org/10.48550/arxiv.2401.02080,Energy based diffusion generator for efficient sampling of Boltzmann distributions,2024,1,http://arxiv.org/abs/2401.02080
+F16,12,https://openalex.org/W2060224627,https://doi.org/10.1007/s00477-010-0431-y,Long-term time-dependent stochastic modelling of extreme waves,2010,71,https://doi.org/10.1007/s00477-010-0431-y
+F16,13,https://openalex.org/W4403821422,https://doi.org/10.48550/arxiv.2410.00781,Modeling Neural Switching via Drift-Diffusion Models,2024,1,http://arxiv.org/abs/2410.00781
+F16,14,https://openalex.org/W2165304603,https://doi.org/10.1613/jair.2085,Solving Factored MDPs with Hybrid State and Action Variables,2006,52,https://doi.org/10.1613/jair.2085
+F16,15,https://openalex.org/W2806191366,https://doi.org/10.1016/j.csda.2018.05.020,Mode jumping MCMC for Bayesian variable selection in GLMM,2018,21,https://doi.org/10.1016/j.csda.2018.05.020
+F16,16,https://openalex.org/W4379646169,https://doi.org/10.1038/s41598-023-35536-3,On learning agent-based models from data,2023,36,https://doi.org/10.1038/s41598-023-35536-3
+F16,17,https://openalex.org/W4221159242,https://doi.org/10.1051/0004-6361/202243054,Probabilistic mass-mapping with neural score estimation,2022,37,https://doi.org/10.1051/0004-6361/202243054
+F16,18,https://openalex.org/W2898833094,https://doi.org/10.5194/acp-19-13911-2019,Fundamentals of data assimilation applied to biogeochemistry,2019,66,https://doi.org/10.5194/acp-19-13911-2019
+F16,19,https://openalex.org/W4393630269,https://doi.org/10.6339/24-jds1125,Multi-Dimensional Clustering Based on Restricted Distance-Dependent Mixture Dirichlet Process for Diffusion Tensor Imaging,2024,1,http://dx.doi.org/10.6339/24-jds1125
+F16,20,https://openalex.org/W4221106694,https://doi.org/10.3390/math10060898,"Bayesian Nonlinear Models for Repeated Measurement Data: An Overview, Implementation, and Applications",2022,26,https://doi.org/10.3390/math10060898
+F16,21,https://openalex.org/W3126781576,https://doi.org/10.1137/21m1397416,Derivative-Free Bayesian Inversion Using Multiscale Dynamics,2022,11,https://doi.org/10.1137/21m1397416
+F16,22,https://openalex.org/W1967096813,https://doi.org/10.1111/j.1467-985x.2007.00537.x,Estimates of Human Immunodeficiency Virus Prevalence and Proportion Diagnosed Based on Bayesian Multiparameter Synthesis of Surveillance Data,2008,73,https://doi.org/10.1111/j.1467-985x.2007.00537.x
+F16,23,https://openalex.org/W4308171139,https://doi.org/10.48550/arxiv.2103.04177,Metropolis-Hastings via Classification,2021,0,http://arxiv.org/abs/2103.04177
+F16,24,https://openalex.org/W2953091463,https://doi.org/10.1017/9781009367967,The East India Company and the Politics of Knowledge,2023,17,https://doi.org/10.1017/9781009367967
+F16,25,https://openalex.org/W3109941711,https://doi.org/10.1093/jrsssa/qnad030,Semi-mechanistic Bayesian modelling of COVID-19 with renewal processes,2023,31,https://doi.org/10.1093/jrsssa/qnad030
+F17,1,https://openalex.org/W4211019631,https://doi.org/10.1103/revmodphys.70.223,Stochastic resonance,1998,5360,https://doi.org/10.1103/revmodphys.70.223
+F17,2,https://openalex.org/W4311845634,https://doi.org/10.22323/1.430.0005,Stochastic normalizing flows for lattice field theory,2022,9,https://doi.org/10.22323/1.430.0005
+F17,3,https://openalex.org/W1963988846,https://doi.org/10.1080/00018730701223200,Ultracold atomic gases in optical lattices: mimicking condensed matter physics and beyond,2007,2114,https://doi.org/10.1080/00018730701223200
+F17,4,https://openalex.org/W2941443959,https://doi.org/10.1103/physrevd.100.034515,Flow-based generative models for Markov chain Monte Carlo in lattice field theory,2019,228,https://doi.org/10.1103/physrevd.100.034515
+F17,5,https://openalex.org/W2129697915,https://doi.org/10.1007/jhep09(2012)082,The effective field theory of cosmological large scale structures,2012,636,https://doi.org/10.1007/jhep09(2012)082
+F17,6,https://openalex.org/W2073767379,https://doi.org/10.5194/acp-14-5233-2014,A scale and aerosol aware stochastic convective parameterization for weather and air quality modeling,2014,1182,https://doi.org/10.5194/acp-14-5233-2014
+F17,7,https://openalex.org/W2114997124,https://doi.org/10.1007/jhep02(2011)051,Perturbative analysis of the gradient flow in non-abelian gauge theories,2011,430,https://doi.org/10.1007/jhep02(2011)051
+F17,8,https://openalex.org/W2060203271,https://doi.org/10.1103/physreve.58.4828,"Flocks, herds, and schools: A quantitative theory of flocking",1998,1614,https://doi.org/10.1103/physreve.58.4828
+F17,9,https://openalex.org/W2964288609,https://doi.org/10.1145/3306346.3322980,Local light field fusion,2019,1106,https://doi.org/10.1145/3306346.3322980
+F17,10,https://openalex.org/W1985983039,https://doi.org/10.1371/journal.pcbi.1000092,The Dynamic Brain: From Spiking Neurons to Neural Masses and Cortical Fields,2008,1139,https://doi.org/10.1371/journal.pcbi.1000092
+F17,11,https://openalex.org/W2124497312,https://doi.org/10.1007/jhep07(2011)036,Lattice QCD without topology barriers,2011,224,https://doi.org/10.1007/jhep07(2011)036
+F17,12,https://openalex.org/W1591848278,https://doi.org/10.1103/physrevx.4.041048,Long-time Behavior of Isolated Periodically Driven Interacting Lattice Systems,2014,531,https://doi.org/10.1103/physrevx.4.041048
+F17,13,https://openalex.org/W2000210554,https://doi.org/10.1137/0714050,On Lattices Admitting Unique Lagrange Interpolations,1977,235,https://doi.org/10.1137/0714050
+F17,14,https://openalex.org/W3042241440,https://doi.org/10.1103/physrevlett.126.032001,Estimation of Thermodynamic Observables in Lattice Field Theories with Deep Generative Models,2021,117,https://doi.org/10.1103/physrevlett.126.032001
+F17,15,https://openalex.org/W2160871560,https://doi.org/10.1103/revmodphys.81.1827,The Casimir force between real materials: Experiment and theory,2009,832,https://doi.org/10.1103/revmodphys.81.1827
+F17,16,https://openalex.org/W2132262459,https://doi.org/10.1002/jcc.21287,CHARMM: The biomolecular simulation program,2009,9160,https://doi.org/10.1002/jcc.21287
+F17,17,https://openalex.org/W2013266685,https://doi.org/10.4310/cms.2010.v8.n1.a10,A stochastic multicloud model for tropical convection,2010,218,https://doi.org/10.4310/cms.2010.v8.n1.a10
+F17,18,https://openalex.org/W2887315593,https://doi.org/10.1103/revmodphys.90.031002,<i>Colloquium</i>: Quantum matter built from nanoscopic lattices of atoms and photons,2018,508,https://doi.org/10.1103/revmodphys.90.031002
+F17,19,https://openalex.org/W1968970832,https://doi.org/10.1103/physrevx.4.041024,Tensor Networks for Lattice Gauge Theories with Continuous Groups,2014,131,https://doi.org/10.1103/physrevx.4.041024
+F17,20,https://openalex.org/W2238188827,https://doi.org/10.1038/nphys3607,Ferromagnetic and antiferromagnetic order in bacterial vortex lattices,2016,204,https://doi.org/10.1038/nphys3607
+F17,21,https://openalex.org/W2162728998,https://doi.org/10.1016/j.pecs.2012.10.003,Lagrangian–Eulerian methods for multiphase flows,2012,336,https://doi.org/10.1016/j.pecs.2012.10.003
+F17,22,https://openalex.org/W2129999749,https://doi.org/10.1561/2200000013,An Introduction to Conditional Random Fields,2012,529,https://doi.org/10.1561/2200000013
+F17,23,https://openalex.org/W2084500993,https://doi.org/10.1007/jhep04(2013)123,Chiral symmetry and the Yang-Mills gradient flow,2013,202,https://doi.org/10.1007/jhep04(2013)123
+F17,24,https://openalex.org/W2086778233,https://doi.org/10.1063/1.1524305,Nanoscale thermal transport,2003,3172,https://doi.org/10.1063/1.1524305
+F17,25,https://openalex.org/W2902940391,https://doi.org/10.1146/annurev-conmatphys-031218-013554,From Stochastic Thermodynamics to Thermodynamic Inference,2018,254,https://doi.org/10.1146/annurev-conmatphys-031218-013554
+F18,1,https://openalex.org/W2566971417,https://doi.org/10.1016/j.physrep.2017.07.007,Random walks and diffusion on networks,2017,648,https://doi.org/10.1016/j.physrep.2017.07.007
+F18,2,https://openalex.org/W4311845634,https://doi.org/10.22323/1.430.0005,Stochastic normalizing flows for lattice field theory,2022,9,https://doi.org/10.22323/1.430.0005
+F18,3,https://openalex.org/W3070843563,https://doi.org/10.1016/j.actamat.2020.08.008,Computational thermodynamics and its applications,2020,174,https://doi.org/10.1016/j.actamat.2020.08.008
+F18,4,https://openalex.org/W2354504395,https://doi.org/10.1103/physrevc.94.024907,Applying Bayesian parameter estimation to relativistic heavy-ion collisions: Simultaneous characterization of the initial state and quark-gluon plasma medium,2016,507,https://doi.org/10.1103/physrevc.94.024907
+F18,5,https://openalex.org/W4402555656,https://doi.org/10.1103/physreve.110.034604,Irreversible Boltzmann samplers in dense liquids: Weak-coupling approximation and mode-coupling theory,2024,7,https://doi.org/10.1103/physreve.110.034604
+F18,6,https://openalex.org/W3102853179,,,,312,https://hdl.handle.net/1983/151f015d-01e6-4da4-ac4f-393e704937ba
+F18,7,https://openalex.org/W2888623240,https://doi.org/10.1103/physrevb.99.125118,Topological transport in the steady state of a quantum particle with dissipation,2019,18,https://doi.org/10.1103/physrevb.99.125118
+F18,8,https://openalex.org/W2046346273,https://doi.org/10.3390/mi5041219,Fabrication of Micro/Nano Structures on Metals by Femtosecond Laser Micromachining,2014,455,https://doi.org/10.3390/mi5041219
+F18,9,https://openalex.org/W4404580258,https://doi.org/10.1021/acs.chemrev.4c00572,Data Generation for Machine Learning Interatomic Potentials and Beyond,2024,136,https://doi.org/10.1021/acs.chemrev.4c00572
+F18,10,https://openalex.org/W4386032664,https://doi.org/10.1103/physrevlett.131.081901,Towards Quantum Computing Phase Diagrams of Gauge Theories with Thermal Pure Quantum States,2023,49,https://doi.org/10.1103/physrevlett.131.081901
+F18,11,https://openalex.org/W4288051764,https://doi.org/10.1038/s41586-022-04940-6,Practical quantum advantage in quantum simulation,2022,688,https://doi.org/10.1038/s41586-022-04940-6
+F18,12,https://openalex.org/W7135020858,https://doi.org/10.1007/jhep03(2026)111,Physics-conditioned diffusion models for lattice gauge theory,2026,2,https://doi.org/10.1007/jhep03(2026)111
+F18,13,https://openalex.org/W4361009281,https://doi.org/10.1098/rsta.2022.0147,Differentiable samplers for deep latent variable models,2023,2,http://dx.doi.org/10.1098/rsta.2022.0147
+F18,14,https://openalex.org/W4392984541,https://doi.org/10.1021/acs.jctc.3c01180,Constant-pH Simulations with the Polarizable Atomic Multipole AMOEBA Force Field,2024,17,https://doi.org/10.1021/acs.jctc.3c01180
+F18,15,https://openalex.org/W4310989070,https://doi.org/10.1140/epja/s10050-022-00872-x,Particle production in a hybrid approach for a beam energy scan of Au+Au/Pb+Pb collisions between $$\sqrt{s_\textrm{NN}}$$ = 4.3 GeV and $$\sqrt{s_\textrm{NN}}$$ = 200.0 GeV,2022,55,https://doi.org/10.1140/epja/s10050-022-00872-x
+F18,16,https://openalex.org/W3018637171,https://doi.org/10.1038/s41467-020-15728-5,Autonomous discovery of optically active chiral inorganic perovskite nanocrystals through an intelligent cloud lab,2020,168,https://doi.org/10.1038/s41467-020-15728-5
+F18,17,https://openalex.org/W3087123535,https://doi.org/10.1146/annurev-marine-041720-092514,The Dissolution Rate of CaCO<sub>3</sub> in the Ocean,2020,55,https://doi.org/10.1146/annurev-marine-041720-092514
+F18,18,https://openalex.org/W4406915829,https://doi.org/10.22331/q-2025-01-28-1612,Designing open quantum systems with known steady states: Davies generators and beyond,2025,16,https://doi.org/10.22331/q-2025-01-28-1612
+F18,19,https://openalex.org/W2556532521,https://doi.org/10.1007/s10955-017-1805-z,Acceleration of Convergence to Equilibrium in Markov Chains by Breaking Detailed Balance,2017,35,https://doi.org/10.1007/s10955-017-1805-z
+F18,20,https://openalex.org/W4400343073,https://doi.org/10.48550/arxiv.2407.00745,Posterior Sampling with Denoising Oracles via Tilted Transport,2024,3,http://arxiv.org/abs/2407.00745
+F18,21,https://openalex.org/W2330294766,https://doi.org/10.1007/s10404-016-1729-y,Progress in particle-based multiscale and hybrid methods for flow applications,2016,27,https://doi.org/10.1007/s10404-016-1729-y
+F18,22,https://openalex.org/W2782231144,https://doi.org/10.31390/gradschool_dissertations.1115,Solute transport in layered and heterogeneous soils,2002,2,https://doi.org/10.31390/gradschool_dissertations.1115
+F18,23,https://openalex.org/W4408827562,https://doi.org/10.1088/2632-2153/adc53a,On learning higher-order cumulants in diffusion models,2025,7,https://doi.org/10.1088/2632-2153/adc53a
+F18,24,https://openalex.org/W4308713410,https://doi.org/10.1103/physrevc.106.054904,"Temperature and net baryochemical potential dependence of <mml:math xmlns:mml=""http://www.w3.org/1998/Math/MathML""><mml:mrow><mml:mi>η</mml:mi><mml:mo>/</mml:mo><mml:mi>s</mml:mi></mml:mrow></mml:math> in a hybrid approach",2022,9,https://doi.org/10.1103/physrevc.106.054904
+F18,25,https://openalex.org/W2319912902,https://doi.org/10.1007/s11104-016-2872-7,Challenges in imaging and predictive modeling of rhizosphere processes,2016,90,https://doi.org/10.1007/s11104-016-2872-7
+F19,1,https://openalex.org/W2566971417,https://doi.org/10.1016/j.physrep.2017.07.007,Random walks and diffusion on networks,2017,648,https://doi.org/10.1016/j.physrep.2017.07.007
+F19,2,https://openalex.org/W2110156265,https://doi.org/10.1111/1467-9868.00409,"Reversible Jump, Birth-and-Death and More General Continuous Time Markov Chain Monte Carlo Samplers",2003,142,https://doi.org/10.1111/1467-9868.00409
+F19,3,https://openalex.org/W32980360,https://doi.org/10.1214/aos/1056562461,Slice sampling,2003,1358,https://doi.org/10.1214/aos/1056562461
+F19,4,https://openalex.org/W2550406566,https://doi.org/10.1214/15-aihp695,On particle Gibbs samplers,2016,13,https://doi.org/10.1214/15-aihp695
+F19,5,https://openalex.org/W4379089699,https://doi.org/10.48550/arxiv.2305.20009,Protein Design with Guided Discrete Diffusion,2023,18,http://arxiv.org/abs/2305.20009
+F19,6,https://openalex.org/W4379966476,https://doi.org/10.1037/rev0000427,"The autocorrelated Bayesian sampler: A rational process for probability judgments, estimates, confidence intervals, choices, confidence judgments, and response times.",2023,18,https://doi.org/10.1037/rev0000427
+F19,7,https://openalex.org/W3096655658,https://doi.org/10.1109/access.2020.3031549,Contrastive Representation Learning: A Framework and Review,2020,827,https://doi.org/10.1109/access.2020.3031549
+F19,8,https://openalex.org/W3102853179,,,,312,https://hdl.handle.net/1983/151f015d-01e6-4da4-ac4f-393e704937ba
+F19,9,https://openalex.org/W3164478785,https://doi.org/10.31234/osf.io/3qxf7,"The Autocorrelated Bayesian Sampler: A Rational Process for Probability Judgments, Estimates, Confidence Intervals, Choices, Confidence Judgments, and Response Times",2021,9,https://doi.org/10.31234/osf.io/3qxf7
+F19,10,https://openalex.org/W4406060247,https://doi.org/10.48550/arxiv.2407.13734,Understanding Reinforcement Learning-Based Fine-Tuning of Diffusion Models: A Tutorial and Review,2024,4,http://arxiv.org/abs/2407.13734
+F19,11,https://openalex.org/W2738771169,https://doi.org/10.48550/arxiv.1707.05296,Piecewise-Deterministic Markov Chain Monte Carlo,2017,70,http://arxiv.org/abs/1707.05296
+F19,12,https://openalex.org/W4229044820,https://doi.org/10.1145/3528223.3530110,ASE,2022,198,https://doi.org/10.1145/3528223.3530110
+F19,13,https://openalex.org/W4407359505,https://doi.org/10.48550/arxiv.2502.06685,"No Trick, No Treat: Pursuits and Challenges Towards Simulation-free Training of Neural Samplers",2025,2,http://arxiv.org/abs/2502.06685
+F19,14,https://openalex.org/W4322616070,https://doi.org/10.48550/arxiv.2302.12255,Modeling Molecular Structures with Intrinsic Diffusion Models,2023,4,http://arxiv.org/abs/2302.12255
+F19,15,https://openalex.org/W4367060954,https://doi.org/10.48550/arxiv.2304.12824,Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning,2023,3,http://arxiv.org/abs/2304.12824
+F19,16,https://openalex.org/W4392488231,,Improving Adversarial Energy-Based Model via Diffusion Process,2024,2,http://arxiv.org/abs/2403.01666
+F19,17,https://openalex.org/W4400105171,https://doi.org/10.48550/arxiv.2402.19455,Listening to the Noise: Blind Denoising with Gibbs Diffusion,2024,2,http://arxiv.org/abs/2402.19455
+F19,18,https://openalex.org/W4319050105,https://doi.org/10.48550/arxiv.2302.00482,Improving and generalizing flow-based generative models with minibatch optimal transport,2023,30,http://arxiv.org/abs/2302.00482
+F19,19,https://openalex.org/W4365601389,https://doi.org/10.48550/arxiv.2304.06592,Bayesian Inference for Jump-Diffusion Approximations of Biochemical Reaction Networks,2023,1,http://arxiv.org/abs/2304.06592
+F19,20,https://openalex.org/W2090500441,https://doi.org/10.1063/1.3592152,Dynamical reweighting: Improved estimates of dynamical properties from simulations at multiple temperatures,2011,72,https://doi.org/10.1063/1.3592152
+F19,21,https://openalex.org/W4318718891,https://doi.org/10.48550/arxiv.2301.12594,A theory of continuous generative flow networks,2023,6,http://arxiv.org/abs/2301.12594
+F19,22,https://openalex.org/W4304116749,https://doi.org/10.1371/journal.pcbi.1010618,EpiLPS: A fast and flexible Bayesian tool for estimation of the time-varying reproduction number,2022,42,https://doi.org/10.1371/journal.pcbi.1010618
+F19,23,https://openalex.org/W1998986742,https://doi.org/10.1214/13-ba848,Zero Variance Differential Geometric Markov Chain Monte Carlo Algorithms,2014,30,https://doi.org/10.1214/13-ba848
+F19,24,https://openalex.org/W4403598434,https://doi.org/10.48550/arxiv.2409.04832,Reward-Directed Score-Based Diffusion Models via q-Learning,2024,1,http://arxiv.org/abs/2409.04832
+F19,25,https://openalex.org/W4391766501,https://doi.org/10.48550/arxiv.2402.06121,Iterated Denoising Energy Matching for Sampling from Boltzmann Densities,2024,1,http://arxiv.org/abs/2402.06121
+F20,1,https://openalex.org/W3217363338,https://doi.org/10.22323/1.396.0338,Machine Learning of Thermodynamic Observables in the Presence of Mode Collapse,2022,20,https://doi.org/10.22323/1.396.0338
+F20,2,https://openalex.org/W4232723833,https://doi.org/10.31234/osf.io/j56bm,A Primer on Two-Level Dynamic Structural Equation Models for Intensive Longitudinal Data,2018,13,https://doi.org/10.31234/osf.io/j56bm
+F20,3,https://openalex.org/W4417285773,https://doi.org/10.1016/j.softx.2025.102253,NeuMC — A package for neural sampling for lattice field theories,2025,0,https://doi.org/10.1016/j.softx.2025.102253
+F20,4,https://openalex.org/W4320342859,https://doi.org/10.48550/arxiv.2302.04763,On Sampling with Approximate Transport Maps,2023,0,http://arxiv.org/abs/2302.04763
+F20,5,https://openalex.org/W7134076994,https://doi.org/10.48550/arxiv.2603.05193,Transducing Language Models,2026,0,https://researchprofiles.ku.dk/da/publications/93b37293-4173-4165-8a92-73b27adc781c
+F20,6,https://openalex.org/W7139977563,https://doi.org/10.48550/arxiv.2603.0519,Transducing Language Models,2026,0,https://researchprofiles.ku.dk/da/publications/93b37293-4173-4165-8a92-73b27adc781c
+F20,7,https://openalex.org/W7134093960,,Transducing Language Models,2026,0,http://arxiv.org/abs/2603.05193
+F20,8,https://openalex.org/W7165065514,,Communication-Efficient Verifiable Attention for LLM Inference,2026,0,https://arxiv.org/abs/2606.16352
+F21,1,https://openalex.org/W2120145199,https://doi.org/10.1088/0953-8984/21/39/395502,QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials,2009,28915,https://doi.org/10.1088/0953-8984/21/39/395502
+F21,2,https://openalex.org/W2092583264,https://doi.org/10.1103/revmodphys.69.731,Random-matrix theory of quantum transport,1997,2546,https://doi.org/10.1103/revmodphys.69.731
+F21,3,https://openalex.org/W3111162498,https://doi.org/10.1038/s42254-021-00348-9,Variational quantum algorithms,2021,3013,https://doi.org/10.1038/s42254-021-00348-9
+F21,4,https://openalex.org/W2147195941,https://doi.org/10.1103/revmodphys.79.1217,Spins in few-electron quantum dots,2007,2672,https://doi.org/10.1103/revmodphys.79.1217
+F21,5,https://openalex.org/W2112561880,https://doi.org/10.1007/jhep08(2010)071,Properties and uses of the Wilson flow in lattice QCD,2010,801,https://doi.org/10.1007/jhep08(2010)071
+F21,6,https://openalex.org/W1963988846,https://doi.org/10.1080/00018730701223200,Ultracold atomic gases in optical lattices: mimicking condensed matter physics and beyond,2007,2114,https://doi.org/10.1080/00018730701223200
+F21,7,https://openalex.org/W1998674391,https://doi.org/10.1103/revmodphys.74.1283,Electronic structure of quantum dots,2002,1377,https://doi.org/10.1103/revmodphys.74.1283
+F21,8,https://openalex.org/W2739908270,https://doi.org/10.1007/jhep10(2017)107,Circuit complexity in quantum field theory,2017,402,https://doi.org/10.1007/jhep10(2017)107
+F21,9,https://openalex.org/W2507784384,https://doi.org/10.1007/jhep10(2016)112,T T ¯ $$ \mathrm{T}\overline{\mathrm{T}} $$ -deformed 2D quantum field theories,2016,560,https://doi.org/10.1007/jhep10(2016)112
+F21,10,https://openalex.org/W1496230809,https://doi.org/10.1017/9781009401968,Finite-Temperature Field Theory: Principles and Applications,2009,728,http://bvbr.bib-bvb.de:8991/F?func=service&amp;doc_library=BVB01&amp;local_base=BVB01&amp;doc_number=014657161&amp;sequence=000002&amp;line_number=0001&amp;func_code=DB_RECORDS&amp;service_type=MEDIA
+F21,11,https://openalex.org/W1972316072,https://doi.org/10.1080/00018732.2014.933502,Quantum trajectories and open many-body quantum systems,2014,869,https://doi.org/10.1080/00018732.2014.933502
+F21,12,https://openalex.org/W2082014836,https://doi.org/10.1103/revmodphys.84.1655,The classical-quantum boundary for correlations: Discord and related measures,2012,1623,https://doi.org/10.1103/revmodphys.84.1655
+F21,13,https://openalex.org/W1496686022,https://doi.org/10.1007/b72010,Lattice-Gas Cellular Automata and Lattice Boltzmann Models: An Introduction,2000,878,
+F21,14,https://openalex.org/W2134583661,https://doi.org/10.12942/lrr-2006-5,The Asymptotic Safety Scenario in Quantum Gravity,2006,752,https://doi.org/10.12942/lrr-2006-5
+F21,15,https://openalex.org/W1997514584,https://doi.org/10.1103/revmodphys.77.1423,Effective-field theories for heavy quarkonium,2005,708,https://doi.org/10.1103/revmodphys.77.1423
+F21,16,https://openalex.org/W2941443959,https://doi.org/10.1103/physrevd.100.034515,Flow-based generative models for Markov chain Monte Carlo in lattice field theory,2019,228,https://doi.org/10.1103/physrevd.100.034515
+F21,17,https://openalex.org/W2887315593,https://doi.org/10.1103/revmodphys.90.031002,<i>Colloquium</i>: Quantum matter built from nanoscopic lattices of atoms and photons,2018,508,https://doi.org/10.1103/revmodphys.90.031002
+F21,18,https://openalex.org/W2153829371,https://doi.org/10.1016/0370-1573(93)90111-p,W symmetry in conformal field theory,1993,532,https://doi.org/10.1016/0370-1573(93)90111-p
+F21,19,https://openalex.org/W2132262459,https://doi.org/10.1002/jcc.21287,CHARMM: The biomolecular simulation program,2009,9160,https://doi.org/10.1002/jcc.21287
+F21,20,https://openalex.org/W3012274818,https://doi.org/10.1103/physrevlett.125.121601,Equivariant Flow-Based Sampling for Lattice Gauge Theory,2020,199,https://doi.org/10.1103/physrevlett.125.121601
+F21,21,https://openalex.org/W2142319084,https://doi.org/10.12942/lrr-2013-2,Minimal Length Scale Scenarios for Quantum Gravity,2013,703,https://doi.org/10.12942/lrr-2013-2
+F21,22,https://openalex.org/W4211019631,https://doi.org/10.1103/revmodphys.70.223,Stochastic resonance,1998,5360,https://doi.org/10.1103/revmodphys.70.223
+F21,23,https://openalex.org/W2129697915,https://doi.org/10.1007/jhep09(2012)082,The effective field theory of cosmological large scale structures,2012,636,https://doi.org/10.1007/jhep09(2012)082
+F21,24,https://openalex.org/W3101098342,https://doi.org/10.48550/arxiv.hep-th/9210010,W-symmetry in Conformal Field Theory,1992,396,http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.268.866
+F21,25,https://openalex.org/W2084790184,https://doi.org/10.1103/revmodphys.78.809,"Theory of ferromagnetic (III,Mn)V semiconductors",2006,1217,https://doi.org/10.1103/revmodphys.78.809
+F22,1,https://openalex.org/W3204937802,https://doi.org/10.1109/tpami.2021.3116668,"Deep Generative Modelling: A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models",2021,627,https://durham-repository.worktribe.com/output/1232078
+F22,2,https://openalex.org/W4321004928,https://doi.org/10.1109/tsp.2023.3301121,Stochastic Approximation Beyond Gradient for Signal Processing and Machine Learning,2023,10,https://doi.org/10.1109/tsp.2023.3301121
+F22,3,https://openalex.org/W4321253950,https://doi.org/10.1016/j.scitotenv.2023.162322,Aquatic environmental DNA: A review of the macro-organismal biomonitoring revolution,2023,310,https://doi.org/10.1016/j.scitotenv.2023.162322
+F22,4,https://openalex.org/W4384648648,https://doi.org/10.48550/arxiv.2307.08698,Flow Matching in Latent Space,2023,6,http://arxiv.org/abs/2307.08698
+F22,5,https://openalex.org/W4293126226,https://doi.org/10.21468/scipostphyscodeb.7,NetKet 3: Machine Learning Toolbox for Many-Body Quantum Systems,2022,141,https://doi.org/10.21468/scipostphyscodeb.7
+F22,6,https://openalex.org/W4220758723,https://doi.org/10.1038/s41598-022-08241-w,A spectrum of preferential flow alters solute mobility in soils,2022,43,https://doi.org/10.1038/s41598-022-08241-w
+F22,7,https://openalex.org/W4376880193,https://doi.org/10.1016/j.cels.2023.04.001,Coupled oscillator cooperativity as a control mechanism in chronobiology,2023,9,https://doi.org/10.1016/j.cels.2023.04.001
+F22,8,https://openalex.org/W4408718020,https://doi.org/10.1214/25-ejs2363,Auxiliary MCMC samplers for parallelisable inference in high-dimensional latent dynamical systems,2025,1,https://doi.org/10.1214/25-ejs2363
+F22,9,https://openalex.org/W4385664449,https://doi.org/10.1007/s11869-023-01405-1,Respiratory deposition dose of PM2.5 and PM10 during night and day periods at an urban environment,2023,40,https://doi.org/10.1007/s11869-023-01405-1
+F22,10,https://openalex.org/W4403571383,https://doi.org/10.48550/arxiv.2410.10792,Semantic Image Inversion and Editing using Rectified Stochastic Differential Equations,2024,1,http://arxiv.org/abs/2410.10792
+F22,11,https://openalex.org/W4389565663,https://doi.org/10.1080/13658816.2023.2279975,A reinforcement learning-based routing algorithm for large street networks,2023,54,https://doi.org/10.1080/13658816.2023.2279975
+F22,12,https://openalex.org/W4406113408,https://doi.org/10.1007/s10462-024-11058-w,Systematic review on neural architecture search,2025,73,https://doi.org/10.1007/s10462-024-11058-w
+F22,13,https://openalex.org/W4214860593,https://doi.org/10.1038/s41467-022-28595-z,General statistical model shows that macroevolutionary patterns and processes are consistent with Darwinian gradualism,2022,58,https://doi.org/10.1038/s41467-022-28595-z
+F22,14,https://openalex.org/W4391832496,https://doi.org/10.48550/arxiv.2402.08679,COLD-Attack: Jailbreaking LLMs with Stealthiness and Controllability,2024,5,http://arxiv.org/abs/2402.08679
+F22,15,https://openalex.org/W4391250369,https://doi.org/10.1088/1361-6420/ad22e7,CUQIpy: I. Computational uncertainty quantification for inverse problems in Python,2024,11,https://doi.org/10.1088/1361-6420/ad22e7
+F22,16,https://openalex.org/W4405463625,https://doi.org/10.1007/s00521-024-10827-6,Generalization potential of large language models,2024,24,https://doi.org/10.1007/s00521-024-10827-6
+F22,17,https://openalex.org/W4405181187,https://doi.org/10.1039/d4cp03801k,"GOCIA: a grand canonical global optimizer for clusters, interfaces, and adsorbates",2024,26,https://doi.org/10.1039/d4cp03801k
+F22,18,https://openalex.org/W4413228023,https://doi.org/10.3389/fbuil.2025.1651919,Stochastic stratigraphic simulation using image warping from sparse data,2025,1,https://doi.org/10.3389/fbuil.2025.1651919
+F22,19,https://openalex.org/W4394677430,https://doi.org/10.1007/s11538-024-01281-5,Mathematical Modelling of Parasite Dynamics: A Stochastic Simulation-Based Approach and Parameter Estimation via Modified Sequential-Type Approximate Bayesian Computation,2024,2,https://doi.org/10.1007/s11538-024-01281-5
+F22,20,https://openalex.org/W4399150804,https://doi.org/10.1016/j.agrformet.2024.110077,Comparison of two micrometeorological and three enclosure methods for measuring ammonia emission after slurry application in two field experiments,2024,24,https://doi.org/10.1016/j.agrformet.2024.110077
+F22,21,https://openalex.org/W4327945465,https://doi.org/10.1016/j.cosrev.2023.100553,"A survey on GANs for computer vision: Recent research, analysis and taxonomy",2023,108,https://doi.org/10.1016/j.cosrev.2023.100553
+F22,22,https://openalex.org/W4403094405,https://doi.org/10.1109/tsp.2024.3472068,An Overview of Multi-Object Estimation via Labeled Random Finite Set,2024,23,https://doi.org/10.1109/tsp.2024.3472068
+F22,23,https://openalex.org/W4389722577,https://doi.org/10.1126/science.adg2238,Ancient chicken remains reveal the origins of virulence in Marek’s disease virus,2023,37,https://doi.org/10.1126/science.adg2238
+F22,24,https://openalex.org/W4381555093,https://doi.org/10.1109/access.2023.3272987,Investigating the Use of Machine Learning Models to Understand the Drugs Permeability Across Placenta,2023,70,https://doi.org/10.1109/access.2023.3272987
+F22,25,https://openalex.org/W4251482531,https://doi.org/10.12688/f1000research.52091.2,SARS-CoV-2 and the role of airborne transmission: a systematic review,2021,32,https://doi.org/10.12688/f1000research.52091.2
+F23,1,https://openalex.org/W1963988846,https://doi.org/10.1080/00018730701223200,Ultracold atomic gases in optical lattices: mimicking condensed matter physics and beyond,2007,2114,https://doi.org/10.1080/00018730701223200
+F23,2,https://openalex.org/W2059920596,https://doi.org/10.1016/j.physrep.2012.03.005,Light propagation and localization in modulated photonic lattices and waveguides,2012,470,https://doi.org/10.1016/j.physrep.2012.03.005
+F23,3,https://openalex.org/W2731639076,https://doi.org/10.1016/j.jmps.2017.07.003,Elastic and failure response of imperfect three-dimensional metallic lattices: the role of geometric defects induced by Selective Laser Melting,2017,499,https://doi.org/10.1016/j.jmps.2017.07.003
+F23,4,https://openalex.org/W4389488975,https://doi.org/10.1103/physrevd.108.114501,Detecting and mitigating mode-collapse for flow-based sampling of lattice field theories,2023,25,https://doi.org/10.1103/physrevd.108.114501
+F23,5,https://openalex.org/W4382395088,https://doi.org/10.1103/physrevd.107.113003,Fast and accurate simulations of calorimeter showers with normalizing flows,2023,90,https://doi.org/10.1103/physrevd.107.113003
+F23,6,https://openalex.org/W2095270755,https://doi.org/10.1051/0004-6361/200811323,Semi-global simulations of the magneto-rotational instability in core collapse supernovae,2009,174,https://doi.org/10.1051/0004-6361/200811323
+F23,7,https://openalex.org/W2111523137,https://doi.org/10.1063/1.3392774,Lattice Boltzmann methods for thermal flows: Continuum limit and applications to compressible Rayleigh–Taylor systems,2010,95,https://doi.org/10.1063/1.3392774
+F23,8,https://openalex.org/W3203323655,https://doi.org/10.1016/j.apenergy.2021.117871,A deep generative model for probabilistic energy forecasting in power systems: normalizing flows,2022,111,https://orbi.uliege.be/handle/2268/262347
+F23,9,https://openalex.org/W2122803078,https://doi.org/10.1523/jneurosci.23-35-11167.2003,Neuronal Avalanches in Neocortical Circuits,2003,2392,https://doi.org/10.1523/jneurosci.23-35-11167.2003
+F23,10,https://openalex.org/W2970581640,https://doi.org/10.1117/1.ap.1.4.046004,Gap-type dark localized modes in a Bose–Einstein condensate with optical lattices,2019,63,https://doi.org/10.1117/1.ap.1.4.046004
+F23,11,https://openalex.org/W4327938911,https://doi.org/10.1103/physrevd.107.l051504,Learning trivializing gradient flows for lattice gauge theories,2023,32,https://doi.org/10.1103/physrevd.107.l051504
+F23,12,https://openalex.org/W2030096216,https://doi.org/10.1016/j.actamat.2010.11.001,Growth and collapse of nanovoids in tantalum monocrystals,2010,98,https://doi.org/10.1016/j.actamat.2010.11.001
+F23,13,https://openalex.org/W2340298049,https://doi.org/10.1103/physrevd.96.064015,Lattice quantum gravity and asymptotic safety,2017,84,https://doi.org/10.1103/physrevd.96.064015
+F23,14,https://openalex.org/W4389674942,https://doi.org/10.21468/scipostphys.15.6.238,Learning lattice quantum field theories with equivariant continuous flows,2023,35,https://doi.org/10.21468/scipostphys.15.6.238
+F23,15,https://openalex.org/W2888599914,https://doi.org/10.1093/nsr/nwy084,Flow units as dynamic defects in metallic glassy materials,2018,148,https://doi.org/10.1093/nsr/nwy084
+F23,16,https://openalex.org/W2035178137,https://doi.org/10.1103/physreve.68.011306,Jamming at zero temperature and zero applied stress: The epitome of disorder,2003,1618,https://doi.org/10.1103/physreve.68.011306
+F23,17,https://openalex.org/W2989775644,https://doi.org/10.1007/jhep05(2020)126,Nucleon axial structure from lattice QCD,2020,80,https://doi.org/10.1007/jhep05(2020)126
+F23,18,https://openalex.org/W4381800146,https://doi.org/10.1126/sciadv.adh1718,IrO <i> <sub>x</sub> </i> · <i>n</i> H <sub>2</sub> O with lattice water–assisted oxygen exchange for high-performance proton exchange membrane water electrolyzers,2023,276,https://doi.org/10.1126/sciadv.adh1718
+F23,19,https://openalex.org/W4327545559,https://doi.org/10.1016/j.tws.2023.110650,Enhanced energy absorption performance of 3D printed 2D auxetic lattices,2023,76,https://doi.org/10.1016/j.tws.2023.110650
+F23,20,https://openalex.org/W2496447618,https://doi.org/10.1149/2.0201610jes,Electrochemical Flow-Cell Setup for In Situ X-ray Investigations,2016,126,https://doi.org/10.1149/2.0201610jes
+F23,21,https://openalex.org/W4381383218,https://doi.org/10.1007/s11665-023-08423-1,A Review on Factors Affecting the Mechanical Properties of Additively-Manufactured Lattice Structures,2023,86,https://doi.org/10.1007/s11665-023-08423-1
+F23,22,https://openalex.org/W4392730905,https://doi.org/10.1007/jhep02(2024)048,Sampling the lattice Nambu-Goto string using Continuous Normalizing Flows,2024,14,https://doi.org/10.1007/jhep02(2024)048
+F23,23,https://openalex.org/W3217363338,https://doi.org/10.22323/1.396.0338,Machine Learning of Thermodynamic Observables in the Presence of Mode Collapse,2022,20,https://doi.org/10.22323/1.396.0338
+F23,24,https://openalex.org/W2181914484,https://doi.org/10.1109/jstars.2013.2271445,A Global Human Settlement Layer From Optical HR/VHR RS Data: Concept and First Results,2013,462,https://doi.org/10.1109/jstars.2013.2271445
+F23,25,https://openalex.org/W4220689857,https://doi.org/10.3390/polym14061116,Experimental and Numerical Investigation of a Lattice Structure for Energy Absorption: Application to the Design of an Automotive Crash Absorber,2022,80,https://doi.org/10.3390/polym14061116
+F24,1,https://openalex.org/W2941443959,https://doi.org/10.1103/physrevd.100.034515,Flow-based generative models for Markov chain Monte Carlo in lattice field theory,2019,228,https://doi.org/10.1103/physrevd.100.034515
+F24,2,https://openalex.org/W2120159535,https://doi.org/10.1207/s15516709cog0000_89,Learning Phonology With Substantive Bias: An Experimental and Computational Study of Velar Palatalization,2006,404,https://doi.org/10.1207/s15516709cog0000_89
+F24,3,https://openalex.org/W4388334765,https://doi.org/10.1140/epja/s10050-023-01154-w,Aspects of scaling and scalability for flow-based sampling of lattice QCD,2023,31,https://doi.org/10.1140/epja/s10050-023-01154-w
+F24,4,https://openalex.org/W2019792447,https://doi.org/10.1561/2000000035,Markov Random Fields in Image Segmentation,2012,105,https://doi.org/10.1561/2000000035
+F24,5,https://openalex.org/W4385583918,https://doi.org/10.1038/s42254-023-00616-w,Advances in machine-learning-based sampling motivated by lattice quantum chromodynamics,2023,30,https://doi.org/10.1038/s42254-023-00616-w
+F24,6,https://openalex.org/W4309137076,https://doi.org/10.48550/arxiv.2211.07541,Aspects of scaling and scalability for flow-based sampling of lattice QCD,2022,5,http://arxiv.org/abs/2211.07541
+F24,7,https://openalex.org/W4403834027,https://doi.org/10.1038/s42254-024-00770-9,Challenges and opportunities in quantum optimization,2024,155,https://doi.org/10.1038/s42254-024-00770-9
+F24,8,https://openalex.org/W4404580258,https://doi.org/10.1021/acs.chemrev.4c00572,Data Generation for Machine Learning Interatomic Potentials and Beyond,2024,136,https://doi.org/10.1021/acs.chemrev.4c00572
+F24,9,https://openalex.org/W2123585936,https://doi.org/10.1017/atsip.2013.9,"A tutorial survey of architectures, algorithms, and applications for deep learning",2014,739,https://doi.org/10.1017/atsip.2013.9
+F24,10,https://openalex.org/W3154404009,https://doi.org/10.3389/fphy.2021.641859,"Random Fields in Physics, Biology and Data Science",2021,27,https://doi.org/10.3389/fphy.2021.641859
+F24,11,https://openalex.org/W3170230818,https://doi.org/10.1103/physrevd.104.114507,Flow-based sampling for fermionic lattice field theories,2021,4,https://doi.org/10.1103/physrevd.104.114507
+F24,12,https://openalex.org/W4409994457,https://doi.org/10.1103/physrevd.111.074517,Scaling of stochastic normalizing flows in SU(3) lattice gauge theory,2025,5,https://doi.org/10.1103/physrevd.111.074517
+F24,13,https://openalex.org/W1575579109,,Semantic sensor data search in a large-scale federated sensor network,2011,52,https://oa.upm.es/10294/
+F24,14,https://openalex.org/W3024586266,https://doi.org/10.1088/2632-2153/abc17d,Quantum machine learning in high energy physics,2020,103,https://doi.org/10.1088/2632-2153/abc17d
+F24,15,https://openalex.org/W4389750777,https://doi.org/10.2172/2229681,"Quantum Optimization: Potential, Challenges, and the Path Forward",2023,64,https://doi.org/10.2172/2229681
+F24,16,https://openalex.org/W2956901944,https://doi.org/10.1007/s42452-019-0872-y,A survey on multi-robot coverage path planning for model reconstruction and mapping,2019,175,https://doi.org/10.1007/s42452-019-0872-y
+F24,17,https://openalex.org/W2903750521,https://doi.org/10.1016/j.actbio.2018.12.014,Looking deep into nature: A review of micro-computed tomography in biomimicry,2018,83,https://doi.org/10.1016/j.actbio.2018.12.014
+F24,18,https://openalex.org/W4404458360,https://doi.org/10.1029/2023rg000815,Carbon Mineralization in Fractured Mafic and Ultramafic Rocks: A Review,2024,76,https://doi.org/10.1029/2023rg000815
+F24,19,https://openalex.org/W2328078142,https://doi.org/10.1017/s0140525x16001837,Building machines that learn and think like people,2016,170,https://doi.org/10.1017/s0140525x16001837
+F24,20,https://openalex.org/W3195321391,https://doi.org/10.1038/s41598-021-95523-4,Learning spin liquids on a honeycomb lattice with artificial neural networks,2021,4,https://doi.org/10.1038/s41598-021-95523-4
+F24,21,https://openalex.org/W4294292691,https://doi.org/10.1038/s41524-022-00872-x,Training data selection for accuracy and transferability of interatomic potentials,2022,54,https://doi.org/10.1038/s41524-022-00872-x
+F24,22,https://openalex.org/W4387096212,https://doi.org/10.1038/s41598-023-42823-6,Predictive scale-bridging simulations through active learning,2023,7,https://doi.org/10.1038/s41598-023-42823-6
+F24,23,https://openalex.org/W4414534718,https://doi.org/10.21468/scipostphys.19.3.077,Super-resolving normalising flows for lattice field theories,2025,1,https://doi.org/10.21468/scipostphys.19.3.077
+F24,24,https://openalex.org/W4323519173,https://doi.org/10.1109/jiot.2023.3253602,"The Internet of Sounds: Convergent Trends, Insights, and Future Directions",2023,82,https://doi.org/10.1109/jiot.2023.3253602
+F24,25,https://openalex.org/W2987468355,https://doi.org/10.1145/3295500.3356197,A massively parallel infrastructure for adaptive multiscale simulations,2019,55,https://doi.org/10.1145/3295500.3356197
+F25,1,https://openalex.org/W2112796928,https://doi.org/10.1109/5.726791,Gradient-based learning applied to document recognition,1998,58426,https://doi.org/10.1109/5.726791
+F25,2,https://openalex.org/W2559394418,https://doi.org/10.1038/nature23474,Quantum machine learning,2017,4493,https://doi.org/10.1038/nature23474
+F25,3,https://openalex.org/W2884430236,https://doi.org/10.1038/s41586-018-0337-2,Machine learning for molecular and materials science,2018,4606,https://doi.org/10.1038/s41586-018-0337-2
+F25,4,https://openalex.org/W3135028703,https://doi.org/10.1007/s42979-021-00592-x,"Machine Learning: Algorithms, Real-World Applications and Research Directions",2021,5182,https://doi.org/10.1007/s42979-021-00592-x
+F25,5,https://openalex.org/W2168029744,https://doi.org/10.1214/009053607000000677,Kernel methods in machine learning,2008,1601,https://doi.org/10.1214/009053607000000677
+F25,6,https://openalex.org/W2968923792,https://doi.org/10.1038/s41524-019-0221-0,Recent advances and applications of machine learning in solid-state materials science,2019,2421,https://doi.org/10.1038/s41524-019-0221-0
+F25,7,https://openalex.org/W2995022099,https://doi.org/10.1561/2200000083,Advances and Open Problems in Federated Learning,2020,4814,https://doi.org/10.1561/2200000083
+F25,8,https://openalex.org/W2963784900,https://doi.org/10.1038/s41524-017-0056-5,Machine learning in materials informatics: recent applications and prospects,2017,1780,https://doi.org/10.1038/s41524-017-0056-5
+F25,9,https://openalex.org/W4288039037,https://doi.org/10.1007/s10915-022-01939-z,Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next,2022,2375,https://doi.org/10.1007/s10915-022-01939-z
+F25,10,https://openalex.org/W2792315573,https://doi.org/10.1088/1361-6633/aab406,Machine learning &amp; artificial intelligence in the quantum domain: a review of recent progress,2018,1038,https://doi.org/10.1088/1361-6633/aab406
+F25,11,https://openalex.org/W2098740506,https://doi.org/10.1093/bib/bbk007,Machine learning in bioinformatics,2006,868,https://doi.org/10.1093/bib/bbk007
+F25,12,https://openalex.org/W2120145199,https://doi.org/10.1088/0953-8984/21/39/395502,QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials,2009,28915,https://doi.org/10.1088/0953-8984/21/39/395502
+F25,13,https://openalex.org/W3043532440,https://doi.org/10.1007/s10462-020-09876-9,"A review on machine learning in 3D printing: applications, potential, and challenges",2020,628,https://doi.org/10.1007/s10462-020-09876-9
+F25,14,https://openalex.org/W3000291311,https://doi.org/10.1021/acs.jpca.9b08723,Performance and Cost Assessment of Machine Learning Interatomic Potentials,2020,930,https://doi.org/10.1021/acs.jpca.9b08723
+F25,15,https://openalex.org/W2971894235,https://doi.org/10.1002/adma.201902765,Machine Learning Interatomic Potentials as Emerging Tools for Materials Science,2019,1001,https://doi.org/10.1002/adma.201902765
+F25,16,https://openalex.org/W2158365276,https://doi.org/10.1038/scientificamerican0687-108,The Connection Machine,1987,1614,https://doi.org/10.1038/scientificamerican0687-108
+F25,17,https://openalex.org/W3194368700,https://doi.org/10.1016/j.csbj.2021.08.011,A review on machine learning approaches and trends in drug discovery,2021,480,https://doi.org/10.1016/j.csbj.2021.08.011
+F25,18,https://openalex.org/W2976720228,https://doi.org/10.1016/j.cpc.2019.106949,DScribe: Library of descriptors for machine learning in materials science,2019,816,https://doi.org/10.1016/j.cpc.2019.106949
+F25,19,https://openalex.org/W3044853528,https://doi.org/10.1186/s40537-020-00327-4,Selecting critical features for data classification based on machine learning methods,2020,980,https://doi.org/10.1186/s40537-020-00327-4
+F25,20,https://openalex.org/W2137219016,https://doi.org/10.1371/journal.pcbi.0030116,Machine Learning and Its Applications to Biology,2007,667,https://doi.org/10.1371/journal.pcbi.0030116
+F25,21,https://openalex.org/W3113317199,https://doi.org/10.1039/d0mh01451f,Artificial intelligence and machine learning in design of mechanical materials,2020,660,https://doi.org/10.1039/d0mh01451f
+F25,22,https://openalex.org/W3049618663,https://doi.org/10.1016/j.addma.2020.101538,Machine learning in additive manufacturing: State-of-the-art and perspectives,2020,683,https://doi.org/10.1016/j.addma.2020.101538
+F25,23,https://openalex.org/W3129039627,https://doi.org/10.1038/s41524-021-00495-8,Machine learning for perovskite materials design and discovery,2021,502,https://doi.org/10.1038/s41524-021-00495-8
+F25,24,https://openalex.org/W3104128335,https://doi.org/10.1145/3533378,Challenges in Deploying Machine Learning: A Survey of Case Studies,2022,571,https://doi.org/10.1145/3533378
+F25,25,https://openalex.org/W2989469896,https://doi.org/10.1140/epjd/e2020-100571-8,Simulating lattice gauge theories within quantum technologies,2020,478,https://doi.org/10.1140/epjd/e2020-100571-8
+F26,1,,10.22323/1.430.0005,['Stochastic normalizing flows for lattice field theory'],"{'date-parts': [[2022, 12, 6]]}",,https://doi.org/10.22323/1.430.0005
+F26,2,,10.1103/physrevd.39.3772,['Stochastic truncation method for Hamiltonian lattice field theory'],"{'date-parts': [[1989, 6, 15]]}",,https://doi.org/10.1103/physrevd.39.3772
+F26,3,,10.22323/1.466.0037,['Diffusion models and stochastic quantisation in lattice field theory'],"{'date-parts': [[2025, 1, 22]]}",,https://doi.org/10.22323/1.466.0037
+F26,4,,10.1007/jhep05(2024)060,['Diffusion models as stochastic quantization in lattice field theory'],"{'date-parts': [[2024, 5, 7]]}",,https://doi.org/10.1007/jhep05(2024)060
+F26,5,,10.1088/1751-8121/ae1273,['Galerkin formulation of path integrals in lattice field theory'],"{'date-parts': [[2025, 10, 27]]}",,https://doi.org/10.1088/1751-8121/ae1273
+F26,6,,10.1017/9781108624992.066,['Lattice Field Theory'],"{'date-parts': [[2019, 10, 17]]}",,https://doi.org/10.1017/9781108624992.066
+F26,7,,10.1007/978-1-4612-0507-4_15,['Lattice Field Theory'],{'date-parts': [[2000]]},,https://doi.org/10.1007/978-1-4612-0507-4_15
+F26,8,,10.1007/978-3-032-14357-0_14,['Lattice Field Theory'],{'date-parts': [[2026]]},,https://doi.org/10.1007/978-3-032-14357-0_14
+F26,9,,10.1007/978-981-16-6234-8_3,['Lattice Field Theory'],{'date-parts': [[2021]]},,https://doi.org/10.1007/978-981-16-6234-8_3
+F26,10,,10.29172/81b06dce-2254-4dd1-99ad-cf1e3db77cdf,['Lattice field theory'],,,https://doi.org/10.29172/81b06dce-2254-4dd1-99ad-cf1e3db77cdf
+F26,11,,10.1142/s0218301307008355,['LATTICE FIELD THEORY'],"{'date-parts': [[2007, 10]]}",,https://doi.org/10.1142/s0218301307008355
+F26,12,,10.1017/9781108691550.018,['Lattice Field Theory'],"{'date-parts': [[2019, 7, 11]]}",,https://doi.org/10.1017/9781108691550.018
+F26,13,,10.1016/0920-5632(90)90456-5,['Lattice field theory'],"{'date-parts': [[1990, 8]]}",,https://doi.org/10.1016/0920-5632(90)90456-5
+F26,14,,10.1111/j.1749-6632.1993.tb24676.x,['A Stochastic Sampler'],"{'date-parts': [[1993, 12]]}",,https://doi.org/10.1111/j.1749-6632.1993.tb24676.x
+F26,15,,10.4249/scholarpedia.8613,['Lattice quantum field theory'],{'date-parts': [[2010]]},,https://doi.org/10.4249/scholarpedia.8613
+F26,16,,10.1093/acprof:oso/9780199691609.003.0001,['Lattice field theory fundamentals'],"{'date-parts': [[2011, 8, 25]]}",,https://doi.org/10.1093/acprof:oso/9780199691609.003.0001
+F26,17,,10.22323/1.105.0047,['Lattice String Field Theory'],"{'date-parts': [[2011, 6, 6]]}",,https://doi.org/10.22323/1.105.0047
+F26,18,,10.1103/physrevd.21.2270,['Embedding lattice field theory in continuum field theory'],"{'date-parts': [[1980, 4, 15]]}",,https://doi.org/10.1103/physrevd.21.2270
+F26,19,,10.1007/978-1-4614-7320-6_77-3,['Stochastic Neural Field Theory'],{'date-parts': [[2013]]},,https://doi.org/10.1007/978-1-4614-7320-6_77-3
+F26,20,,10.1090/suga/440,['Rough path theory and stochastic calculus'],"{'date-parts': [[2019, 3, 21]]}",,https://doi.org/10.1090/suga/440
+F28,1,https://openalex.org/W4392781642,https://doi.org/10.48550/arxiv.2403.07041,Ant Colony Sampling with GFlowNets for Combinatorial Optimization,2024,3,http://arxiv.org/abs/2403.07041
+F28,2,https://openalex.org/W4320087118,https://doi.org/10.48550/arxiv.2302.04178,DynGFN: Towards Bayesian Inference of Gene Regulatory Networks with GFlowNets,2023,3,http://arxiv.org/abs/2302.04178
+F28,3,https://openalex.org/W4378760003,https://doi.org/10.48550/arxiv.2305.17010,Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets,2023,3,http://arxiv.org/abs/2305.17010
+F28,4,https://openalex.org/W4404400416,https://doi.org/10.48550/arxiv.2411.05899,Streaming Bayes GFlowNets,2024,1,http://arxiv.org/abs/2411.05899
+F28,5,https://openalex.org/W4378470894,https://doi.org/10.48550/arxiv.2305.14594,torchgfn: A PyTorch GFlowNet library,2023,1,http://arxiv.org/abs/2305.14594
+F28,6,https://openalex.org/W4414886939,https://doi.org/10.48550/arxiv.2505.19552,On scalable and efficient training of diffusion samplers,2025,1,http://arxiv.org/abs/2505.19552
+F28,7,https://openalex.org/W4406060247,https://doi.org/10.48550/arxiv.2407.13734,Understanding Reinforcement Learning-Based Fine-Tuning of Diffusion Models: A Tutorial and Review,2024,4,http://arxiv.org/abs/2407.13734
+F28,8,https://openalex.org/W4318718891,https://doi.org/10.48550/arxiv.2301.12594,A theory of continuous generative flow networks,2023,6,http://arxiv.org/abs/2301.12594
+F28,9,https://openalex.org/W4409347738,https://doi.org/10.1609/aaai.v39i19.34194,Denoising Diffusion Variational Inference: Diffusion Models as Expressive Variational Posteriors,2025,2,https://doi.org/10.1609/aaai.v39i19.34194
+F28,10,https://openalex.org/W4383180711,https://doi.org/10.48550/arxiv.2307.01198,Improved sampling via learned diffusions,2023,2,http://arxiv.org/abs/2307.01198
+F28,11,https://openalex.org/W4390690178,https://doi.org/10.48550/arxiv.2401.02739,Denoising Diffusion Variational Inference: Diffusion Models as Expressive Variational Posteriors,2024,1,http://arxiv.org/abs/2401.02739
+F28,12,https://openalex.org/W4403365366,https://doi.org/10.48550/arxiv.2410.08134,Steering Masked Discrete Diffusion Models via Discrete Denoising Posterior Prediction,2024,2,http://arxiv.org/abs/2410.08134
+F28,13,https://openalex.org/W4403322799,https://doi.org/10.48550/arxiv.2410.04542,Generative Flows on Synthetic Pathway for Drug Design,2024,4,http://arxiv.org/abs/2410.04542
+F28,14,https://openalex.org/W4391673418,https://doi.org/10.48550/arxiv.2402.04997,Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design,2024,10,https://pubmed.ncbi.nlm.nih.gov/38883240
+F28,15,https://openalex.org/W7133364876,,Rooted Absorbed Prefix Trajectory Balance with Submodular Replay for GFlowNet Training,2026,0,https://arxiv.org/abs/2603.00454
+F28,16,https://openalex.org/W4414972324,https://doi.org/10.48550/arxiv.2510.04792,Hybrid-Balance GFlowNet for Solving Vehicle Routing Problems,2025,0,http://arxiv.org/abs/2510.04792
+F28,17,https://openalex.org/W4414588086,https://doi.org/10.48550/arxiv.2505.20110,Beyond the Proxy: Trajectory-Distilled Guidance for Offline GFlowNet Training,2025,0,https://arxiv.org/abs/2505.20110
+F28,18,https://openalex.org/W4391766501,https://doi.org/10.48550/arxiv.2402.06121,Iterated Denoising Energy Matching for Sampling from Boltzmann Densities,2024,1,http://arxiv.org/abs/2402.06121
+F28,19,https://openalex.org/W7160457131,,Stable GFlowNets with Probabilistic Guarantees,2026,0,https://arxiv.org/abs/2605.01729
+F28,20,https://openalex.org/W4404088716,https://doi.org/10.48550/arxiv.2410.15474,Optimizing Backward Policies in GFlowNets via Trajectory Likelihood Maximization,2024,0,http://arxiv.org/abs/2410.15474
+F28,21,https://openalex.org/W4387389999,https://doi.org/10.48550/arxiv.2310.02679,Diffusion Generative Flow Samplers: Improving learning signals through partial trajectory optimization,2023,0,http://arxiv.org/abs/2310.02679
+F28,22,https://openalex.org/W4387323497,https://doi.org/10.48550/arxiv.2310.00386,Order-Preserving GFlowNets,2023,0,http://arxiv.org/abs/2310.00386
+F28,23,https://openalex.org/W4302011549,https://doi.org/10.48550/arxiv.2210.00580,GFlowNets and variational inference,2022,0,http://arxiv.org/abs/2210.00580
+F28,24,https://openalex.org/W4399554817,https://doi.org/10.48550/arxiv.2406.05426,Baking Symmetry into GFlowNets,2024,0,http://arxiv.org/abs/2406.05426
+F28,25,https://openalex.org/W4399115222,https://doi.org/10.48550/arxiv.2405.16012,Pessimistic Backward Policy for GFlowNets,2024,0,http://arxiv.org/abs/2405.16012
+F29,1,https://openalex.org/W7154655998,,Machine learning for four-dimensional SU(3) lattice gauge theories,2026,0,https://arxiv.org/abs/2604.12416
+F29,2,https://openalex.org/W7153983726,https://doi.org/10.22323/1.518.0020,Machine learning for four-dimensional SU(3) lattice gauge theories,2026,0,https://doi.org/10.22323/1.518.0020
+F29,3,https://openalex.org/W7126123636,,A scalable flow-based approach to mitigate topological freezing,2026,0,http://arxiv.org/abs/2601.20708
+F29,4,https://openalex.org/W7167530069,https://doi.org/10.22323/1.518.0127,Computing quantum entanglement with machine learning,2026,0,https://doi.org/10.22323/1.518.0127
+F29,5,https://openalex.org/W7165064378,,Machine Learning Topological Order from Defect Partition Functions,2026,0,https://arxiv.org/abs/2606.15799
+F29,6,https://openalex.org/W4400600637,https://doi.org/10.48550/arxiv.2407.07203,Graph Reinforcement Learning for Exploring BSM Model Spaces,2024,0,http://arxiv.org/abs/2407.07203
+F29,7,https://openalex.org/W2804871575,https://doi.org/10.7298/x4nz85nf,Topological excitations in a Bose gas &amp; sexual harassment reported by undergraduate physicists,2017,0,https://hdl.handle.net/1813/47903
+F29,8,https://openalex.org/W4404397249,https://doi.org/10.3204/pubdb-2024-06641,Machine learning and optimization-based approaches to duality in statistical physics,2024,0,http://arxiv.org/abs/2411.04838
+F29,9,https://openalex.org/W7167748867,,Pre-Strings Lectures on Artificial Intelligence,2026,0,https://arxiv.org/abs/2607.02905
+F29,10,https://openalex.org/W4417466262,https://doi.org/10.1016/j.scib.2026.06.028,"Global fits and the search for new physics: past, present and future",2026,0,https://doi.org/10.1016/j.scib.2026.06.028
+F29,11,https://openalex.org/W4386768283,https://doi.org/10.53846/goediss-10094,Improving Monte Carlo simulations in high energy physics using machine learning techniques,2023,0,http://dx.doi.org/10.53846/goediss-10094
+F30,1,https://openalex.org/W7135020858,https://doi.org/10.1007/jhep03(2026)111,Physics-conditioned diffusion models for lattice gauge theory,2026,2,https://doi.org/10.1007/jhep03(2026)111
+F30,2,https://openalex.org/W4391940875,https://doi.org/10.1038/s44386-026-00054-5,Generative AI for controllable protein sequence design: A survey,2026,4,https://doi.org/10.1038/s44386-026-00054-5
+F30,3,https://openalex.org/W7152438784,https://doi.org/10.1007/jhep04(2026)051,Scaling flow-based approaches for topology sampling in SU(3) gauge theory,2026,1,https://doi.org/10.1007/jhep04(2026)051
+F30,4,https://openalex.org/W4410217740,https://doi.org/10.1021/acs.jctc.5c00650,Machine Learning and Statistical Mechanics: Shared Synergies for Next Generation of Chemical Theory and Computation,2025,4,https://doi.org/10.1021/acs.jctc.5c00650
+F30,5,https://openalex.org/W7164973951,,Stochastic Path Sampler For Lattice Field Theory,2026,0,https://arxiv.org/abs/2606.13790
+F30,6,https://openalex.org/W7154539019,,Scalable Generative Sampling and Multilevel Estimation for Lattice Field Theories Near Criticality,2026,0,https://arxiv.org/abs/2604.10209
+F30,7,https://openalex.org/W4414970452,https://doi.org/10.48550/arxiv.2510.03824,Proximal Diffusion Neural Sampler,2025,0,https://arxiv.org/abs/2510.03824
+F30,8,https://openalex.org/W7153983726,https://doi.org/10.22323/1.518.0020,Machine learning for four-dimensional SU(3) lattice gauge theories,2026,0,https://doi.org/10.22323/1.518.0020
+F30,9,https://openalex.org/W7154655998,,Machine learning for four-dimensional SU(3) lattice gauge theories,2026,0,https://arxiv.org/abs/2604.12416
+F30,10,https://openalex.org/W7166531919,https://doi.org/10.22323/1.518.0257,Enhanced Sampling Techniques for Lattice Gauge Theory,2026,0,https://doi.org/10.22323/1.518.0257
+F30,11,https://openalex.org/W7149873933,,Enhanced Sampling Techniques for Lattice Gauge Theory,2026,0,http://arxiv.org/abs/2604.01287
+F30,12,https://openalex.org/W7160726880,,Diffusion model for SU(N) gauge theories,2026,0,https://arxiv.org/abs/2605.06134
+F30,13,https://openalex.org/W7163520630,https://doi.org/10.1038/s41467-026-73900-9,Scalable Boltzmann generators for equilibrium sampling of large-scale materials,2026,1,https://doi.org/10.1038/s41467-026-73900-9
+F30,14,https://openalex.org/W7163040575,https://doi.org/10.22323/1.518.0055,Generative sampling with physics-informed kernels,2026,0,https://doi.org/10.22323/1.518.0055
+F30,15,https://openalex.org/W7128555027,,Discrete Adjoint Schrödinger Bridge Sampler,2026,0,http://arxiv.org/abs/2602.08243
+F30,16,https://openalex.org/W7161353776,,The critical slowing down in diffusion models,2026,0,https://arxiv.org/abs/2605.12597
+F30,17,https://openalex.org/W7162219302,,MetaDNS: Enhancing Exploration in Discrete Neural Samplers via Well-Tempered Metadynamics,2026,0,https://arxiv.org/abs/2605.21722
+F30,18,https://openalex.org/W7131319238,,PackFlow: Generative Molecular Crystal Structure Prediction via Reinforcement Learning Alignment,2026,0,http://arxiv.org/abs/2602.20140
+F30,19,https://openalex.org/W7167154332,,Diffusion-warm sampling of the XY model enables fast thermalization at scale,2026,0,https://arxiv.org/abs/2606.30773
+F30,20,https://openalex.org/W7118052098,,Assessing generative modeling approaches for free energy estimates in condensed matter,2025,0,http://arxiv.org/abs/2512.23930
+F30,21,https://openalex.org/W7160564820,,Flow Sampling: Learning to Sample from Unnormalized Densities via Denoising Conditional Processes,2026,0,https://arxiv.org/abs/2605.03984
+F30,22,https://openalex.org/W7130617530,,MolCrystalFlow: Molecular Crystal Structure Prediction via Flow Matching,2026,0,http://arxiv.org/abs/2602.16020
+F30,23,https://openalex.org/W7126123636,,A scalable flow-based approach to mitigate topological freezing,2026,0,http://arxiv.org/abs/2601.20708
+F30,24,https://openalex.org/W7161090037,,CrystalREPA: Transferring Physical Priors from Universal MLIPs to Crystal Generative Models,2026,0,https://arxiv.org/abs/2605.08960
+F30,25,https://openalex.org/W7161091818,,Spherical Boltzmann machines: a solvable theory of learning and generation in energy-based models,2026,0,https://arxiv.org/abs/2605.09031
+L01,1,https://openalex.org/W2966746916,https://doi.org/10.1609/aaai.v33i01.33016834,CGMH: Constrained Sentence Generation by Metropolis-Hastings Sampling,2019,151,https://doi.org/10.1609/aaai.v33i01.33016834
+L01,2,https://openalex.org/W4298159693,https://doi.org/10.48550/arxiv.1504.01896,The Metropolis-Hastings algorithm,2015,19,http://arxiv.org/abs/1504.01896
+L01,3,https://openalex.org/W2941443959,https://doi.org/10.1103/physrevd.100.034515,Flow-based generative models for Markov chain Monte Carlo in lattice field theory,2019,228,https://doi.org/10.1103/physrevd.100.034515
+L01,4,https://openalex.org/W3043426275,https://doi.org/10.1109/mci.2022.3155327,Hands-On Bayesian Neural Networks—A Tutorial for Deep Learning Users,2022,832,https://doi.org/10.1109/mci.2022.3155327
+L01,5,https://openalex.org/W3204937802,https://doi.org/10.1109/tpami.2021.3116668,"Deep Generative Modelling: A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models",2021,627,https://durham-repository.worktribe.com/output/1232078
+L01,6,https://openalex.org/W3023066206,https://doi.org/10.1016/j.neuroimage.2020.116839,The Bayesian Virtual Epileptic Patient: A probabilistic framework designed to infer the spatial map of epileptogenicity in a personalized large-scale brain model of epilepsy spread,2020,141,https://doi.org/10.1016/j.neuroimage.2020.116839
+L01,7,https://openalex.org/W3170709189,https://doi.org/10.1002/9781118445112.stat07834,The <scp>M</scp> etropolis– <scp>H</scp> astings Algorithm,2015,31,https://doi.org/10.1002/9781118445112.stat07834
+L01,8,https://openalex.org/W2534708821,https://doi.org/10.1093/sysbio/syw077,Fundamentals and Recent Developments in Approximate Bayesian Computation,2016,236,https://doi.org/10.1093/sysbio/syw077
+L01,9,https://openalex.org/W4399270651,https://doi.org/10.48550/arxiv.2405.20322,Quantum generalizations of Glauber and Metropolis dynamics,2024,3,http://arxiv.org/abs/2405.20322
+L01,10,https://openalex.org/W2137873201,https://doi.org/10.2139/ssrn.358102,An Estimated Stochastic Dynamic General Equilibrium Model of the Euro Area,2002,501,https://doi.org/10.2139/ssrn.358102
+L01,11,https://openalex.org/W4403834027,https://doi.org/10.1038/s42254-024-00770-9,Challenges and opportunities in quantum optimization,2024,155,https://doi.org/10.1038/s42254-024-00770-9
+L01,12,https://openalex.org/W4285304933,https://doi.org/10.18653/v1/2022.acl-long.31,Mix and Match: Learning-free Controllable Text Generationusing Energy Language Models,2022,39,https://doi.org/10.18653/v1/2022.acl-long.31
+L01,13,https://openalex.org/W2046863970,https://doi.org/10.1111/1467-985x.00170,Combining Evidence on Air Pollution and Daily Mortality from the 20 Largest US Cities: A Hierarchical Modelling Strategy,2000,286,https://doi.org/10.1111/1467-985x.00170
+L01,14,https://openalex.org/W2044346605,https://doi.org/10.1214/09-ejs525,Semiparametric regression during 2003–2007,2009,252,https://doi.org/10.1214/09-ejs525
+L01,15,https://openalex.org/W2228050892,https://doi.org/10.1016/bs.hesmac.2016.03.006,Solution and Estimation Methods for DSGE Models,2016,170,https://doi.org/10.1016/bs.hesmac.2016.03.006
+L01,16,https://openalex.org/W4281552525,https://doi.org/10.1038/s43586-022-00121-x,Nested sampling for physical scientists,2022,152,https://doi.org/10.1038/s43586-022-00121-x
+L01,17,https://openalex.org/W4324325927,https://doi.org/10.1007/s10462-023-10443-1,Bayesian learning for neural networks: an algorithmic survey,2023,141,https://doi.org/10.1007/s10462-023-10443-1
+L01,18,https://openalex.org/W3010243192,https://doi.org/10.4230/oasics.parma-ditam.2026.5,LAMINA: An MLIR-Based Translation Library for Heterogeneous Quantum-Classical Compilation,2020,312,http://arxiv.org/abs/2003.02989
+L01,19,https://openalex.org/W4291465159,https://doi.org/10.3389/fpsyg.2022.935419,Estimating three- and four-parameter MIRT models with importance-weighted sampling enhanced variational auto-encoder,2022,16,https://doi.org/10.3389/fpsyg.2022.935419
+L01,20,https://openalex.org/W4396748050,https://doi.org/10.1007/jhep05(2024)060,Diffusion models as stochastic quantization in lattice field theory,2024,23,https://doi.org/10.1007/jhep05(2024)060
+L01,21,https://openalex.org/W3116711255,https://doi.org/10.1093/gji/ggab298,Bayesian seismic tomography using normalizing flows,2021,87,https://doi.org/10.1093/gji/ggab298
+L01,22,https://openalex.org/W2606866400,https://doi.org/10.1007/s11222-017-9796-9,Bayesian nonparametric spectral density estimation using B-spline priors,2018,40,https://doi.org/10.1007/s11222-017-9796-9
+L01,23,https://openalex.org/W3135287914,https://doi.org/10.1109/tpami.2021.3116668,"Deep Generative Modelling: A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models",2021,72,https://doi.org/10.1109/tpami.2021.3116668
+L01,24,https://openalex.org/W4385583918,https://doi.org/10.1038/s42254-023-00616-w,Advances in machine-learning-based sampling motivated by lattice quantum chromodynamics,2023,30,https://doi.org/10.1038/s42254-023-00616-w
+L01,25,https://openalex.org/W4389750777,https://doi.org/10.2172/2229681,"Quantum Optimization: Potential, Challenges, and the Path Forward",2023,64,https://doi.org/10.2172/2229681
+L02,1,https://openalex.org/W4391933919,https://doi.org/10.1214/23-sts919,Emerging Directions in Bayesian Computation,2024,4,https://doi.org/10.1214/23-sts919
+L02,2,https://openalex.org/W4366999323,https://doi.org/10.48550/arxiv.2304.11251,Machine Learning and the Future of Bayesian Computation,2023,1,http://arxiv.org/abs/2304.11251
+L02,3,https://openalex.org/W7163719938,,Folded Transport MCMC: Certifiable Quotient Posterior Computation for Symmetric Bayesian Models,2026,0,https://arxiv.org/abs/2606.04307
+L02,4,https://openalex.org/W4415249011,https://doi.org/10.1016/j.jcp.2026.115115,Mitigating mode collapse in normalizing flows by annealing with an adaptive schedule: Application to parameter estimation,2026,0,https://doi.org/10.1016/j.jcp.2026.115115
+L02,5,https://openalex.org/W2750366776,,Bayesian Modeling of General Multivariate Problems and High-Dimensional Time Series,2015,1,http://mediatum.ub.tum.de/node?id=1246134
+L02,6,https://openalex.org/W2809963708,,Recommender systems with Bayesian aspect models and the effect of approximate inference,2018,0,http://hdl.handle.net/10019.1/103789
+L02,7,https://openalex.org/W4414042801,https://doi.org/10.1007/978-3-032-03042-9_25,An Hybrid Preference Learning Framework to Refine the Consensus Ranking,2025,0,https://doi.org/10.1007/978-3-032-03042-9_25
+L02,8,https://openalex.org/W2790121509,,Structural Breaks and Forecasting in Empirical Finance and Macroeconomics,2010,0,http://hdl.handle.net/1807/19192
+L02,9,https://openalex.org/W4402326199,https://doi.org/10.7302/24064,Essays on International Organizations and Public Opinion,2024,0,http://deepblue.lib.umich.edu/bitstream/2027.42/194716/1/skuzushi_1.pdf
+L02,10,https://openalex.org/W2596607636,,Sparse Bayesian Linear Models: Computational Advances and Applications in Epidemiology,2014,0,https://aaltodoc.aalto.fi/handle/123456789/14605
+L02,11,https://openalex.org/W2722934551,,Generation of multivariate discrete data,2010,0,http://hdl.handle.net/2434/169750
+L02,12,https://openalex.org/W3153262283,,A statistical investigation into the relationship between supermassive black hole growth and star formation,2020,0,
+L02,13,https://openalex.org/W7160726486,,Bayesian Rain Field Reconstruction using Commercial Microwave Links and Diffusion Model Priors,2026,0,https://arxiv.org/abs/2605.05520
+L02,14,https://openalex.org/W3150316062,,Bayesian Partially Ordered Probit and Logit Models with an Application to Course Redesign,2014,0,https://digitalrepository.unm.edu/math_etds/63
+L02,15,https://openalex.org/W4414042865,https://doi.org/10.1007/978-3-032-03042-9_7,Weighted Logistic Oblique Tree for Regression,2025,0,https://doi.org/10.1007/978-3-032-03042-9_7
+L02,16,https://openalex.org/W7166557392,https://doi.org/10.26190/unsworks/32442,Data-Adaptive Modelling of Nonlinear Dynamics and Environmental Extremes,2026,0,http://hdl.handle.net/1959.4/108138
+L02,17,https://openalex.org/W7140086094,https://doi.org/10.1038/s41598-026-44990-8,A privacy preserving synthetic learner dataset for learning analytics in technology enhanced higher education,2026,0,https://doi.org/10.1038/s41598-026-44990-8
+L02,18,https://openalex.org/W4377085166,https://doi.org/10.59170/stattrans-2023,,2023,0,http://dx.doi.org/10.59170/stattrans-2023
+L03,1,https://openalex.org/W2112796928,https://doi.org/10.1109/5.726791,Gradient-based learning applied to document recognition,1998,58426,https://doi.org/10.1109/5.726791
+L03,2,https://openalex.org/W2013164703,https://doi.org/10.1214/ss/1028905934,Simulating normalizing constants: from importance sampling to bridge sampling to path sampling,1998,992,https://doi.org/10.1214/ss/1028905934
+L03,3,https://openalex.org/W2153492338,https://doi.org/10.1086/210356,Systematic Social Observation of Public Spaces: A New Look at Disorder in Urban Neighborhoods,1999,2478,https://doi.org/10.1086/210356
+L03,4,https://openalex.org/W2048192550,https://doi.org/10.1002/mrm.20965,Log‐Euclidean metrics for fast and simple calculus on diffusion tensors,2006,1086,https://doi.org/10.1002/mrm.20965
+L03,5,https://openalex.org/W2107687774,https://doi.org/10.1186/2050-3385-1-20,Observing the unwatchable through acceleration logging of animal behavior,2013,626,https://doi.org/10.1186/2050-3385-1-20
+L03,6,https://openalex.org/W2024046085,https://doi.org/10.1214/aos/1016218223,Additive logistic regression: a statistical view of boosting (With discussion and a rejoinder by the authors),2000,6960,https://doi.org/10.1214/aos/1016218223
+L03,7,https://openalex.org/W2063978378,https://doi.org/10.1214/009053604000000067,Least angle regression,2004,9506,https://doi.org/10.1214/009053604000000067
+L03,8,https://openalex.org/W2077339871,https://doi.org/10.1038/ismej.2013.141,Resistance and resilience of the forest soil microbiome to logging-associated compaction,2013,391,https://doi.org/10.1038/ismej.2013.141
+L03,9,https://openalex.org/W1876120984,https://doi.org/10.1111/j.1467-9868.2012.01046.x,SMC2: An Efficient Algorithm for Sequential Analysis of State Space Models,2012,344,https://doi.org/10.1111/j.1467-9868.2012.01046.x
+L03,10,https://openalex.org/W2102201073,https://doi.org/10.1214/aos/1176347963,Multivariate Adaptive Regression Splines,1991,8090,https://doi.org/10.1214/aos/1176347963
+L03,11,https://openalex.org/W2101846955,https://doi.org/10.1080/10635150490522304,Model Selection and Model Averaging in Phylogenetics: Advantages of Akaike Information Criterion and Bayesian Approaches Over Likelihood Ratio Tests,2004,3999,https://doi.org/10.1080/10635150490522304
+L03,12,https://openalex.org/W1990869665,https://doi.org/10.1016/j.nima.2016.06.125,Recent developments in Geant4,2016,4077,https://doi.org/10.1016/j.nima.2016.06.125
+L03,13,https://openalex.org/W2138122982,https://doi.org/10.1371/journal.pcbi.1002195,Accelerated Profile HMM Searches,2011,7523,https://doi.org/10.1371/journal.pcbi.1002195
+L03,14,https://openalex.org/W3196716344,https://doi.org/10.1088/1361-6633/ac73a0,Quantum many-body scars and Hilbert space fragmentation: a review of exact results,2022,465,https://doi.org/10.1088/1361-6633/ac73a0
+L03,15,https://openalex.org/W1995102142,https://doi.org/10.1203/00006450-197001000-00002,Bromide Space Studies in Infants of Low Birth Weight,1970,69,https://doi.org/10.1203/00006450-197001000-00002
+L03,16,https://openalex.org/W2981731882,https://doi.org/10.1016/j.inffus.2019.12.012,"Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",2019,9149,https://doi.org/10.1016/j.inffus.2019.12.012
+L03,17,https://openalex.org/W3197167612,https://doi.org/10.1109/access.2021.3108177,A Comprehensive Review of Coverage Path Planning in Robotics Using Classical and Heuristic Algorithms,2021,321,https://doi.org/10.1109/access.2021.3108177
+L03,18,https://openalex.org/W2604314403,https://doi.org/10.1007/978-3-319-93417-4_38,Modeling Relational Data with Graph Convolutional Networks,2018,5079,https://doi.org/10.1007/978-3-319-93417-4_38
+L03,19,https://openalex.org/W1479807131,https://doi.org/10.7551/mitpress/9780262033589.001.0001,Semi-Supervised Learning,2006,4319,https://doi.org/10.7551/mitpress/9780262033589.001.0001
+L03,20,https://openalex.org/W3167954679,https://doi.org/10.1002/ecm.1470,A guide to state-space modeling of ecological time series,2020,274,http://arxiv.org/abs/2002.02001
+L03,21,https://openalex.org/W2955897898,https://doi.org/10.1109/access.2019.2921522,Wireless Communications and Applications Above 100 GHz: Opportunities and Challenges for 6G and Beyond,2019,2470,https://doi.org/10.1109/access.2019.2921522
+L03,22,https://openalex.org/W4200345206,https://doi.org/10.1515/nanoph-2021-0527,Orbital angular momentum and beyond in free‐space optical communications,2021,340,https://doi.org/10.1515/nanoph-2021-0527
+L03,23,https://openalex.org/W2968923792,https://doi.org/10.1038/s41524-019-0221-0,Recent advances and applications of machine learning in solid-state materials science,2019,2421,https://doi.org/10.1038/s41524-019-0221-0
+L03,24,https://openalex.org/W3148711710,https://doi.org/10.1109/access.2021.3071274,Graph Neural Network: A Comprehensive Review on Non-Euclidean Space,2021,220,https://doi.org/10.1109/access.2021.3071274
+L03,25,https://openalex.org/W2025274940,https://doi.org/10.1093/molbev/msu252,"Investigating the Path of Plastid Genome Degradation in an Early-Transitional Clade of Heterotrophic Orchids, and Implications for Heterotrophic Angiosperms",2014,244,https://doi.org/10.1093/molbev/msu252
+L04,1,https://openalex.org/W7135020858,https://doi.org/10.1007/jhep03(2026)111,Physics-conditioned diffusion models for lattice gauge theory,2026,2,https://doi.org/10.1007/jhep03(2026)111
+L04,2,https://openalex.org/W4385583918,https://doi.org/10.1038/s42254-023-00616-w,Advances in machine-learning-based sampling motivated by lattice quantum chromodynamics,2023,30,https://doi.org/10.1038/s42254-023-00616-w
+L04,3,https://openalex.org/W4317831193,https://doi.org/10.22323/1.430.0028,Towards the Application of Skewed Detailed Balance in Lattice Gauge Theories,2023,1,http://dx.doi.org/10.22323/1.430.0028
+L04,4,https://openalex.org/W7152438784,https://doi.org/10.1007/jhep04(2026)051,Scaling flow-based approaches for topology sampling in SU(3) gauge theory,2026,1,https://doi.org/10.1007/jhep04(2026)051
+L04,5,https://openalex.org/W4403834027,https://doi.org/10.1038/s42254-024-00770-9,Challenges and opportunities in quantum optimization,2024,155,https://doi.org/10.1038/s42254-024-00770-9
+L04,6,https://openalex.org/W4308389692,https://doi.org/10.48550/arxiv.1902.04924,The Phase Field Method for Geometric Moving Interfaces and Their Numerical Approximations,2019,11,http://arxiv.org/abs/1902.04924
+L04,7,https://openalex.org/W4412010974,https://doi.org/10.1515/nanoph-2025-0049,Machine‐learning‐assisted photonic device development: a multiscale approach from theory to characterization,2025,10,https://doi.org/10.1515/nanoph-2025-0049
+L04,8,https://openalex.org/W4230525192,https://doi.org/10.1007/978-3-319-65558-1,Probabilistic Cellular Automata,2018,47,https://doi.org/10.1007/978-3-319-65558-1
+L04,9,https://openalex.org/W4389750777,https://doi.org/10.2172/2229681,"Quantum Optimization: Potential, Challenges, and the Path Forward",2023,64,https://doi.org/10.2172/2229681
+L04,10,https://openalex.org/W4399421131,https://doi.org/10.48550/arxiv.2406.02313,Neural Thermodynamic Integration: Free Energies from Energy-based Diffusion Models,2024,1,http://arxiv.org/abs/2406.02313
+L04,11,https://openalex.org/W7164973951,,Stochastic Path Sampler For Lattice Field Theory,2026,0,https://arxiv.org/abs/2606.13790
+L04,12,https://openalex.org/W4407384902,https://doi.org/10.48550/arxiv.2502.05504,Physics-Conditioned Diffusion Models for Lattice Gauge Theory,2025,0,http://arxiv.org/abs/2502.05504
+L04,13,https://openalex.org/W3201765802,https://doi.org/10.22331/q-2022-08-04-772,Deviation bounds and concentration inequalities for quantum noises,2022,8,https://doi.org/10.22331/q-2022-08-04-772
+L04,14,https://openalex.org/W3126824739,https://doi.org/10.1103/physrevresearch.3.023183,Probing the topological Anderson transition with quantum walks,2021,16,https://doi.org/10.1103/physrevresearch.3.023183
+L04,15,https://openalex.org/W3095832741,https://doi.org/10.1016/j.biotechadv.2020.107652,Guidelines for establishing a 3-D printing biofabrication laboratory,2020,31,https://doi.org/10.1016/j.biotechadv.2020.107652
+L04,16,https://openalex.org/W7166531919,https://doi.org/10.22323/1.518.0257,Enhanced Sampling Techniques for Lattice Gauge Theory,2026,0,https://doi.org/10.22323/1.518.0257
+L04,17,https://openalex.org/W7149873933,,Enhanced Sampling Techniques for Lattice Gauge Theory,2026,0,http://arxiv.org/abs/2604.01287
+L04,18,https://openalex.org/W4302011891,https://doi.org/10.1371/journal.pcbi.1009508,Efficient Bayesian inference for stochastic agent-based models,2022,24,https://doi.org/10.1371/journal.pcbi.1009508
+L04,19,https://openalex.org/W7153983726,https://doi.org/10.22323/1.518.0020,Machine learning for four-dimensional SU(3) lattice gauge theories,2026,0,https://doi.org/10.22323/1.518.0020
+L04,20,https://openalex.org/W7154655998,,Machine learning for four-dimensional SU(3) lattice gauge theories,2026,0,https://arxiv.org/abs/2604.12416
+L04,21,https://openalex.org/W4391555684,https://doi.org/10.48550/arxiv.2402.01046,Towards the Application of Skewed Detailed Balance in Lattice Gauge Theories,2024,0,http://arxiv.org/abs/2402.01046
+L04,22,https://openalex.org/W4405561753,https://doi.org/10.1088/1367-2630/add7fd,Emergent electrostatics in planar XY spin models: the bridge connecting topological order with broken <i>U</i>(1) symmetry,2025,1,https://doi.org/10.1088/1367-2630/add7fd
+L04,23,https://openalex.org/W2241116293,https://doi.org/10.1166/jcsmd.2015.1069,Data-Driven Modelling of Biological Multi-Scale Processes,2015,10,https://doi.org/10.1166/jcsmd.2015.1069
+L04,24,https://openalex.org/W4407414793,https://doi.org/10.22323/1.466.0042,Exploring Generative Networks for Manifolds with Non-Trivial Topology,2025,0,https://doi.org/10.22323/1.466.0042
+L04,25,https://openalex.org/W4407185740,https://doi.org/10.48550/arxiv.2502.02127,Exploring Generative Networks for Manifolds with Non-Trivial Topology,2025,0,http://arxiv.org/abs/2502.02127
+L05,1,https://openalex.org/W4388334765,https://doi.org/10.1140/epja/s10050-023-01154-w,Aspects of scaling and scalability for flow-based sampling of lattice QCD,2023,31,https://doi.org/10.1140/epja/s10050-023-01154-w
+L05,2,https://openalex.org/W4396748050,https://doi.org/10.1007/jhep05(2024)060,Diffusion models as stochastic quantization in lattice field theory,2024,23,https://doi.org/10.1007/jhep05(2024)060
+L05,3,https://openalex.org/W4385583918,https://doi.org/10.1038/s42254-023-00616-w,Advances in machine-learning-based sampling motivated by lattice quantum chromodynamics,2023,30,https://doi.org/10.1038/s42254-023-00616-w
+L05,4,https://openalex.org/W4309137076,https://doi.org/10.48550/arxiv.2211.07541,Aspects of scaling and scalability for flow-based sampling of lattice QCD,2022,5,http://arxiv.org/abs/2211.07541
+L05,5,https://openalex.org/W3170230818,https://doi.org/10.1103/physrevd.104.114507,Flow-based sampling for fermionic lattice field theories,2021,4,https://doi.org/10.1103/physrevd.104.114507
+L05,6,https://openalex.org/W4390572962,https://doi.org/10.48550/arxiv.2401.01297,Flow-based sampling for lattice field theories,2024,0,http://arxiv.org/abs/2401.01297
+L05,7,https://openalex.org/W7131475825,,Lattice Gauge Theory via LLVM-Level Automatic Differentiation,2026,0,http://arxiv.org/abs/2602.20516
+L05,8,https://openalex.org/W7154655998,,Machine learning for four-dimensional SU(3) lattice gauge theories,2026,0,https://arxiv.org/abs/2604.12416
+L05,9,https://openalex.org/W7153983726,https://doi.org/10.22323/1.518.0020,Machine learning for four-dimensional SU(3) lattice gauge theories,2026,0,https://doi.org/10.22323/1.518.0020
+L05,10,https://openalex.org/W4415274612,https://doi.org/10.48550/arxiv.2510.13112,Neural Triangular Transport Maps: A New Approach Towards Sampling in Lattice QCD,2025,0,http://arxiv.org/abs/2510.13112
+L05,11,https://openalex.org/W7126123636,,A scalable flow-based approach to mitigate topological freezing,2026,0,http://arxiv.org/abs/2601.20708
+L05,12,https://openalex.org/W4405957221,https://doi.org/10.48550/arxiv.2412.20884,A gradient-based and determinant-free framework for fully Bayesian Gaussian process regression,2024,0,http://arxiv.org/abs/2412.20884
+L06,1,https://openalex.org/W2914341699,https://doi.org/10.1162/neco_a_01210,Learning Compositional Representations of Interacting Systems with Restricted Boltzmann Machines: Comparative Study of Lattice Proteins,2019,43,https://doi.org/10.1162/neco_a_01210
+L06,2,https://openalex.org/W4389674942,https://doi.org/10.21468/scipostphys.15.6.238,Learning lattice quantum field theories with equivariant continuous flows,2023,35,https://doi.org/10.21468/scipostphys.15.6.238
+L06,3,https://openalex.org/W4388334765,https://doi.org/10.1140/epja/s10050-023-01154-w,Aspects of scaling and scalability for flow-based sampling of lattice QCD,2023,31,https://doi.org/10.1140/epja/s10050-023-01154-w
+L06,4,https://openalex.org/W3048457240,https://doi.org/10.1103/physrevd.103.074504,"Sampling using<mml:math xmlns:mml=""http://www.w3.org/1998/Math/MathML"" display=""inline""><mml:mrow><mml:mi>SU</mml:mi><mml:mo stretchy=""false"">(</mml:mo><mml:mi>N</mml:mi><mml:mo stretchy=""false"">)</mml:mo></mml:mrow></mml:math>gauge equivariant flows",2021,114,https://doi.org/10.1103/physrevd.103.074504
+L06,5,https://openalex.org/W4396748050,https://doi.org/10.1007/jhep05(2024)060,Diffusion models as stochastic quantization in lattice field theory,2024,23,https://doi.org/10.1007/jhep05(2024)060
+L06,6,https://openalex.org/W4294292691,https://doi.org/10.1038/s41524-022-00872-x,Training data selection for accuracy and transferability of interatomic potentials,2022,54,https://doi.org/10.1038/s41524-022-00872-x
+L06,7,https://openalex.org/W4404580258,https://doi.org/10.1021/acs.chemrev.4c00572,Data Generation for Machine Learning Interatomic Potentials and Beyond,2024,136,https://doi.org/10.1021/acs.chemrev.4c00572
+L06,8,https://openalex.org/W2992672360,https://doi.org/10.3390/rs11232857,Transferred Multi-Perception Attention Networks for Remote Sensing Image Super-Resolution,2019,34,https://doi.org/10.3390/rs11232857
+L06,9,https://openalex.org/W4392730905,https://doi.org/10.1007/jhep02(2024)048,Sampling the lattice Nambu-Goto string using Continuous Normalizing Flows,2024,14,https://doi.org/10.1007/jhep02(2024)048
+L06,10,https://openalex.org/W2811395263,https://doi.org/10.1137/16m1082469,"Survey of Multifidelity Methods in Uncertainty Propagation, Inference, and Optimization",2018,1027,https://doi.org/10.1137/16m1082469
+L06,11,https://openalex.org/W2324797960,https://doi.org/10.2343/geochemj.2.0350,Hayabusa2: Scientific importance of samples returned from C-type near-Earth asteroid (162173) 1999 JU3,2014,149,https://doi.org/10.2343/geochemj.2.0350
+L06,12,https://openalex.org/W2905832030,https://doi.org/10.1109/cvpr.2019.00248,Animating Arbitrary Objects via Deep Motion Transfer,2019,18,https://doi.org/10.1109/cvpr.2019.00248
+L06,13,https://openalex.org/W3120509478,https://doi.org/10.1007/s13346-020-00888-0,Investigating hesperetin nanocrystals with tailor-made sizes for the prevention and treatment of Alzheimer’s disease,2021,32,https://doi.org/10.1007/s13346-020-00888-0
+L06,14,https://openalex.org/W4309137076,https://doi.org/10.48550/arxiv.2211.07541,Aspects of scaling and scalability for flow-based sampling of lattice QCD,2022,5,http://arxiv.org/abs/2211.07541
+L06,15,https://openalex.org/W2129999749,https://doi.org/10.1561/2200000013,An Introduction to Conditional Random Fields,2012,529,https://doi.org/10.1561/2200000013
+L06,16,https://openalex.org/W4280588797,https://doi.org/10.22323/1.396.0059,Machine Learning Trivializing Maps: A First Step Towards Understanding How Flow-Based Samplers Scale Up,2022,5,https://doi.org/10.22323/1.396.0059
+L06,17,https://openalex.org/W2328078142,https://doi.org/10.1017/s0140525x16001837,Building machines that learn and think like people,2016,170,https://doi.org/10.1017/s0140525x16001837
+L06,18,https://openalex.org/W3170230818,https://doi.org/10.1103/physrevd.104.114507,Flow-based sampling for fermionic lattice field theories,2021,4,https://doi.org/10.1103/physrevd.104.114507
+L06,19,https://openalex.org/W4409994457,https://doi.org/10.1103/physrevd.111.074517,Scaling of stochastic normalizing flows in SU(3) lattice gauge theory,2025,5,https://doi.org/10.1103/physrevd.111.074517
+L06,20,https://openalex.org/W4319311630,https://doi.org/10.1103/physrevd.107.035004,Exploring parameter spaces with artificial intelligence and machine learning black-box optimization algorithms,2023,16,https://doi.org/10.1103/physrevd.107.035004
+L06,21,https://openalex.org/W3195321391,https://doi.org/10.1038/s41598-021-95523-4,Learning spin liquids on a honeycomb lattice with artificial neural networks,2021,4,https://doi.org/10.1038/s41598-021-95523-4
+L06,22,https://openalex.org/W4386714071,https://doi.org/10.1038/s41524-023-01104-6,Hyperactive learning for data-driven interatomic potentials,2023,102,https://doi.org/10.1038/s41524-023-01104-6
+L06,23,https://openalex.org/W2945413402,https://doi.org/10.1109/iccv.2019.00299,6-DOF GraspNet: Variational Grasp Generation for Object Manipulation,2019,37,https://doi.org/10.1109/iccv.2019.00299
+L06,24,https://openalex.org/W4297453506,https://doi.org/10.48550/arxiv.2109.08771,Search-Based Task Planning with Learned Skill Effect Models for Lifelong Robotic Manipulation,2021,4,http://arxiv.org/abs/2109.08771
+L06,25,https://openalex.org/W4416717342,https://doi.org/10.1103/31d5-hvp6,Nonperturbative trivializing flows for lattice gauge theories,2025,2,https://doi.org/10.1103/31d5-hvp6
