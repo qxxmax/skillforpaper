@@ -1,0 +1,37 @@
+QueryID,Round,RouteFamily,AxisCombination,QueryString,DomainLock,NegativeTerms,SourceTermIDs,TargetSource,ExpectedFacet,Status
+Q01,R1,identifier,identity,"""Stochastic Path Sampler For Lattice Field Theory""",,,,OpenAlex,identity,executed
+Q02,R1,identifier,identity,"""Stochastic Path Sampler For Lattice Field Theory""",,,,Crossref,identity,executed
+Q03,R1,identifier,identity,"ti:""Stochastic Path Sampler For Lattice Field Theory""",,,,arXiv,identity,executed
+Q04,R1,backward_citation,lineage,all live root references,,,,root_bibliography,lineage,executed
+Q05,R1,forward_citation,forward,works citing arXiv:2606.13790,,,,OpenAlex,forward,executed
+Q06,R1,author,author,"""Shiyang Chen"" lattice sampler",,,,OpenAlex,author,executed
+Q07,R1,author,author,"""Moxian Qian"" lattice sampler",,,,OpenAlex,author,executed
+Q08,R1,author,author,"""Gert Aarts"" lattice sampler",,,,OpenAlex,author,executed
+Q09,R1,author,author,"""Biagio Lucini"" lattice sampler",,,,OpenAlex,author,executed
+Q10,R1,author,author,"""Kai Zhou"" lattice sampler",,,,OpenAlex,author,executed
+Q11,R1,keyword,failure,critical slowing down sampling,lattice field theory,,K02,OpenAlex,failure,executed
+Q12,R1,keyword,failure,topological freezing sampling,lattice field theory,,K03,OpenAlex,failure,executed
+Q13,R1,keyword,mechanism,trajectory-level balance sampling,lattice field theory,,K06,OpenAlex,mechanism,executed
+Q14,R1,keyword,mechanism,forward and backward stochastic dynamics sampling,lattice field theory,,K07,OpenAlex,mechanism,executed
+Q15,R1,keyword,objective,path-space variational free energy sampling,lattice field theory,,K08,OpenAlex,objective,executed
+Q16,R1,keyword,objective,entropy production sampling,lattice field theory,,K09,OpenAlex,objective,executed
+Q17,R1,keyword,correction,Independence Metropolis sampling,lattice field theory,,K10,OpenAlex,correction,executed
+Q18,R1,keyword,adjacent_method,normalizing flows sampling,lattice field theory,,K12,OpenAlex,adjacent_method,executed
+Q19,R1,keyword,adjacent_method,continuous normalizing flows sampling,lattice field theory,,K13,OpenAlex,adjacent_method,executed
+Q20,R1,keyword,adjacent_method,autoregressive networks sampling,lattice field theory,,K14,OpenAlex,adjacent_method,executed
+Q21,R1,keyword,adjacent_method,stochastic normalizing flows sampling,lattice field theory,,K15,OpenAlex,adjacent_method,executed
+Q22,R1,keyword,adjacent_method,diffusion sampling,lattice field theory,,K16,OpenAlex,adjacent_method,executed
+Q23,R1,keyword,failure,mode collapse sampling,lattice field theory,,K18,OpenAlex,failure,executed
+Q24,R1,keyword,extension,gauge equivariant sampling,lattice field theory,,K19,OpenAlex,extension,executed
+Q25,R1,keyword,objective,"all:""path-space variational free energy"" AND all:""lattice field""",lattice field theory,,K08,arXiv,objective,executed
+Q26,R1,keyword,objective,"all:""entropy production"" AND all:""lattice field""",lattice field theory,,K09,arXiv,objective,executed
+Q27,R1,keyword,correction,"all:""Independence Metropolis"" AND all:""lattice field""",lattice field theory,,K10,arXiv,correction,executed
+Q28,R1,keyword,adjacent_method,"all:""normalizing flows"" AND all:""lattice field""",lattice field theory,,K12,arXiv,adjacent_method,executed
+Q29,R1,keyword,adjacent_method,"all:""continuous normalizing flows"" AND all:""lattice field""",lattice field theory,,K13,arXiv,adjacent_method,executed
+Q30,R1,keyword,adjacent_method,"all:""autoregressive networks"" AND all:""lattice field""",lattice field theory,,K14,arXiv,adjacent_method,executed
+Q31,R1,adjacent,correction,learned sampler exact correction unnormalized target,lattice field theory,,K10;K04,OpenAlex,correction,executed
+Q32,R1,adversarial,failure,generative sampler critical slowing mode collapse,lattice field theory,,K02;K18,OpenAlex,failure,executed
+Q33,R1,extension,extension,gauge equivariant sampler topological freezing,lattice field theory,,K03;K19,OpenAlex,extension,executed
+Q34,R1,evaluation,evaluation,lattice sampler training cost autocorrelation,lattice field theory,,K21;K22,Crossref,evaluation,executed
+Q35,R1,source_link,identity,2606.13790,lattice field theory,,,Crossref,identity,executed
+Q36,R1,closure,lineage,path space sampler stochastic control diffusion,lattice field theory,,K07;K17,OpenAlex,lineage,executed

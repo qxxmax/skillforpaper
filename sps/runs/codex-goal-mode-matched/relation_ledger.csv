@@ -1,0 +1,66 @@
+EdgeID,SourceID,TargetID,EdgeType,DirectlyCited,EvidenceID,RelationBasis,Confidence,HumanReviewStatus,PublicGraphStatus
+E001,P_ROOT,BIB_01,direct_citation,yes,ROOT-BIB-01,Live TeX citation at line 72; bibliography ref. 1 (rezende2015variational).,high,reviewed,hold
+E002,P_ROOT,BIB_02,direct_citation,yes,ROOT-BIB-02,Live TeX citation at line 72; bibliography ref. 2 (chen2018neural).,high,reviewed,hold
+E003,P_ROOT,BIB_03,direct_citation,yes,ROOT-BIB-03,Live TeX citation at line 72; bibliography ref. 3 (Wu:2019elz).,high,reviewed,hold
+E004,P_ROOT,P_2005_04857,direct_citation,yes,ROOT-BIB-04,Live TeX citation at line 72; bibliography ref. 4 (Wang:2020hji).,high,reviewed,hold
+E005,P_ROOT,P_1904_12072,direct_citation,yes,ROOT-BIB-05,Live TeX citation at line 72; bibliography ref. 5 (Albergo_2019).,high,reviewed,show
+E006,P_ROOT,P_2007_07115,direct_citation,yes,ROOT-BIB-06,Live TeX citation at line 72; bibliography ref. 6 (Nicoli:2020njz).,high,reviewed,show
+E007,P_ROOT,P_2106_05934,direct_citation,yes,ROOT-BIB-07,Live TeX citation at line 72; bibliography ref. 7 (albergo2021flow).,high,reviewed,show
+E008,P_ROOT,P_2003_06413,direct_citation,yes,ROOT-BIB-08,Live TeX citation at line 72; bibliography ref. 8 (Kanwar_2020).,high,reviewed,show
+E009,P_ROOT,BIB_09,direct_citation,yes,ROOT-BIB-09,Live TeX citation at line 72; bibliography ref. 9 (Boyda_2021).,high,reviewed,hold
+E010,P_ROOT,P_2202_11712,direct_citation,yes,ROOT-BIB-10,Live TeX citation at line 72; bibliography ref. 10 (Albergo_2022).,high,reviewed,show
+E011,P_ROOT,P_2512_19575,direct_citation,yes,ROOT-BIB-11,Live TeX citation at line 72; bibliography ref. 11 (Qian:2025VANphi4).,high,reviewed,show
+E012,P_ROOT,P_2207_00283,direct_citation,yes,ROOT-BIB-12,Live TeX citation at line 73; bibliography ref. 12 (Gerdes_2023).,high,reviewed,show
+E013,P_ROOT,P_2110_02673,direct_citation,yes,ROOT-BIB-13,Live TeX citation at line 73; bibliography ref. 13 (dehaan2021scalingmachinelearningquantum).,high,reviewed,show
+E014,P_ROOT,P_2502_02127,direct_citation,yes,ROOT-BIB-14,Live TeX citation at line 74; bibliography ref. 14 (Chen:2025kfo).,high,reviewed,show
+E015,P_ROOT,P_2107_00734,direct_citation,yes,ROOT-BIB-15,Live TeX citation at line 74; bibliography ref. 15 (hackett2025flowbasedsamplingmultimodalextendedmode).,high,reviewed,show
+E016,P_ROOT,P_2211_03470,direct_citation,yes,ROOT-BIB-16,Live TeX citation at line 75; bibliography ref. 16 (Chen:2022ytr).,high,reviewed,hold
+E017,P_ROOT,P_2303_15136,direct_citation,yes,ROOT-BIB-17,Live TeX citation at line 75; bibliography ref. 17 (Zhou:2023pti).,high,reviewed,hold
+E018,P_ROOT,BIB_18,direct_citation,yes,ROOT-BIB-18,Live TeX citation at line 75; bibliography ref. 18 (wu2020stochastic).,high,reviewed,hold
+E019,P_ROOT,P_2201_08862,direct_citation,yes,ROOT-BIB-19,Live TeX citation at line 75; bibliography ref. 19 (Caselle_2022).,high,reviewed,show
+E020,P_ROOT,P_2210_03139,direct_citation,yes,ROOT-BIB-20,Live TeX citation at line 75; bibliography ref. 20 (caselle2022stochasticnormalizingflowslattice).,high,reviewed,show
+E021,P_ROOT,P_2412_19109,direct_citation,yes,ROOT-BIB-21,Live TeX citation at line 75; bibliography ref. 21 (caselle2025stochasticnormalizingflowseffective).,high,reviewed,hold
+E022,P_ROOT,P_2409_15937,direct_citation,yes,ROOT-BIB-22,Live TeX citation at line 75; bibliography ref. 22 (Caselle_2025).,high,reviewed,hold
+E023,P_ROOT,P_1810_12879,direct_citation,yes,ROOT-BIB-23,Live TeX citation at line 79; bibliography ref. 23 (Zhou:2018ill).,high,reviewed,hold
+E024,P_ROOT,BIB_24,direct_citation,yes,ROOT-BIB-24,Live TeX citation at line 79; bibliography ref. 24 (song2019generative).,high,reviewed,hold
+E025,P_ROOT,P_2309_17082,direct_citation,yes,ROOT-BIB-25,Live TeX citation at line 79; bibliography ref. 25 (Wang:2023exq).,high,reviewed,show
+E026,P_ROOT,P_2502_05504,direct_citation,yes,ROOT-BIB-26,Live TeX citation at line 79; bibliography ref. 26 (Zhu:2025pmw).,high,reviewed,show
+E027,P_ROOT,P_2510_26081,direct_citation,yes,ROOT-BIB-27,Live TeX citation at line 79; bibliography ref. 27 (Vega:2025hgz).,high,reviewed,show
+E028,P_ROOT,P_2601_19552,direct_citation,yes,ROOT-BIB-28,Live TeX citation at line 80; bibliography ref. 28 (Aarts:2026zzr).,high,reviewed,show
+E029,P_ROOT,P_2602_09045,direct_citation,yes,ROOT-BIB-29,Live TeX citation at line 80; bibliography ref. 29 (Alharazin:2026lcb).,high,reviewed,show
+E030,P_ROOT,P_2605_06134,direct_citation,yes,ROOT-BIB-30,Live TeX citation at line 80; bibliography ref. 30 (Komijani:2026lan).,high,reviewed,show
+E031,P_ROOT,P_2510_01328,direct_citation,yes,ROOT-BIB-31,Live TeX citation at line 81; bibliography ref. 31 (Aarts:2025lpi).,high,reviewed,show
+E032,P_ROOT,P_2605_11199,direct_citation,yes,ROOT-BIB-32,Live TeX citation at line 84; bibliography ref. 32 (Qian:2026OperatorSpectroscopy).,high,reviewed,show
+E033,P_ROOT,P_2111_15141,direct_citation,yes,ROOT-BIB-33,Live TeX citation at line 86; bibliography ref. 33 (zhang2022pathintegralsamplerstochastic).,high,reviewed,show
+E034,P_ROOT,P_2302_13834,direct_citation,yes,ROOT-BIB-34,Live TeX citation at line 86; bibliography ref. 34 (vargas2023denoisingdiffusionsamplers).,high,reviewed,show
+E035,P_ROOT,P_2211_01364,direct_citation,yes,ROOT-BIB-35,Live TeX citation at line 86; bibliography ref. 35 (berner2024optimalcontrolperspectivediffusionbased).,high,reviewed,hold
+E036,P_ROOT,P_2307_01198,direct_citation,yes,ROOT-BIB-36,Live TeX citation at line 86; bibliography ref. 36 (richter2024improvedsamplinglearneddiffusions).,high,reviewed,hold
+E037,P_ROOT,P_2307_01050,direct_citation,yes,ROOT-BIB-37,Live TeX citation at line 86; bibliography ref. 37 (vargas2025transportmeetsvariationalinference).,high,reviewed,hold
+E038,P_ROOT,P_2410_02711,direct_citation,yes,ROOT-BIB-38,Live TeX citation at line 86; bibliography ref. 38 (Albergo:2024trn).,high,reviewed,show
+E039,P_ROOT,BIB_39,direct_citation,yes,ROOT-BIB-39,Live TeX citation at line 88; bibliography ref. 39 (ColemanNoll1963).,high,reviewed,hold
+E040,P_ROOT,BIB_40,direct_citation,yes,ROOT-BIB-40,Live TeX citation at line 88; bibliography ref. 40 (Kleidon2010).,high,reviewed,hold
+E041,P_ROOT,BIB_41,direct_citation,yes,ROOT-BIB-41,Live TeX citation at line 88; bibliography ref. 41 (Dyke2010).,high,reviewed,hold
+E042,P_ROOT,BIB_42,direct_citation,yes,ROOT-BIB-42,Live TeX citation at line 88; bibliography ref. 42 (Skinner2021).,high,reviewed,hold
+E043,P_ROOT,BIB_43,direct_citation,yes,ROOT-BIB-43,Live TeX citation at line 88; bibliography ref. 43 (Karbowski2024).,high,reviewed,hold
+E044,P_ROOT,BIB_44,direct_citation,yes,ROOT-BIB-44,Live TeX citation at line 88; bibliography ref. 44 (Jakimowicz2020).,high,reviewed,hold
+E045,P_ROOT,BIB_45,direct_citation,yes,ROOT-BIB-45,Live TeX citation at line 88; bibliography ref. 45 (Purvis2019).,high,reviewed,hold
+E046,P_ROOT,BIB_46,direct_citation,yes,ROOT-BIB-46,Live TeX citation at line 88; bibliography ref. 46 (Landauer1961).,high,reviewed,hold
+E047,P_ROOT,BIB_47,direct_citation,yes,ROOT-BIB-47,Live TeX citation at line 88; bibliography ref. 47 (SagawaUeda2008).,high,reviewed,hold
+E048,P_ROOT,BIB_48,direct_citation,yes,ROOT-BIB-48,Live TeX citation at line 88; bibliography ref. 48 (Parrondo2015).,high,reviewed,hold
+E049,P_ROOT,BIB_49,direct_citation,yes,ROOT-BIB-49,Live TeX citation at line 91; bibliography ref. 49 (Parisi:1980ys).,high,reviewed,hold
+E050,P_ROOT,BIB_50,direct_citation,yes,ROOT-BIB-50,Live TeX citation at line 91; bibliography ref. 50 (Damgaard:1987rr).,high,reviewed,hold
+E051,P_ROOT,BIB_51,direct_citation,yes,ROOT-BIB-51,Live TeX citation at line 112; bibliography ref. 51 (bengio2021gflownet).,high,reviewed,hold
+E052,P_ROOT,BIB_52,direct_citation,yes,ROOT-BIB-52,Live TeX citation at line 112; bibliography ref. 52 (bengio2023gfnfoundations).,high,reviewed,hold
+E053,P_ROOT,BIB_53,direct_citation,yes,ROOT-BIB-53,Live TeX citation at line 112; bibliography ref. 53 (malkin2022trajectory).,high,reviewed,hold
+E054,P_ROOT,BIB_54,direct_citation,yes,ROOT-BIB-54,Live TeX citation at line 155; bibliography ref. 54 (Pachter2024).,high,reviewed,hold
+E055,P_ROOT,BIB_55,direct_citation,yes,ROOT-BIB-55,Live TeX citation at line 193; bibliography ref. 55 (roberts1998optimal).,high,reviewed,hold
+E056,P_ROOT,BIB_56,direct_citation,yes,ROOT-BIB-56,Live TeX citation at line 193; bibliography ref. 56 (girolami2011riemann).,high,reviewed,hold
+E057,P_ROOT,BIB_57,direct_citation,yes,ROOT-BIB-57,Live TeX citation at line 251; bibliography ref. 57 (kullback1951information).,high,reviewed,hold
+E058,P_ROOT,BIB_58,direct_citation,yes,ROOT-BIB-58,Live TeX citation at line 261; bibliography ref. 58 (Jarzynski:2013qyb).,high,reviewed,hold
+E059,P_2111_15141,P_ROOT,method_precedent,no,EXT-059,Path-space stochastic-control sampler precedes SPS.,high,reviewed,show
+E060,P_2302_13834,P_ROOT,method_precedent,no,EXT-060,Path-space KL diffusion sampler precedes SPS.,high,reviewed,show
+E061,P_2410_02711,P_ROOT,conceptual_neighbor,no,EXT-061,Nonequilibrium learned transport with work weights.,high,reviewed,show
+E062,P_2605_12597,P_ROOT,baseline_comparison,no,EXT-062,Adversarial theory result on critical slowing in diffusion.,high,reviewed,show
+E063,P_2604_10209,P_ROOT,baseline_comparison,no,EXT-063,External multiscale near-critical baseline.,high,reviewed,show
+E064,P_2607_08505,P_ROOT,baseline_comparison,no,EXT-064,External cross-volume transfer baseline after root publication.,high,reviewed,show
+E065,P_2607_08505,P_ROOT,forward_citation,yes,FWD-2607-REF40,"Bibliography reference 40 on PDF p.38 names SPS/arXiv:2606.13790; no [40] citation occurs in the body, so this is bibliography-only.",high,reviewed,hold

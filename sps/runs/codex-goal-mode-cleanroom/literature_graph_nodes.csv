@@ -1,0 +1,32 @@
+paper_id,arxiv_id,title,year,primary_display_cluster,all_topic_labels,evidence_level,source_relation,reading_priority,source_url
+P001,2606.13790,Stochastic Path Sampler For Lattice Field Theory,2026,SPS,root_sps,claim_anchored,root,P0,https://arxiv.org/abs/2606.13790
+P002,2111.15141,Path Integral Sampler: a stochastic control approach for sampling,2022,Path-space control,path_space_control,claim_anchored,direct_bibliography,P1,https://arxiv.org/abs/2111.15141
+P003,2302.13834,Denoising Diffusion Samplers,2023,Path-space control,path_space_diffusion,claim_anchored,direct_bibliography,P1,https://arxiv.org/abs/2302.13834
+P004,2307.01050,Transport meets Variational Inference: Controlled Monte Carlo Diffusions,2024,Path-space control,path_space_diffusion,claim_anchored,direct_bibliography,P1,https://arxiv.org/abs/2307.01050
+P005,2410.02711,NETS: A Non-Equilibrium Transport Sampler,2024,Path-space control,nonequilibrium_transport,claim_anchored,direct_bibliography,P1,https://arxiv.org/abs/2410.02711
+P006,2409.15937,Numerical determination of the width and shape of the effective string using Stochastic Normalizing Flows,2024,Stochastic flows,stochastic_flow_application,full_text,direct_bibliography,P2,https://arxiv.org/abs/2409.15937
+P007,2412.19109,Stochastic normalizing flows for Effective String Theory,2024,Stochastic flows,stochastic_flow_application,full_text,direct_bibliography,P2,https://arxiv.org/abs/2412.19109
+P008,2210.03139,Stochastic normalizing flows for lattice field theory,2022,Stochastic flows,stochastic_flow_foundation,full_text,direct_bibliography,P2,https://arxiv.org/abs/2210.03139
+P009,2201.08862,Stochastic normalizing flows as non-equilibrium transformations,2022,Stochastic flows,stochastic_flow_foundation,claim_anchored,direct_bibliography,P1,https://arxiv.org/abs/2201.08862
+P010,2502.05504,Physics-Conditioned Diffusion Models for Lattice Gauge Theory,2025,Diffusion,lattice_diffusion,full_text,direct_bibliography,P2,https://arxiv.org/abs/2502.05504
+P011,2311.03578,Generative Diffusion Models for Lattice Field Theory,2023,Diffusion,lattice_diffusion,full_text,author_context,P2,https://arxiv.org/abs/2311.03578
+P012,2605.06134,Diffusion model for SU(N) gauge theories,2026,Diffusion,lattice_diffusion,full_text,direct_bibliography,P2,https://arxiv.org/abs/2605.06134
+P013,2211.01364,An optimal control perspective on diffusion-based generative modeling,2022,Path-space control,diffusion_optimal_control,full_text,direct_bibliography,P2,https://arxiv.org/abs/2211.01364
+P014,2605.11199,Operator Spectroscopy of Trained Lattice Samplers,2026,Diagnostics / theory,sampler_diagnostics,claim_anchored,direct_bibliography,P1,https://arxiv.org/abs/2605.11199
+P015,2106.05934,Flow-based sampling for fermionic lattice field theories,2021,Normalizing flows,fermion_flow,claim_anchored,direct_bibliography,P1,https://arxiv.org/abs/2106.05934
+P016,2211.07541,Aspects of scaling and scalability for flow-based sampling of lattice QCD,2022,Scaling / multiscale,scaling_analysis,claim_anchored,external_extension,P1,https://arxiv.org/abs/2211.07541
+P017,2409.18861,Sampling SU(3) pure gauge theory with Stochastic Normalizing Flows,2024,Stochastic flows,stochastic_flow_scaling,full_text,external_extension,P2,https://arxiv.org/abs/2409.18861
+P018,2510.21330,SCORENF: Score-based Normalizing Flows for Sampling Unnormalized distributions,2025,Normalizing flows,score_flow,full_text,external_extension,P2,https://arxiv.org/abs/2510.21330
+P019,2607.08505,Diffusion Models for Sampling Near Criticality in Lattice Field Theories,2026,Diffusion,diffusion_scaling,claim_anchored,closure,P1,https://arxiv.org/abs/2607.08505
+P020,2604.10209,Scalable Generative Sampling and Multilevel Estimation for Lattice Field Theories Near Criticality,2026,Scaling / multiscale,multiscale_flow,claim_anchored,closure,P1,https://arxiv.org/abs/2604.10209
+P021,2512.19575,Variational Autoregressive Networks Applied to phi4 Field Theory Systems,2025,Autoregressive,autoregressive,full_text,author_context,P2,https://arxiv.org/abs/2512.19575
+P022,2309.17082,Diffusion models as stochastic quantization in lattice field theory,2024,Diffusion,lattice_diffusion,full_text,direct_bibliography,P2,https://arxiv.org/abs/2309.17082
+P023,1904.12072,Flow-based generative models for Markov chain Monte Carlo in lattice field theory,2019,Normalizing flows,flow_foundation,claim_anchored,direct_bibliography,P1,https://arxiv.org/abs/1904.12072
+P024,2003.06413,Equivariant flow-based sampling for lattice gauge theory,2020,Normalizing flows,gauge_flow_foundation,claim_anchored,direct_bibliography,P1,https://arxiv.org/abs/2003.06413
+P025,2107.00734,Flow-based sampling for multimodal and extended-mode distributions in lattice field theory,2025,Normalizing flows,flow_failure_modes,claim_anchored,direct_bibliography,P1,https://arxiv.org/abs/2107.00734
+P026,2604.12416,Machine learning for four-dimensional SU(3) lattice gauge theories,2026,Scaling / multiscale,review_scaling,claim_anchored,external_extension,P1,https://arxiv.org/abs/2604.12416
+P027,2208.03832,Sampling QCD field configurations with gauge-equivariant flow models,2022,Normalizing flows,qcd_flow,claim_anchored,external_extension,P1,https://arxiv.org/abs/2208.03832
+P028,2601.20708,A scalable flow-based approach to mitigate topological freezing,2026,Stochastic flows,defect_stochastic_flow,claim_anchored,external_extension,P1,https://arxiv.org/abs/2601.20708
+P029,2510.26081,Group-Equivariant Diffusion Models for Lattice Field Theory,2025,Diffusion,equivariant_diffusion,full_text,external_extension,P2,https://arxiv.org/abs/2510.26081
+P030,2306.00581,Sampling U(1) gauge theory using a re-trainable conditional flow-based model,2023,Normalizing flows,conditional_flow,full_text,external_extension,P2,https://arxiv.org/abs/2306.00581
+P031,2605.12597,The critical slowing down in diffusion models,2026,Diagnostics / theory,diffusion_failure_theory,claim_anchored,round2_closure,P1,https://arxiv.org/abs/2605.12597

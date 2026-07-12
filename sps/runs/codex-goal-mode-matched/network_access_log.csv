@@ -1,0 +1,103 @@
+operation_id,epoch,channel,method,endpoint_or_query,outcome,result_count,bytes,path_or_evidence,note
+N001,1783865740,web_search,search_query,"\"Moxian Qian\" \"Stochastic Path Sampler\"",success,1,unavailable,https://arxiv.org/abs/2606.13790,identity route
+N002,1783865740,web_search,search_query,"\"Stochastic Path Sampler For Lattice Field Theory\"",success,1,unavailable,https://arxiv.org/abs/2606.13790,title route
+N003,1783865740,web_search,search_query,"site:arxiv.org 2606.13790",success,1,unavailable,https://arxiv.org/abs/2606.13790,identifier route
+N074,1783866700,arxiv,GET,https://arxiv.org/pdf/2606.13790,success,1,2263775,sources/pdfs/2606.13790.pdf,root primary PDF
+N007,1783865772,openalex,GET,Stochastic Path Sampler For Lattice Field Theory,failed:URLError,0,0,,"F01: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N008,1783865773,openalex,GET,SPS Moxian Qian stochastic path sampler,failed:URLError,0,0,,"F02: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N009,1783865773,openalex,GET,Stochastic Path Sampler arXiv 2606.13790,failed:URLError,0,0,,"F03: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N010,1783865773,openalex,GET,ROOT_REFERENCED_WORKS,failed:RuntimeError,0,0,,F04: root OpenAlex work ID unavailable
+N011,1783865773,openalex,GET,ROOT_CITING_WORKS,failed:RuntimeError,0,0,,F05: root OpenAlex work ID unavailable
+N012,1783865773,openalex,GET,Moxian Qian lattice sampler,failed:URLError,0,0,,"F06: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N013,1783865773,openalex,GET,Shiyang Chen lattice field sampler,failed:URLError,0,0,,"F07: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N014,1783865773,openalex,GET,Gert Aarts diffusion lattice field theory,failed:URLError,0,0,,"F08: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N015,1783865773,openalex,GET,Biagio Lucini machine learning lattice sampling,failed:URLError,0,0,,"F09: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N016,1783865774,openalex,GET,Kai Zhou lattice field sampler,failed:URLError,0,0,,"F10: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N017,1783865774,openalex,GET,trajectory level balance stochastic sampler,failed:URLError,0,0,,"F11: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N018,1783865774,openalex,GET,path space variational free energy sampler,failed:URLError,0,0,,"F12: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N019,1783865774,openalex,GET,entropy production learned diffusion sampler,failed:URLError,0,0,,"F13: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N020,1783865774,openalex,GET,learned forward backward drifts stochastic sampling,failed:URLError,0,0,,"F14: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N021,1783865774,openalex,GET,stochastic quantization neural sampler lattice field theory,failed:URLError,0,0,,"F15: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N022,1783865774,openalex,GET,independence Metropolis Hastings learned diffusion proposal,failed:URLError,0,0,,"F16: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N023,1783865774,openalex,GET,stochastic normalizing flow lattice field theory,failed:URLError,0,0,,"F17: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N024,1783865775,openalex,GET,nonequilibrium transport sampler lattice field theory,failed:URLError,0,0,,"F18: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N025,1783865775,openalex,GET,diffusion sampler unnormalized target action,failed:URLError,0,0,,"F19: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N026,1783865775,openalex,GET,autoregressive network phi4 Monte Carlo,failed:URLError,0,0,,"F20: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N027,1783865775,openalex,GET,continuous normalizing flow lattice quantum field theory,failed:URLError,0,0,,"F21: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N028,1783865775,openalex,GET,older path space stochastic control sampler pre-2022,failed:URLError,0,0,,"F22: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N029,1783865775,openalex,GET,negative result mode collapse lattice normalizing flow,failed:URLError,0,0,,"F23: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N030,1783865775,openalex,GET,scaling limitation learned lattice field sampler computational cost,failed:URLError,0,0,,"F24: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N031,1783865776,openalex,GET,review machine learning sampling lattice field theory,failed:URLError,0,0,,"F25: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N032,1783865776,crossref,GET,Stochastic Path Sampler For Lattice Field Theory,failed:URLError,0,0,,"F26: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N033,1783865776,arxiv,GET,au:Moxian_Qian AND cat:hep-lat,failed:URLError,0,0,,"F27: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N034,1783865776,openalex,GET,GFlowNet trajectory balance diffusion sampler,failed:URLError,0,0,,"F28: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N035,1783865776,openalex,GET,lattice field learned sampler gauge fermion topology transfer,failed:URLError,0,0,,"F29: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N036,1783865776,openalex,GET,2025 2026 generative sampler lattice field theory diffusion flow,failed:URLError,0,0,,"F30: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N037,1783865776,openalex,GET,exactness Metropolis Hastings correction learned sampler,failed:URLError,0,0,,"L01: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N038,1783865776,openalex,GET,mode collapse tails composite MCMC learned proposals,failed:URLError,0,0,,"L02: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N039,1783865777,openalex,GET,log variance path space loss importance weights,failed:URLError,0,0,,"L03: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N040,1783865777,openalex,GET,gauge topology diffusion sampler lattice field theory,failed:URLError,0,0,,"L04: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N041,1783865777,openalex,GET,pseudofermion dynamical fermion scaling learned lattice sampler,failed:URLError,0,0,,"L05: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N042,1783865777,openalex,GET,lattice size parameter transfer learned sampler,failed:URLError,0,0,,"L06: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+N007,1783865819,openalex,GET,Stochastic Path Sampler For Lattice Field Theory,success,1670,716607,sources/metadata/F01.json,F01
+N008,1783865821,openalex,GET,SPS Moxian Qian stochastic path sampler,success,0,499,sources/metadata/F02.json,F02
+N009,1783865826,openalex,GET,Stochastic Path Sampler arXiv 2606.13790,success,0,502,sources/metadata/F03.json,F03
+N010,1783865834,openalex,GET,ROOT_REFERENCED_WORKS,success,1,40305,sources/metadata/F04.json,F04
+N011,1783865849,openalex,GET,ROOT_CITING_WORKS,success,712,857338,sources/metadata/F05.json,F05
+N012,1783865855,openalex,GET,Moxian Qian lattice sampler,success,0,463,sources/metadata/F06.json,F06
+N013,1783865864,openalex,GET,Shiyang Chen lattice field sampler,success,6,98990,sources/metadata/F07.json,F07
+N014,1783865872,openalex,GET,Gert Aarts diffusion lattice field theory,success,47,500085,sources/metadata/F08.json,F08
+N015,1783865883,openalex,GET,Biagio Lucini machine learning lattice sampling,success,21,539434,sources/metadata/F09.json,F09
+N016,1783865896,openalex,GET,Kai Zhou lattice field sampler,success,128,699538,sources/metadata/F10.json,F10
+N017,1783865908,openalex,GET,trajectory level balance stochastic sampler,success,3877,632200,sources/metadata/F11.json,F11
+N018,1783865916,openalex,GET,path space variational free energy sampler,success,10082,846268,sources/metadata/F12.json,F12
+N019,1783865928,openalex,GET,entropy production learned diffusion sampler,success,628,569111,sources/metadata/F13.json,F13
+N020,1783865936,openalex,GET,learned forward backward drifts stochastic sampling,success,4543,733159,sources/metadata/F14.json,F14
+N021,1783865949,openalex,GET,stochastic quantization neural sampler lattice field theory,success,206,676661,sources/metadata/F15.json,F15
+N022,1783865957,openalex,GET,independence Metropolis Hastings learned diffusion proposal,success,224,584394,sources/metadata/F16.json,F16
+N023,1783865965,openalex,GET,stochastic normalizing flow lattice field theory,success,16214,749008,sources/metadata/F17.json,F17
+N024,1783865976,openalex,GET,nonequilibrium transport sampler lattice field theory,success,195,684701,sources/metadata/F18.json,F18
+N025,1783865981,openalex,GET,diffusion sampler unnormalized target action,success,255,548280,sources/metadata/F19.json,F19
+N026,1783865986,openalex,GET,autoregressive network phi4 Monte Carlo,success,8,174743,sources/metadata/F20.json,F20
+N027,1783865995,openalex,GET,continuous normalizing flow lattice quantum field theory,success,24746,898394,sources/metadata/F21.json,F21
+N028,1783866004,openalex,GET,older path space stochastic control sampler pre-2022,success,574,687340,sources/metadata/F22.json,F22
+N029,1783866017,openalex,GET,negative result mode collapse lattice normalizing flow,success,7763,648068,sources/metadata/F23.json,F23
+N030,1783866029,openalex,GET,scaling limitation learned lattice field sampler computational cost,success,750,833374,sources/metadata/F24.json,F24
+N031,1783866048,openalex,GET,review machine learning sampling lattice field theory,success,34379,824247,sources/metadata/F25.json,F25
+N032,1783866068,crossref,GET,Stochastic Path Sampler For Lattice Field Theory,success,2501390,126694,sources/metadata/F26.json,F26
+N033,1783866071,arxiv,GET,au:Moxian_Qian AND cat:hep-lat,success,3,7328,sources/metadata/F27.json,F27
+N034,1783866081,openalex,GET,GFlowNet trajectory balance diffusion sampler,success,98,389527,sources/metadata/F28.json,F28
+N035,1783866087,openalex,GET,lattice field learned sampler gauge fermion topology transfer,success,11,204338,sources/metadata/F29.json,F29
+N036,1783866097,openalex,GET,2025 2026 generative sampler lattice field theory diffusion flow,success,58,458190,sources/metadata/F30.json,F30
+N037,1783866104,openalex,GET,exactness Metropolis Hastings correction learned sampler,success,398,727235,sources/metadata/L01.json,L01
+N038,1783866111,openalex,GET,mode collapse tails composite MCMC learned proposals,success,18,278010,sources/metadata/L02.json,L02
+N039,1783866124,openalex,GET,log variance path space loss importance weights,success,50315,844283,sources/metadata/L03.json,L03
+N040,1783866135,openalex,GET,gauge topology diffusion sampler lattice field theory,success,71,641645,sources/metadata/L04.json,L04
+N041,1783866145,openalex,GET,pseudofermion dynamical fermion scaling learned lattice sampler,success,12,257747,sources/metadata/L05.json,L05
+N042,1783866150,openalex,GET,lattice size parameter transfer learned sampler,success,850,668278,sources/metadata/L06.json,L06
+N047,1783866183,arxiv,GET,https://arxiv.org/pdf/1904.12072,success,1,884944,sources/pdfs/1904.12072.pdf,primary PDF
+N048,1783866204,arxiv,GET,https://arxiv.org/pdf/2007.07115,success,1,618576,sources/pdfs/2007.07115.pdf,primary PDF
+N049,1783866211,arxiv,GET,https://arxiv.org/pdf/2106.05934,success,1,1323300,sources/pdfs/2106.05934.pdf,primary PDF
+N050,1783866225,arxiv,GET,https://arxiv.org/pdf/2003.06413,success,1,1017965,sources/pdfs/2003.06413.pdf,primary PDF
+N051,1783866235,arxiv,GET,https://arxiv.org/pdf/2202.11712,success,1,632146,sources/pdfs/2202.11712.pdf,primary PDF
+N052,1783866243,arxiv,GET,https://arxiv.org/pdf/2512.19575,success,1,1505787,sources/pdfs/2512.19575.pdf,primary PDF
+N053,1783866257,arxiv,GET,https://arxiv.org/pdf/2207.00283,success,1,1135876,sources/pdfs/2207.00283.pdf,primary PDF
+N054,1783866269,arxiv,GET,https://arxiv.org/pdf/2110.02673,success,1,2179747,sources/pdfs/2110.02673.pdf,primary PDF
+N055,1783866290,arxiv,GET,https://arxiv.org/pdf/2502.02127,success,1,3376138,sources/pdfs/2502.02127.pdf,primary PDF
+N056,1783866320,arxiv,GET,https://arxiv.org/pdf/2107.00734,success,1,2697648,sources/pdfs/2107.00734.pdf,primary PDF
+N057,1783866344,arxiv,GET,https://arxiv.org/pdf/2201.08862,success,1,899741,sources/pdfs/2201.08862.pdf,primary PDF
+N058,1783866356,arxiv,GET,https://arxiv.org/pdf/2210.03139,success,1,622586,sources/pdfs/2210.03139.pdf,primary PDF
+N059,1783866364,arxiv,GET,https://arxiv.org/pdf/2309.17082,success,1,2486741,sources/pdfs/2309.17082.pdf,primary PDF
+N060,1783866384,arxiv,GET,https://arxiv.org/pdf/2502.05504,success,1,3038787,sources/pdfs/2502.05504.pdf,primary PDF
+N061,1783866409,arxiv,GET,https://arxiv.org/pdf/2510.26081,success,1,4435646,sources/pdfs/2510.26081.pdf,primary PDF
+N062,1783866451,arxiv,GET,https://arxiv.org/pdf/2601.19552,success,1,913993,sources/pdfs/2601.19552.pdf,primary PDF
+N063,1783866460,arxiv,GET,https://arxiv.org/pdf/2602.09045,success,1,1015562,sources/pdfs/2602.09045.pdf,primary PDF
+N064,1783866471,arxiv,GET,https://arxiv.org/pdf/2605.06134,success,1,2425612,sources/pdfs/2605.06134.pdf,primary PDF
+N065,1783866492,arxiv,GET,https://arxiv.org/pdf/2510.01328,success,1,5511425,sources/pdfs/2510.01328.pdf,primary PDF
+N066,1783866567,arxiv,GET,https://arxiv.org/pdf/2605.11199,success,1,1099526,sources/pdfs/2605.11199.pdf,primary PDF
+N067,1783866578,arxiv,GET,https://arxiv.org/pdf/2111.15141,success,1,2713763,sources/pdfs/2111.15141.pdf,primary PDF
+N068,1783866603,arxiv,GET,https://arxiv.org/pdf/2302.13834,success,1,4179526,sources/pdfs/2302.13834.pdf,primary PDF
+N069,1783866623,arxiv,GET,https://arxiv.org/pdf/2410.02711,success,1,2113233,sources/pdfs/2410.02711.pdf,primary PDF
+N075,1783866662,arxiv,GET,https://arxiv.org/pdf/2607.08505,success,1,4976729,sources/pdfs/2607.08505.pdf,closure primary PDF
+N076,1783866703,arxiv,GET,https://arxiv.org/pdf/2605.12597,success,1,6548734,sources/pdfs/2605.12597.pdf,closure primary PDF
+N077,1783866756,arxiv,GET,https://arxiv.org/pdf/2604.10209,success,1,1246772,sources/pdfs/2604.10209.pdf,closure primary PDF

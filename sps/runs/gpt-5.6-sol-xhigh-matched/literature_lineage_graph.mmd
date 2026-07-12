@@ -1,0 +1,8 @@
+graph LR
+  PIS["PIS 2022"] --> DDS["DDS 2023"]
+  PIS --> SPS["SPS 2026"]
+  DDS --> SPS
+  SNF["SNF 2022"] --> SPS
+  NETS["NETS 2024"] -. conceptual .-> SPS
+  SPS -. external comparison .-> CRIT["Critical-slowing theory 2026"]
+  SPS -. external comparison .-> XFER["Cross-volume diffusion 2026"]

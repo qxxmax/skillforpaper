@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "counts": {
+    "keywords": 24,
+    "queries": 36,
+    "relations": 124
+  },
+  "errors": [],
+  "warnings": []
+}

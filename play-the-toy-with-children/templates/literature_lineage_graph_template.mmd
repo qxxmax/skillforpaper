@@ -1,0 +1,18 @@
+flowchart LR
+  R["SEED review / sentinel"] -->|reviews| A["LANDMARK ancestor"]
+  A -->|uses_method| B["GREEN core method"]
+  B -->|extends_result| C["GREEN application / evaluation"]
+  B -.->|background_only| D["EXCLUDED mention-only"]
+  C -.->|contrasts| E["CAUTION contradictory evidence"]
+  U["UNCERTAIN needs full text"] -.->|possibly_related| B
+
+  classDef green fill:#dff6dd,stroke:#22863a,stroke-width:2px,color:#111;
+  classDef yellow fill:#fff5b1,stroke:#b08800,stroke-width:2px,color:#111;
+  classDef red fill:#ffe3e3,stroke:#cb2431,stroke-width:2px,color:#111;
+  classDef blue fill:#ddeeff,stroke:#0366d6,stroke-width:2px,color:#111;
+  classDef gray fill:#f0f0f0,stroke:#888,stroke-width:1px,color:#111;
+  class B,C green;
+  class E,U yellow;
+  class D red;
+  class R blue;
+  class A gray;

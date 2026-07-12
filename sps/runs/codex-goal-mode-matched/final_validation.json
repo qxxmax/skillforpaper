@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "all CSV files parse with consistent row widths",
+      "outcome": "PASS: 22 files / 2027 data rows"
+    },
+    {
+      "check": "all JSON files parse",
+      "outcome": "PASS: 43 files"
+    },
+    {
+      "check": "root bibliography references exactly 1-58",
+      "outcome": "PASS: 58/58 individually screened"
+    },
+    {
+      "check": "keyword/query/relation validator",
+      "outcome": "PASS: 25/36/65, zero errors/warnings"
+    },
+    {
+      "check": "direct/forward citation validator",
+      "outcome": "PASS: 58/58 direct; 1 bibliography-only forward"
+    },
+    {
+      "check": "source PDF integrity/count/pages",
+      "outcome": "PASS: 27/27 readable; 611 pages"
+    },
+    {
+      "check": "graph exports and visual QA",
+      "outcome": "PASS: 4 PNG + 4 PDF; inspected after overlap correction"
+    },
+    {
+      "check": "report evidence and claim boundaries",
+      "outcome": "PASS: EvidenceIDs present; no tool tokens; cost and forward-citation language bounded"
+    },
+    {
+      "check": "runtime provenance and usage policy",
+      "outcome": "PASS: goal mode recorded; exact model/token/cache unavailable and not estimated"
+    },
+    {
+      "check": "prior run isolation",
+      "outcome": "PASS: comparison opened after fresh freeze; prior folders read only"
+    }
+  ]
+}

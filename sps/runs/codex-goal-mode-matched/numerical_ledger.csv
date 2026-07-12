@@ -1,0 +1,7 @@
+NumericalID,Quantity,Value,Unit,Context,EvidenceID,Boundary
+NUM01,SPS tau_int(|M|),about 0.5,IMH steps,kappa=0.27; corrected SPS,EV-26-R,Not cost-comparable to HMC trajectory units.
+NUM02,HMC tau_int(|M|),about 160,HMC trajectories,kappa=0.27,EV-26-R,Not cost-comparable to IMH steps.
+NUM03,Largest SPS spatial extent,64,sites with Nt=8,tested Lx8 family,EV-26-R,"Finite benchmark, not asymptotic scaling."
+NUM04,Equivariant CNF relative ESS,66,percent,reported model vs 1% RealNVP baseline,EV-06-R,Architecture/task specific.
+NUM05,Cross-volume 3D training sizes,4;8;16;32,L,tested on unseen L=64,EV-27-R,"Diffusion baseline, not SPS."
+NUM06,Cross-volume unseen size,64,L,3D phi4 external addition,EV-27-R,Residual broken-phase susceptibility excess remains.

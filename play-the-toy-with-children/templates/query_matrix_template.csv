@@ -1,0 +1,3 @@
+QueryID,Round,RouteFamily,AxisCombination,QueryString,DomainLock,NegativeTerms,SourceTermIDs,TargetSource,ExpectedFacet,Status
+Q001,R0,lexical,problem_x_method,,,,,,planned
+

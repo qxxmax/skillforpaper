@@ -1,0 +1,3 @@
+QueryID,ExecutedAt,RawHits,DeduplicatedHits,ScreenedHits,IncludedHits,NewTerms,NewFacets,NoisePatterns,Decision,NextAction
+Q001,,,,,,,,,,
+

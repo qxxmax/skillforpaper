@@ -1,0 +1,3 @@
+EdgeID,SourceID,TargetID,EdgeType,DirectlyCited,EvidenceID,RelationBasis,Confidence,HumanReviewStatus,PublicGraphStatus
+E001,,,conceptual_neighbor,no,,,,unreviewed,hold
+

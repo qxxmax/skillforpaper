@@ -1,0 +1,11 @@
+artifact,parents,generator,scientific_role
+manual_reading_notes.csv,manual_reading_notes_seed.csv;selected_fulltexts.csv;fulltext_download_status.csv;sources/pdfs/*.pdf,scripts/build_current_evidence_package.py,full-text reading ledger
+evidence_registry.csv,manual_reading_notes.csv,scripts/build_current_evidence_package.py,claim anchors
+claim_source_ledger.csv,synthesis_claims_seed.csv;evidence_registry.csv,scripts/build_current_evidence_package.py,bounded synthesis
+numerical_ledger.csv,numerical_claims_seed.csv;manual_reading_notes.csv,scripts/build_current_evidence_package.py,number-to-source audit
+relation_ledger.csv,sources/text/*.txt;root_bibliography.csv;selected_fulltexts.csv,scripts/build_current_evidence_package.py,checked citation edges
+graphs/landscape_map.png,literature_graph_nodes.csv,scripts/build_current_evidence_package.py,method landscape
+graphs/citation_lineage_graph.png,literature_graph_nodes.csv;display_relation_ledger.csv;relation_ledger.csv,scripts/build_current_evidence_package.py,citation lineage
+graphs/audit_funnel.png,audit_funnel_counts.csv,scripts/build_current_evidence_package.py,search audit
+literature_research_report.md,claim_source_ledger.csv;gap_ledger.csv;reviewer_comparison_matrix.csv;manual_reading_notes.csv,scripts/build_current_evidence_package.py,final research synthesis
+sps_literature_audit_cleanroom.xlsx,source_matrix.csv;manual_reading_notes.csv;evidence_registry.csv;claim_source_ledger.csv;numerical_ledger.csv;gap_ledger.csv;relation_ledger.csv;candidate_screening_table.csv,scripts/prepare_workbook_data.py;scripts/build_audit_workbook.mjs,display-ready audit workbook

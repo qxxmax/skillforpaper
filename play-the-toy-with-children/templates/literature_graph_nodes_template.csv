@@ -1,0 +1,4 @@
+NodeID,Title,Year,ShortLabel,PrimaryDisplayCluster,AllTopicLabels,EvidenceLevel,SourceRelation,ReadingPriority,SourceURL,PublicGraphStatus
+P001,Exact paper title,2024,Short label,method_family,method_family;benchmark,claim_anchored,root,P0,https://example.org,show
+P002,Neighbor paper title,2022,Neighbor,related_family,related_family;method_family,full_text,direct_bibliography,P1,https://example.org,show
+P003,Unscreened candidate,2025,Candidate,candidate_family,candidate_family,metadata,candidate,P3,https://example.org,hold

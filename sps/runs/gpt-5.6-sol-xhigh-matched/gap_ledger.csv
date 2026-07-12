@@ -1,0 +1,9 @@
+GapID,Facet,Gap,Risk,RequiredEvidence
+G01,cost_matching,"No end-to-end wall-clock comparison including training, generation, correction, and observable variance.",high,Report autocorrelation units separately.
+G02,volume_scaling,SPS acceptance decreases with volume and global kernels/parameters grow with L.,high,Test local/multiscale architectures and matched cost.
+G03,transfer,SPS trains separate models for each coupling and size.,high,Condition across parameters/volumes; compare with 2607.08505 and 2207.00283.
+G04,gauge_topology,No SPS gauge-theory experiment yet.,high,Use group-valued dynamics and topology diagnostics.
+G05,dynamical_fermions,No pseudofermion/dynamical-fermion SPS scaling study.,high,Benchmark auxiliary-variable exactness and determinant cost.
+G06,tails_modes,Finite histograms do not prove global support or tail coverage.,medium,Add sector/tail diagnostics and composite/local moves.
+G07,critical_slowing_theory,Learned path dynamics can inherit slow modes despite short corrected-chain autocorrelation.,high,Measure training and generation scaling with locality/depth controls.
+G08,forward_citations,"One bibliography-only forward citation is confirmed in 2607.08505, with no in-text [40] use or SPS discussion.",low,Monitor for substantive citing work; keep bibliography-only status explicit.

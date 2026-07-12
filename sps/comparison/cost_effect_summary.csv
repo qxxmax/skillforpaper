@@ -1,0 +1,5 @@
+run_id,runtime_label,model_identity,reasoning_effort,execution_mode,protocol_group,elapsed_seconds,elapsed_status,goal_tokens,token_status,root_references_screened,deduplicated_candidates,source_pdfs_read,verified_pages,four_dimension_reads,evidence_entries,claim_rows,direct_citation_edges,network_attempts,blocked_or_failed,validation,direct_model_comparison_status
+gpt56_xhigh_matched,gpt-5.6-sol,confirmed,xhigh,orchestrated agent,matched_sps_v1,1345,final,,not exposed,58,578,27,611,27,108,10,58,77,2,PASS,reference arm
+codex_goal_matched,Codex goal-mode runtime,exact deployment identifier unavailable,unavailable,Codex goal mode,matched_sps_v1,1433,final,,not exposed,58,578,27,611,27,108,10,58,102,36,PASS,not a fully identified second model
+codex_goal_cleanroom,Codex goal-mode clean-room,exact deployment identifier unavailable,unavailable,Codex goal mode clean-room,cleanroom_sps_v2,3360,active-goal snapshot,1232776,active-goal cumulative snapshot,58,594,31,731,31,155,10,124,,,PASS,not matched to the first two runs
+

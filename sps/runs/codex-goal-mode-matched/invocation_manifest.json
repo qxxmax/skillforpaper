@@ -1,0 +1,36 @@
+{
+  "run_id": "play_the_toy_sps_goal_full_20260712_161518",
+  "oral_clue": "SPS / Moxian Qian stochastic path sampler",
+  "start_epoch": 1783865738,
+  "start_iso8601": "2026-07-12T16:15:38+0200",
+  "execution_mode": "Codex goal mode",
+  "skill": {
+    "name": "play-the-toy-with-children",
+    "path": "play-the-toy-with-children/SKILL.md",
+    "sha256": "2138f1b7f862ad73409cbd6966330d57f09d3c978e4a4af481b90a472621a5ed",
+    "size_bytes": 21032
+  },
+  "protocol": {
+    "root_references": 58,
+    "fresh_query_routes": 30,
+    "fixed_legacy_routes": 6,
+    "minimum_primary_pdfs": 24,
+    "closure_rounds": 2,
+    "reading_dimensions": [
+      "problem",
+      "method_or_correction",
+      "result",
+      "limitation"
+    ]
+  },
+  "previous_run_policy": "No previous scientific result or comparison artifact is read before fresh-result freeze.",
+  "token_usage": {
+    "status": "runtime_not_exposed",
+    "policy": "Do not estimate. Record all other observable metrics."
+  },
+  "final_validation_probe": {
+    "epoch": 1783867171,
+    "iso8601": "2026-07-12T16:39:31+0200",
+    "elapsed_from_orchestrator_seconds": 1433
+  }
+}
