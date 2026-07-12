@@ -23,7 +23,11 @@ def fail(message: str) -> None:
 
 required = [
     ROOT / "README.md",
+    ROOT / "install.py",
+    ROOT / "requirements-optional.txt",
     ROOT / "play-the-toy-with-children" / "SKILL.md",
+    ROOT / "play-the-toy-with-children" / "agents" / "openai.yaml",
+    ROOT / "play-the-toy-with-children" / "scripts" / "smoke_test.py",
     SPS / "README.md",
     SPS / "comparison" / "cost_effect_summary.csv",
     RUNS / "gpt-5.6-sol-xhigh-matched" / "run_metrics.json",
@@ -35,7 +39,15 @@ for path in required:
     if not path.exists():
         fail(f"missing required artifact: {path.relative_to(ROOT)}")
 
-allowed_top = {".git", ".gitignore", "README.md", "play-the-toy-with-children", "sps"}
+allowed_top = {
+    ".git",
+    ".gitignore",
+    "README.md",
+    "install.py",
+    "requirements-optional.txt",
+    "play-the-toy-with-children",
+    "sps",
+}
 unexpected_top = sorted(path.name for path in ROOT.iterdir() if path.name not in allowed_top)
 if unexpected_top:
     fail(f"unexpected top-level entries: {unexpected_top}")
