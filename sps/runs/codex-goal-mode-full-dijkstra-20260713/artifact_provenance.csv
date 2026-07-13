@@ -1,0 +1,10 @@
+artifact,parents,generator,role
+evidence_registry.csv,manual_reading_notes.csv;fulltext_download_status.csv,scripts/build_final_evidence_package.py,five evidence types per paper
+claim_source_ledger.csv,evidence_registry.csv,scripts/build_final_evidence_package.py,safe and forbidden claims
+numerical_ledger.csv,manual_reading_notes.csv;sources/pdfs/*.pdf,scripts/build_final_evidence_package.py,number-to-page audit
+dijkstra_candidate_shortest_paths.csv,candidate_screening_table.csv;query_matrix.csv,scripts/run_candidate_dijkstra.py,candidate navigation
+dijkstra_shortest_paths.csv,relation_ledger.csv;author_lineage_table.csv;manual_reading_notes.csv,scripts/run_verified_dijkstra.py,verified navigation
+dijkstra_effect_evaluation.md,dijkstra_selection_comparison.csv;dijkstra_shortest_paths.csv,scripts/build_final_evidence_package.py,optimizer effect and boundary
+graphs/citation_lineage_graph.png,relation_ledger.csv;manual_reading_notes.csv,scripts/build_final_evidence_package.py,checked genealogy
+literature_research_report.md,claim_source_ledger.csv;gap_ledger.csv;dijkstra_effect_evaluation.md,scripts/build_final_evidence_package.py,bounded synthesis
+sps_literature_audit_full_dijkstra.xlsx,source_matrix.csv;evidence_registry.csv;claim_source_ledger.csv;numerical_ledger.csv;gap_ledger.csv;dijkstra_effect_metrics.csv;relation_ledger.csv,scripts/prepare_workbook_data.py;scripts/build_audit_workbook.mjs,display-ready audit workbook

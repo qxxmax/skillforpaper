@@ -1,0 +1,38 @@
+arxiv_id,title,candidate_graph_rank,candidate_graph_distance,verified_graph_rank,verified_graph_distance,verified_path_kind,interpretation
+2606.13790,Stochastic Path Sampler For Lattice Field Theory,1,0.0,1,0.0,root,search priority versus checked lineage proximity
+1904.12072,Flow-based generative models for Markov chain Monte Carlo in lattice field theory,24,1.166704,2,0.2,citation_only,search priority versus checked lineage proximity
+1810.12879,Regressive and generative neural networks for scalar field theory,192,1.721222,3,0.2,citation_only,search priority versus checked lineage proximity
+2003.06413,Equivariant flow-based sampling for lattice gauge theory,58,1.32889,4,0.2,citation_only,search priority versus checked lineage proximity
+2007.07115,Estimation of Thermodynamic Observables in Lattice Field Theories with Deep Generative Models,32,1.228364,5,0.2,citation_only,search priority versus checked lineage proximity
+2106.05934,Flow-based sampling for fermionic lattice field theories,53,1.281777,6,0.2,citation_only,search priority versus checked lineage proximity
+2110.02673,Scaling Up Machine Learning For Quantum Field Theory with Equivariant Continuous Flows,107,1.505623,7,0.2,citation_only,search priority versus checked lineage proximity
+2202.11712,Flow-based sampling in the lattice Schwinger model at criticality,74,1.409158,8,0.2,citation_only,search priority versus checked lineage proximity
+2111.15141,Path Integral Sampler: a stochastic control approach for sampling,353,1.860544,9,0.2,citation_only,search priority versus checked lineage proximity
+2201.08862,Stochastic normalizing flows as non-equilibrium transformations,165,1.648293,10,0.2,citation_only,search priority versus checked lineage proximity
+2210.03139,Stochastic normalizing flows for lattice field theory,25,1.177259,11,0.2,citation_only,search priority versus checked lineage proximity
+2302.13834,Denoising Diffusion Samplers,356,1.872139,12,0.2,citation_only,search priority versus checked lineage proximity
+2309.17082,Diffusion Models as Stochastic Quantization in Lattice Field Theory,314,1.753239,13,0.2,citation_only,search priority versus checked lineage proximity
+2211.03470,Fourier-flow model generating Feynman paths,137,1.583285,14,0.2,citation_only,search priority versus checked lineage proximity
+2207.00283,Learning lattice quantum field theories with equivariant continuous flows,101,1.47598,15,0.2,citation_only,search priority versus checked lineage proximity
+2410.02711,NETS: A Non-Equilibrium Transport Sampler,371,1.915425,16,0.2,citation_only,search priority versus checked lineage proximity
+2409.15937,Numerical determination of the width and shape of the effective string using Stochastic Normalizing Flows,190,1.704198,17,0.2,citation_only,search priority versus checked lineage proximity
+2412.19109,Stochastic normalizing flows for Effective String Theory,174,1.686417,18,0.2,citation_only,search priority versus checked lineage proximity
+2307.01050,Transport meets Variational Inference: Controlled Monte Carlo Diffusions,369,1.905034,19,0.2,citation_only,search priority versus checked lineage proximity
+2107.00734,Flow-based sampling for multimodal and extended-mode distributions in lattice field theory,132,1.559035,20,0.2,citation_only,search priority versus checked lineage proximity
+2510.26081,Group-Equivariant Diffusion Models for Lattice Field Theory,326,1.782882,21,0.2,citation_only,search priority versus checked lineage proximity
+2502.05504,Physics-Conditioned Diffusion Models for Lattice Gauge Theory,30,1.219445,22,0.2,citation_only,search priority versus checked lineage proximity
+2512.19575,Variational Autoregressive Networks Applied to $^4$ Field Theory Systems,94,1.443963,23,0.2,citation_only,search priority versus checked lineage proximity
+2605.06134,Diffusion model for SU(N) gauge theories,90,1.423775,24,0.2,citation_only,search priority versus checked lineage proximity
+2607.08505,Diffusion Models for Sampling Near Criticality in Lattice Field Theories,gap_closure,not_in_round1_graph,25,0.3,citation_only,search priority versus checked lineage proximity
+2101.08176,Introduction to Normalizing Flows for Lattice Field Theory,147,1.616704,26,0.4,citation_only,search priority versus checked lineage proximity
+2211.07541,Aspects of scaling and scalability for flow-based sampling of lattice QCD,201,1.75,27,0.4,citation_only,search priority versus checked lineage proximity
+2208.03832,Sampling QCD field configurations with gauge-equivariant flow models,204,1.75,28,0.4,citation_only,search priority versus checked lineage proximity
+2311.03578,Generative Diffusion Models for Lattice Field Theory,14,1.057259,29,0.4,citation_only,search priority versus checked lineage proximity
+2409.18861,Sampling SU(3) pure gauge theory with Stochastic Normalizing Flows,200,1.75,30,0.4,citation_only,search priority versus checked lineage proximity
+2309.14983,Sampling Nambu-Goto theory using Normalizing Flows,171,1.678364,31,0.5,citation_only,search priority versus checked lineage proximity
+2501.07371,Simulating the Hubbard Model with Equivariant Normalizing Flows,124,1.543775,32,0.5,citation_only,search priority versus checked lineage proximity
+2601.20708,A scalable flow-based approach to mitigate topological freezing,205,1.75,33,0.5,citation_only,search priority versus checked lineage proximity
+2604.12416,Machine learning for four-dimensional SU(3) lattice gauge theories,202,1.75,34,0.5,citation_only,search priority versus checked lineage proximity
+2604.10209,Scalable Generative Sampling and Multilevel Estimation for Lattice Field Theories Near Criticality,26,1.177259,35,0.5,citation_only,search priority versus checked lineage proximity
+2605.12597,The critical slowing down in diffusion models,gap_closure,not_in_round1_graph,36,0.5,citation_only,search priority versus checked lineage proximity
+2510.21330,SCORENF: Score-based Normalizing Flows for Sampling Unnormalized distributions,63,1.339445,37,0.7,citation_only,search priority versus checked lineage proximity

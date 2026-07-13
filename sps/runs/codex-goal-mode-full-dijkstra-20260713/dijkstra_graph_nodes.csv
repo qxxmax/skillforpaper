@@ -1,0 +1,165 @@
+node_id,node_type,label,arxiv_id,evidence_level,cluster
+paper:2606.13790,paper,Stochastic Path Sampler For Lattice Field Theory,2606.13790,full_text_rechecked,SPS
+author:shiyang_chen,author,Shiyang Chen,,,
+author:moxian_qian,author,Moxian Qian,,,
+author:gert_aarts,author,Gert Aarts,,,
+author:biagio_lucini,author,Biagio Lucini,,,
+author:kai_zhou,author,Kai Zhou,,,
+method:failure,method,failure,,,SPS
+paper:2111.15141,paper,Path Integral Sampler: a stochastic control approach for sampling,2111.15141,full_text_rechecked,Path-space control
+author:zhang_qinsheng,author,"Zhang, Qinsheng",,,
+author:chen_yongxin,author,"Chen, Yongxin",,,
+method:path_space,method,path_space,,,Path-space control
+paper:2302.13834,paper,Denoising Diffusion Samplers,2302.13834,full_text_rechecked,Path-space control
+author:vargas_francisco,author,"Vargas, Francisco",,,
+author:grathwohl_will,author,"Grathwohl, Will",,,
+author:doucet_arnaud,author,"Doucet, Arnaud",,,
+method:diffusion,method,diffusion,,,Path-space control
+paper:2307.01050,paper,Transport meets Variational Inference: Controlled Monte Carlo Diffusions,2307.01050,full_text_rechecked,Path-space control
+author:padhy_shreyas,author,"Padhy, Shreyas",,,
+author:blessing_denis,author,"Blessing, Denis",,,
+author:n_u_sken_nikolas,author,"N \""u sken, Nikolas",,,
+paper:2410.02711,paper,NETS: A Non-Equilibrium Transport Sampler,2410.02711,full_text_rechecked,Path-space control
+author:albergo_michael_s,author,"Albergo, Michael S.",,,
+author:vanden_eijnden_eric,author,"Vanden-Eijnden, Eric",,,
+paper:2210.03139,paper,Stochastic normalizing flows for lattice field theory,2210.03139,full_text_rechecked,Stochastic flows
+author:michele_caselle,author,Michele Caselle,,,
+author:elia_cellini,author,Elia Cellini,,,
+author:alessandro_nada,author,Alessandro Nada,,,
+author:marco_panero,author,Marco Panero,,,
+method:flow,method,flow,,,Stochastic flows
+method:stochastic_flow,method,stochastic_flow,,,Stochastic flows
+paper:2201.08862,paper,Stochastic normalizing flows as non-equilibrium transformations,2201.08862,full_text_rechecked,Stochastic flows
+method:gauge,method,gauge,,,Stochastic flows
+paper:2309.14983,paper,Sampling Nambu-Goto theory using Normalizing Flows,2309.14983,full_text_rechecked,Stochastic flows
+paper:1904.12072,paper,Flow-based generative models for Markov chain Monte Carlo in lattice field theory,1904.12072,full_text_rechecked,Normalizing flows
+author:albergo_m_s,author,"Albergo, M. S.",,,
+author:kanwar_g,author,"Kanwar, G.",,,
+author:shanahan_p_e,author,"Shanahan, P. E.",,,
+paper:2604.10209,paper,Scalable Generative Sampling and Multilevel Estimation for Lattice Field Theories Near Criticality,2604.10209,full_text_rechecked,Scaling / multiscale
+author:a_singha,author,A. Singha,,,
+author:j_kauffmann,author,J. Kauffmann,,,
+author:e_cellini,author,E. Cellini,,,
+author:k_jansen,author,K. Jansen,,,
+author:s_nakajima,author,S. Nakajima,,,
+method:scaling,method,scaling,,,Scaling / multiscale
+paper:2106.05934,paper,Flow-based sampling for fermionic lattice field theories,2106.05934,full_text_rechecked,Normalizing flows
+author:michael_s_albergo,author,Michael S. Albergo,,,
+author:gurtej_kanwar,author,Gurtej Kanwar,,,
+author:s_bastien_racani_re,author,Sébastien Racanière,,,
+author:danilo_j_rezende,author,Danilo J. Rezende,,,
+author:julian_m_urban,author,Julian M. Urban,,,
+author:denis_boyda,author,Denis Boyda,,,
+author:kyle_cranmer,author,Kyle Cranmer,,,
+author:daniel_c_hackett,author,Daniel C. Hackett,,,
+author:phiala_e_shanahan,author,Phiala E. Shanahan,,,
+method:fermion,method,fermion,,,Normalizing flows
+paper:2311.03578,paper,Generative Diffusion Models for Lattice Field Theory,2311.03578,full_text_rechecked,Diffusion
+author:lingxiao_wang,author,Lingxiao Wang,,,
+paper:2502.05504,paper,Physics-Conditioned Diffusion Models for Lattice Gauge Theory,2502.05504,full_text_rechecked,Diffusion
+author:qianteng_zhu,author,Qianteng Zhu,,,
+author:wei_wang,author,Wei Wang,,,
+paper:2510.21330,paper,SCORENF: Score-based Normalizing Flows for Sampling Unnormalized distributions,2510.21330,full_text_rechecked,Normalizing flows
+author:vikas_kanaujia,author,Vikas Kanaujia,,,
+author:vipul_arora,author,Vipul Arora,,,
+paper:2605.06134,paper,Diffusion model for SU(N) gauge theories,2605.06134,full_text_rechecked,Diffusion
+author:javad_komijani,author,Javad Komijani,,,
+author:marina_k_marinkovic,author,Marina K. Marinkovic,,,
+author:lara_turgut,author,Lara Turgut,,,
+paper:2003.06413,paper,Equivariant flow-based sampling for lattice gauge theory,2003.06413,full_text_rechecked,Normalizing flows
+author:k_cranmer,author,K. Cranmer,,,
+author:danilo_jimenez_rezende,author,Danilo Jimenez Rezende,,,
+paper:2202.11712,paper,Flow-based sampling in the lattice Schwinger model at criticality,2202.11712,full_text_rechecked,Fermion and gauge applications
+author:boyda_denis,author,"Boyda, Denis",,,
+author:cranmer_kyle,author,"Cranmer, Kyle",,,
+author:hackett_daniel_c,author,"Hackett, Daniel C.",,,
+author:kanwar_gurtej,author,"Kanwar, Gurtej",,,
+author:racani_e_re_s_e_bastien,author,"Racani \`e re, S \'e bastien",,,
+author:rezende_danilo_j,author,"Rezende, Danilo J.",,,
+author:romero_l_o_pez_fernando,author,"Romero-L \'o pez, Fernando",,,
+author:shanahan_phiala_e,author,"Shanahan, Phiala E.",,,
+author:urban_julian_m,author,"Urban, Julian M.",,,
+paper:2110.02673,paper,Scaling Up Machine Learning For Quantum Field Theory with Equivariant Continuous Flows,2110.02673,full_text_rechecked,Scaling and architecture
+author:pim_de_haan,author,Pim de Haan,,,
+author:corrado_rainone,author,Corrado Rainone,,,
+author:miranda_c_n_cheng,author,Miranda C. N. Cheng,,,
+author:roberto_bondesan,author,Roberto Bondesan,,,
+paper:2007.07115,paper,Estimation of Thermodynamic Observables in Lattice Field Theories with Deep Generative Models,2007.07115,full_text_rechecked,Flow observables
+author:nicoli_kim_a,author,"Nicoli, Kim A.",,,
+author:anders_christopher_j,author,"Anders, Christopher J.",,,
+author:funcke_lena,author,"Funcke, Lena",,,
+author:hartung_tobias,author,"Hartung, Tobias",,,
+author:jansen_karl,author,"Jansen, Karl",,,
+author:kessel_pan,author,"Kessel, Pan",,,
+author:nakajima_shinichi,author,"Nakajima, Shinichi",,,
+author:stornati_paolo,author,"Stornati, Paolo",,,
+method:flow_observables,method,flow_observables,,,Flow observables
+paper:2501.07371,paper,Simulating the Hubbard Model with Equivariant Normalizing Flows,2501.07371,full_text_rechecked,Extensions
+author:dominic_schuh,author,Dominic Schuh,,,
+author:janik_kreit,author,Janik Kreit,,,
+author:evan_berkowitz,author,Evan Berkowitz,,,
+author:lena_funcke,author,Lena Funcke,,,
+author:thomas_luu,author,Thomas Luu,,,
+author:kim_a_nicoli,author,Kim A. Nicoli,,,
+author:marcel_rodekamp,author,Marcel Rodekamp,,,
+paper:2101.08176,paper,Introduction to Normalizing Flows for Lattice Field Theory,2101.08176,full_text_rechecked,Normalizing-flow foundations
+paper:2409.15937,paper,Numerical determination of the width and shape of the effective string using Stochastic Normalizing Flows,2409.15937,full_text_rechecked,Stochastic flows
+paper:2512.19575,paper,Variational Autoregressive Networks Applied to $^4$ Field Theory Systems,2512.19575,full_text_rechecked,Autoregressive
+author:qian_moxian,author,"Qian, Moxian",,,
+author:chen_shiyang,author,"Chen, Shiyang",,,
+method:autoregressive,method,autoregressive,,,Autoregressive
+paper:2207.00283,paper,Learning lattice quantum field theories with equivariant continuous flows,2207.00283,full_text_rechecked,Scaling and transfer
+author:gerdes_mathis,author,"Gerdes, Mathis",,,
+author:de_haan_pim,author,"de Haan, Pim",,,
+author:rainone_corrado,author,"Rainone, Corrado",,,
+author:bondesan_roberto,author,"Bondesan, Roberto",,,
+author:cheng_miranda_c_n,author,"Cheng, Miranda C. N.",,,
+paper:2107.00734,paper,Flow-based sampling for multimodal and extended-mode distributions in lattice field theory,2107.00734,full_text_rechecked,Normalizing flows
+author:chung_chun_hsieh,author,Chung-Chun Hsieh,,,
+author:sahil_pontula,author,Sahil Pontula,,,
+author:jiunn_wei_chen,author,Jiunn-Wei Chen,,,
+author:kai_feng_chen,author,Kai-Feng Chen,,,
+paper:2211.03470,paper,Fourier-flow model generating Feynman paths,2211.03470,full_text_rechecked,Adjacent path generation
+author:chen_shile,author,"Chen, Shile",,,
+author:savchuk_oleh,author,"Savchuk, Oleh",,,
+author:zheng_shiqi,author,"Zheng, Shiqi",,,
+author:chen_baoyi,author,"Chen, Baoyi",,,
+author:stoecker_horst,author,"Stoecker, Horst",,,
+author:wang_lingxiao,author,"Wang, Lingxiao",,,
+author:zhou_kai,author,"Zhou, Kai",,,
+paper:2412.19109,paper,Stochastic normalizing flows for Effective String Theory,2412.19109,full_text_rechecked,Stochastic flows
+paper:1810.12879,paper,Regressive and generative neural networks for scalar field theory,1810.12879,full_text_rechecked,Early generative baselines
+author:endr_o_di_gergely,author,"Endr o di, Gergely",,,
+author:pang_long_gang,author,"Pang, Long-Gang",,,
+author:st_o_cker_horst,author,"St \""o cker, Horst",,,
+method:early_generative_baselines,method,early_generative_baselines,,,Early generative baselines
+paper:2409.18861,paper,Sampling SU(3) pure gauge theory with Stochastic Normalizing Flows,2409.18861,full_text_rechecked,Stochastic flows
+author:andrea_bulgarelli,author,Andrea Bulgarelli,,,
+paper:2211.07541,paper,Aspects of scaling and scalability for flow-based sampling of lattice QCD,2211.07541,full_text_rechecked,Scaling / multiscale
+author:ryan_abbott,author,Ryan Abbott,,,
+author:aleksandar_botev,author,Aleksandar Botev,,,
+author:alexander_matthews,author,Alexander Matthews,,,
+author:ali_razavi,author,Ali Razavi,,,
+author:fernando_romero_l_pez,author,Fernando Romero-López,,,
+paper:2607.08505,paper,Diffusion Models for Sampling Near Criticality in Lattice Field Theories,2607.08505,full_text_rechecked,Diffusion
+author:yang_yang_tan,author,Yang-yang Tan,,,
+author:diaa_e_habibi,author,Diaa E. Habibi,,,
+paper:2309.17082,paper,Diffusion Models as Stochastic Quantization in Lattice Field Theory,2309.17082,full_text_rechecked,Diffusion
+paper:2510.26081,paper,Group-Equivariant Diffusion Models for Lattice Field Theory,2510.26081,full_text_rechecked,Diffusion
+author:octavio_vega,author,Octavio Vega,,,
+author:aida_el_khadra,author,Aida El-Khadra,,,
+author:marina_marinkovic,author,Marina Marinkovic,,,
+paper:2604.12416,paper,Machine learning for four-dimensional SU(3) lattice gauge theories,2604.12416,full_text_rechecked,Scaling / multiscale
+author:urs_wenger,author,Urs Wenger,,,
+paper:2601.20708,paper,A scalable flow-based approach to mitigate topological freezing,2601.20708,full_text_rechecked,Stochastic flows
+author:claudio_bonanno,author,Claudio Bonanno,,,
+author:dario_panfalone,author,Dario Panfalone,,,
+author:davide_vadacchino,author,Davide Vadacchino,,,
+author:lorenzo_verzichelli,author,Lorenzo Verzichelli,,,
+paper:2208.03832,paper,Sampling QCD field configurations with gauge-equivariant flow models,2208.03832,full_text_rechecked,Normalizing flows
+author:alexander_g_d_g_matthews,author,Alexander G. D. G. Matthews,,,
+paper:2605.12597,paper,The critical slowing down in diffusion models,2605.12597,full_text_rechecked,Diagnostics / theory
+author:luca_maria_del_bono,author,Luca Maria Del Bono,,,
+author:giulio_biroli,author,Giulio Biroli,,,
+author:patrick_charbonneau,author,Patrick Charbonneau,,,
+author:marylou_gabri,author,Marylou Gabrié,,,

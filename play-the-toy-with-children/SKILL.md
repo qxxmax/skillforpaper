@@ -270,6 +270,22 @@ reviewer-risk analysis, or current-source validation:
    - `graph_optimizer_evaluation.md`
    - `literature_lineage_graph.mmd` when a visual graph is requested.
    Generate public graphs from the relation ledger, not from prose memory.
+   Turn `graph_mode` on when any of the following is true:
+   - the user explicitly names Dijkstra, shortest paths, a graph optimizer, or
+     literature-space navigation;
+   - the user requests a complete/full `cover` workflow together with a family
+     tree, lineage, genealogy, citation graph, or multi-round expansion;
+   - the user asks to demonstrate, compare, audit, or ablate the search
+     algorithm rather than only receive a reading list.
+   When `graph_mode` is on and Dijkstra is named or selected, an actual
+   executable run is mandatory. Notes, formulas, copied CSVs, or prose saying
+   "Dijkstra-style" do not count. Preserve graph nodes, weighted edges, root,
+   reconstructed shortest paths, recomputed path costs, and the command/script
+   provenance. Use `scripts/run_literature_dijkstra.py` when its generic CSV
+   contract fits; otherwise keep the project-specific runner in the output
+   package. Compare against a non-graph ranking under the same reading budget
+   when claiming an effect. Keep source verification and gap closure active: a
+   shortest path is navigation metadata, not scientific evidence.
 18. Before assigning or preserving `green_check` for bibliographic records,
    create or update `source_link_verification_loop.md` from
    `templates/source_link_verification_loop_template.md` and verify that:

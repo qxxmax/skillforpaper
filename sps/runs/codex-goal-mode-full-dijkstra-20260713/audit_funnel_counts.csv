@@ -1,0 +1,7 @@
+stage,count,source
+raw route records,667,route_results.csv
+deduplicated candidates,593,candidate_screening_table.csv
+include or monitor after first screening,106,candidate_screening_table.csv
+Dijkstra first reading set,30,dijkstra_selection_comparison.csv
+verified and manually read after closure,37,manual_reading_notes.csv
+papers used by synthesis claims,18,claim_source_ledger.csv

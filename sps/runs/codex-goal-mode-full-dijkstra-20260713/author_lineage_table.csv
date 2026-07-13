@@ -1,0 +1,117 @@
+author,selected_paper_count,selected_arxiv_ids,root_author,lineage_role
+Alessandro Nada,7,2201.08862;2210.03139;2309.14983;2409.15937;2409.18861;2412.19109;2601.20708,no,selected_coauthor_network
+Elia Cellini,7,2201.08862;2210.03139;2309.14983;2409.15937;2409.18861;2412.19109;2601.20708,no,selected_coauthor_network
+Daniel C. Hackett,6,2003.06413;2101.08176;2106.05934;2107.00734;2208.03832;2211.07541,no,selected_coauthor_network
+Denis Boyda,6,2003.06413;2101.08176;2106.05934;2107.00734;2208.03832;2211.07541,no,selected_coauthor_network
+Michael S. Albergo,6,2003.06413;2101.08176;2106.05934;2107.00734;2208.03832;2211.07541,no,selected_coauthor_network
+Phiala E. Shanahan,6,2003.06413;2101.08176;2106.05934;2107.00734;2208.03832;2211.07541,no,selected_coauthor_network
+Gert Aarts,5,2309.17082;2311.03578;2502.05504;2606.13790;2607.08505,yes,root_team
+Gurtej Kanwar,5,2003.06413;2101.08176;2106.05934;2107.00734;2208.03832,no,selected_coauthor_network
+Michele Caselle,5,2201.08862;2210.03139;2309.14983;2409.15937;2412.19109,no,selected_coauthor_network
+Sébastien Racanière,5,2003.06413;2101.08176;2106.05934;2208.03832;2211.07541,no,selected_coauthor_network
+Kai Zhou,4,2309.17082;2311.03578;2502.05504;2606.13790,yes,root_team
+Kyle Cranmer,4,2101.08176;2106.05934;2107.00734;2208.03832,no,selected_coauthor_network
+Lingxiao Wang,4,2309.17082;2311.03578;2502.05504;2607.08505,no,selected_coauthor_network
+Danilo Jimenez Rezende,3,2003.06413;2101.08176;2211.07541,no,selected_coauthor_network
+Julian M. Urban,3,2106.05934;2208.03832;2211.07541,no,selected_coauthor_network
+"Albergo, Michael S.",2,2202.11712;2410.02711,no,selected_coauthor_network
+Aleksandar Botev,2,2208.03832;2211.07541,no,selected_coauthor_network
+Ali Razavi,2,2208.03832;2211.07541,no,selected_coauthor_network
+Andrea Bulgarelli,2,2409.18861;2601.20708,no,selected_coauthor_network
+Biagio Lucini,2,2606.13790;2607.08505,yes,root_team
+Danilo J. Rezende,2,2106.05934;2208.03832,no,selected_coauthor_network
+Fernando Romero-López,2,2208.03832;2211.07541,no,selected_coauthor_network
+Javad Komijani,2,2510.26081;2605.06134,no,selected_coauthor_network
+K. Cranmer,2,2003.06413;2211.07541,no,selected_coauthor_network
+Marco Panero,2,2201.08862;2210.03139,no,selected_coauthor_network
+Ryan Abbott,2,2208.03832;2211.07541,no,selected_coauthor_network
+"Vargas, Francisco",2,2302.13834;2307.01050,no,selected_coauthor_network
+"Zhou, Kai",2,1810.12879;2211.03470,no,selected_coauthor_network
+A. Singha,1,2604.10209,no,selected_coauthor_network
+Aida El-Khadra,1,2510.26081,no,selected_coauthor_network
+"Albergo, M. S.",1,1904.12072,no,selected_coauthor_network
+Alexander G. D. G. Matthews,1,2208.03832,no,selected_coauthor_network
+Alexander Matthews,1,2211.07541,no,selected_coauthor_network
+"Anders, Christopher J.",1,2007.07115,no,selected_coauthor_network
+"Blessing, Denis",1,2307.01050,no,selected_coauthor_network
+"Bondesan, Roberto",1,2207.00283,no,selected_coauthor_network
+"Boyda, Denis",1,2202.11712,no,selected_coauthor_network
+"Chen, Baoyi",1,2211.03470,no,selected_coauthor_network
+"Chen, Shile",1,2211.03470,no,selected_coauthor_network
+"Chen, Shiyang",1,2512.19575,no,selected_coauthor_network
+"Chen, Yongxin",1,2111.15141,no,selected_coauthor_network
+"Cheng, Miranda C. N.",1,2207.00283,no,selected_coauthor_network
+Chung-Chun Hsieh,1,2107.00734,no,selected_coauthor_network
+Claudio Bonanno,1,2601.20708,no,selected_coauthor_network
+Corrado Rainone,1,2110.02673,no,selected_coauthor_network
+"Cranmer, Kyle",1,2202.11712,no,selected_coauthor_network
+Dario Panfalone,1,2601.20708,no,selected_coauthor_network
+Davide Vadacchino,1,2601.20708,no,selected_coauthor_network
+Diaa E. Habibi,1,2607.08505,no,selected_coauthor_network
+Dominic Schuh,1,2501.07371,no,selected_coauthor_network
+"Doucet, Arnaud",1,2302.13834,no,selected_coauthor_network
+E. Cellini,1,2604.10209,no,selected_coauthor_network
+"Endr o di, Gergely",1,1810.12879,no,selected_coauthor_network
+Evan Berkowitz,1,2501.07371,no,selected_coauthor_network
+"Funcke, Lena",1,2007.07115,no,selected_coauthor_network
+"Gerdes, Mathis",1,2207.00283,no,selected_coauthor_network
+Giulio Biroli,1,2605.12597,no,selected_coauthor_network
+"Grathwohl, Will",1,2302.13834,no,selected_coauthor_network
+"Hackett, Daniel C.",1,2202.11712,no,selected_coauthor_network
+"Hartung, Tobias",1,2007.07115,no,selected_coauthor_network
+J. Kauffmann,1,2604.10209,no,selected_coauthor_network
+Janik Kreit,1,2501.07371,no,selected_coauthor_network
+"Jansen, Karl",1,2007.07115,no,selected_coauthor_network
+Jiunn-Wei Chen,1,2107.00734,no,selected_coauthor_network
+K. Jansen,1,2604.10209,no,selected_coauthor_network
+Kai-Feng Chen,1,2107.00734,no,selected_coauthor_network
+"Kanwar, G.",1,1904.12072,no,selected_coauthor_network
+"Kanwar, Gurtej",1,2202.11712,no,selected_coauthor_network
+"Kessel, Pan",1,2007.07115,no,selected_coauthor_network
+Kim A. Nicoli,1,2501.07371,no,selected_coauthor_network
+Lara Turgut,1,2605.06134,no,selected_coauthor_network
+Lena Funcke,1,2501.07371,no,selected_coauthor_network
+Lorenzo Verzichelli,1,2601.20708,no,selected_coauthor_network
+Luca Maria Del Bono,1,2605.12597,no,selected_coauthor_network
+Marcel Rodekamp,1,2501.07371,no,selected_coauthor_network
+Marina K. Marinkovic,1,2605.06134,no,selected_coauthor_network
+Marina Marinkovic,1,2510.26081,no,selected_coauthor_network
+Marylou Gabrié,1,2605.12597,no,selected_coauthor_network
+Miranda C. N. Cheng,1,2110.02673,no,selected_coauthor_network
+Moxian Qian,1,2606.13790,yes,root_team
+"N \""u sken, Nikolas",1,2307.01050,no,selected_coauthor_network
+"Nakajima, Shinichi",1,2007.07115,no,selected_coauthor_network
+"Nicoli, Kim A.",1,2007.07115,no,selected_coauthor_network
+Octavio Vega,1,2510.26081,no,selected_coauthor_network
+"Padhy, Shreyas",1,2307.01050,no,selected_coauthor_network
+"Pang, Long-Gang",1,1810.12879,no,selected_coauthor_network
+Patrick Charbonneau,1,2605.12597,no,selected_coauthor_network
+Pim de Haan,1,2110.02673,no,selected_coauthor_network
+"Qian, Moxian",1,2512.19575,no,selected_coauthor_network
+Qianteng Zhu,1,2502.05504,no,selected_coauthor_network
+"Racani \`e re, S \'e bastien",1,2202.11712,no,selected_coauthor_network
+"Rainone, Corrado",1,2207.00283,no,selected_coauthor_network
+"Rezende, Danilo J.",1,2202.11712,no,selected_coauthor_network
+Roberto Bondesan,1,2110.02673,no,selected_coauthor_network
+"Romero-L \'o pez, Fernando",1,2202.11712,no,selected_coauthor_network
+S. Nakajima,1,2604.10209,no,selected_coauthor_network
+Sahil Pontula,1,2107.00734,no,selected_coauthor_network
+"Savchuk, Oleh",1,2211.03470,no,selected_coauthor_network
+"Shanahan, P. E.",1,1904.12072,no,selected_coauthor_network
+"Shanahan, Phiala E.",1,2202.11712,no,selected_coauthor_network
+Shiyang Chen,1,2606.13790,yes,root_team
+"St \""o cker, Horst",1,1810.12879,no,selected_coauthor_network
+"Stoecker, Horst",1,2211.03470,no,selected_coauthor_network
+"Stornati, Paolo",1,2007.07115,no,selected_coauthor_network
+Thomas Luu,1,2501.07371,no,selected_coauthor_network
+"Urban, Julian M.",1,2202.11712,no,selected_coauthor_network
+Urs Wenger,1,2604.12416,no,selected_coauthor_network
+"Vanden-Eijnden, Eric",1,2410.02711,no,selected_coauthor_network
+Vikas Kanaujia,1,2510.21330,no,selected_coauthor_network
+Vipul Arora,1,2510.21330,no,selected_coauthor_network
+"Wang, Lingxiao",1,2211.03470,no,selected_coauthor_network
+Wei Wang,1,2502.05504,no,selected_coauthor_network
+Yang-yang Tan,1,2607.08505,no,selected_coauthor_network
+"Zhang, Qinsheng",1,2111.15141,no,selected_coauthor_network
+"Zheng, Shiqi",1,2211.03470,no,selected_coauthor_network
+"de Haan, Pim",1,2207.00283,no,selected_coauthor_network

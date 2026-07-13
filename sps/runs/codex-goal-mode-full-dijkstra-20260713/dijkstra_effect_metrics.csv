@@ -1,0 +1,7 @@
+metric,relevance_only,candidate_dijkstra,final_with_gap_closure,interpretation
+selected papers,30,30,37,fixed reading budget for the first two arms
+declared facets covered,7,7,10,Dijkstra did not increase coarse facet count
+method groups covered,8,8,8,coverage equality does not imply identical papers
+exact root-bibliography papers,19,21,21,candidate Dijkstra retained two more root ancestors
+mean heuristic screen score,16.7,16.067,not comparable,graph navigation traded a little keyword score for paths
+selection overlap,20,20,35,20/30 papers overlap; ten are replaced

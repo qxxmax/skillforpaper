@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import json
 import re
+import subprocess
 import sys
 import zipfile
 from pathlib import Path
@@ -30,10 +31,14 @@ required = [
     ROOT / "play-the-toy-with-children" / "scripts" / "smoke_test.py",
     SPS / "README.md",
     SPS / "comparison" / "cost_effect_summary.csv",
+    SPS / "comparison" / "dijkstra_effect_and_cost.csv",
+    SPS / "scripts" / "validate_dijkstra_public_run.py",
     RUNS / "gpt-5.6-sol-xhigh-matched" / "run_metrics.json",
     RUNS / "codex-goal-mode-matched" / "run_metrics.json",
     RUNS / "codex-goal-mode-cleanroom" / "goal_mode_usage.md",
     RUNS / "codex-goal-mode-cleanroom" / "final_validation_report.md",
+    RUNS / "codex-goal-mode-full-dijkstra-20260713" / "README.md",
+    RUNS / "codex-goal-mode-full-dijkstra-20260713" / "final_validation_report.md",
 ]
 for path in required:
     if not path.exists():
@@ -82,7 +87,13 @@ for path in ROOT.rglob("*"):
     if "/Users/mxq" in text or "C:\\Users\\mxq" in text:
         fail(f"absolute user path found in {path.relative_to(ROOT)}")
 
-for document in [ROOT / "README.md", SPS / "README.md", SPS / "comparison" / "cost_effect_summary.md"]:
+for document in [
+    ROOT / "README.md",
+    SPS / "README.md",
+    SPS / "comparison" / "cost_effect_summary.md",
+    SPS / "comparison" / "dijkstra_effect_and_cost.md",
+    RUNS / "codex-goal-mode-full-dijkstra-20260713" / "README.md",
+]:
     text = document.read_text(encoding="utf-8")
     for target in re.findall(r"\[[^]]+\]\(([^)]+)\)", text):
         if target.startswith(("http://", "https://", "#")):
@@ -114,6 +125,11 @@ with zipfile.ZipFile(workbook) as archive:
     bad_member = archive.testzip()
     if bad_member:
         fail(f"invalid workbook member: {bad_member}")
+
+subprocess.run(
+    [sys.executable, str(SPS / "scripts" / "validate_dijkstra_public_run.py")],
+    check=True,
+)
 
 file_count = sum(
     1

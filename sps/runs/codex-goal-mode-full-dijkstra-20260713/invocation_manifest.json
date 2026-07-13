@@ -1,0 +1,31 @@
+{
+  "run_id": "play_the_toy_sps_full_dijkstra_run7_20260713_062241",
+  "oral_clue": "SPS / Moxian Qian stochastic path sampler",
+  "start_epoch": 1783916561,
+  "start_iso8601": "2026-07-13T06:22:41+0200",
+  "execution_mode": "Codex full workflow with mandatory Dijkstra graph navigation",
+  "intent": {
+    "primary": "cover",
+    "secondary": "evaluate",
+    "risk": "high"
+  },
+  "skill_path": "$CODEX_HOME/skills/play-the-toy-with-children/SKILL.md",
+  "network_policy": "fresh root and route retrieval required",
+  "reuse_policy": "scripts may be adapted; scientific claims must be rechecked",
+  "token_policy": "record only observable runtime counters; do not estimate unavailable token subdivisions",
+  "end_epoch_validated": 1783920217,
+  "status": "complete_validated",
+  "final_counts": {
+    "query_routes": 36,
+    "raw_records": 667,
+    "deduplicated_candidates": 593,
+    "selected_fulltexts": 37,
+    "verified_pages": 776,
+    "evidence_entries": 185,
+    "direct_citation_edges": 199,
+    "candidate_graph_nodes": 3300,
+    "candidate_graph_edges": 8187,
+    "verified_graph_nodes": 164,
+    "verified_graph_edges": 944
+  }
+}
