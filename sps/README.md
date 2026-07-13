@@ -1,5 +1,11 @@
 # SPS literature-audit case
 
+This is the complete worked example for **Part 1: understand the toy** in the
+[six-part research roadmap](../README.md). It demonstrates
+the Part 1 chain from a spoken clue to a candidate pool, source-link audit,
+paper-reading records, evidence layers, lineage views, gaps, and a bounded
+report. It is not presented as a demonstration of Parts 2-6.
+
 ## Target paper
 
 - Title: *Stochastic Path Sampler For Lattice Field Theory*
