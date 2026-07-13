@@ -2,10 +2,30 @@
 
 ## 终于完成 Part 1 了
 
-An auditable Codex research skill and one complete worked case: the Stochastic
-Path Sampler (SPS) literature audit.
+This project follows a six-part research roadmap. We are publishing and
+validating it one part at a time. The current release is **Part 1: understand
+the toy**, with one complete worked case: the Stochastic Path Sampler (SPS)
+literature audit.
 
 Public repository: <https://github.com/qxxmax/skillforpaper>
+
+## The six-part roadmap
+
+The toy metaphor describes a complete research lifecycle:
+
+| Part | Toy language | Research meaning | Current status |
+|---|---|---|---|
+| **1** | **Understand the toy** | Turn a spoken clue into a checked literature landscape: identify the object, expand the search, read sources, trace lineages, and record evidence and gaps. | **Available and demonstrated here** |
+| 2 | Learn how people use and make toys | Deep-read methods, formulas, implementations, and the latest technical progress. | Planned |
+| 3 | Build a toy rigorously with the child | Design the method and experiments, run them, inspect failures, and validate the result. | Planned |
+| 4 | Find support for the toy | Build and write a complete research or funding proposal. | Planned |
+| 5 | Finish the toy and put it in the right toy box | Complete the paper, choose a venue, submit it, and respond to review. | Planned |
+| 6 | Present the toy at different toy fairs | Produce slides, posters, and talks for different audiences and venues. | Planned |
+
+**Scope of this release:** the installation instructions, prompts, SPS case,
+output files, validation, and cost notes below all document **Part 1**. They
+should not be read as evidence that Parts 2-6 are already complete or fully
+tested.
 
 ## What this repository contains
 
@@ -18,7 +38,7 @@ Public repository: <https://github.com/qxxmax/skillforpaper>
 
 Downloaded third-party papers and full-text caches are not distributed.
 
-## Quick start: install through Codex
+## Part 1 quick start: install through Codex
 
 This is the recommended path. In Codex, send:
 
@@ -98,32 +118,38 @@ collaborators, source-derived keywords, adjacent methods, and negative results.
 Return a checked citation lineage, method landscape, evidence ledger, and gaps.
 ```
 
-### Prepare a proposal or slides
+### Audit what can and cannot be claimed
 
 ```text
 Use $play-the-toy-with-children.
-First audit the literature and claims. Then turn only the verified material
-into a proposal outline and a slide storyboard. Keep derivations, detailed
-tables, and reviewer questions in backup.
+Intent: evaluate. Budget: balanced.
+Check this claim against the original paper and its cited sources. Return the
+supported sentence, source anchor, boundary, unresolved point, and the wording
+that must not be used.
 ```
 
-## Expected outputs
+## Part 1 outputs
 
 The exact files depend on the intent and budget. A full `cover` run normally
 produces:
 
-| Output | Purpose |
-|---|---|
-| `research_state.md` | Current objective, risk, next action, and stopping state |
-| `candidate_pool.md` | Discovered records before evidence promotion |
-| `source_matrix.csv` | Identity, URLs, reading status, and source anchors |
-| `keyword_ledger.csv` / `query_matrix.csv` | Source-derived search vocabulary and routes |
-| `claim_source_ledger.md` | What can be written and which source supports it |
-| `numerical_ledger.csv` | Every retained number with an original anchor |
-| `relation_ledger.csv` | Checked citation, method, author, and comparison relations |
-| lineage and landscape figures | Public graph views generated from reviewed relations |
-| `gap_ledger.csv` | Unresolved questions and prohibited overclaims |
-| `literature_research_report.md` | Bounded synthesis for writing or presentation |
+| Format | Output | Purpose |
+|---|---|---|
+| Markdown | `research_state.md` | Current objective, risk, next action, and stopping state |
+| Markdown | `candidate_pool.md` | Discovered records before evidence promotion |
+| Markdown | `round_log.md` | Search routes, decisions, and stop/continue records |
+| Markdown | `claim_source_ledger.md` | What can be written and which source supports it |
+| Markdown | `literature_research_report.md` | Bounded synthesis for writing or presentation |
+| Markdown | `output_manifest.md` / `final_validation_report.md` | File inventory and validation state |
+| CSV | `source_matrix.csv` | Identity, URLs, reading status, and source anchors |
+| CSV | `manual_reading_notes.csv` | Per-paper problem, method, result, limitation, and page anchors |
+| CSV | `keyword_ledger.csv` / `query_matrix.csv` | Source-derived search vocabulary and routes |
+| CSV | `evidence_registry.csv` | Evidence IDs, source anchors, supported content, and status |
+| CSV | `numerical_ledger.csv` | Every retained number with an original anchor |
+| CSV | `relation_ledger.csv` | Checked citation, method, author, and comparison relations |
+| CSV | `gap_ledger.csv` | Unresolved questions and prohibited overclaims |
+| Excel | `<topic>_literature_audit.xlsx` | A reader-friendly workbook collecting the principal audit tables |
+| PNG/SVG/Mermaid | lineage and landscape figures | Public graph views generated from reviewed relations |
 
 The complete example and concrete file previews are under
 [`sps/`](sps/README.md).

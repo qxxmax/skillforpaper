@@ -19,6 +19,24 @@ description: >-
 Use this skill to move from research material to publishable communication
 without losing evidence, claim boundaries, or the user's intended emphasis.
 
+## Six-Part Roadmap And Current Scope
+
+Organize the research lifecycle into six parts:
+
+1. Understand the toy: identify the object, map the literature, read sources,
+   trace lineages, and record evidence and gaps.
+2. Learn how people use and make toys: deep-read methods, formulas,
+   implementations, and current technical progress.
+3. Build a toy rigorously: design, execute, diagnose, and validate the research.
+4. Find support for the toy: prepare a complete research or funding proposal.
+5. Finish the toy and choose its toy box: write the paper, choose a venue,
+   submit, and revise.
+6. Present the toy: prepare slides, posters, and talks for different audiences.
+
+The current public release and SPS test package validate **Part 1**. Treat the
+later output modes as provisional workflow routes; do not describe Parts 2-6
+as complete or fully tested without corresponding public test artifacts.
+
 ## Start With Input Mode
 
 Identify the user's starting state:
