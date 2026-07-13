@@ -69,6 +69,34 @@ unconfirmed queue instead of disappearing from the review.
 - Active learning: use user labels to update relevance, key-paper, and
   verification-priority scores.
 
+## Executable Dijkstra Gate
+
+`Dijkstra` means a computed shortest-path pass, not a descriptive analogy.
+Activate this gate when the user:
+
+- explicitly asks for Dijkstra, shortest paths, or a graph optimizer;
+- requests a complete/full `cover` workflow with lineage, genealogy, family
+  tree, citation graph, or multi-round graph expansion;
+- asks to compare, demonstrate, audit, or ablate the search algorithm.
+
+The run must preserve:
+
+- the root node and graph-construction policy;
+- node and weighted-edge tables;
+- non-negative edge costs and their scientific meaning;
+- shortest distances, reconstructed node/edge paths, and recomputed path sums;
+- a validator that independently checks root distance zero and shortest-path
+  costs;
+- command/script provenance and an equal-budget non-graph comparison when an
+  optimizer effect is claimed.
+
+Use `scripts/run_literature_dijkstra.py` for a generic CSV graph. A
+project-specific runner is acceptable when heterogeneous graph construction or
+two-pass source verification requires it, but its script must remain in the
+run package. Never use Dijkstra distance as C4 evidence, direct-citation proof,
+or a completeness certificate. Run source gates and a gap-closure loop after
+graph selection.
+
 Final ranking should combine relevance, graph position, coverage gain,
 verification confidence, freshness, access cost, and redundancy:
 

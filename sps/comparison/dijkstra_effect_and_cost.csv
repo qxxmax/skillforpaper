@@ -1,0 +1,16 @@
+metric,without_dijkstra,with_candidate_dijkstra,final_dijkstra_gap_closure,status
+candidate_pool,593,593,593,shared controlled input
+selected_papers,30,30,37,equal budget applies to first two arms only
+selected_set_overlap_with_baseline,30,20,35,observed
+exact_root_bibliography_papers,19,21,21,observed
+declared_facets_covered,7,7,10,observed
+method_groups_covered,8,8,8,observed
+mean_heuristic_screen_score,16.700,16.067,not comparable,observed
+verified_read_papers,not independently measured,not independently measured,37,shared downstream workflow
+verified_pdf_pages,not independently measured,not independently measured,776,shared downstream workflow
+evidence_entries,not independently measured,not independently measured,185,shared downstream workflow
+checked_direct_citation_relations,not independently measured,not independently measured,199,shared downstream workflow
+goal_tokens,not independently measured,not independently measured,1012083,complete shared task counter
+goal_elapsed_seconds,not independently measured,not independently measured,4039,complete shared task counter
+dijkstra_core_seconds,not applicable,0.11,0.11,one local deterministic runner observation
+monetary_api_cost,unavailable,unavailable,unavailable,no API usage object

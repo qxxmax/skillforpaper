@@ -65,6 +65,16 @@ report. Every number, date, identity, and performance claim needs a source.
 Mark unresolved points as pending instead of completing the story.
 ```
 
+To require an executable literature-graph pass and a controlled comparison,
+add:
+
+```text
+graph_mode=on, optimizer=dijkstra.
+Run the algorithm; do not only describe it. Preserve graph nodes, weighted
+edges, reconstructed shortest paths, recomputed path costs, and an equal-budget
+comparison against non-graph ranking. Keep source verification and gap closure.
+```
+
 ## Manual installation
 
 ### macOS or Linux
@@ -219,6 +229,12 @@ The recorded comparison is available at
 It shows one confirmed `gpt-5.6-sol/xhigh` assignment and one Codex goal-mode
 runtime. The goal-mode deployment identifier was not exposed, so this is a
 workflow reproducibility comparison, not yet a strict two-model benchmark.
+
+The executable with/without-Dijkstra comparison is available at
+[`sps/comparison/dijkstra_effect_and_cost.md`](sps/comparison/dijkstra_effect_and_cost.md).
+It reports the equal-budget selection effect, the complete task cost, the
+deterministic graph runtime, and the costs that were not independently
+measured.
 
 ## License status
 

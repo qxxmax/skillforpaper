@@ -1,0 +1,41 @@
+candidate_id,title,baseline_selected,dijkstra_selected,changed,dijkstra_rank,dijkstra_distance,screen_score
+arxiv:1810.12879,Regressive and generative neural networks for scalar field theory,no,yes,yes,192,1.721222,9
+arxiv:1904.12072,Flow-based generative models for Markov chain Monte Carlo in lattice field theory,yes,yes,no,24,1.166704,13
+arxiv:2003.06413,Equivariant flow-based sampling for lattice gauge theory,yes,yes,no,58,1.32889,12
+arxiv:2007.07115,Estimation of Thermodynamic Observables in Lattice Field Theories with Deep Generative Models,yes,yes,no,32,1.228364,10
+arxiv:2101.08176,Introduction to Normalizing Flows for Lattice Field Theory,no,yes,yes,147,1.616704,9
+arxiv:2106.05934,Flow-based sampling for fermionic lattice field theories,yes,yes,no,53,1.281777,14
+arxiv:2107.00734,Flow-based sampling for multimodal and extended-mode distributions in lattice field theory,yes,yes,no,132,1.559035,12
+arxiv:2110.02673,Scaling Up Machine Learning For Quantum Field Theory with Equivariant Continuous Flows,no,yes,yes,107,1.505623,9
+arxiv:2111.15141,Path Integral Sampler: a stochastic control approach for sampling,yes,yes,no,353,1.860544,13
+arxiv:2201.08862,Stochastic normalizing flows as non-equilibrium transformations,yes,yes,no,165,1.648293,17
+arxiv:2202.11712,Flow-based sampling in the lattice Schwinger model at criticality,no,yes,yes,74,1.409158,10
+arxiv:2207.00283,Learning lattice quantum field theories with equivariant continuous flows,no,yes,yes,101,1.47598,10
+arxiv:2208.03832,Sampling QCD field configurations with gauge-equivariant flow models,yes,no,yes,204,1.75,11
+arxiv:2210.03139,Stochastic normalizing flows for lattice field theory,yes,yes,no,25,1.177259,18
+arxiv:2211.01364,An optimal control perspective on diffusion-based generative modeling,yes,no,yes,357,1.883408,13
+arxiv:2211.03470,Fourier-flow model generating Feynman paths,no,yes,yes,137,1.583285,9
+arxiv:2211.07541,Aspects of scaling and scalability for flow-based sampling of lattice QCD,yes,yes,no,201,1.75,13
+arxiv:2302.13834,Denoising Diffusion Samplers,yes,yes,no,356,1.872139,12
+arxiv:2302.14082,Detecting and Mitigating Mode-Collapse for Flow-based Sampling of Lattice Field Theories,yes,no,yes,491,2.154198,10
+arxiv:2306.00581,Sampling U(1) gauge theory using a re-trainable conditional flow-based model,yes,no,yes,206,1.75,10
+arxiv:2307.01050,Transport meets Variational Inference: Controlled Monte Carlo Diffusions,yes,yes,no,369,1.905034,12
+arxiv:2309.14983,Sampling Nambu-Goto theory using Normalizing Flows,no,yes,yes,171,1.678364,9
+arxiv:2309.17082,Diffusion models as stochastic quantization in lattice field theory,yes,no,yes,314,1.753239,13
+arxiv:2311.03578,Generative Diffusion Models for Lattice Field Theory,yes,yes,no,14,1.057259,15
+arxiv:2409.15937,Numerical determination of the width and shape of the effective string using Stochastic Normalizing Flows,yes,yes,no,190,1.704198,19
+arxiv:2409.18861,Sampling SU(3) pure gauge theory with Stochastic Normalizing Flows,yes,yes,no,200,1.75,14
+arxiv:2410.02711,NETS: A Non-Equilibrium Transport Sampler,yes,yes,no,371,1.915425,11
+arxiv:2412.19109,Stochastic normalizing flows for Effective String Theory,yes,yes,no,174,1.686417,18
+arxiv:2501.07371,Simulating the Hubbard Model with Equivariant Normalizing Flows,no,yes,yes,124,1.543775,9
+arxiv:2502.05504,Physics-Conditioned Diffusion Models for Lattice Gauge Theory,yes,yes,no,30,1.219445,20
+arxiv:2510.21330,SCORENF: Score-based Normalizing Flows for Sampling Unnormalized distributions,yes,yes,no,63,1.339445,12
+arxiv:2510.26081,Group-Equivariant Diffusion Models for Lattice Field Theory,yes,no,yes,326,1.782882,11
+arxiv:2512.19575,Variational Autoregressive Networks Applied to $^4$ Field Theory Systems,no,yes,yes,94,1.443963,9
+arxiv:2601.10774,Analytic Bijections for Smooth and Interpretable Normalizing Flows,yes,no,yes,478,2.117809,10
+arxiv:2601.20708,A scalable flow-based approach to mitigate topological freezing,yes,no,yes,205,1.75,11
+arxiv:2602.09045,Diffusion Models for SU(2) Lattice Gauge Theory in Two Dimensions,yes,no,yes,330,1.810479,10
+arxiv:2604.10209,Scalable Generative Sampling and Multilevel Estimation for Lattice Field Theories Near Criticality,no,yes,yes,26,1.177259,9
+arxiv:2604.12416,Machine learning for four-dimensional SU(3) lattice gauge theories,yes,no,yes,202,1.75,12
+arxiv:2605.06134,Diffusion model for SU(N) gauge theories,yes,yes,no,90,1.423775,14
+arxiv:2606.13790,Stochastic Path Sampler For Lattice Field Theory,yes,yes,no,1,0.0,121

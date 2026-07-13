@@ -1,0 +1,111 @@
+{
+  "validated_at_epoch": 1783920450,
+  "status": "PASS",
+  "counts": {
+    "selected_fulltexts": 37,
+    "verified_pages": 776,
+    "evidence_entries": 185,
+    "direct_citation_edges": 199,
+    "candidate_graph_nodes": 3300,
+    "candidate_graph_edges": 8187,
+    "verified_graph_nodes": 164,
+    "verified_graph_edges": 944
+  },
+  "gates": [
+    {
+      "gate": "selected_read_pdf_source_sets",
+      "status": "PASS",
+      "detail": "sets=37/37/37/37"
+    },
+    {
+      "gate": "fulltext_count",
+      "status": "PASS",
+      "detail": "count=37"
+    },
+    {
+      "gate": "reading_anchors",
+      "status": "PASS",
+      "detail": "all four anchors present per paper"
+    },
+    {
+      "gate": "pdf_integrity",
+      "status": "PASS",
+      "detail": "pages=776; errors=[]"
+    },
+    {
+      "gate": "source_links",
+      "status": "PASS",
+      "detail": "verified=37"
+    },
+    {
+      "gate": "evidence_registry_shape",
+      "status": "PASS",
+      "detail": "entries=185 expected=185"
+    },
+    {
+      "gate": "claim_evidence_links",
+      "status": "PASS",
+      "detail": "claims=10 refs=38"
+    },
+    {
+      "gate": "gap_evidence_links",
+      "status": "PASS",
+      "detail": "gaps=9 refs=22"
+    },
+    {
+      "gate": "numerical_claims",
+      "status": "PASS",
+      "detail": "numbers=13"
+    },
+    {
+      "gate": "direct_citation_relations",
+      "status": "PASS",
+      "detail": "edges=199 unique_pairs=199"
+    },
+    {
+      "gate": "candidate_graph_size",
+      "status": "PASS",
+      "detail": "nodes=3300 edges=8187 paths=593"
+    },
+    {
+      "gate": "candidate_dijkstra_invariants",
+      "status": "PASS",
+      "detail": "errors=[]"
+    },
+    {
+      "gate": "verified_graph_size",
+      "status": "PASS",
+      "detail": "nodes=164 edges=944 paths=37"
+    },
+    {
+      "gate": "verified_dijkstra_invariants",
+      "status": "PASS",
+      "detail": "errors=[]"
+    },
+    {
+      "gate": "verified_path_semantics",
+      "status": "PASS",
+      "detail": "{'citation_only': 36, 'root': 1}"
+    },
+    {
+      "gate": "equal_budget_selection_comparison",
+      "status": "PASS",
+      "detail": "baseline=30 dijkstra=30 overlap=20"
+    },
+    {
+      "gate": "required_artifacts",
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "gate": "workbook_visual_qa",
+      "status": "PASS",
+      "detail": "previews=16"
+    },
+    {
+      "gate": "workbook_formula_scan",
+      "status": "PASS",
+      "detail": "no formula error tokens"
+    }
+  ]
+}

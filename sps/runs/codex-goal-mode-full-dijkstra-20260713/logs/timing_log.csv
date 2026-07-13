@@ -1,0 +1,3 @@
+stage,start_epoch,end_epoch,elapsed_seconds,status,notes
+root_identity_and_sources,1783916561,1783916686,125,success,fresh arXiv abstract PDF and source package retrieved and verified
+full_run_wall_clock,1783916561,1783920217,3656,success,"end-to-end elapsed through validation; includes retrieval waits, reading, graph computation, package generation and QA"

@@ -62,3 +62,10 @@ output, cached, or reasoning-token split and cannot be converted into a reliable
 monetary price. The snapshot was taken while the goal was active, so it is a
 lower bound on the eventual complete-goal total.
 
+## Executable graph-gate comparison
+
+The later SPS run isolates relevance-only ranking versus an executable
+Dijkstra gate inside one shared candidate pool and records a final goal count
+of 1,012,083 tokens. That comparison is intentionally separate from the
+two-runtime table above: see
+[`dijkstra_effect_and_cost.md`](dijkstra_effect_and_cost.md).
