@@ -24,11 +24,17 @@ def fail(message: str) -> None:
 
 required = [
     ROOT / "README.md",
+    ROOT / "DESIGN_PROVENANCE.md",
     ROOT / "install.py",
     ROOT / "requirements-optional.txt",
     ROOT / "play-the-toy-with-children" / "SKILL.md",
     ROOT / "play-the-toy-with-children" / "agents" / "openai.yaml",
     ROOT / "play-the-toy-with-children" / "scripts" / "smoke_test.py",
+    ROOT / "play-the-toy-with-children" / "scripts" / "validate_paper_reading_record.py",
+    ROOT / "play-the-toy-with-children" / "references" / "38_native_paper_reading_protocol.md",
+    ROOT / "play-the-toy-with-children" / "templates" / "paper_reading_record_template.md",
+    ROOT / "play-the-toy-with-children" / "templates" / "paper_reading_ledger_template.csv",
+    ROOT / "play-the-toy-with-children" / "templates" / "paper_review_gate_template.md",
     SPS / "README.md",
     SPS / "comparison" / "cost_effect_summary.csv",
     SPS / "comparison" / "dijkstra_effect_and_cost.csv",
@@ -38,6 +44,9 @@ required = [
     RUNS / "codex-goal-mode-cleanroom" / "goal_mode_usage.md",
     RUNS / "codex-goal-mode-cleanroom" / "final_validation_report.md",
     RUNS / "codex-goal-mode-full-dijkstra-20260713" / "README.md",
+    RUNS / "codex-goal-mode-full-dijkstra-20260713" / "native_paper_reading_record_sps.md",
+    RUNS / "codex-goal-mode-full-dijkstra-20260713" / "native_paper_reading_ledger.csv",
+    RUNS / "codex-goal-mode-full-dijkstra-20260713" / "native_paper_review_gate_sps.md",
     RUNS / "codex-goal-mode-full-dijkstra-20260713" / "final_validation_report.md",
 ]
 for path in required:
@@ -48,6 +57,7 @@ allowed_top = {
     ".git",
     ".gitignore",
     "README.md",
+    "DESIGN_PROVENANCE.md",
     "install.py",
     "requirements-optional.txt",
     "play-the-toy-with-children",
@@ -89,6 +99,7 @@ for path in ROOT.rglob("*"):
 
 for document in [
     ROOT / "README.md",
+    ROOT / "DESIGN_PROVENANCE.md",
     SPS / "README.md",
     SPS / "comparison" / "cost_effect_summary.md",
     SPS / "comparison" / "dijkstra_effect_and_cost.md",
@@ -125,6 +136,28 @@ with zipfile.ZipFile(workbook) as archive:
     bad_member = archive.testzip()
     if bad_member:
         fail(f"invalid workbook member: {bad_member}")
+
+subprocess.run(
+    [
+        sys.executable,
+        str(ROOT / "play-the-toy-with-children" / "scripts" / "validate_paper_reading_record.py"),
+        "--self-test",
+    ],
+    check=True,
+)
+
+subprocess.run(
+    [
+        sys.executable,
+        str(ROOT / "play-the-toy-with-children" / "scripts" / "validate_paper_reading_record.py"),
+        str(
+            RUNS
+            / "codex-goal-mode-full-dijkstra-20260713"
+            / "native_paper_reading_record_sps.md"
+        ),
+    ],
+    check=True,
+)
 
 subprocess.run(
     [sys.executable, str(SPS / "scripts" / "validate_dijkstra_public_run.py")],

@@ -22,11 +22,16 @@ def check_required_files() -> list[str]:
         SKILL_DIR / "agents" / "openai.yaml",
         SKILL_DIR / "scripts" / "observable_research_runner.py",
         SKILL_DIR / "scripts" / "render_literature_views.py",
+        SKILL_DIR / "scripts" / "validate_paper_reading_record.py",
         SKILL_DIR / "scripts" / "validate_keyword_query_graph.py",
         SKILL_DIR / "references" / "33_literature_intent_modes_and_state_loop.md",
         SKILL_DIR / "references" / "35_keyword_ontology_and_query_matrix.md",
         SKILL_DIR / "references" / "36_multiview_literature_graph_contract.md",
         SKILL_DIR / "references" / "37_observable_api_runner.md",
+        SKILL_DIR / "references" / "38_native_paper_reading_protocol.md",
+        SKILL_DIR / "templates" / "paper_reading_record_template.md",
+        SKILL_DIR / "templates" / "paper_reading_ledger_template.csv",
+        SKILL_DIR / "templates" / "paper_review_gate_template.md",
     ]
     errors = [f"missing {path.relative_to(SKILL_DIR)}" for path in required if not path.is_file()]
     if (SKILL_DIR / "SKILL.md").is_file():
@@ -93,6 +98,12 @@ def main() -> int:
         run_command(
             [sys.executable, str(SKILL_DIR / "scripts" / "observable_research_runner.py"), "--self-test"],
             "USAGE PARSER",
+        )
+    )
+    errors.extend(
+        run_command(
+            [sys.executable, str(SKILL_DIR / "scripts" / "validate_paper_reading_record.py"), "--self-test"],
+            "PAPER READING",
         )
     )
     errors.extend(run_sample_contract())

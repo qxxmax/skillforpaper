@@ -147,6 +147,10 @@ When exact API token, cache, reasoning-token, time, or cost accounting is a
 required experiment output, read `references/37_observable_api_runner.md` and
 use `scripts/observable_research_runner.py`. Do not estimate counters missing
 from the runtime, and do not compare runs with different stage contracts.
+When the user asks to read, explain, summarize, compare, or critique a paper,
+or a candidate is promoted into the core reading set, read
+`references/38_native_paper_reading_protocol.md` and use its native reading
+record before generating polished prose or review judgments.
 When the user requests a family tree, genealogy, landscape, citation graph,
 author graph, or search-process figure, also read
 `references/36_multiview_literature_graph_contract.md`.
@@ -175,6 +179,28 @@ For camera-ready poster reconstruction, editable PPT/Illustrator/Inkscape
 builds, page-to-poster maps, vector plot redraws, and numerical/formula audit
 checklists, read `references/17_camera_ready_poster_rebuild.md`.
 For iteration and user-feedback capture, read `references/15_interaction_protocol.md`.
+
+## Native Paper Reading Router
+
+If one or more papers must be read rather than merely located:
+
+1. Lock the exact title, authors, version/date, DOI/arXiv, canonical URL, local
+   full text, and page count.
+2. Read `references/38_native_paper_reading_protocol.md`.
+3. Create `paper_reading_record.md` from
+   `templates/paper_reading_record_template.md`; for multiple papers also
+   aggregate `paper_reading_ledger.csv` from
+   `templates/paper_reading_ledger_template.csv`.
+4. Complete the paper map, position, mechanism/equations, evidence/numbers,
+   boundaries, safe sentence, prohibited sentence, and next-search leads with
+   page/section/figure/table anchors and `EvidenceID`s.
+5. Keep author statements separate from reviewer inference. If evaluation or
+   critique is requested, create `paper_review_gate.md` from
+   `templates/paper_review_gate_template.md` only after extraction passes.
+6. Treat external summaries or paper-reading skills as candidate notes. They do
+   not promote evidence until checked against the exact paper.
+7. Run `scripts/validate_paper_reading_record.py paper_reading_record.md` before
+   using the record in a report, proposal, paper, or slide deck.
 
 ## Literature / Related Work / Novelty Router
 

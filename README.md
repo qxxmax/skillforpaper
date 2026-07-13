@@ -35,6 +35,8 @@ tested.
 - `install.py`: safe cross-platform installation and update helper.
 - `requirements-optional.txt`: packages needed only for graph rendering and
   API-observable token/cost runs.
+- [`DESIGN_PROVENANCE.md`](DESIGN_PROVENANCE.md): external systems evaluated,
+  what was abstracted, and what is not included as a dependency.
 
 Downloaded third-party papers and full-text caches are not distributed.
 
@@ -163,6 +165,24 @@ produces:
 
 The complete example and concrete file previews are under
 [`sps/`](sps/README.md).
+
+## Native paper reading
+
+The skill does not require a separate third-party paper-reader. A promoted core
+paper follows the repository's own protocol:
+
+```text
+identity lock -> paper map -> position -> mechanism and equations
+-> experiments and numbers -> boundaries -> safe synthesis
+```
+
+The run produces a detailed `paper_reading_record.md`, a compact
+`paper_reading_ledger.csv`, and, when critique is needed, a separate
+`paper_review_gate.md`. The record validator rejects a `VERIFIED` file with
+missing identity, source anchors, evidence IDs, or unresolved placeholders.
+
+See
+[`references/38_native_paper_reading_protocol.md`](play-the-toy-with-children/references/38_native_paper_reading_protocol.md).
 
 ## What works without an API key
 

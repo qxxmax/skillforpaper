@@ -25,6 +25,9 @@ method claim is expected to resolve through a ledger row to a source anchor.
 | Which source supports each sentence? | [`claim_source_ledger.md`](runs/codex-goal-mode-cleanroom/claim_source_ledger.md) |
 | Which numbers were retained? | [`numerical_ledger.csv`](runs/codex-goal-mode-cleanroom/numerical_ledger.csv) |
 | What was read from each paper? | [`manual_reading_notes.csv`](runs/codex-goal-mode-cleanroom/manual_reading_notes.csv) |
+| What does the native SPS reading record contain? | [`native_paper_reading_record_sps.md`](runs/codex-goal-mode-full-dijkstra-20260713/native_paper_reading_record_sps.md) |
+| How is one paper represented as a ledger row? | [`native_paper_reading_ledger.csv`](runs/codex-goal-mode-full-dijkstra-20260713/native_paper_reading_ledger.csv) |
+| What remains after the review gate? | [`native_paper_review_gate_sps.md`](runs/codex-goal-mode-full-dijkstra-20260713/native_paper_review_gate_sps.md) |
 | How was the search expanded? | [`round_log.md`](runs/codex-goal-mode-cleanroom/round_log.md) |
 | What is the method/citation lineage? | [`citation_lineage_graph.png`](runs/codex-goal-mode-cleanroom/graphs/citation_lineage_graph.png) |
 | What remains unresolved? | [`gap_ledger.csv`](runs/codex-goal-mode-cleanroom/gap_ledger.csv) |

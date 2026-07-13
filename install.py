@@ -28,11 +28,17 @@ def validate_skill(path: Path) -> list[str]:
         path / "SKILL.md",
         path / "agents" / "openai.yaml",
         path / "scripts" / "smoke_test.py",
+        path / "scripts" / "run_literature_dijkstra.py",
+        path / "scripts" / "validate_paper_reading_record.py",
         path / "scripts" / "validate_keyword_query_graph.py",
         path / "references" / "33_literature_intent_modes_and_state_loop.md",
         path / "references" / "35_keyword_ontology_and_query_matrix.md",
         path / "references" / "36_multiview_literature_graph_contract.md",
         path / "references" / "37_observable_api_runner.md",
+        path / "references" / "38_native_paper_reading_protocol.md",
+        path / "templates" / "paper_reading_record_template.md",
+        path / "templates" / "paper_reading_ledger_template.csv",
+        path / "templates" / "paper_review_gate_template.md",
     ]
     errors = [f"missing {item.relative_to(path)}" for item in required if not item.is_file()]
     skill_file = path / "SKILL.md"
