@@ -78,6 +78,8 @@ instrumented stage rows are preserved in
 | How were graph costs defined? | [`dijkstra_weight_policy.md`](dijkstra_weight_policy.md) |
 | Can paths be recomputed? | [`dijkstra_candidate_graph_nodes.csv`](dijkstra_candidate_graph_nodes.csv), [`dijkstra_candidate_graph_edges.csv`](dijkstra_candidate_graph_edges.csv), [`dijkstra_candidate_shortest_paths.csv`](dijkstra_candidate_shortest_paths.csv) |
 | What was read from each paper? | [`manual_reading_notes.csv`](manual_reading_notes.csv) |
+| What does one native full-paper record look like? | [`native_paper_reading_record_sps.md`](native_paper_reading_record_sps.md) and [`native_paper_reading_ledger.csv`](native_paper_reading_ledger.csv) |
+| Which claims survive a review gate? | [`native_paper_review_gate_sps.md`](native_paper_review_gate_sps.md) |
 | Which source supports each claim? | [`claim_source_ledger.md`](claim_source_ledger.md) |
 | What remains unresolved? | [`gap_ledger.csv`](gap_ledger.csv) |
 | What is the final synthesis? | [`literature_research_report.md`](literature_research_report.md) |
