@@ -131,6 +131,11 @@ gaps:
 
 Downloaded third-party papers and full-text caches are not distributed.
 
+**About the Python files:** normal users do not need to run them manually.
+Only the skill folder is installed; scripts under `sps/runs/` are frozen
+reproducibility records for the SPS experiments. See the
+[Python script map](sps/SCRIPT_MAP.md) for their roles and dependency boundaries.
+
 <details>
 <summary><strong>Manual installation and optional extras</strong></summary>
 
