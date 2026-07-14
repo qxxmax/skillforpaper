@@ -89,26 +89,36 @@ and exact token/cache counters were unavailable for these matched runs. See the
 
 ## What the results look like
 
-These are real pages from the SPS output package. Click any image to inspect
-the full-resolution table or graph.
+The table previews below are rendered directly from the
+[final SPS Excel workbook](sps/runs/codex-goal-mode-full-dijkstra-20260713/sps_literature_audit_full_dijkstra.xlsx),
+without retyping or restyling the cells. The sheet and range are stated under
+each heading. Click an image to inspect it at full resolution.
 
 ### Source table
 
-Exact paper identities, source links, access status, and verification notes:
+Exact paper identities, method families, discovery relations, and source URLs.
+Excel sheet `Sources`, range `A1:H10`:
 
-[![SPS source table](sps/runs/codex-goal-mode-cleanroom/qa_workbook/sources.png)](sps/runs/codex-goal-mode-cleanroom/qa_workbook/sources.png)
+[![SPS Sources sheet from the final Excel workbook](sps/readme_assets/excel_sources_A1_H10.png)](sps/readme_assets/excel_sources_A1_H10.png)
 
 ### Per-paper reading records
 
-Problem, method, result, limitation, and source anchor for each promoted paper:
+Problem and method, each with a PDF anchor. Excel sheet `Reading Notes`, range
+`I1:L3`:
 
-[![SPS paper reading records](sps/runs/codex-goal-mode-cleanroom/qa_workbook/reading_notes.png)](sps/runs/codex-goal-mode-cleanroom/qa_workbook/reading_notes.png)
+[![SPS problem and method columns from the final Excel workbook](sps/readme_assets/excel_reading_problem_method_I1_L3.png)](sps/readme_assets/excel_reading_problem_method_I1_L3.png)
+
+Exactness correction, result, limitation, and PDF anchors. Excel sheet
+`Reading Notes`, range `M1:Q3`:
+
+[![SPS result and limitation columns from the final Excel workbook](sps/readme_assets/excel_reading_result_boundary_M1_Q3.png)](sps/readme_assets/excel_reading_result_boundary_M1_Q3.png)
 
 ### Claim, source, and boundary table
 
-What can be written, which source supports it, and where the wording must stop:
+What can be written, which evidence supports it, and where the wording must
+stop. Excel sheet `Claims`, range `A1:F11`:
 
-[![SPS claim and source ledger](sps/runs/codex-goal-mode-cleanroom/qa_workbook/claims.png)](sps/runs/codex-goal-mode-cleanroom/qa_workbook/claims.png)
+[![SPS Claims sheet from the final Excel workbook](sps/readme_assets/excel_claims_A1_F11.png)](sps/readme_assets/excel_claims_A1_F11.png)
 
 ### Literature lineage
 
@@ -116,6 +126,9 @@ Checked citation and method relations, used to locate branches and remaining
 gaps:
 
 [![SPS citation lineage](sps/runs/codex-goal-mode-cleanroom/graphs/citation_lineage_graph.png)](sps/runs/codex-goal-mode-cleanroom/graphs/citation_lineage_graph.png)
+
+Screenshot provenance and exact ranges are recorded in
+[`sps/readme_assets/README.md`](sps/readme_assets/README.md).
 
 ## Inspect the detailed result
 
