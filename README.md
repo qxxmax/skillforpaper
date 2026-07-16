@@ -14,11 +14,24 @@ verbal clue -> exact target -> candidate pool -> paper reading
             -> claim/source ledger -> lineage -> gaps -> report
 ```
 
-Part 1 public package: **2026-07-13**
-
-Latest fresh audit rerun: **2026-07-16**
-
 Repository: <https://github.com/qxxmax/skillforpaper>
+
+## Six-part roadmap
+
+Roadmap status last reviewed: **2026-07-16**. The dates below record the
+latest public status update, not necessarily a completion date.
+
+| Part | Research step | Current public status | Last update |
+|---|---|---|---:|
+| 1 | Understand the literature: identify, search, read, trace, and audit | **Complete and public.** SPS public package released 2026-07-13; fresh full rerun passed 21/21 checks. | 2026-07-16 |
+| 2 | Learn current methods, formulas, implementations, and progress | **In progress.** The first SPS example is verified through T3, with equation-level reading, predecessor comparison, algorithm reconstruction, review, and usage records. | 2026-07-16 |
+| 3 | Design, execute, diagnose, and validate the research | **Planned.** No public end-to-end run has been released. | 2026-07-16 |
+| 4 | Prepare a complete research or funding proposal | **Planned.** No public end-to-end run has been released. | 2026-07-16 |
+| 5 | Write, choose a venue, submit, and revise the paper | **Planned.** No public end-to-end run has been released. | 2026-07-16 |
+| 6 | Produce slides, posters, and talks for different audiences | **Planned.** No public end-to-end run has been released. | 2026-07-16 |
+
+Open the [Part 1 SPS case](sps/README.md) or the
+[Part 2 SPS technical-learning run](sps/part2/runs/sps-goal-mode-rerun-20260716/README.md).
 
 ## Try it first: no installation
 
@@ -207,26 +220,6 @@ price file.
 ```bash
 python3 -m pip install -r requirements-optional.txt
 ```
-
-</details>
-
-<details>
-<summary><strong>Six-part roadmap</strong></summary>
-
-| Part | Research step | Status |
-|---|---|---|
-| 1 | Understand the literature: identify, search, read, trace, and audit | Public and tested |
-| 2 | Learn current methods, formulas, implementations, and progress | SPS example verified through T3 |
-| 3 | Design, execute, diagnose, and validate the research | Planned |
-| 4 | Prepare a complete research or funding proposal | Planned |
-| 5 | Write, choose a venue, submit, and revise the paper | Planned |
-| 6 | Produce slides, posters, and talks for different audiences | Planned |
-
-The first completed Part 2 example is the
-[SPS Goal-mode run](sps/part2/runs/sps-goal-mode-rerun-20260716/README.md).
-It includes five equation-level reading records, a predecessor comparison,
-formula-to-algorithm trace, technical review, lineage graph, LaTeX/PDF report,
-and stage-level Goal token and elapsed-time observations.
 
 </details>
 
