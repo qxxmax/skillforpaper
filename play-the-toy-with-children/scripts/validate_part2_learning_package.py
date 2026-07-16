@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
 import re
 import tempfile
@@ -17,6 +18,12 @@ REQUIRED_FILES = {
     "innovation": "innovation_delta.csv",
     "code_map": "equation_code_map.csv",
     "review": "review_core.md",
+}
+
+T5_REQUIRED_FILES = {
+    "reproduction_report": "minimal_reproduction_report.md",
+    "reproduction_manifest": "reproduction_manifest.json",
+    "reproduction_output": "reproduction_output.json",
 }
 
 CONTRACT_FIELDS = [
@@ -155,6 +162,26 @@ def read_csv(path: Path, required: set[str], errors: list[str]) -> list[dict[str
     except (OSError, csv.Error) as exc:
         errors.append(f"cannot read {path.name}: {exc}")
         return []
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1 << 20), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def read_json(path: Path, errors: list[str]) -> dict[str, object]:
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        errors.append(f"cannot read {path.name}: {exc}")
+        return {}
+    if not isinstance(value, dict):
+        errors.append(f"{path.name} must contain a JSON object")
+        return {}
+    return value
 
 
 def resolve_part1_ledgers(
@@ -379,6 +406,97 @@ def validate_package(directory: Path) -> dict[str, object]:
                     f"equation_code_map.csv row {row_number} has non-final implementation_status"
                 )
 
+        if target_level >= 4:
+            traced_rows = [
+                row
+                for row in code_rows
+                if row.get("implementation_status", "").strip().lower()
+                in {"traced", "tested"}
+            ]
+            if not traced_rows:
+                errors.append("T4 requires at least one traced or tested code row")
+            required_code_fields = [
+                "code_repo",
+                "code_version",
+                "code_file",
+                "code_symbol",
+                "config_or_data",
+            ]
+            non_values = {"", "unavailable", "not_requested", "pending", "blocked"}
+            for row_number, row in enumerate(code_rows, start=2):
+                implementation = row.get("implementation_status", "").strip().lower()
+                if implementation not in {"traced", "tested"}:
+                    continue
+                for field in required_code_fields:
+                    if row.get(field, "").strip().lower() in non_values:
+                        errors.append(
+                            f"equation_code_map.csv row {row_number} lacks traced {field}"
+                        )
+
+        if target_level >= 5:
+            t5_paths = {
+                name: directory / filename
+                for name, filename in T5_REQUIRED_FILES.items()
+            }
+            for path in t5_paths.values():
+                if not path.is_file():
+                    errors.append(f"T5 missing required file: {path.name}")
+
+            tested_rows = [
+                row
+                for row in code_rows
+                if row.get("implementation_status", "").strip().lower() == "tested"
+            ]
+            if not tested_rows:
+                errors.append("T5 requires at least one tested equation-code row")
+            non_results = {"", "unavailable", "not_requested", "pending", "blocked"}
+            for row_number, row in enumerate(code_rows, start=2):
+                if row.get("implementation_status", "").strip().lower() != "tested":
+                    continue
+                for field in ("reproduction_test", "observed_result"):
+                    if row.get(field, "").strip().lower() in non_results:
+                        errors.append(
+                            f"equation_code_map.csv row {row_number} lacks tested {field}"
+                        )
+
+            if all(path.is_file() for path in t5_paths.values()):
+                manifest = read_json(t5_paths["reproduction_manifest"], errors)
+                output = read_json(t5_paths["reproduction_output"], errors)
+                required_manifest_fields = {
+                    "schema_version",
+                    "repository",
+                    "code_version",
+                    "command",
+                    "output_file",
+                    "output_sha256",
+                    "status",
+                }
+                missing_manifest = sorted(
+                    field
+                    for field in required_manifest_fields
+                    if not str(manifest.get(field, "")).strip()
+                )
+                if missing_manifest:
+                    errors.append(
+                        "reproduction_manifest.json missing fields: "
+                        + ", ".join(missing_manifest)
+                    )
+                if str(manifest.get("status", "")).upper() != "PASS":
+                    errors.append("reproduction manifest status is not PASS")
+                if str(output.get("overall", "")).upper() != "PASS":
+                    errors.append("reproduction output overall is not PASS")
+                if manifest.get("output_file") != t5_paths["reproduction_output"].name:
+                    errors.append("reproduction manifest output_file does not match package output")
+                observed_hash = sha256(t5_paths["reproduction_output"])
+                if manifest.get("output_sha256") != observed_hash:
+                    errors.append("reproduction output SHA-256 does not match manifest")
+                if manifest.get("code_version") != output.get("commit"):
+                    errors.append("reproduction code version does not match machine output")
+                if manifest.get("source_sha256") and (
+                    manifest.get("source_sha256") != output.get("source_sha256")
+                ):
+                    errors.append("reproduction source SHA-256 does not match machine output")
+
         for level in range(target_level + 1):
             status = gate_status(report, f"T{level}")
             if status != "pass":
@@ -481,6 +599,144 @@ Package status: `DRAFT`
         invalid = validate_package(directory)
     if valid["status"] != "PASS" or invalid["status"] != "FAIL":
         raise SystemExit(f"self-test failed: valid={valid} invalid={invalid}")
+
+    with tempfile.TemporaryDirectory() as temp:
+        directory = Path(temp)
+        source_run = directory / "run" / "part1"
+        source_run.mkdir(parents=True)
+        evidence_ids = [f"E{index}" for index in range(1000, 1008)]
+        (source_run / "evidence_registry.csv").write_text(
+            "evidence_id\n" + "\n".join(evidence_ids) + "\n",
+            encoding="utf-8",
+        )
+        (source_run / "relation_ledger.csv").write_text(
+            "edge_id,evidence_id\n",
+            encoding="utf-8",
+        )
+        (source_run / "paper_verification_ledger.csv").write_text(
+            "paper_id\nP001\n",
+            encoding="utf-8",
+        )
+        (directory / "part2_learning_contract.md").write_text(
+            """# Part 2 Learning Contract
+
+Package status: `VERIFIED`
+
+| Field | Value |
+|---|---|
+| Topic or method | Test method |
+| Target capability | Trace and test code |
+| Source Part 1 run | run/part1 |
+| Focal PaperIDs | P001 |
+| Mode | reproduce |
+| Target competence | T5 |
+| Frontier cutoff | 2026-01-01 |
+| Requested outputs | md / csv / json / code |
+| Stop condition | T0-T5 pass |
+""",
+            encoding="utf-8",
+        )
+        evidence_block = "; ".join(evidence_ids)
+        report_sections = "\n\n".join(
+            f"{heading}\n\nChecked at p. {index + 1}. {evidence_block}"
+            for index, heading in enumerate(REPORT_HEADINGS)
+        )
+        gate_rows = "\n".join(
+            f"| T{level} | gate | proof | pass |" for level in range(6)
+        )
+        (directory / "part2_learning_report.md").write_text(
+            "# Part 2 Technical Learning Report\n\nReport status: `VERIFIED`\n\n"
+            + report_sections
+            + "\n\n"
+            + gate_rows
+            + "\n",
+            encoding="utf-8",
+        )
+        review_sections = "\n\n".join(
+            f"{heading}\n\nChecked at p. {index + 1}."
+            for index, heading in enumerate(REVIEW_HEADINGS)
+        )
+        (directory / "review_core.md").write_text(
+            "# Part 2 Technical Review\n\nReview status: `READY`\n\n"
+            + review_sections
+            + "\n",
+            encoding="utf-8",
+        )
+        with (directory / "innovation_delta.csv").open(
+            "w", newline="", encoding="utf-8"
+        ) as handle:
+            writer = csv.DictWriter(handle, fieldnames=INNOVATION_HEADER_ORDER)
+            writer.writeheader()
+            writer.writerow(
+                {
+                    "delta_id": "D001",
+                    "focal_paper_id": "P001",
+                    "dimension": "objective",
+                    "inherited_component": "old",
+                    "changed_component": "new",
+                    "claimed_or_observed_effect": "checked",
+                    "statement_layer": "source_supported_synthesis",
+                    "evidence_id": "E1000",
+                    "source_anchor": "PDF p. 1, Eq. (1)",
+                    "reasoning": "source comparison",
+                    "confidence": "high",
+                    "status": "verified",
+                }
+            )
+        with (directory / "equation_code_map.csv").open(
+            "w", newline="", encoding="utf-8"
+        ) as handle:
+            writer = csv.DictWriter(handle, fieldnames=CODE_MAP_HEADER_ORDER)
+            writer.writeheader()
+            writer.writerow(
+                {
+                    "map_id": "M001",
+                    "paper_id": "P001",
+                    "equation_id": "Eq. (1)",
+                    "equation_role": "objective",
+                    "latex": "x=y",
+                    "source_anchor": "PDF p. 1, Eq. (1)",
+                    "evidence_id": "E1000",
+                    "algorithm_step": "evaluate",
+                    "code_repo": "https://example.org/repo",
+                    "code_version": "abc",
+                    "code_file": "loss.py",
+                    "code_symbol": "loss",
+                    "config_or_data": "config.yaml",
+                    "implementation_status": "tested",
+                    "reproduction_test": "test.py",
+                    "observed_result": "PASS",
+                    "boundary": "minimal check",
+                    "status": "verified",
+                }
+            )
+        (directory / "minimal_reproduction_report.md").write_text(
+            "# Minimal Reproduction\n\nStatus: `PASS`\n",
+            encoding="utf-8",
+        )
+        output = {"overall": "PASS", "commit": "abc", "source_sha256": "def"}
+        output_path = directory / "reproduction_output.json"
+        output_path.write_text(json.dumps(output) + "\n", encoding="utf-8")
+        manifest = {
+            "schema_version": "test-v1",
+            "repository": "https://example.org/repo",
+            "code_version": "abc",
+            "source_sha256": "def",
+            "command": "python test.py",
+            "output_file": "reproduction_output.json",
+            "output_sha256": sha256(output_path),
+            "status": "PASS",
+        }
+        (directory / "reproduction_manifest.json").write_text(
+            json.dumps(manifest) + "\n", encoding="utf-8"
+        )
+        valid_t5 = validate_package(directory)
+        output_path.unlink()
+        invalid_t5 = validate_package(directory)
+    if valid_t5["status"] != "PASS" or invalid_t5["status"] != "FAIL":
+        raise SystemExit(
+            f"T5 self-test failed: valid={valid_t5} invalid={invalid_t5}"
+        )
     print("PASS: Part 2 learning-package validator self-test")
 
 

@@ -17,6 +17,7 @@ SPS = ROOT / "sps"
 RUNS = SPS / "runs"
 PART2 = SPS / "part2" / "sps-lineage-learning-draft-20260715"
 PART2_GOAL = SPS / "part2" / "runs" / "sps-goal-mode-rerun-20260716"
+PART2_T5 = SPS / "part2" / "runs" / "pis-t4-t5-minimal-reproduction-20260716"
 FRESH_PART1 = RUNS / "codex-goal-mode-full-dijkstra-rerun-20260716"
 
 
@@ -95,10 +96,39 @@ required = [
     PART2_GOAL / "output_manifest.md",
     PART2_GOAL / "artifact_refresh_manifest.md",
     PART2_GOAL / "part2_validation.json",
+    PART2_T5 / "README.md",
+    PART2_T5 / "part2_learning_contract.md",
+    PART2_T5 / "part2_learning_report.md",
+    PART2_T5 / "innovation_delta.csv",
+    PART2_T5 / "equation_code_map.csv",
+    PART2_T5 / "review_core.md",
+    PART2_T5 / "code_source_ledger.csv",
+    PART2_T5 / "cross_case_validation.csv",
+    PART2_T5 / "lineage_learning_path.mmd",
+    PART2_T5 / "minimal_reproduction_report.md",
+    PART2_T5 / "reproduction_manifest.json",
+    PART2_T5 / "reproduction_output.json",
+    PART2_T5 / "scripts" / "verify_pis_loss_formula.py",
+    PART2_T5 / "run_log.md",
+    PART2_T5 / "output_manifest.md",
+    PART2_T5 / "part2_validation.json",
 ]
 for path in required:
     if not path.exists():
         fail(f"missing required artifact: {path.relative_to(ROOT)}")
+
+tracked_output = subprocess.run(
+    ["git", "-C", str(ROOT), "ls-files"],
+    check=True,
+    capture_output=True,
+    text=True,
+)
+public_files = {
+    (ROOT / relative).resolve()
+    for relative in tracked_output.stdout.splitlines()
+    if (ROOT / relative).is_file()
+}
+public_files.update(path.resolve() for path in required if path.is_file())
 
 allowed_top = {
     ".git",
@@ -115,17 +145,19 @@ if unexpected_top:
     fail(f"unexpected top-level entries: {unexpected_top}")
 
 forbidden_parts = {"examples", "research-to-publication", "sources", "source_pdfs", "fulltext_cache"}
-for path in ROOT.rglob("*"):
+for path in public_files:
     if forbidden_parts.intersection(path.relative_to(ROOT).parts):
         fail(f"forbidden path in public export: {path.relative_to(ROOT)}")
 
 forbidden_files = {"fulltext_reading_packets.md", "reading_packets.md", "section_extracts.md"}
-for path in ROOT.rglob("*"):
+for path in public_files:
     if path.name in forbidden_files:
         fail(f"long source-extract artifact found: {path.relative_to(ROOT)}")
 
 json_count = 0
-for path in ROOT.rglob("*.json"):
+for path in public_files:
+    if path.suffix.lower() != ".json":
+        continue
     with path.open(encoding="utf-8") as handle:
         json.load(handle)
     json_count += 1
@@ -134,7 +166,9 @@ allowed_derived_pdfs = {
     (PART2 / "part2_learning_report.pdf").resolve(),
     (PART2_GOAL / "part2_learning_report.pdf").resolve(),
 }
-for path in ROOT.rglob("*.pdf"):
+for path in public_files:
+    if path.suffix.lower() != ".pdf":
+        continue
     if (
         "graphs" not in path.relative_to(ROOT).parts
         and path.resolve() not in allowed_derived_pdfs
@@ -144,8 +178,8 @@ for path in ROOT.rglob("*.pdf"):
 text_suffixes = {
     ".md", ".json", ".csv", ".py", ".txt", ".yaml", ".yml", ".mmd", ".tex",
 }
-for path in ROOT.rglob("*"):
-    if not path.is_file() or path.suffix.lower() not in text_suffixes:
+for path in public_files:
+    if path.suffix.lower() not in text_suffixes:
         continue
     if path.resolve() == Path(__file__).resolve():
         continue
@@ -164,6 +198,7 @@ for document in [
     FRESH_PART1 / "README.md",
     SPS / "part2" / "README.md",
     PART2_GOAL / "README.md",
+    PART2_T5 / "README.md",
 ]:
     text = document.read_text(encoding="utf-8")
     for target in re.findall(r"\[[^]]+\]\(([^)]+)\)", text):
@@ -202,6 +237,20 @@ subprocess.run(
         sys.executable,
         str(ROOT / "play-the-toy-with-children" / "scripts" / "validate_paper_reading_record.py"),
         "--self-test",
+    ],
+    check=True,
+)
+
+subprocess.run(
+    [
+        sys.executable,
+        str(
+            ROOT
+            / "play-the-toy-with-children"
+            / "scripts"
+            / "validate_part2_learning_package.py"
+        ),
+        str(PART2_T5),
     ],
     check=True,
 )
@@ -285,9 +334,5 @@ subprocess.run(
     check=True,
 )
 
-file_count = sum(
-    1
-    for path in ROOT.rglob("*")
-    if path.is_file() and ".git" not in path.relative_to(ROOT).parts
-)
+file_count = len(public_files)
 print(f"PASS: {file_count} files, {json_count} JSON files, workbook valid, public boundary clean")
