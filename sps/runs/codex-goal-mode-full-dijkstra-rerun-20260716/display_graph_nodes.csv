@@ -1,0 +1,22 @@
+NodeID,Title,Year,ShortLabel,PrimaryDisplayCluster,AllTopicLabels,EvidenceLevel,SourceRelation,ReadingPriority,SourceURL,PublicGraphStatus
+2606.13790,Stochastic Path Sampler For Lattice Field Theory,2026,"SPS (Chen et al., 2026)",SPS,SPS,claim_anchored,root,P0,https://arxiv.org/abs/2606.13790,show
+1904.12072,Flow-based generative models for Markov chain Monte Carlo in lattice field theory,2019,Flow-based MCMC (2019),Flow methods,Flow methods,claim_anchored,direct_citation,P0,https://arxiv.org/abs/1904.12072,show
+2003.06413,Equivariant flow-based sampling for lattice gauge theory,2020,Gauge-equivariant flow (2020),Flow methods,Flow methods,claim_anchored,direct_citation,P0,https://arxiv.org/abs/2003.06413,show
+2101.08176,Introduction to Normalizing Flows for Lattice Field Theory,2021,Normalizing-flow overview (2021),Flow methods,Flow methods,full_text,selected_context,P1,https://arxiv.org/abs/2101.08176,hide
+2111.15141,Path Integral Sampler: a stochastic control approach for sampling,2021,Path Integral Sampler (2022),Path-space control,Path-space control,claim_anchored,direct_citation,P0,https://arxiv.org/abs/2111.15141,show
+2201.08862,Stochastic normalizing flows as non-equilibrium transformations,2022,SNF as nonequilibrium (2022),Stochastic flows,Stochastic flows,claim_anchored,direct_citation,P0,https://arxiv.org/abs/2201.08862,show
+2201.13117,Continual Repeated Annealed Flow Transport Monte Carlo,2022,CRAFT (2022),Stochastic flows,Stochastic flows,full_text,selected_context,P1,https://arxiv.org/abs/2201.13117,hide
+2210.03139,Stochastic normalizing flows for lattice field theory,2022,SNF for lattice field theory,Stochastic flows,Stochastic flows,claim_anchored,direct_citation,P0,https://arxiv.org/abs/2210.03139,show
+2211.01364,An optimal control perspective on diffusion-based generative modeling,2022,Optimal-control diffusion view,Path-space control,Path-space control,full_text,direct_citation,P1,https://arxiv.org/abs/2211.01364,hide
+2302.13834,Denoising Diffusion Samplers,2023,Denoising Diffusion Samplers,Diffusion,Diffusion,claim_anchored,direct_citation,P0,https://arxiv.org/abs/2302.13834,show
+2302.14082,Detecting and Mitigating Mode-Collapse for Flow-based Sampling of Lattice Field Theories,2023,Flow mode-collapse diagnostics,Failure mode,Failure mode,full_text,selected_context,P1,https://arxiv.org/abs/2302.14082,hide
+2309.17082,Diffusion Models as Stochastic Quantization in Lattice Field Theory,2023,Diffusion as stochastic quantization,Diffusion,Diffusion,claim_anchored,direct_citation,P0,https://arxiv.org/abs/2309.17082,show
+2310.11979,Out-of-equilibrium simulations to fight topological freezing,2023,Out-of-equilibrium topology,Nonequilibrium,Nonequilibrium,claim_anchored,method_neighbor,P0,https://arxiv.org/abs/2310.11979,show
+2311.03578,Generative Diffusion Models for Lattice Field Theory,2023,Generative diffusion precursor,Diffusion,Diffusion,full_text,selected_context,P1,https://arxiv.org/abs/2311.03578,hide
+2402.06561,Mitigating topological freezing using out-of-equilibrium simulations,2024,Topological-freezing protocol,Nonequilibrium,Nonequilibrium,claim_anchored,method_neighbor,P0,https://arxiv.org/abs/2402.06561,show
+2404.09723,Minimal Autocorrelation in Hybrid Monte Carlo simulations using Exact Fourier Acceleration,2024,Exact Fourier acceleration,Evaluation,Evaluation,full_text,selected_context,P1,https://arxiv.org/abs/2404.09723,hide
+2412.00200,Scaling of Stochastic Normalizing Flows in $\mathrm{SU}(3)$ lattice gauge theory,2024,SNF scaling in SU(3),Stochastic flows,Stochastic flows,full_text,selected_context,P1,https://arxiv.org/abs/2412.00200,hide
+2512.19575,Variational Autoregressive Networks Applied to $φ^4$ Field Theory Systems,2025,VAN plus MH in phi4,Autoregressive,Autoregressive,claim_anchored,direct_citation,P0,https://arxiv.org/abs/2512.19575,show
+2604.10209,Scalable Generative Sampling and Multilevel Estimation for Lattice Field Theories Near Criticality,2026,Multiscale critical sampler,Multiscale,Multiscale,claim_anchored,method_neighbor,P0,https://arxiv.org/abs/2604.10209,show
+2605.11199,Operator Spectroscopy of Trained Lattice Samplers,2026,Operator spectroscopy,Mechanism audit,Mechanism audit,claim_anchored,direct_citation,P0,https://arxiv.org/abs/2605.11199,show
+2607.08505,Diffusion Models for Sampling Near Criticality in Lattice Field Theories,2026,Diffusion near criticality,Diffusion,Diffusion,claim_anchored,method_neighbor,P0,https://arxiv.org/abs/2607.08505,show

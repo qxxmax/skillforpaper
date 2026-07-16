@@ -1,0 +1,7 @@
+query_id,round,family,facet,query_type,expression,max_results,why
+Q19,L5,correction,exactness,search,"all:""independence Metropolis"" AND all:lattice",30,Expand the exactness and correction route within lattice contexts.
+Q20,L6,path_lattice,mechanism,search,"all:""path space"" AND all:""lattice field theory""",30,Test whether path-space terms discover lattice-specific method neighbors.
+Q21,L7,stochastic_quantization,mechanism,search,"all:""stochastic quantization"" AND all:""lattice field theory""",30,Expand the diffusion and stochastic-quantization lineage.
+Q22,L8,topology,problem,search,"all:""topological freezing"" AND all:""normalizing flow""",30,Expand the topology and nonequilibrium failure-mode branch.
+Q23,L9,multiscale,scaling,search,"all:multilevel AND all:""lattice field theory""",30,Expand multiscale and MLMC alternatives near criticality.
+Q24,L10,author,author_lineage,search,"au:Lucini_B AND all:sampling",30,Expand a root coauthor route after the C4 author-lineage check.

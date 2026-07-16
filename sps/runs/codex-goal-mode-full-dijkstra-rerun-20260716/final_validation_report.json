@@ -1,0 +1,110 @@
+{
+  "overall": "PASS",
+  "checks": [
+    {
+      "name": "required_artifacts",
+      "status": "PASS",
+      "detail": "all required artifacts present"
+    },
+    {
+      "name": "L0_L10_protocol",
+      "status": "PASS",
+      "detail": "24 configured Q routes"
+    },
+    {
+      "name": "identifier_probe_plan",
+      "status": "PASS",
+      "detail": "12 configured identifier probes"
+    },
+    {
+      "name": "fresh_retrievals",
+      "status": "PASS",
+      "detail": "36 logged routes; statuses={'OK': 36}"
+    },
+    {
+      "name": "raw_source_artifacts",
+      "status": "PASS",
+      "detail": "every retrieval row has a current raw response and hash"
+    },
+    {
+      "name": "root_identity",
+      "status": "PASS",
+      "detail": "Q01, Q02, and P01 agree on arXiv:2606.13790 and title"
+    },
+    {
+      "name": "candidate_pool_size",
+      "status": "PASS",
+      "detail": "raw=371, deduplicated=308"
+    },
+    {
+      "name": "candidate_screening_decisions",
+      "status": "PASS",
+      "detail": "{'include': 94, 'candidate': 57, 'exclude': 157}"
+    },
+    {
+      "name": "root_screen_status",
+      "status": "PASS",
+      "detail": "root is included and passes C0-C2"
+    },
+    {
+      "name": "C3_source_integrity",
+      "status": "PASS",
+      "detail": "21 selected PDFs checksum-rechecked"
+    },
+    {
+      "name": "C4_anchor_set",
+      "status": "PASS",
+      "detail": "14 C4 records for 14 planned sources"
+    },
+    {
+      "name": "C4_verification_ledger",
+      "status": "PASS",
+      "detail": "all selected sources pass C3; planned core sources pass C4"
+    },
+    {
+      "name": "evidence_and_claim_ledgers",
+      "status": "PASS",
+      "detail": "evidence=70, claims=14"
+    },
+    {
+      "name": "direct_citation_lineage",
+      "status": "PASS",
+      "detail": "relations=14, direct=10 with explicit physical/printed page anchors"
+    },
+    {
+      "name": "key_visual_source_audit",
+      "status": "PASS",
+      "detail": "7 source-page screenshots registered"
+    },
+    {
+      "name": "source_link_ledger",
+      "status": "PASS",
+      "detail": "all C3 links pass; four papers have selected visual anchors"
+    },
+    {
+      "name": "dijkstra_input_graph",
+      "status": "PASS",
+      "detail": "nodes=254, edges=464"
+    },
+    {
+      "name": "computed_dijkstra_paths",
+      "status": "PASS",
+      "detail": "254 reachable nodes and recomputed weighted paths"
+    },
+    {
+      "name": "dijkstra_equal_budget_replay",
+      "status": "PASS",
+      "detail": "same candidate pool; at 20-paper budget: 14 C4 anchors vs 8"
+    },
+    {
+      "name": "rendered_graphs",
+      "status": "PASS",
+      "detail": "four nonempty rendered PNG views"
+    },
+    {
+      "name": "runtime_accounting",
+      "status": "PASS",
+      "detail": "3 runtime snapshots; counters labelled separately from API cost"
+    }
+  ]
+}

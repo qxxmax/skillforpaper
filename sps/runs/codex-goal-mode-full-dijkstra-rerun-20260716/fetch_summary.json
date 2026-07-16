@@ -1,0 +1,7 @@
+{
+  "transport_routes": 30,
+  "transport_ok": 30,
+  "raw_hits": 335,
+  "deduplicated_records": 289,
+  "parse_failures": []
+}

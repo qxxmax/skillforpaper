@@ -1,0 +1,6 @@
+Stage,Count,Meaning,SourceTable,DeduplicationKey,Filter
+raw_route_hits,371,Raw arXiv records across L0-L10,route_results.csv,route_id+arxiv_id,none
+deduplicated_candidates,308,Deduplicated C0 candidate records,candidate_screening_table.csv,arxiv_id,deduplicate
+C0_C2_active,151,Records retained for full-text queue or method adjacency,candidate_screening_table.csv,arxiv_id,"decision in include,candidate"
+C3_full_text,21,Current downloaded PDFs passing integrity and text extraction,source_matrix.csv,arxiv_id,full_text_integrity PASS
+C4_claim_anchor,14,Core papers with manual source anchors and boundaries,native_paper_reading_ledger.csv,arxiv_id,reading_level C4

@@ -1,0 +1,9 @@
+snapshot_id,stage,timestamp,tokens_used,time_used_seconds,delta_tokens,delta_seconds,note
+S00,goal_start,2026-07-16T08:26:12+02:00,0,0,0,0,Goal created
+S01,contract_and_input_lock,2026-07-16T08:27:15+02:00,14413,39,14413,39,Part 2 contract and source run identified
+S02,source_identity_and_full_text_lock,2026-07-16T09:33:24+02:00,395432,3945,381019,3906,Four exact arXiv versions downloaded outside the public package and matched to Part 1 SHA-256 records
+S03,equation_level_reading,2026-07-16T10:59:53+02:00,711191,5130,315759,1185,Five R0-R6 records passed; CMCD was promoted after P001 identified it as a paired-drift predecessor
+S04,predecessor_subtraction_and_review,2026-07-16T11:04:25+02:00,763038,5396,51847,266,Eight innovation rows and eight formula-algorithm rows resolved against Part 1; review status READY
+S05,outputs_and_layout_check,2026-07-16T11:11:32+02:00,915839,5817,152801,421,Markdown CSV Mermaid TeX and five-page PDF completed; PDF rendered and inspected
+S06,final_pre_completion_audit,2026-07-16T11:18:22+02:00,1083239,6220,167400,403,Source resolution public boundary skill validation wording scan and five-page visual inspection passed
+S07,goal_completion,2026-07-16T11:20:31+02:00,1161662,6367,78423,147,Authoritative final counters returned when Goal mode marked the run complete

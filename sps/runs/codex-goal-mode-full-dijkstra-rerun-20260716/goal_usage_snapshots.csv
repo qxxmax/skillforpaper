@@ -1,0 +1,4 @@
+snapshot_id,timestamp,goal_status,goal_tokens_used,goal_time_seconds,scope,note
+S00,2026-07-16T11:34:25+02:00,active,358798,211,setup,Fresh Part 1 rerun directory and protocol created; values are Goal-mode cumulative runtime counters, not API billing.
+S01,2026-07-16T12:24:38+02:00,active,1095277,2954,pre_final_validation,L0-L10 retrieval; C3/C4 source checks; graph replay; visual audit; and completion records finished. Counters remain Goal-mode runtime values, not API billing.
+S02,2026-07-16T12:28:13+02:00,active,1165477,3168,validated_completion,Final validator passed all 21 checks after repairing and revalidating L5-L10 raw-source paths. Counter remains Goal-mode runtime, not API billing.

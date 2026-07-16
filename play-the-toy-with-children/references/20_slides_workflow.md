@@ -79,7 +79,7 @@ parameter detail into backup.
    readability, equation overflow, figure resolution, citation labels, and
    accidental text overlap.
 13. Run named polish rounds and record what each round changed.  Typical rounds
-    are: figure/evidence grounding, prose cleanup and de-AI pass, visual
+    are: figure/evidence grounding, audience-prose cleanup, visual
     emphasis, slide-by-slide logic audit, and readability / word economy.
 14. When using red or other alert color, use it sparingly for core claims, key
     result numbers, comparison caveats, or terms the speaker must explicitly
@@ -100,7 +100,7 @@ parameter detail into backup.
     original figure".  Record unavailable sources in `visual_source_ledger.md`,
     status files, speaker notes, backup, or the final progress report instead
     of making them slide content.
-18. In the hard de-bloat round, remove AI/self-referential labels, workflow
+18. In the hard de-bloat round, remove self-referential process labels, workflow
     narration, repeated caveats, generic bottom-line boxes, and any sentence the
     speaker can say aloud.  Convert three-column explanation tables into
     two-column term/value tables when possible, and delete redundant checkpoint
@@ -158,8 +158,8 @@ Before finalizing:
 - Body text, bottom-line boxes, and boundary notes have passed a word-economy
   check: remove generic explanation, repeated caveats, and prose that a speaker
   can say aloud without putting it on the slide.
-- No audience-facing slide contains AI self-talk such as "AI asks", workflow
-  narration, or process-completeness content that belongs in the status record.
+- No audience-facing slide contains internal process notes or material that
+  belongs in the status record.
 - Key terms have passed a keyword-question check.  If a term is required for
   following the next figure, method, or result table, the deck defines it before
   use through a compact checkpoint, table row, or figure-reading note.

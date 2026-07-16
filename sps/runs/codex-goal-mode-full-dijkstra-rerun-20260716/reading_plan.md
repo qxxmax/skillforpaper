@@ -1,0 +1,33 @@
+# Full-Text Reading Plan
+
+- selected papers: 21
+- C4 claim-anchor targets: 14
+- C3 source-check targets: 7
+
+The C4 label is a planned reading depth, not a claim that a paper has already
+been read. A paper changes to C3 only after the current PDF, page count, checksum,
+and text extraction are recorded; it changes to C4 only after an anchored note exists.
+
+| paper | level | cluster | reason |
+|---|---|---|---|
+| 2606.13790 | C4 | root_sps | Root paper and current method identity. |
+| 1904.12072 | C4 | flow_lattice | Early flow-based MCMC lattice-field baseline. |
+| 2003.06413 | C4 | gauge_flow | Equivariant lattice-gauge flow branch. |
+| 2101.08176 | C3 | flow_overview | Field-specific normalizing-flow overview and terminology cross-check. |
+| 2111.15141 | C4 | path_control | Path-space control and unnormalized-target adjacent method. |
+| 2201.08862 | C4 | stochastic_flow | Nonequilibrium and Jarzynski bridge to stochastic normalizing flows. |
+| 2201.13117 | C3 | annealed_flow | Annealed flow transport bridge and correction context. |
+| 2210.03139 | C4 | stochastic_flow | Lattice stochastic-normalizing-flow implementation account. |
+| 2211.01364 | C3 | optimal_control | General diffusion/control bridge; retained as method-adjacent only. |
+| 2302.13834 | C4 | diffusion | Denoising diffusion sampler for unnormalized targets. |
+| 2302.14082 | C3 | failure_mode | Mode-collapse detection and mitigation in lattice flow sampling. |
+| 2309.17082 | C4 | diffusion_lattice | Diffusion and stochastic-quantization branch in lattice phi4. |
+| 2310.11979 | C4 | nonequilibrium_lattice | Nonequilibrium evaluation branch for topological freezing. |
+| 2311.03578 | C3 | diffusion_lattice | Generative diffusion lattice precursor. |
+| 2402.06561 | C4 | nonequilibrium_lattice | Follow-up topological-freezing evaluation route. |
+| 2404.09723 | C3 | evaluation | Autocorrelation baseline and exact Fourier-acceleration context. |
+| 2412.00200 | C3 | stochastic_flow | Scaling evidence in SU3 stochastic normalizing flows. |
+| 2512.19575 | C4 | autoregressive_lattice | Recent variational-autoregressive phi4 comparison family. |
+| 2604.10209 | C4 | critical_sampling | Current criticality and scalable generative sampling comparison. |
+| 2605.11199 | C4 | author_context | Current author-context sampler-mechanism diagnostic. |
+| 2607.08505 | C4 | forward_neighbor | Current near-critical diffusion benchmark and diagnostics. |

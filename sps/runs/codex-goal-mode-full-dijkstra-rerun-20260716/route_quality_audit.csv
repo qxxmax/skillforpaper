@@ -1,0 +1,25 @@
+route_id,round,family,facet,query,raw_hits,unique_hits,included,candidate_only
+Q01,L0,root,identity,2606.13790,1,1,1,0
+Q02,L0,root,identity,"ti:""Stochastic Path Sampler For Lattice Field Theory""",1,1,1,0
+Q03,L1,root_terms,method,"all:""stochastic path sampler""",1,1,1,0
+Q04,L1,domain,domain,"all:""lattice field theory"" AND all:""neural sampler""",4,4,4,0
+Q05,L1,normalizing_flow,method,"all:""lattice field theory"" AND all:""normalizing flow""",30,30,27,0
+Q06,L2,stochastic_flow,method,"all:""stochastic normalizing flow"" AND all:lattice",14,14,14,0
+Q07,L2,nonequilibrium,mechanism,"all:nonequilibrium AND all:""lattice field""",4,4,2,0
+Q08,L2,path_space,mechanism,"all:""path space"" AND all:sampling",30,30,1,19
+Q09,L2,entropy_production,mechanism,"all:""entropy production"" AND all:sampling",30,30,1,12
+Q10,L2,diffusion,adjacent,"all:diffusion AND all:""lattice field theory""",30,30,16,0
+Q11,L2,critical_slowing,problem,"all:""critical slowing down"" AND all:lattice",30,30,16,1
+Q12,L3,jarzynski,method_precedent,all:Jarzynski AND all:lattice,30,30,15,0
+Q13,L3,author,author_lineage,au:Qian_M,18,18,0,0
+Q14,L3,author,author_lineage,au:Aarts_G AND all:lattice,21,21,0,0
+Q15,L3,author,author_lineage,"au:Chen_S AND all:""stochastic""",10,10,0,0
+Q16,L4,evaluation,verification,all:autocorrelation AND all:lattice AND all:sampling,30,30,25,2
+Q17,L4,correction,exactness,"all:""independence Metropolis"" AND all:sampling",30,30,2,12
+Q18,L4,adjacent,method,"all:""Schrodinger bridge"" AND all:sampling",9,9,0,8
+Q19,L5,correction,exactness,"all:""independence Metropolis"" AND all:lattice",4,4,2,0
+Q20,L6,path_lattice,mechanism,"all:""path space"" AND all:""lattice field theory""",1,1,1,0
+Q21,L7,stochastic_quantization,mechanism,"all:""stochastic quantization"" AND all:""lattice field theory""",6,6,4,0
+Q22,L8,topology,problem,"all:""topological freezing"" AND all:""normalizing flow""",8,8,8,0
+Q23,L9,multiscale,scaling,"all:multilevel AND all:""lattice field theory""",17,17,5,0
+Q24,L10,author,author_lineage,au:Lucini_B AND all:sampling,0,0,0,0

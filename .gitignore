@@ -3,8 +3,20 @@ __pycache__/
 *.pyc
 .env
 
+# LaTeX build intermediates; keep source and final PDFs.
+*.aux
+*.log
+*.out
+
 # Keep downloaded literature and full-text caches outside Git.
 sources/
 source_pdfs/
 fulltext_cache/
 
+# Do not publish raw search payloads or transport-debug logs from fresh runs.
+sps/runs/*/raw/
+sps/runs/*/expansion/raw/
+sps/runs/*/logs/
+
+# Exclude the superseded page captured before the PDF/printed-page offset was corrected.
+sps/runs/codex-goal-mode-full-dijkstra-rerun-20260716/screenshots/2606.13790_p29_bibliography.png

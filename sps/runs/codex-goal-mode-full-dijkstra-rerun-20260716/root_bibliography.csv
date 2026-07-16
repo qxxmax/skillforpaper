@@ -1,0 +1,11 @@
+ref_no,arxiv_id,title,authors,citation_context,anchor,source_url
+5,1904.12072,Flow-based generative models for Markov chain Monte Carlo in lattice field theory,M. S. Albergo; G. Kanwar; P. E. Shanahan,SPS reference [5],Root printed p. 29 (PDF page 30),https://arxiv.org/abs/1904.12072
+8,2003.06413,Equivariant flow-based sampling for lattice gauge theory,Gurtej Kanwar; Michael S. Albergo; Denis Boyda; Kyle Cranmer; Daniel C. Hackett; Sébastien Racanière; Danilo Jimenez Rezende; Phiala E. Shanahan,SPS reference [8],Root printed p. 30 (PDF page 31),https://arxiv.org/abs/2003.06413
+11,2512.19575,Variational Autoregressive Networks Applied to $φ^4$ Field Theory Systems,Moxian Qian; Shiyang Chen,SPS reference [11],Root printed p. 30 (PDF page 31),https://arxiv.org/abs/2512.19575
+19,2201.08862,Stochastic normalizing flows as non-equilibrium transformations,Michele Caselle; Elia Cellini; Alessandro Nada; Marco Panero,SPS reference [19],Root printed p. 30 (PDF page 31),https://arxiv.org/abs/2201.08862
+20,2210.03139,Stochastic normalizing flows for lattice field theory,Michele Caselle; Elia Cellini; Alessandro Nada; Marco Panero,SPS reference [20],Root printed p. 30 (PDF page 31),https://arxiv.org/abs/2210.03139
+25,2309.17082,Diffusion Models as Stochastic Quantization in Lattice Field Theory,Lingxiao Wang; Gert Aarts; Kai Zhou,SPS reference [25],Root printed p. 31 (PDF page 32),https://arxiv.org/abs/2309.17082
+32,2605.11199,Operator Spectroscopy of Trained Lattice Samplers,Moxian Qian,SPS reference [32],Root printed p. 31 (PDF page 32),https://arxiv.org/abs/2605.11199
+33,2111.15141,Path Integral Sampler: a stochastic control approach for sampling,Qinsheng Zhang; Yongxin Chen,SPS reference [33],Root printed p. 31 (PDF page 32),https://arxiv.org/abs/2111.15141
+34,2302.13834,Denoising Diffusion Samplers,Francisco Vargas; Will Grathwohl; Arnaud Doucet,SPS reference [34],Root printed p. 31 (PDF page 32),https://arxiv.org/abs/2302.13834
+35,2211.01364,An optimal control perspective on diffusion-based generative modeling,Julius Berner; Lorenz Richter; Karen Ullrich,SPS reference [35],Root printed p. 31 (PDF page 32),https://arxiv.org/abs/2211.01364

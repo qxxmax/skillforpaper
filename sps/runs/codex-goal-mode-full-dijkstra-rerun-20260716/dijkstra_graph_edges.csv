@@ -1,0 +1,465 @@
+edge_id,source,target,weight,relation,evidence
+G0001,paper:2606.13790,query:Q01,0.05,root_to_query,search_protocol.csv:Q01
+G0002,paper:2606.13790,query:Q02,0.05,root_to_query,search_protocol.csv:Q02
+G0003,paper:2606.13790,query:Q03,0.2,root_to_query,search_protocol.csv:Q03
+G0004,paper:2606.13790,query:Q04,0.2,root_to_query,search_protocol.csv:Q04
+G0005,paper:2606.13790,query:Q05,0.2,root_to_query,search_protocol.csv:Q05
+G0006,paper:2606.13790,query:Q06,0.4,root_to_query,search_protocol.csv:Q06
+G0007,paper:2606.13790,query:Q07,0.4,root_to_query,search_protocol.csv:Q07
+G0008,paper:2606.13790,query:Q08,0.4,root_to_query,search_protocol.csv:Q08
+G0009,paper:2606.13790,query:Q09,0.4,root_to_query,search_protocol.csv:Q09
+G0010,paper:2606.13790,query:Q10,0.4,root_to_query,search_protocol.csv:Q10
+G0011,paper:2606.13790,query:Q11,0.4,root_to_query,search_protocol.csv:Q11
+G0012,paper:2606.13790,query:Q12,0.5,root_to_query,search_protocol.csv:Q12
+G0013,paper:2606.13790,query:Q13,0.5,root_to_query,search_protocol.csv:Q13
+G0014,paper:2606.13790,query:Q14,0.5,root_to_query,search_protocol.csv:Q14
+G0015,paper:2606.13790,query:Q15,0.5,root_to_query,search_protocol.csv:Q15
+G0016,paper:2606.13790,query:Q16,0.6,root_to_query,search_protocol.csv:Q16
+G0017,paper:2606.13790,query:Q17,0.6,root_to_query,search_protocol.csv:Q17
+G0018,paper:2606.13790,query:Q18,0.6,root_to_query,search_protocol.csv:Q18
+G0019,paper:2606.13790,query:Q19,0.65,root_to_query,search_protocol.csv:Q19
+G0020,paper:2606.13790,query:Q20,0.7,root_to_query,search_protocol.csv:Q20
+G0021,paper:2606.13790,query:Q21,0.7,root_to_query,search_protocol.csv:Q21
+G0022,paper:2606.13790,query:Q22,0.75,root_to_query,search_protocol.csv:Q22
+G0023,paper:2606.13790,query:Q23,0.75,root_to_query,search_protocol.csv:Q23
+G0024,paper:2606.13790,query:Q24,0.8,root_to_query,search_protocol.csv:Q24
+G0025,paper:2606.13790,query:P01,0.1,root_to_identifier_probe,raw/arxiv/P01.xml:P01
+G0026,paper:2606.13790,query:P02,0.3,root_to_identifier_probe,raw/arxiv/P02.xml:P02
+G0027,paper:2606.13790,query:P03,0.3,root_to_identifier_probe,raw/arxiv/P03.xml:P03
+G0028,paper:2606.13790,query:P04,0.3,root_to_identifier_probe,raw/arxiv/P04.xml:P04
+G0029,paper:2606.13790,query:P05,0.3,root_to_identifier_probe,raw/arxiv/P05.xml:P05
+G0030,paper:2606.13790,query:P06,0.3,root_to_identifier_probe,raw/arxiv/P06.xml:P06
+G0031,paper:2606.13790,query:P07,0.3,root_to_identifier_probe,raw/arxiv/P07.xml:P07
+G0032,paper:2606.13790,query:P08,0.3,root_to_identifier_probe,raw/arxiv/P08.xml:P08
+G0033,paper:2606.13790,query:P09,0.3,root_to_identifier_probe,raw/arxiv/P09.xml:P09
+G0034,paper:2606.13790,query:P10,0.3,root_to_identifier_probe,raw/arxiv/P10.xml:P10
+G0035,paper:2606.13790,query:P11,0.3,root_to_identifier_probe,raw/arxiv/P11.xml:P11
+G0036,paper:2606.13790,query:P12,0.3,root_to_identifier_probe,raw/arxiv/P12.xml:P12
+G0037,query:P01,paper:2606.13790,0.527259,query_hit,raw/arxiv/P01.xml rank=1
+G0038,query:P02,paper:2111.15141,0.527259,query_hit,raw/arxiv/P02.xml rank=1
+G0039,query:P03,paper:2201.08862,0.527259,query_hit,raw/arxiv/P03.xml rank=1
+G0040,query:P04,paper:2210.03139,0.527259,query_hit,raw/arxiv/P04.xml rank=1
+G0041,query:P05,paper:1904.12072,0.527259,query_hit,raw/arxiv/P05.xml rank=1
+G0042,query:P06,paper:2003.06413,0.527259,query_hit,raw/arxiv/P06.xml rank=1
+G0043,query:P07,paper:2101.08176,0.527259,query_hit,raw/arxiv/P07.xml rank=1
+G0044,query:P08,paper:2512.19575,0.527259,query_hit,raw/arxiv/P08.xml rank=1
+G0045,query:P09,paper:2605.11199,0.527259,query_hit,raw/arxiv/P09.xml rank=1
+G0046,query:P10,paper:2607.08505,0.527259,query_hit,raw/arxiv/P10.xml rank=1
+G0047,query:P11,paper:2211.01364,0.527259,query_hit,raw/arxiv/P11.xml rank=1
+G0048,query:P12,paper:2302.13834,0.527259,query_hit,raw/arxiv/P12.xml rank=1
+G0049,query:Q01,paper:2606.13790,0.527259,query_hit,raw/arxiv/Q01.xml rank=1
+G0050,query:Q02,paper:2606.13790,0.527259,query_hit,raw/arxiv/Q02.xml rank=1
+G0051,query:Q03,paper:2606.13790,0.527259,query_hit,raw/arxiv/Q03.xml rank=1
+G0052,query:Q04,paper:2606.13790,0.527259,query_hit,raw/arxiv/Q04.xml rank=1
+G0053,query:Q04,paper:2511.15196,0.689445,query_hit,raw/arxiv/Q04.xml rank=2
+G0054,query:Q04,paper:2503.11482,0.804518,query_hit,raw/arxiv/Q04.xml rank=3
+G0055,query:Q04,paper:2203.10989,0.893775,query_hit,raw/arxiv/Q04.xml rank=4
+G0056,query:Q05,paper:2607.07127,0.527259,query_hit,raw/arxiv/Q05.xml rank=1
+G0057,query:Q05,paper:2605.22444,0.689445,query_hit,raw/arxiv/Q05.xml rank=2
+G0058,query:Q05,paper:2604.12416,0.804518,query_hit,raw/arxiv/Q05.xml rank=3
+G0059,query:Q05,paper:2604.10209,0.893775,query_hit,raw/arxiv/Q05.xml rank=4
+G0060,query:Q05,paper:2603.12501,0.966704,query_hit,raw/arxiv/Q05.xml rank=5
+G0061,query:Q05,paper:2603.02984,1.028364,query_hit,raw/arxiv/Q05.xml rank=6
+G0062,query:Q05,paper:2601.20708,1.081777,query_hit,raw/arxiv/Q05.xml rank=7
+G0063,query:Q05,paper:2601.18273,1.12889,query_hit,raw/arxiv/Q05.xml rank=8
+G0064,query:Q05,paper:2601.10774,1.171034,query_hit,raw/arxiv/Q05.xml rank=9
+G0065,query:Q05,paper:2510.21330,1.209158,query_hit,raw/arxiv/Q05.xml rank=10
+G0066,query:Q05,paper:2510.13112,1.243963,query_hit,raw/arxiv/Q05.xml rank=11
+G0067,query:Q05,paper:2509.12812,1.27598,query_hit,raw/arxiv/Q05.xml rank=12
+G0068,query:Q05,paper:2505.10553,1.305623,query_hit,raw/arxiv/Q05.xml rank=13
+G0069,query:Q05,paper:2503.11482,1.359035,query_hit,raw/arxiv/Q05.xml rank=15
+G0070,query:Q05,paper:2502.00263,1.383285,query_hit,raw/arxiv/Q05.xml rank=16
+G0071,query:Q05,paper:2501.07371,1.427776,query_hit,raw/arxiv/Q05.xml rank=18
+G0072,query:Q05,paper:2412.19109,1.448293,query_hit,raw/arxiv/Q05.xml rank=19
+G0073,query:Q05,paper:2410.13161,1.467809,query_hit,raw/arxiv/Q05.xml rank=20
+G0074,query:Q05,paper:2409.18861,1.486417,query_hit,raw/arxiv/Q05.xml rank=21
+G0075,query:Q05,paper:2404.18323,1.504198,query_hit,raw/arxiv/Q05.xml rank=22
+G0076,query:Q05,paper:2404.11674,1.521222,query_hit,raw/arxiv/Q05.xml rank=23
+G0077,query:Q05,paper:2310.11979,1.553239,query_hit,raw/arxiv/Q05.xml rank=25
+G0078,query:Q05,paper:2310.03381,1.568335,query_hit,raw/arxiv/Q05.xml rank=26
+G0079,query:Q05,paper:2309.14983,1.582882,query_hit,raw/arxiv/Q05.xml rank=27
+G0080,query:Q05,paper:2308.13294,1.596918,query_hit,raw/arxiv/Q05.xml rank=28
+G0081,query:Q05,paper:2304.01798,1.610479,query_hit,raw/arxiv/Q05.xml rank=29
+G0082,query:Q05,paper:2302.14082,1.623595,query_hit,raw/arxiv/Q05.xml rank=30
+G0083,query:Q06,paper:2604.12416,0.527259,query_hit,raw/arxiv/Q06.xml rank=1
+G0084,query:Q06,paper:2601.20708,0.689445,query_hit,raw/arxiv/Q06.xml rank=2
+G0085,query:Q06,paper:2601.18273,0.804518,query_hit,raw/arxiv/Q06.xml rank=3
+G0086,query:Q06,paper:2510.25704,0.893775,query_hit,raw/arxiv/Q06.xml rank=4
+G0087,query:Q06,paper:2412.19109,0.966704,query_hit,raw/arxiv/Q06.xml rank=5
+G0088,query:Q06,paper:2412.00200,1.028364,query_hit,raw/arxiv/Q06.xml rank=6
+G0089,query:Q06,paper:2409.18861,1.081777,query_hit,raw/arxiv/Q06.xml rank=7
+G0090,query:Q06,paper:2409.15937,1.12889,query_hit,raw/arxiv/Q06.xml rank=8
+G0091,query:Q06,paper:2402.06561,1.171034,query_hit,raw/arxiv/Q06.xml rank=9
+G0092,query:Q06,paper:2310.11979,1.209158,query_hit,raw/arxiv/Q06.xml rank=10
+G0093,query:Q06,paper:2309.14983,1.243963,query_hit,raw/arxiv/Q06.xml rank=11
+G0094,query:Q06,paper:2210.03139,1.27598,query_hit,raw/arxiv/Q06.xml rank=12
+G0095,query:Q06,paper:2201.13117,1.305623,query_hit,raw/arxiv/Q06.xml rank=13
+G0096,query:Q06,paper:2201.08862,1.33322,query_hit,raw/arxiv/Q06.xml rank=14
+G0097,query:Q07,paper:2606.13790,0.527259,query_hit,raw/arxiv/Q07.xml rank=1
+G0098,query:Q07,paper:1311.4386,0.804518,query_hit,raw/arxiv/Q07.xml rank=3
+G0099,query:Q08,paper:2607.13757,0.527259,query_hit,raw/arxiv/Q08.xml rank=1
+G0100,query:Q08,paper:2607.11631,0.689445,query_hit,raw/arxiv/Q08.xml rank=2
+G0101,query:Q08,paper:2607.08757,0.804518,query_hit,raw/arxiv/Q08.xml rank=3
+G0102,query:Q08,paper:2607.07453,0.893775,query_hit,raw/arxiv/Q08.xml rank=4
+G0103,query:Q08,paper:2606.13790,1.028364,query_hit,raw/arxiv/Q08.xml rank=6
+G0104,query:Q08,paper:2606.12710,1.081777,query_hit,raw/arxiv/Q08.xml rank=7
+G0105,query:Q08,paper:2606.06179,1.12889,query_hit,raw/arxiv/Q08.xml rank=8
+G0106,query:Q08,paper:2605.27079,1.171034,query_hit,raw/arxiv/Q08.xml rank=9
+G0107,query:Q08,paper:2605.23434,1.209158,query_hit,raw/arxiv/Q08.xml rank=10
+G0108,query:Q08,paper:2605.22723,1.243963,query_hit,raw/arxiv/Q08.xml rank=11
+G0109,query:Q08,paper:2605.13681,1.305623,query_hit,raw/arxiv/Q08.xml rank=13
+G0110,query:Q08,paper:2605.12379,1.33322,query_hit,raw/arxiv/Q08.xml rank=14
+G0111,query:Q08,paper:2604.15694,1.406149,query_hit,raw/arxiv/Q08.xml rank=17
+G0112,query:Q08,paper:2604.07762,1.427776,query_hit,raw/arxiv/Q08.xml rank=18
+G0113,query:Q08,paper:2602.10989,1.53755,query_hit,raw/arxiv/Q08.xml rank=24
+G0114,query:Q08,paper:2512.01153,1.553239,query_hit,raw/arxiv/Q08.xml rank=25
+G0115,query:Q08,paper:2509.01629,1.582882,query_hit,raw/arxiv/Q08.xml rank=27
+G0116,query:Q08,paper:2508.12511,1.596918,query_hit,raw/arxiv/Q08.xml rank=28
+G0117,query:Q08,paper:2507.19718,1.610479,query_hit,raw/arxiv/Q08.xml rank=29
+G0118,query:Q08,paper:2507.07192,1.623595,query_hit,raw/arxiv/Q08.xml rank=30
+G0119,query:Q09,paper:2606.17252,0.527259,query_hit,raw/arxiv/Q09.xml rank=1
+G0120,query:Q09,paper:2606.13790,0.689445,query_hit,raw/arxiv/Q09.xml rank=2
+G0121,query:Q09,paper:2605.05764,0.893775,query_hit,raw/arxiv/Q09.xml rank=4
+G0122,query:Q09,paper:2604.26534,0.966704,query_hit,raw/arxiv/Q09.xml rank=5
+G0123,query:Q09,paper:2604.07867,1.081777,query_hit,raw/arxiv/Q09.xml rank=7
+G0124,query:Q09,paper:2602.06849,1.171034,query_hit,raw/arxiv/Q09.xml rank=9
+G0125,query:Q09,paper:2601.04358,1.243963,query_hit,raw/arxiv/Q09.xml rank=11
+G0126,query:Q09,paper:2512.19616,1.27598,query_hit,raw/arxiv/Q09.xml rank=12
+G0127,query:Q09,paper:2507.10476,1.359035,query_hit,raw/arxiv/Q09.xml rank=15
+G0128,query:Q09,paper:2405.18381,1.504198,query_hit,raw/arxiv/Q09.xml rank=22
+G0129,query:Q09,paper:2405.02467,1.521222,query_hit,raw/arxiv/Q09.xml rank=23
+G0130,query:Q09,paper:2306.03521,1.568335,query_hit,raw/arxiv/Q09.xml rank=26
+G0131,query:Q09,paper:2212.05125,1.610479,query_hit,raw/arxiv/Q09.xml rank=29
+G0132,query:Q10,paper:2607.08505,0.527259,query_hit,raw/arxiv/Q10.xml rank=1
+G0133,query:Q10,paper:2604.12416,0.689445,query_hit,raw/arxiv/Q10.xml rank=2
+G0134,query:Q10,paper:2512.19877,0.804518,query_hit,raw/arxiv/Q10.xml rank=3
+G0135,query:Q10,paper:2510.26081,0.893775,query_hit,raw/arxiv/Q10.xml rank=4
+G0136,query:Q10,paper:2412.13704,1.028364,query_hit,raw/arxiv/Q10.xml rank=6
+G0137,query:Q10,paper:2412.01919,1.081777,query_hit,raw/arxiv/Q10.xml rank=7
+G0138,query:Q10,paper:2410.21212,1.12889,query_hit,raw/arxiv/Q10.xml rank=8
+G0139,query:Q10,paper:2410.02711,1.171034,query_hit,raw/arxiv/Q10.xml rank=9
+G0140,query:Q10,paper:2311.03578,1.305623,query_hit,raw/arxiv/Q10.xml rank=13
+G0141,query:Q10,paper:2309.17082,1.33322,query_hit,raw/arxiv/Q10.xml rank=14
+G0142,query:Q10,paper:2308.12355,1.359035,query_hit,raw/arxiv/Q10.xml rank=15
+G0143,query:Q10,paper:2206.14676,1.406149,query_hit,raw/arxiv/Q10.xml rank=17
+G0144,query:Q10,paper:2202.03054,1.427776,query_hit,raw/arxiv/Q10.xml rank=18
+G0145,query:Q10,paper:1912.00689,1.504198,query_hit,raw/arxiv/Q10.xml rank=22
+G0146,query:Q10,paper:1211.2418,1.596918,query_hit,raw/arxiv/Q10.xml rank=28
+G0147,query:Q10,paper:1109.3941,1.610479,query_hit,raw/arxiv/Q10.xml rank=29
+G0148,query:Q11,paper:2606.27481,0.527259,query_hit,raw/arxiv/Q11.xml rank=1
+G0149,query:Q11,paper:2606.13790,0.689445,query_hit,raw/arxiv/Q11.xml rank=2
+G0150,query:Q11,paper:2605.16020,0.893775,query_hit,raw/arxiv/Q11.xml rank=4
+G0151,query:Q11,paper:2604.10209,1.12889,query_hit,raw/arxiv/Q11.xml rank=8
+G0152,query:Q11,paper:2603.14695,1.171034,query_hit,raw/arxiv/Q11.xml rank=9
+G0153,query:Q11,paper:2603.00252,1.209158,query_hit,raw/arxiv/Q11.xml rank=10
+G0154,query:Q11,paper:2602.08502,1.305623,query_hit,raw/arxiv/Q11.xml rank=13
+G0155,query:Q11,paper:2512.19575,1.33322,query_hit,raw/arxiv/Q11.xml rank=14
+G0156,query:Q11,paper:2511.02018,1.406149,query_hit,raw/arxiv/Q11.xml rank=17
+G0157,query:Q11,paper:2510.26081,1.427776,query_hit,raw/arxiv/Q11.xml rank=18
+G0158,query:Q11,paper:2510.21330,1.448293,query_hit,raw/arxiv/Q11.xml rank=19
+G0159,query:Q11,paper:2510.02961,1.486417,query_hit,raw/arxiv/Q11.xml rank=21
+G0160,query:Q11,paper:2509.23945,1.504198,query_hit,raw/arxiv/Q11.xml rank=22
+G0161,query:Q11,paper:2505.08236,1.553239,query_hit,raw/arxiv/Q11.xml rank=25
+G0162,query:Q11,paper:2504.17747,1.568335,query_hit,raw/arxiv/Q11.xml rank=26
+G0163,query:Q11,paper:2503.09747,1.582882,query_hit,raw/arxiv/Q11.xml rank=27
+G0164,query:Q11,paper:2503.08918,1.596918,query_hit,raw/arxiv/Q11.xml rank=28
+G0165,query:Q12,paper:2412.00200,0.804518,query_hit,raw/arxiv/Q12.xml rank=3
+G0166,query:Q12,paper:2411.00620,0.893775,query_hit,raw/arxiv/Q12.xml rank=4
+G0167,query:Q12,paper:2410.02711,0.966704,query_hit,raw/arxiv/Q12.xml rank=5
+G0168,query:Q12,paper:2409.18861,1.028364,query_hit,raw/arxiv/Q12.xml rank=6
+G0169,query:Q12,paper:2402.06561,1.171034,query_hit,raw/arxiv/Q12.xml rank=9
+G0170,query:Q12,paper:2310.11979,1.209158,query_hit,raw/arxiv/Q12.xml rank=10
+G0171,query:Q12,paper:2309.15480,1.243963,query_hit,raw/arxiv/Q12.xml rank=11
+G0172,query:Q12,paper:2304.03311,1.27598,query_hit,raw/arxiv/Q12.xml rank=12
+G0173,query:Q12,paper:2210.03139,1.305623,query_hit,raw/arxiv/Q12.xml rank=13
+G0174,query:Q12,paper:2201.08862,1.33322,query_hit,raw/arxiv/Q12.xml rank=14
+G0175,query:Q12,paper:2108.13444,1.383285,query_hit,raw/arxiv/Q12.xml rank=16
+G0176,query:Q12,paper:1710.04435,1.467809,query_hit,raw/arxiv/Q12.xml rank=20
+G0177,query:Q12,paper:1609.02157,1.504198,query_hit,raw/arxiv/Q12.xml rank=22
+G0178,query:Q12,paper:1604.05544,1.521222,query_hit,raw/arxiv/Q12.xml rank=23
+G0179,query:Q12,paper:0702044,1.610479,query_hit,raw/arxiv/Q12.xml rank=29
+G0180,query:Q16,paper:2607.12587,0.527259,query_hit,raw/arxiv/Q16.xml rank=1
+G0181,query:Q16,paper:2606.13790,0.689445,query_hit,raw/arxiv/Q16.xml rank=2
+G0182,query:Q16,paper:2605.27770,0.804518,query_hit,raw/arxiv/Q16.xml rank=3
+G0183,query:Q16,paper:2604.10209,0.893775,query_hit,raw/arxiv/Q16.xml rank=4
+G0184,query:Q16,paper:2604.01287,0.966704,query_hit,raw/arxiv/Q16.xml rank=5
+G0185,query:Q16,paper:2601.20708,1.081777,query_hit,raw/arxiv/Q16.xml rank=7
+G0186,query:Q16,paper:2511.02018,1.12889,query_hit,raw/arxiv/Q16.xml rank=8
+G0187,query:Q16,paper:2510.25704,1.171034,query_hit,raw/arxiv/Q16.xml rank=9
+G0188,query:Q16,paper:2510.21330,1.209158,query_hit,raw/arxiv/Q16.xml rank=10
+G0189,query:Q16,paper:2509.23945,1.243963,query_hit,raw/arxiv/Q16.xml rank=11
+G0190,query:Q16,paper:2509.12812,1.27598,query_hit,raw/arxiv/Q16.xml rank=12
+G0191,query:Q16,paper:2507.13503,1.305623,query_hit,raw/arxiv/Q16.xml rank=13
+G0192,query:Q16,paper:2505.07719,1.33322,query_hit,raw/arxiv/Q16.xml rank=14
+G0193,query:Q16,paper:2504.01575,1.359035,query_hit,raw/arxiv/Q16.xml rank=15
+G0194,query:Q16,paper:2412.00200,1.383285,query_hit,raw/arxiv/Q16.xml rank=16
+G0195,query:Q16,paper:2409.18861,1.406149,query_hit,raw/arxiv/Q16.xml rank=17
+G0196,query:Q16,paper:2404.09723,1.427776,query_hit,raw/arxiv/Q16.xml rank=18
+G0197,query:Q16,paper:2312.11599,1.467809,query_hit,raw/arxiv/Q16.xml rank=20
+G0198,query:Q16,paper:2310.11979,1.486417,query_hit,raw/arxiv/Q16.xml rank=21
+G0199,query:Q16,paper:2309.17082,1.504198,query_hit,raw/arxiv/Q16.xml rank=22
+G0200,query:Q16,paper:2307.15674,1.521222,query_hit,raw/arxiv/Q16.xml rank=23
+G0201,query:Q16,paper:2307.04742,1.53755,query_hit,raw/arxiv/Q16.xml rank=24
+G0202,query:Q16,paper:2306.05917,1.553239,query_hit,raw/arxiv/Q16.xml rank=25
+G0203,query:Q16,paper:2306.00581,1.568335,query_hit,raw/arxiv/Q16.xml rank=26
+G0204,query:Q16,paper:2305.08935,1.582882,query_hit,raw/arxiv/Q16.xml rank=27
+G0205,query:Q16,paper:2304.01798,1.596918,query_hit,raw/arxiv/Q16.xml rank=28
+G0206,query:Q16,paper:2302.08408,1.623595,query_hit,raw/arxiv/Q16.xml rank=30
+G0207,query:Q17,paper:2606.13790,0.527259,query_hit,raw/arxiv/Q17.xml rank=1
+G0208,query:Q17,paper:2605.30722,0.804518,query_hit,raw/arxiv/Q17.xml rank=3
+G0209,query:Q17,paper:2603.12299,0.966704,query_hit,raw/arxiv/Q17.xml rank=5
+G0210,query:Q17,paper:2602.21426,1.028364,query_hit,raw/arxiv/Q17.xml rank=6
+G0211,query:Q17,paper:2512.06621,1.081777,query_hit,raw/arxiv/Q17.xml rank=7
+G0212,query:Q17,paper:2510.21330,1.12889,query_hit,raw/arxiv/Q17.xml rank=8
+G0213,query:Q17,paper:2505.04611,1.171034,query_hit,raw/arxiv/Q17.xml rank=9
+G0214,query:Q17,paper:2411.09514,1.209158,query_hit,raw/arxiv/Q17.xml rank=10
+G0215,query:Q17,paper:2406.17699,1.27598,query_hit,raw/arxiv/Q17.xml rank=12
+G0216,query:Q17,paper:2307.16035,1.33322,query_hit,raw/arxiv/Q17.xml rank=14
+G0217,query:Q17,paper:1511.07102,1.504198,query_hit,raw/arxiv/Q17.xml rank=22
+G0218,query:Q17,paper:1406.5795,1.53755,query_hit,raw/arxiv/Q17.xml rank=24
+G0219,query:Q17,paper:1307.3719,1.553239,query_hit,raw/arxiv/Q17.xml rank=25
+G0220,query:Q17,paper:0911.0230,1.596918,query_hit,raw/arxiv/Q17.xml rank=28
+G0221,query:Q18,paper:2605.06829,0.527259,query_hit,raw/arxiv/Q18.xml rank=1
+G0222,query:Q18,paper:2511.07116,0.689445,query_hit,raw/arxiv/Q18.xml rank=2
+G0223,query:Q18,paper:2508.20584,0.893775,query_hit,raw/arxiv/Q18.xml rank=4
+G0224,query:Q18,paper:2507.11025,0.966704,query_hit,raw/arxiv/Q18.xml rank=5
+G0225,query:Q18,paper:2403.06069,1.028364,query_hit,raw/arxiv/Q18.xml rank=6
+G0226,query:Q18,paper:2403.01717,1.081777,query_hit,raw/arxiv/Q18.xml rank=7
+G0227,query:Q18,paper:2312.03491,1.12889,query_hit,raw/arxiv/Q18.xml rank=8
+G0228,query:Q18,paper:2302.04411,1.171034,query_hit,raw/arxiv/Q18.xml rank=9
+G0229,query:Q19,paper:2606.13790,0.527259,query_hit,expansion/raw/arxiv/Q19.xml rank=1
+G0230,query:Q19,paper:2510.21330,0.689445,query_hit,expansion/raw/arxiv/Q19.xml rank=2
+G0231,query:Q20,paper:2606.13790,0.527259,query_hit,expansion/raw/arxiv/Q20.xml rank=1
+G0232,query:Q21,paper:2606.13790,0.527259,query_hit,expansion/raw/arxiv/Q21.xml rank=1
+G0233,query:Q21,paper:2311.03578,0.689445,query_hit,expansion/raw/arxiv/Q21.xml rank=2
+G0234,query:Q21,paper:2309.17082,0.804518,query_hit,expansion/raw/arxiv/Q21.xml rank=3
+G0235,query:Q21,paper:2201.12001,0.893775,query_hit,expansion/raw/arxiv/Q21.xml rank=4
+G0236,query:Q22,paper:2601.20708,0.527259,query_hit,expansion/raw/arxiv/Q22.xml rank=1
+G0237,query:Q22,paper:2510.25704,0.689445,query_hit,expansion/raw/arxiv/Q22.xml rank=2
+G0238,query:Q22,paper:2402.06561,0.804518,query_hit,expansion/raw/arxiv/Q22.xml rank=3
+G0239,query:Q22,paper:2310.11979,0.893775,query_hit,expansion/raw/arxiv/Q22.xml rank=4
+G0240,query:Q22,paper:2310.03381,0.966704,query_hit,expansion/raw/arxiv/Q22.xml rank=5
+G0241,query:Q22,paper:2306.00581,1.028364,query_hit,expansion/raw/arxiv/Q22.xml rank=6
+G0242,query:Q22,paper:2211.07541,1.081777,query_hit,expansion/raw/arxiv/Q22.xml rank=7
+G0243,query:Q22,paper:2208.03832,1.12889,query_hit,expansion/raw/arxiv/Q22.xml rank=8
+G0244,query:Q23,paper:2604.10209,0.527259,query_hit,expansion/raw/arxiv/Q23.xml rank=1
+G0245,query:Q23,paper:2402.00016,0.804518,query_hit,expansion/raw/arxiv/Q23.xml rank=3
+G0246,query:Q23,paper:1912.00689,1.171034,query_hit,expansion/raw/arxiv/Q23.xml rank=9
+G0247,query:Q23,paper:1711.01592,1.243963,query_hit,expansion/raw/arxiv/Q23.xml rank=11
+G0248,query:Q23,paper:1109.3941,1.383285,query_hit,expansion/raw/arxiv/Q23.xml rank=16
+G0249,paper:2606.13790,author:shiyang_chen,0.45,paper_to_author,selected_fulltexts.csv:2606.13790
+G0250,author:shiyang_chen,paper:2606.13790,0.6,author_to_paper,selected_fulltexts.csv:2606.13790
+G0251,paper:2606.13790,author:moxian_qian,0.45,paper_to_author,selected_fulltexts.csv:2606.13790
+G0252,author:moxian_qian,paper:2606.13790,0.6,author_to_paper,selected_fulltexts.csv:2606.13790
+G0253,paper:2606.13790,author:gert_aarts,0.45,paper_to_author,selected_fulltexts.csv:2606.13790
+G0254,author:gert_aarts,paper:2606.13790,0.6,author_to_paper,selected_fulltexts.csv:2606.13790
+G0255,paper:2606.13790,author:biagio_lucini,0.45,paper_to_author,selected_fulltexts.csv:2606.13790
+G0256,author:biagio_lucini,paper:2606.13790,0.6,author_to_paper,selected_fulltexts.csv:2606.13790
+G0257,paper:2606.13790,author:kai_zhou,0.45,paper_to_author,selected_fulltexts.csv:2606.13790
+G0258,author:kai_zhou,paper:2606.13790,0.6,author_to_paper,selected_fulltexts.csv:2606.13790
+G0259,paper:2606.13790,method:root_sps,0.65,paper_to_method,selected_fulltexts.csv:2606.13790
+G0260,method:root_sps,paper:2606.13790,0.85,method_to_paper,selected_fulltexts.csv:2606.13790
+G0261,paper:1904.12072,author:m_s_albergo,0.45,paper_to_author,selected_fulltexts.csv:1904.12072
+G0262,author:m_s_albergo,paper:1904.12072,0.6,author_to_paper,selected_fulltexts.csv:1904.12072
+G0263,paper:1904.12072,author:g_kanwar,0.45,paper_to_author,selected_fulltexts.csv:1904.12072
+G0264,author:g_kanwar,paper:1904.12072,0.6,author_to_paper,selected_fulltexts.csv:1904.12072
+G0265,paper:1904.12072,author:p_e_shanahan,0.45,paper_to_author,selected_fulltexts.csv:1904.12072
+G0266,author:p_e_shanahan,paper:1904.12072,0.6,author_to_paper,selected_fulltexts.csv:1904.12072
+G0267,paper:1904.12072,method:flow_lattice,0.65,paper_to_method,selected_fulltexts.csv:1904.12072
+G0268,method:flow_lattice,paper:1904.12072,0.85,method_to_paper,selected_fulltexts.csv:1904.12072
+G0269,paper:2003.06413,author:gurtej_kanwar,0.45,paper_to_author,selected_fulltexts.csv:2003.06413
+G0270,author:gurtej_kanwar,paper:2003.06413,0.6,author_to_paper,selected_fulltexts.csv:2003.06413
+G0271,paper:2003.06413,author:michael_s_albergo,0.45,paper_to_author,selected_fulltexts.csv:2003.06413
+G0272,author:michael_s_albergo,paper:2003.06413,0.6,author_to_paper,selected_fulltexts.csv:2003.06413
+G0273,paper:2003.06413,author:denis_boyda,0.45,paper_to_author,selected_fulltexts.csv:2003.06413
+G0274,author:denis_boyda,paper:2003.06413,0.6,author_to_paper,selected_fulltexts.csv:2003.06413
+G0275,paper:2003.06413,author:kyle_cranmer,0.45,paper_to_author,selected_fulltexts.csv:2003.06413
+G0276,author:kyle_cranmer,paper:2003.06413,0.6,author_to_paper,selected_fulltexts.csv:2003.06413
+G0277,paper:2003.06413,author:daniel_c_hackett,0.45,paper_to_author,selected_fulltexts.csv:2003.06413
+G0278,author:daniel_c_hackett,paper:2003.06413,0.6,author_to_paper,selected_fulltexts.csv:2003.06413
+G0279,paper:2003.06413,author:s_bastien_racani_re,0.45,paper_to_author,selected_fulltexts.csv:2003.06413
+G0280,author:s_bastien_racani_re,paper:2003.06413,0.6,author_to_paper,selected_fulltexts.csv:2003.06413
+G0281,paper:2003.06413,author:danilo_jimenez_rezende,0.45,paper_to_author,selected_fulltexts.csv:2003.06413
+G0282,author:danilo_jimenez_rezende,paper:2003.06413,0.6,author_to_paper,selected_fulltexts.csv:2003.06413
+G0283,paper:2003.06413,author:phiala_e_shanahan,0.45,paper_to_author,selected_fulltexts.csv:2003.06413
+G0284,author:phiala_e_shanahan,paper:2003.06413,0.6,author_to_paper,selected_fulltexts.csv:2003.06413
+G0285,paper:2003.06413,method:gauge_flow,0.65,paper_to_method,selected_fulltexts.csv:2003.06413
+G0286,method:gauge_flow,paper:2003.06413,0.85,method_to_paper,selected_fulltexts.csv:2003.06413
+G0287,paper:2101.08176,author:michael_s_albergo,0.45,paper_to_author,selected_fulltexts.csv:2101.08176
+G0288,author:michael_s_albergo,paper:2101.08176,0.6,author_to_paper,selected_fulltexts.csv:2101.08176
+G0289,paper:2101.08176,author:denis_boyda,0.45,paper_to_author,selected_fulltexts.csv:2101.08176
+G0290,author:denis_boyda,paper:2101.08176,0.6,author_to_paper,selected_fulltexts.csv:2101.08176
+G0291,paper:2101.08176,author:daniel_c_hackett,0.45,paper_to_author,selected_fulltexts.csv:2101.08176
+G0292,author:daniel_c_hackett,paper:2101.08176,0.6,author_to_paper,selected_fulltexts.csv:2101.08176
+G0293,paper:2101.08176,author:gurtej_kanwar,0.45,paper_to_author,selected_fulltexts.csv:2101.08176
+G0294,author:gurtej_kanwar,paper:2101.08176,0.6,author_to_paper,selected_fulltexts.csv:2101.08176
+G0295,paper:2101.08176,author:kyle_cranmer,0.45,paper_to_author,selected_fulltexts.csv:2101.08176
+G0296,author:kyle_cranmer,paper:2101.08176,0.6,author_to_paper,selected_fulltexts.csv:2101.08176
+G0297,paper:2101.08176,author:s_bastien_racani_re,0.45,paper_to_author,selected_fulltexts.csv:2101.08176
+G0298,author:s_bastien_racani_re,paper:2101.08176,0.6,author_to_paper,selected_fulltexts.csv:2101.08176
+G0299,paper:2101.08176,author:danilo_jimenez_rezende,0.45,paper_to_author,selected_fulltexts.csv:2101.08176
+G0300,author:danilo_jimenez_rezende,paper:2101.08176,0.6,author_to_paper,selected_fulltexts.csv:2101.08176
+G0301,paper:2101.08176,author:phiala_e_shanahan,0.45,paper_to_author,selected_fulltexts.csv:2101.08176
+G0302,author:phiala_e_shanahan,paper:2101.08176,0.6,author_to_paper,selected_fulltexts.csv:2101.08176
+G0303,paper:2101.08176,method:flow_overview,0.65,paper_to_method,selected_fulltexts.csv:2101.08176
+G0304,method:flow_overview,paper:2101.08176,0.85,method_to_paper,selected_fulltexts.csv:2101.08176
+G0305,paper:2111.15141,author:qinsheng_zhang,0.45,paper_to_author,selected_fulltexts.csv:2111.15141
+G0306,author:qinsheng_zhang,paper:2111.15141,0.6,author_to_paper,selected_fulltexts.csv:2111.15141
+G0307,paper:2111.15141,author:yongxin_chen,0.45,paper_to_author,selected_fulltexts.csv:2111.15141
+G0308,author:yongxin_chen,paper:2111.15141,0.6,author_to_paper,selected_fulltexts.csv:2111.15141
+G0309,paper:2111.15141,method:path_control,0.65,paper_to_method,selected_fulltexts.csv:2111.15141
+G0310,method:path_control,paper:2111.15141,0.85,method_to_paper,selected_fulltexts.csv:2111.15141
+G0311,paper:2201.08862,author:michele_caselle,0.45,paper_to_author,selected_fulltexts.csv:2201.08862
+G0312,author:michele_caselle,paper:2201.08862,0.6,author_to_paper,selected_fulltexts.csv:2201.08862
+G0313,paper:2201.08862,author:elia_cellini,0.45,paper_to_author,selected_fulltexts.csv:2201.08862
+G0314,author:elia_cellini,paper:2201.08862,0.6,author_to_paper,selected_fulltexts.csv:2201.08862
+G0315,paper:2201.08862,author:alessandro_nada,0.45,paper_to_author,selected_fulltexts.csv:2201.08862
+G0316,author:alessandro_nada,paper:2201.08862,0.6,author_to_paper,selected_fulltexts.csv:2201.08862
+G0317,paper:2201.08862,author:marco_panero,0.45,paper_to_author,selected_fulltexts.csv:2201.08862
+G0318,author:marco_panero,paper:2201.08862,0.6,author_to_paper,selected_fulltexts.csv:2201.08862
+G0319,paper:2201.08862,method:stochastic_flow,0.65,paper_to_method,selected_fulltexts.csv:2201.08862
+G0320,method:stochastic_flow,paper:2201.08862,0.85,method_to_paper,selected_fulltexts.csv:2201.08862
+G0321,paper:2201.13117,author:alexander_g_d_g_matthews,0.45,paper_to_author,selected_fulltexts.csv:2201.13117
+G0322,author:alexander_g_d_g_matthews,paper:2201.13117,0.6,author_to_paper,selected_fulltexts.csv:2201.13117
+G0323,paper:2201.13117,author:michael_arbel,0.45,paper_to_author,selected_fulltexts.csv:2201.13117
+G0324,author:michael_arbel,paper:2201.13117,0.6,author_to_paper,selected_fulltexts.csv:2201.13117
+G0325,paper:2201.13117,author:danilo_j_rezende,0.45,paper_to_author,selected_fulltexts.csv:2201.13117
+G0326,author:danilo_j_rezende,paper:2201.13117,0.6,author_to_paper,selected_fulltexts.csv:2201.13117
+G0327,paper:2201.13117,author:arnaud_doucet,0.45,paper_to_author,selected_fulltexts.csv:2201.13117
+G0328,author:arnaud_doucet,paper:2201.13117,0.6,author_to_paper,selected_fulltexts.csv:2201.13117
+G0329,paper:2201.13117,method:annealed_flow,0.65,paper_to_method,selected_fulltexts.csv:2201.13117
+G0330,method:annealed_flow,paper:2201.13117,0.85,method_to_paper,selected_fulltexts.csv:2201.13117
+G0331,paper:2210.03139,author:michele_caselle,0.45,paper_to_author,selected_fulltexts.csv:2210.03139
+G0332,author:michele_caselle,paper:2210.03139,0.6,author_to_paper,selected_fulltexts.csv:2210.03139
+G0333,paper:2210.03139,author:elia_cellini,0.45,paper_to_author,selected_fulltexts.csv:2210.03139
+G0334,author:elia_cellini,paper:2210.03139,0.6,author_to_paper,selected_fulltexts.csv:2210.03139
+G0335,paper:2210.03139,author:alessandro_nada,0.45,paper_to_author,selected_fulltexts.csv:2210.03139
+G0336,author:alessandro_nada,paper:2210.03139,0.6,author_to_paper,selected_fulltexts.csv:2210.03139
+G0337,paper:2210.03139,author:marco_panero,0.45,paper_to_author,selected_fulltexts.csv:2210.03139
+G0338,author:marco_panero,paper:2210.03139,0.6,author_to_paper,selected_fulltexts.csv:2210.03139
+G0339,paper:2210.03139,method:stochastic_flow,0.65,paper_to_method,selected_fulltexts.csv:2210.03139
+G0340,method:stochastic_flow,paper:2210.03139,0.85,method_to_paper,selected_fulltexts.csv:2210.03139
+G0341,paper:2211.01364,author:julius_berner,0.45,paper_to_author,selected_fulltexts.csv:2211.01364
+G0342,author:julius_berner,paper:2211.01364,0.6,author_to_paper,selected_fulltexts.csv:2211.01364
+G0343,paper:2211.01364,author:lorenz_richter,0.45,paper_to_author,selected_fulltexts.csv:2211.01364
+G0344,author:lorenz_richter,paper:2211.01364,0.6,author_to_paper,selected_fulltexts.csv:2211.01364
+G0345,paper:2211.01364,author:karen_ullrich,0.45,paper_to_author,selected_fulltexts.csv:2211.01364
+G0346,author:karen_ullrich,paper:2211.01364,0.6,author_to_paper,selected_fulltexts.csv:2211.01364
+G0347,paper:2211.01364,method:optimal_control,0.65,paper_to_method,selected_fulltexts.csv:2211.01364
+G0348,method:optimal_control,paper:2211.01364,0.85,method_to_paper,selected_fulltexts.csv:2211.01364
+G0349,paper:2302.13834,author:francisco_vargas,0.45,paper_to_author,selected_fulltexts.csv:2302.13834
+G0350,author:francisco_vargas,paper:2302.13834,0.6,author_to_paper,selected_fulltexts.csv:2302.13834
+G0351,paper:2302.13834,author:will_grathwohl,0.45,paper_to_author,selected_fulltexts.csv:2302.13834
+G0352,author:will_grathwohl,paper:2302.13834,0.6,author_to_paper,selected_fulltexts.csv:2302.13834
+G0353,paper:2302.13834,author:arnaud_doucet,0.45,paper_to_author,selected_fulltexts.csv:2302.13834
+G0354,author:arnaud_doucet,paper:2302.13834,0.6,author_to_paper,selected_fulltexts.csv:2302.13834
+G0355,paper:2302.13834,method:diffusion,0.65,paper_to_method,selected_fulltexts.csv:2302.13834
+G0356,method:diffusion,paper:2302.13834,0.85,method_to_paper,selected_fulltexts.csv:2302.13834
+G0357,paper:2302.14082,author:kim_a_nicoli,0.45,paper_to_author,selected_fulltexts.csv:2302.14082
+G0358,author:kim_a_nicoli,paper:2302.14082,0.6,author_to_paper,selected_fulltexts.csv:2302.14082
+G0359,paper:2302.14082,author:christopher_j_anders,0.45,paper_to_author,selected_fulltexts.csv:2302.14082
+G0360,author:christopher_j_anders,paper:2302.14082,0.6,author_to_paper,selected_fulltexts.csv:2302.14082
+G0361,paper:2302.14082,author:tobias_hartung,0.45,paper_to_author,selected_fulltexts.csv:2302.14082
+G0362,author:tobias_hartung,paper:2302.14082,0.6,author_to_paper,selected_fulltexts.csv:2302.14082
+G0363,paper:2302.14082,author:karl_jansen,0.45,paper_to_author,selected_fulltexts.csv:2302.14082
+G0364,author:karl_jansen,paper:2302.14082,0.6,author_to_paper,selected_fulltexts.csv:2302.14082
+G0365,paper:2302.14082,author:pan_kessel,0.45,paper_to_author,selected_fulltexts.csv:2302.14082
+G0366,author:pan_kessel,paper:2302.14082,0.6,author_to_paper,selected_fulltexts.csv:2302.14082
+G0367,paper:2302.14082,author:shinichi_nakajima,0.45,paper_to_author,selected_fulltexts.csv:2302.14082
+G0368,author:shinichi_nakajima,paper:2302.14082,0.6,author_to_paper,selected_fulltexts.csv:2302.14082
+G0369,paper:2302.14082,method:failure_mode,0.65,paper_to_method,selected_fulltexts.csv:2302.14082
+G0370,method:failure_mode,paper:2302.14082,0.85,method_to_paper,selected_fulltexts.csv:2302.14082
+G0371,paper:2309.17082,author:lingxiao_wang,0.45,paper_to_author,selected_fulltexts.csv:2309.17082
+G0372,author:lingxiao_wang,paper:2309.17082,0.6,author_to_paper,selected_fulltexts.csv:2309.17082
+G0373,paper:2309.17082,author:gert_aarts,0.45,paper_to_author,selected_fulltexts.csv:2309.17082
+G0374,author:gert_aarts,paper:2309.17082,0.6,author_to_paper,selected_fulltexts.csv:2309.17082
+G0375,paper:2309.17082,author:kai_zhou,0.45,paper_to_author,selected_fulltexts.csv:2309.17082
+G0376,author:kai_zhou,paper:2309.17082,0.6,author_to_paper,selected_fulltexts.csv:2309.17082
+G0377,paper:2309.17082,method:diffusion_lattice,0.65,paper_to_method,selected_fulltexts.csv:2309.17082
+G0378,method:diffusion_lattice,paper:2309.17082,0.85,method_to_paper,selected_fulltexts.csv:2309.17082
+G0379,paper:2310.11979,author:claudio_bonanno,0.45,paper_to_author,selected_fulltexts.csv:2310.11979
+G0380,author:claudio_bonanno,paper:2310.11979,0.6,author_to_paper,selected_fulltexts.csv:2310.11979
+G0381,paper:2310.11979,author:alessandro_nada,0.45,paper_to_author,selected_fulltexts.csv:2310.11979
+G0382,author:alessandro_nada,paper:2310.11979,0.6,author_to_paper,selected_fulltexts.csv:2310.11979
+G0383,paper:2310.11979,author:davide_vadacchino,0.45,paper_to_author,selected_fulltexts.csv:2310.11979
+G0384,author:davide_vadacchino,paper:2310.11979,0.6,author_to_paper,selected_fulltexts.csv:2310.11979
+G0385,paper:2310.11979,method:nonequilibrium_lattice,0.65,paper_to_method,selected_fulltexts.csv:2310.11979
+G0386,method:nonequilibrium_lattice,paper:2310.11979,0.85,method_to_paper,selected_fulltexts.csv:2310.11979
+G0387,paper:2311.03578,author:lingxiao_wang,0.45,paper_to_author,selected_fulltexts.csv:2311.03578
+G0388,author:lingxiao_wang,paper:2311.03578,0.6,author_to_paper,selected_fulltexts.csv:2311.03578
+G0389,paper:2311.03578,author:gert_aarts,0.45,paper_to_author,selected_fulltexts.csv:2311.03578
+G0390,author:gert_aarts,paper:2311.03578,0.6,author_to_paper,selected_fulltexts.csv:2311.03578
+G0391,paper:2311.03578,author:kai_zhou,0.45,paper_to_author,selected_fulltexts.csv:2311.03578
+G0392,author:kai_zhou,paper:2311.03578,0.6,author_to_paper,selected_fulltexts.csv:2311.03578
+G0393,paper:2311.03578,method:diffusion_lattice,0.65,paper_to_method,selected_fulltexts.csv:2311.03578
+G0394,method:diffusion_lattice,paper:2311.03578,0.85,method_to_paper,selected_fulltexts.csv:2311.03578
+G0395,paper:2402.06561,author:claudio_bonanno,0.45,paper_to_author,selected_fulltexts.csv:2402.06561
+G0396,author:claudio_bonanno,paper:2402.06561,0.6,author_to_paper,selected_fulltexts.csv:2402.06561
+G0397,paper:2402.06561,author:alessandro_nada,0.45,paper_to_author,selected_fulltexts.csv:2402.06561
+G0398,author:alessandro_nada,paper:2402.06561,0.6,author_to_paper,selected_fulltexts.csv:2402.06561
+G0399,paper:2402.06561,author:davide_vadacchino,0.45,paper_to_author,selected_fulltexts.csv:2402.06561
+G0400,author:davide_vadacchino,paper:2402.06561,0.6,author_to_paper,selected_fulltexts.csv:2402.06561
+G0401,paper:2402.06561,method:nonequilibrium_lattice,0.65,paper_to_method,selected_fulltexts.csv:2402.06561
+G0402,method:nonequilibrium_lattice,paper:2402.06561,0.85,method_to_paper,selected_fulltexts.csv:2402.06561
+G0403,paper:2404.09723,author:johann_ostmeyer,0.45,paper_to_author,selected_fulltexts.csv:2404.09723
+G0404,author:johann_ostmeyer,paper:2404.09723,0.6,author_to_paper,selected_fulltexts.csv:2404.09723
+G0405,paper:2404.09723,author:pavel_buividovich,0.45,paper_to_author,selected_fulltexts.csv:2404.09723
+G0406,author:pavel_buividovich,paper:2404.09723,0.6,author_to_paper,selected_fulltexts.csv:2404.09723
+G0407,paper:2404.09723,method:evaluation,0.65,paper_to_method,selected_fulltexts.csv:2404.09723
+G0408,method:evaluation,paper:2404.09723,0.85,method_to_paper,selected_fulltexts.csv:2404.09723
+G0409,paper:2412.00200,author:andrea_bulgarelli,0.45,paper_to_author,selected_fulltexts.csv:2412.00200
+G0410,author:andrea_bulgarelli,paper:2412.00200,0.6,author_to_paper,selected_fulltexts.csv:2412.00200
+G0411,paper:2412.00200,author:elia_cellini,0.45,paper_to_author,selected_fulltexts.csv:2412.00200
+G0412,author:elia_cellini,paper:2412.00200,0.6,author_to_paper,selected_fulltexts.csv:2412.00200
+G0413,paper:2412.00200,author:alessandro_nada,0.45,paper_to_author,selected_fulltexts.csv:2412.00200
+G0414,author:alessandro_nada,paper:2412.00200,0.6,author_to_paper,selected_fulltexts.csv:2412.00200
+G0415,paper:2412.00200,method:stochastic_flow,0.65,paper_to_method,selected_fulltexts.csv:2412.00200
+G0416,method:stochastic_flow,paper:2412.00200,0.85,method_to_paper,selected_fulltexts.csv:2412.00200
+G0417,paper:2512.19575,author:moxian_qian,0.45,paper_to_author,selected_fulltexts.csv:2512.19575
+G0418,author:moxian_qian,paper:2512.19575,0.6,author_to_paper,selected_fulltexts.csv:2512.19575
+G0419,paper:2512.19575,author:shiyang_chen,0.45,paper_to_author,selected_fulltexts.csv:2512.19575
+G0420,author:shiyang_chen,paper:2512.19575,0.6,author_to_paper,selected_fulltexts.csv:2512.19575
+G0421,paper:2512.19575,method:autoregressive_lattice,0.65,paper_to_method,selected_fulltexts.csv:2512.19575
+G0422,method:autoregressive_lattice,paper:2512.19575,0.85,method_to_paper,selected_fulltexts.csv:2512.19575
+G0423,paper:2604.10209,author:a_singha,0.45,paper_to_author,selected_fulltexts.csv:2604.10209
+G0424,author:a_singha,paper:2604.10209,0.6,author_to_paper,selected_fulltexts.csv:2604.10209
+G0425,paper:2604.10209,author:j_kauffmann,0.45,paper_to_author,selected_fulltexts.csv:2604.10209
+G0426,author:j_kauffmann,paper:2604.10209,0.6,author_to_paper,selected_fulltexts.csv:2604.10209
+G0427,paper:2604.10209,author:e_cellini,0.45,paper_to_author,selected_fulltexts.csv:2604.10209
+G0428,author:e_cellini,paper:2604.10209,0.6,author_to_paper,selected_fulltexts.csv:2604.10209
+G0429,paper:2604.10209,author:k_jansen,0.45,paper_to_author,selected_fulltexts.csv:2604.10209
+G0430,author:k_jansen,paper:2604.10209,0.6,author_to_paper,selected_fulltexts.csv:2604.10209
+G0431,paper:2604.10209,author:s_nakajima,0.45,paper_to_author,selected_fulltexts.csv:2604.10209
+G0432,author:s_nakajima,paper:2604.10209,0.6,author_to_paper,selected_fulltexts.csv:2604.10209
+G0433,paper:2604.10209,method:critical_sampling,0.65,paper_to_method,selected_fulltexts.csv:2604.10209
+G0434,method:critical_sampling,paper:2604.10209,0.85,method_to_paper,selected_fulltexts.csv:2604.10209
+G0435,paper:2605.11199,author:moxian_qian,0.45,paper_to_author,selected_fulltexts.csv:2605.11199
+G0436,author:moxian_qian,paper:2605.11199,0.6,author_to_paper,selected_fulltexts.csv:2605.11199
+G0437,paper:2605.11199,method:author_context,0.65,paper_to_method,selected_fulltexts.csv:2605.11199
+G0438,method:author_context,paper:2605.11199,0.85,method_to_paper,selected_fulltexts.csv:2605.11199
+G0439,paper:2607.08505,author:yang_yang_tan,0.45,paper_to_author,selected_fulltexts.csv:2607.08505
+G0440,author:yang_yang_tan,paper:2607.08505,0.6,author_to_paper,selected_fulltexts.csv:2607.08505
+G0441,paper:2607.08505,author:gert_aarts,0.45,paper_to_author,selected_fulltexts.csv:2607.08505
+G0442,author:gert_aarts,paper:2607.08505,0.6,author_to_paper,selected_fulltexts.csv:2607.08505
+G0443,paper:2607.08505,author:diaa_e_habibi,0.45,paper_to_author,selected_fulltexts.csv:2607.08505
+G0444,author:diaa_e_habibi,paper:2607.08505,0.6,author_to_paper,selected_fulltexts.csv:2607.08505
+G0445,paper:2607.08505,author:biagio_lucini,0.45,paper_to_author,selected_fulltexts.csv:2607.08505
+G0446,author:biagio_lucini,paper:2607.08505,0.6,author_to_paper,selected_fulltexts.csv:2607.08505
+G0447,paper:2607.08505,author:lingxiao_wang,0.45,paper_to_author,selected_fulltexts.csv:2607.08505
+G0448,author:lingxiao_wang,paper:2607.08505,0.6,author_to_paper,selected_fulltexts.csv:2607.08505
+G0449,paper:2607.08505,method:forward_neighbor,0.65,paper_to_method,selected_fulltexts.csv:2607.08505
+G0450,method:forward_neighbor,paper:2607.08505,0.85,method_to_paper,selected_fulltexts.csv:2607.08505
+G0451,paper:2606.13790,paper:1904.12072,0.15,backward_direct_citation,relation_ledger.csv:R001
+G0452,paper:2606.13790,paper:2003.06413,0.15,backward_direct_citation,relation_ledger.csv:R002
+G0453,paper:2606.13790,paper:2512.19575,0.15,backward_direct_citation,relation_ledger.csv:R003
+G0454,paper:2606.13790,paper:2201.08862,0.15,backward_direct_citation,relation_ledger.csv:R004
+G0455,paper:2606.13790,paper:2210.03139,0.15,backward_direct_citation,relation_ledger.csv:R005
+G0456,paper:2606.13790,paper:2309.17082,0.15,backward_direct_citation,relation_ledger.csv:R006
+G0457,paper:2606.13790,paper:2605.11199,0.15,backward_direct_citation,relation_ledger.csv:R007
+G0458,paper:2606.13790,paper:2111.15141,0.15,backward_direct_citation,relation_ledger.csv:R008
+G0459,paper:2606.13790,paper:2302.13834,0.15,backward_direct_citation,relation_ledger.csv:R009
+G0460,paper:2606.13790,paper:2211.01364,0.15,backward_direct_citation,relation_ledger.csv:R010
+G0461,paper:2606.13790,paper:2310.11979,0.8,declared_method_neighbor,relation_ledger.csv:M001
+G0462,paper:2606.13790,paper:2402.06561,0.8,declared_method_neighbor,relation_ledger.csv:M002
+G0463,paper:2606.13790,paper:2604.10209,0.8,declared_method_neighbor,relation_ledger.csv:M003
+G0464,paper:2606.13790,paper:2607.08505,0.8,declared_method_neighbor,relation_ledger.csv:M004

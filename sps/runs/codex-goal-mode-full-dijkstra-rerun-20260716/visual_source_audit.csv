@@ -1,0 +1,8 @@
+arxiv_id,role,screenshot,physical_pdf_page,checked_element,source_url,visual_result
+2606.13790,root_identity,screenshots/2606.13790_p1_identity.png,1,"title, authors, date/version, and abstract opening",https://arxiv.org/abs/2606.13790,PASS
+2606.13790,root_direct_citation_page_1,screenshots/2606.13790_p30_bibliography.png,30 (printed p. 29),SPS References beginning and direct citation [5],https://arxiv.org/abs/2606.13790,PASS
+2606.13790,root_direct_citation_page_2,screenshots/2606.13790_p31_bibliography.png,31 (printed p. 30),"direct citations [8], [11], [19], and [20]",https://arxiv.org/abs/2606.13790,PASS
+2606.13790,root_direct_citation_page_3,screenshots/2606.13790_p32_bibliography.png,32 (printed p. 31),"direct citations [25], [32], [33], [34], and [35]",https://arxiv.org/abs/2606.13790,PASS
+2111.15141,path_space_control_anchor,screenshots/2111.15141_p1_path_integral_sampler.png,1,title and abstract method scope,https://arxiv.org/abs/2111.15141,PASS
+2309.17082,diffusion_anchor,screenshots/2309.17082_p1_diffusion.png,1,title and abstract method scope,https://arxiv.org/abs/2309.17082,PASS
+2607.08505,forward_neighbor_anchor,screenshots/2607.08505_p1_closure.png,1,title and abstract scope as a post-root neighbor,https://arxiv.org/abs/2607.08505,PASS

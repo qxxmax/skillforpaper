@@ -1,0 +1,25 @@
+query_id,round,family,facet,query_type,expression,max_results,why
+Q01,L0,root,identity,id_list,2606.13790,1,Confirm the named root by immutable arXiv identifier.
+Q02,L0,root,identity,search,"ti:""Stochastic Path Sampler For Lattice Field Theory""",10,Check exact-title retrieval separately from identifier lookup.
+Q03,L1,root_terms,method,search,"all:""stochastic path sampler""",30,Expand the method name without assuming all hits are relevant.
+Q04,L1,domain,domain,search,"all:""lattice field theory"" AND all:""neural sampler""",30,Find domain-near neural sampler work.
+Q05,L1,normalizing_flow,method,search,"all:""lattice field theory"" AND all:""normalizing flow""",30,Find normalizing-flow lineage in lattice field theory.
+Q06,L2,stochastic_flow,method,search,"all:""stochastic normalizing flow"" AND all:lattice",30,Find stochastic-flow and nonequilibrium hybrid samplers.
+Q07,L2,nonequilibrium,mechanism,search,"all:nonequilibrium AND all:""lattice field""",30,Expand nonequilibrium-transform and work-based routes.
+Q08,L2,path_space,mechanism,search,"all:""path space"" AND all:sampling",30,Expand path-space control and sampler routes.
+Q09,L2,entropy_production,mechanism,search,"all:""entropy production"" AND all:sampling",30,Search the path-irreversibility mechanism outside the domain wording.
+Q10,L2,diffusion,adjacent,search,"all:diffusion AND all:""lattice field theory""",30,Search adjacent diffusion-based samplers.
+Q11,L2,critical_slowing,problem,search,"all:""critical slowing down"" AND all:lattice",30,Search the stated failure mode and evaluation context.
+Q12,L3,jarzynski,method_precedent,search,"all:Jarzynski AND all:lattice",30,Search nonequilibrium free-energy precedents.
+Q13,L3,author,author_lineage,search,"au:Qian_M",30,Expand the named author's current publication context.
+Q14,L3,author,author_lineage,search,"au:Aarts_G AND all:lattice",30,Expand a root coauthor's lattice context.
+Q15,L3,author,author_lineage,search,"au:Chen_S AND all:""stochastic""",30,Expand a root coauthor's stochastic-sampling context.
+Q16,L4,evaluation,verification,search,"all:autocorrelation AND all:lattice AND all:sampling",30,Find observables and fair-efficiency evaluation routes.
+Q17,L4,correction,exactness,search,"all:""independence Metropolis"" AND all:sampling",30,Find correction/exactness routes.
+Q18,L4,adjacent,method,search,"all:""Schrodinger bridge"" AND all:sampling",30,Check nearby controlled-diffusion methods.
+Q19,L5,correction,exactness,search,"all:""independence Metropolis"" AND all:lattice",30,Expand the exactness and correction route within lattice contexts.
+Q20,L6,path_lattice,mechanism,search,"all:""path space"" AND all:""lattice field theory""",30,Test whether path-space terms discover lattice-specific method neighbors.
+Q21,L7,stochastic_quantization,mechanism,search,"all:""stochastic quantization"" AND all:""lattice field theory""",30,Expand the diffusion and stochastic-quantization lineage.
+Q22,L8,topology,problem,search,"all:""topological freezing"" AND all:""normalizing flow""",30,Expand the topology and nonequilibrium failure-mode branch.
+Q23,L9,multiscale,scaling,search,"all:multilevel AND all:""lattice field theory""",30,Expand multiscale and MLMC alternatives near criticality.
+Q24,L10,author,author_lineage,search,"au:Lucini_B AND all:sampling",30,Expand a root coauthor route after the C4 author-lineage check.

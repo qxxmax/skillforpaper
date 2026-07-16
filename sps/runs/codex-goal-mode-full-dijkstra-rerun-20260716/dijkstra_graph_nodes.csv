@@ -1,0 +1,255 @@
+node_id,node_type,label,arxiv_id,evidence_level,cluster,screen_decision,source_url
+author:a_singha,author,A. Singha,,,,,
+author:alessandro_nada,author,Alessandro Nada,,,,,
+author:alexander_g_d_g_matthews,author,Alexander G. D. G. Matthews,,,,,
+author:andrea_bulgarelli,author,Andrea Bulgarelli,,,,,
+author:arnaud_doucet,author,Arnaud Doucet,,,,,
+author:biagio_lucini,author,Biagio Lucini,,,,,
+author:christopher_j_anders,author,Christopher J. Anders,,,,,
+author:claudio_bonanno,author,Claudio Bonanno,,,,,
+author:daniel_c_hackett,author,Daniel C. Hackett,,,,,
+author:danilo_j_rezende,author,Danilo J. Rezende,,,,,
+author:danilo_jimenez_rezende,author,Danilo Jimenez Rezende,,,,,
+author:davide_vadacchino,author,Davide Vadacchino,,,,,
+author:denis_boyda,author,Denis Boyda,,,,,
+author:diaa_e_habibi,author,Diaa E. Habibi,,,,,
+author:e_cellini,author,E. Cellini,,,,,
+author:elia_cellini,author,Elia Cellini,,,,,
+author:francisco_vargas,author,Francisco Vargas,,,,,
+author:g_kanwar,author,G. Kanwar,,,,,
+author:gert_aarts,author,Gert Aarts,,,,,
+author:gurtej_kanwar,author,Gurtej Kanwar,,,,,
+author:j_kauffmann,author,J. Kauffmann,,,,,
+author:johann_ostmeyer,author,Johann Ostmeyer,,,,,
+author:julius_berner,author,Julius Berner,,,,,
+author:k_jansen,author,K. Jansen,,,,,
+author:kai_zhou,author,Kai Zhou,,,,,
+author:karen_ullrich,author,Karen Ullrich,,,,,
+author:karl_jansen,author,Karl Jansen,,,,,
+author:kim_a_nicoli,author,Kim A. Nicoli,,,,,
+author:kyle_cranmer,author,Kyle Cranmer,,,,,
+author:lingxiao_wang,author,Lingxiao Wang,,,,,
+author:lorenz_richter,author,Lorenz Richter,,,,,
+author:m_s_albergo,author,M. S. Albergo,,,,,
+author:marco_panero,author,Marco Panero,,,,,
+author:michael_arbel,author,Michael Arbel,,,,,
+author:michael_s_albergo,author,Michael S. Albergo,,,,,
+author:michele_caselle,author,Michele Caselle,,,,,
+author:moxian_qian,author,Moxian Qian,,,,,
+author:p_e_shanahan,author,P. E. Shanahan,,,,,
+author:pan_kessel,author,Pan Kessel,,,,,
+author:pavel_buividovich,author,Pavel Buividovich,,,,,
+author:phiala_e_shanahan,author,Phiala E. Shanahan,,,,,
+author:qinsheng_zhang,author,Qinsheng Zhang,,,,,
+author:s_bastien_racani_re,author,Sébastien Racanière,,,,,
+author:s_nakajima,author,S. Nakajima,,,,,
+author:shinichi_nakajima,author,Shinichi Nakajima,,,,,
+author:shiyang_chen,author,Shiyang Chen,,,,,
+author:tobias_hartung,author,Tobias Hartung,,,,,
+author:will_grathwohl,author,Will Grathwohl,,,,,
+author:yang_yang_tan,author,Yang-yang Tan,,,,,
+author:yongxin_chen,author,Yongxin Chen,,,,,
+method:annealed_flow,method,annealed_flow,,,annealed_flow,,
+method:author_context,method,author_context,,,author_context,,
+method:autoregressive_lattice,method,autoregressive_lattice,,,autoregressive_lattice,,
+method:critical_sampling,method,critical_sampling,,,critical_sampling,,
+method:diffusion,method,diffusion,,,diffusion,,
+method:diffusion_lattice,method,diffusion_lattice,,,diffusion_lattice,,
+method:evaluation,method,evaluation,,,evaluation,,
+method:failure_mode,method,failure_mode,,,failure_mode,,
+method:flow_lattice,method,flow_lattice,,,flow_lattice,,
+method:flow_overview,method,flow_overview,,,flow_overview,,
+method:forward_neighbor,method,forward_neighbor,,,forward_neighbor,,
+method:gauge_flow,method,gauge_flow,,,gauge_flow,,
+method:nonequilibrium_lattice,method,nonequilibrium_lattice,,,nonequilibrium_lattice,,
+method:optimal_control,method,optimal_control,,,optimal_control,,
+method:path_control,method,path_control,,,path_control,,
+method:root_sps,method,root_sps,,,root_sps,,
+method:stochastic_flow,method,stochastic_flow,,,stochastic_flow,,
+paper:0702044,paper,Temperature-extended Jarzynski relation: Application to the numerical calculation of the surface tension,0702044,C2,,include,https://arxiv.org/abs/0702044
+paper:0911.0230,paper,Particle filtering within adaptive Metropolis Hastings sampling,0911.0230,C2,,candidate,https://arxiv.org/abs/0911.0230
+paper:1109.3941,paper,Towards a non-perturbative measurement of the heavy quark momentum diffusion coefficient,1109.3941,C2,,include,https://arxiv.org/abs/1109.3941
+paper:1211.2418,paper,An estimate of heavy quark momentum diffusion coefficient in gluon plasma,1211.2418,C2,,include,https://arxiv.org/abs/1211.2418
+paper:1307.3719,paper,Comparison of asymptotic variances of inhomogeneous Markov chains with application to Markov chain Monte Carlo methods,1307.3719,C2,,candidate,https://arxiv.org/abs/1307.3719
+paper:1311.4386,paper,Lattice Monte Carlo methods for systems far from equilibrium,1311.4386,C2,,include,https://arxiv.org/abs/1311.4386
+paper:1406.5795,paper,An extended space approach for particle Markov chain Monte Carlo methods,1406.5795,C2,,candidate,https://arxiv.org/abs/1406.5795
+paper:1511.07102,paper,Efficient MCMC implementation of multi-state mark-recapture models,1511.07102,C2,,candidate,https://arxiv.org/abs/1511.07102
+paper:1604.05544,paper,Jarzynski's theorem for lattice gauge theory,1604.05544,C2,,include,https://arxiv.org/abs/1604.05544
+paper:1609.02157,paper,Out-of-equilibrium protocol for Rényi entropies via the Jarzynski equality,1609.02157,C2,,include,https://arxiv.org/abs/1609.02157
+paper:1710.04435,paper,The equation of state with non-equilibrium methods,1710.04435,C2,,include,https://arxiv.org/abs/1710.04435
+paper:1711.01592,paper,Local multiboson factorization of the quark determinant,1711.01592,C2,,include,https://arxiv.org/abs/1711.01592
+paper:1904.12072,paper,Flow-based generative models for Markov chain Monte Carlo in lattice field theory,1904.12072,C4,flow_lattice,include,https://arxiv.org/abs/1904.12072
+paper:1912.00689,paper,Heavy quark momentum diffusion coefficient from the lattice,1912.00689,C2,,include,https://arxiv.org/abs/1912.00689
+paper:2003.06413,paper,Equivariant flow-based sampling for lattice gauge theory,2003.06413,C4,gauge_flow,include,https://arxiv.org/abs/2003.06413
+paper:2101.08176,paper,Introduction to Normalizing Flows for Lattice Field Theory,2101.08176,C3,flow_overview,include,https://arxiv.org/abs/2101.08176
+paper:2108.13444,paper,Calculation of the running coupling in non-Abelian gauge theories from Jarzynski's equality,2108.13444,C2,,include,https://arxiv.org/abs/2108.13444
+paper:2111.15141,paper,Path Integral Sampler: a stochastic control approach for sampling,2111.15141,C4,path_control,candidate,https://arxiv.org/abs/2111.15141
+paper:2201.08862,paper,Stochastic normalizing flows as non-equilibrium transformations,2201.08862,C4,stochastic_flow,include,https://arxiv.org/abs/2201.08862
+paper:2201.12001,paper,Complex Langevin simulations for $PT$-symmetric models,2201.12001,C2,,include,https://arxiv.org/abs/2201.12001
+paper:2201.13117,paper,Continual Repeated Annealed Flow Transport Monte Carlo,2201.13117,C3,annealed_flow,include,https://arxiv.org/abs/2201.13117
+paper:2202.03054,paper,Heavy quarks at finite temperature,2202.03054,C2,,include,https://arxiv.org/abs/2202.03054
+paper:2203.10989,paper,Hierarchical autoregressive neural networks for statistical systems,2203.10989,C2,,include,https://arxiv.org/abs/2203.10989
+paper:2206.14676,paper,Spectral and transport properties from lattice QCD,2206.14676,C2,,include,https://arxiv.org/abs/2206.14676
+paper:2208.03832,paper,Sampling QCD field configurations with gauge-equivariant flow models,2208.03832,C2,,include,https://arxiv.org/abs/2208.03832
+paper:2210.03139,paper,Stochastic normalizing flows for lattice field theory,2210.03139,C4,stochastic_flow,include,https://arxiv.org/abs/2210.03139
+paper:2211.01364,paper,An optimal control perspective on diffusion-based generative modeling,2211.01364,C3,optimal_control,candidate,https://arxiv.org/abs/2211.01364
+paper:2211.07541,paper,Aspects of scaling and scalability for flow-based sampling of lattice QCD,2211.07541,C2,,include,https://arxiv.org/abs/2211.07541
+paper:2212.05125,paper,The entropy production of stationary diffusions,2212.05125,C2,,candidate,https://arxiv.org/abs/2212.05125
+paper:2302.04411,paper,Geometry of Score Based Generative Models,2302.04411,C2,,candidate,https://arxiv.org/abs/2302.04411
+paper:2302.08408,paper,Learning Trivializing Flows,2302.08408,C2,,include,https://arxiv.org/abs/2302.08408
+paper:2302.13834,paper,Denoising Diffusion Samplers,2302.13834,C4,diffusion,candidate,https://arxiv.org/abs/2302.13834
+paper:2302.14082,paper,Detecting and Mitigating Mode-Collapse for Flow-based Sampling of Lattice Field Theories,2302.14082,C3,failure_mode,include,https://arxiv.org/abs/2302.14082
+paper:2304.01798,paper,Locality-constrained autoregressive cum conditional normalizing flow for lattice field theory simulations,2304.01798,C2,,include,https://arxiv.org/abs/2304.01798
+paper:2304.03311,paper,Entanglement entropy from non-equilibrium Monte Carlo simulations,2304.03311,C2,,include,https://arxiv.org/abs/2304.03311
+paper:2305.08935,paper,Rejection-free quantum Monte Carlo in continuous time from transition path sampling,2305.08935,C2,,include,https://arxiv.org/abs/2305.08935
+paper:2306.00581,paper,Sampling U(1) gauge theory using a re-trainable conditional flow-based model,2306.00581,C2,,include,https://arxiv.org/abs/2306.00581
+paper:2306.03521,paper,Machine learning in and out of equilibrium,2306.03521,C2,,candidate,https://arxiv.org/abs/2306.03521
+paper:2306.05917,paper,Impact of conditional modelling for a universal autoregressive quantum state,2306.05917,C2,,candidate,https://arxiv.org/abs/2306.05917
+paper:2307.04742,paper,Parallel Tempered Metadynamics: Overcoming potential barriers without surfing or tunneling,2307.04742,C2,,include,https://arxiv.org/abs/2307.04742
+paper:2307.15674,paper,Exploiting stochastic locality in lattice QCD: hadronic observables and their uncertainties,2307.15674,C2,,include,https://arxiv.org/abs/2307.15674
+paper:2307.16035,paper,Binary classification based Monte Carlo simulation,2307.16035,C2,,candidate,https://arxiv.org/abs/2307.16035
+paper:2308.12355,paper,Renormalizing Diffusion Models,2308.12355,C2,,include,https://arxiv.org/abs/2308.12355
+paper:2308.13294,paper,Training normalizing flows with computationally intensive target probability distributions,2308.13294,C2,,include,https://arxiv.org/abs/2308.13294
+paper:2309.14983,paper,Sampling Nambu-Goto theory using Normalizing Flows,2309.14983,C2,,include,https://arxiv.org/abs/2309.14983
+paper:2309.15480,paper,Entanglement entropy from non-equilibrium lattice simulations,2309.15480,C2,,include,https://arxiv.org/abs/2309.15480
+paper:2309.17082,paper,Diffusion Models as Stochastic Quantization in Lattice Field Theory,2309.17082,C4,diffusion_lattice,include,https://arxiv.org/abs/2309.17082
+paper:2310.03381,paper,Learning Trivializing Flows in a $φ^4$ theory from coarser lattices,2310.03381,C2,,include,https://arxiv.org/abs/2310.03381
+paper:2310.11979,paper,Out-of-equilibrium simulations to fight topological freezing,2310.11979,C4,nonequilibrium_lattice,include,https://arxiv.org/abs/2310.11979
+paper:2311.03578,paper,Generative Diffusion Models for Lattice Field Theory,2311.03578,C3,diffusion_lattice,include,https://arxiv.org/abs/2311.03578
+paper:2312.03491,paper,Schrodinger Bridges Beat Diffusion Models on Text-to-Speech Synthesis,2312.03491,C2,,candidate,https://arxiv.org/abs/2312.03491
+paper:2312.11599,paper,Topological charge unfreezing with AMReX,2312.11599,C2,,include,https://arxiv.org/abs/2312.11599
+paper:2402.00016,paper,Multipolynomial Monte Carlo Trace Estimation,2402.00016,C2,,include,https://arxiv.org/abs/2402.00016
+paper:2402.06561,paper,Mitigating topological freezing using out-of-equilibrium simulations,2402.06561,C4,nonequilibrium_lattice,include,https://arxiv.org/abs/2402.06561
+paper:2403.01717,paper,Soft-constrained Schrodinger Bridge: a Stochastic Control Approach,2403.01717,C2,,candidate,https://arxiv.org/abs/2403.01717
+paper:2403.06069,paper,Implicit Image-to-Image Schrodinger Bridge for Image Restoration,2403.06069,C2,,candidate,https://arxiv.org/abs/2403.06069
+paper:2404.09723,paper,Minimal Autocorrelation in Hybrid Monte Carlo simulations using Exact Fourier Acceleration,2404.09723,C3,evaluation,include,https://arxiv.org/abs/2404.09723
+paper:2404.11674,paper,Practical applications of machine-learned flows on gauge fields,2404.11674,C2,,include,https://arxiv.org/abs/2404.11674
+paper:2404.18323,paper,Flow-based Nonperturbative Simulation of First-order Phase Transitions,2404.18323,C2,,include,https://arxiv.org/abs/2404.18323
+paper:2405.02467,paper,Markov State Model Approach to Simulate Self-Assembly,2405.02467,C2,,candidate,https://arxiv.org/abs/2405.02467
+paper:2405.18381,paper,Short-time Fokker-Planck propagator beyond the Gaussian approximation,2405.18381,C2,,candidate,https://arxiv.org/abs/2405.18381
+paper:2406.17699,paper,Variance Reduction for the Independent Metropolis Sampler,2406.17699,C2,,candidate,https://arxiv.org/abs/2406.17699
+paper:2409.15937,paper,Numerical determination of the width and shape of the effective string using Stochastic Normalizing Flows,2409.15937,C2,,include,https://arxiv.org/abs/2409.15937
+paper:2409.18861,paper,Sampling SU(3) pure gauge theory with Stochastic Normalizing Flows,2409.18861,C2,,include,https://arxiv.org/abs/2409.18861
+paper:2410.02711,paper,NETS: A Non-Equilibrium Transport Sampler,2410.02711,C2,,include,https://arxiv.org/abs/2410.02711
+paper:2410.13161,paper,Non-Perturbative Trivializing Flows for Lattice Gauge Theories,2410.13161,C2,,include,https://arxiv.org/abs/2410.13161
+paper:2410.21212,paper,On learning higher-order cumulants in diffusion models,2410.21212,C2,,include,https://arxiv.org/abs/2410.21212
+paper:2411.00620,paper,Topological susceptibility of $\mathrm{SU}(3)$ pure-gauge theory from out-of-equilibrium simulations,2411.00620,C2,,include,https://arxiv.org/abs/2411.00620
+paper:2411.09514,paper,On importance sampling and independent Metropolis-Hastings with an unbounded weight function,2411.09514,C2,,candidate,https://arxiv.org/abs/2411.09514
+paper:2412.00200,paper,Scaling of Stochastic Normalizing Flows in $\mathrm{SU}(3)$ lattice gauge theory,2412.00200,C3,stochastic_flow,include,https://arxiv.org/abs/2412.00200
+paper:2412.01919,paper,Diffusion models learn distributions generated by complex Langevin dynamics,2412.01919,C2,,include,https://arxiv.org/abs/2412.01919
+paper:2412.13704,paper,Diffusion models and stochastic quantisation in lattice field theory,2412.13704,C2,,include,https://arxiv.org/abs/2412.13704
+paper:2412.19109,paper,Stochastic normalizing flows for Effective String Theory,2412.19109,C2,,include,https://arxiv.org/abs/2412.19109
+paper:2501.07371,paper,Simulating the Hubbard Model with Equivariant Normalizing Flows,2501.07371,C2,,include,https://arxiv.org/abs/2501.07371
+paper:2502.00263,paper,Progress in Normalizing Flows for 4d Gauge Theories,2502.00263,C2,,include,https://arxiv.org/abs/2502.00263
+paper:2503.08918,paper,Multilevel Generative Samplers for Investigating Critical Phenomena,2503.08918,C2,,include,https://arxiv.org/abs/2503.08918
+paper:2503.09747,paper,Parallel Tempered Metadynamics,2503.09747,C2,,include,https://arxiv.org/abs/2503.09747
+paper:2503.11482,paper,NeuMC -- a package for neural sampling for lattice field theories,2503.11482,C2,,include,https://arxiv.org/abs/2503.11482
+paper:2504.01575,paper,Fully ergodic simulations using radial updates,2504.01575,C2,,include,https://arxiv.org/abs/2504.01575
+paper:2504.17747,paper,Fourier Acceleration in a Linear Sigma Model with Spontaneous Symmetry Breaking,2504.17747,C2,,include,https://arxiv.org/abs/2504.17747
+paper:2505.04611,paper,Particle Gibbs without the Gibbs bit,2505.04611,C2,,candidate,https://arxiv.org/abs/2505.04611
+paper:2505.07719,paper,Training neural control variates using correlated configurations,2505.07719,C2,,include,https://arxiv.org/abs/2505.07719
+paper:2505.08236,paper,Critical dynamics of three-dimensional $Z_N$ gauge models and the inverted XY universality class,2505.08236,C2,,include,https://arxiv.org/abs/2505.08236
+paper:2505.10553,paper,Flowing Through Hilbert Space: Quantum-Enhanced Generative Models for Lattice Field Theory,2505.10553,C2,,include,https://arxiv.org/abs/2505.10553
+paper:2507.07192,paper,Bridging the Last Mile of Prediction: Enhancing Time Series Forecasting with Conditional Guided Flow Matching,2507.07192,C2,,candidate,https://arxiv.org/abs/2507.07192
+paper:2507.10476,paper,Large Interconnected Thermodynamic Systems Nearly Minimize Entropy Production,2507.10476,C2,,candidate,https://arxiv.org/abs/2507.10476
+paper:2507.11025,paper,Human-Guided Shade Artifact Suppression in CBCT-to-MDCT Translation via Schrödinger Bridge with Conditional Diffusion,2507.11025,C2,,candidate,https://arxiv.org/abs/2507.11025
+paper:2507.13503,paper,Generalized cluster algorithms for Potts lattice gauge theory,2507.13503,C2,,include,https://arxiv.org/abs/2507.13503
+paper:2507.19718,paper,GSCache: Real-Time Radiance Caching for Volume Path Tracing using 3D Gaussian Splatting,2507.19718,C2,,candidate,https://arxiv.org/abs/2507.19718
+paper:2508.12511,paper,Trust Region Constrained Measure Transport in Path Space for Stochastic Optimal Control and Inference,2508.12511,C2,,candidate,https://arxiv.org/abs/2508.12511
+paper:2508.20584,paper,Flowing Straighter with Conditional Flow Matching for Accurate Speech Enhancement,2508.20584,C2,,candidate,https://arxiv.org/abs/2508.20584
+paper:2509.01629,paper,Lipschitz-Guided Design of Interpolation Schedules in Generative Models,2509.01629,C2,,candidate,https://arxiv.org/abs/2509.01629
+paper:2509.12812,paper,Efficient lattice field theory simulation using adaptive normalizing flow on a resistive memory-based neural differential equation solver,2509.12812,C2,,include,https://arxiv.org/abs/2509.12812
+paper:2509.23945,paper,Tensor Network Markov Chain Monte Carlo: Efficient Sampling of Three-Dimensional Spin Glasses and Beyond,2509.23945,C2,,include,https://arxiv.org/abs/2509.23945
+paper:2510.02961,paper,Percolation and criticality of systems with competing interactions on Bethe lattices: limitations and potential strengths of cluster schemes,2510.02961,C2,,candidate,https://arxiv.org/abs/2510.02961
+paper:2510.13112,paper,Neural Triangular Transport Maps: A New Approach Towards Sampling in Lattice QCD,2510.13112,C2,,include,https://arxiv.org/abs/2510.13112
+paper:2510.21330,paper,SCORENF: Score-based Normalizing Flows for Sampling Unnormalized distributions,2510.21330,C2,,include,https://arxiv.org/abs/2510.21330
+paper:2510.25704,paper,Scaling flow-based approaches for topology sampling in $\mathrm{SU}(3)$ gauge theory,2510.25704,C2,,include,https://arxiv.org/abs/2510.25704
+paper:2510.26081,paper,Group-Equivariant Diffusion Models for Lattice Field Theory,2510.26081,C2,,include,https://arxiv.org/abs/2510.26081
+paper:2511.02018,paper,Neural Field Transformations for Hybrid Monte Carlo: Architectural Design and Scaling,2511.02018,C2,,include,https://arxiv.org/abs/2511.02018
+paper:2511.07116,paper,BridgeVoC: Revitalizing Neural Vocoder from a Restoration Perspective,2511.07116,C2,,candidate,https://arxiv.org/abs/2511.07116
+paper:2511.15196,paper,Particle Monte Carlo methods for Lattice Field Theory,2511.15196,C2,,include,https://arxiv.org/abs/2511.15196
+paper:2512.01153,paper,DPAC: Distribution-Preserving Adversarial Control for Diffusion Sampling,2512.01153,C2,,candidate,https://arxiv.org/abs/2512.01153
+paper:2512.06621,paper,"Monotone data augmentation algorithm for longitudinal continuous, binary and ordinal outcomes: a unifying approach",2512.06621,C2,,candidate,https://arxiv.org/abs/2512.06621
+paper:2512.19575,paper,Variational Autoregressive Networks Applied to $φ^4$ Field Theory Systems,2512.19575,C4,autoregressive_lattice,include,https://arxiv.org/abs/2512.19575
+paper:2512.19616,paper,Thermodynamics of large-scale chemical reaction networks,2512.19616,C2,,candidate,https://arxiv.org/abs/2512.19616
+paper:2512.19877,paper,Spectral Diffusion for Sampling on ${\rm SU}(N)$,2512.19877,C2,,include,https://arxiv.org/abs/2512.19877
+paper:2601.04358,paper,Energy-Time-Accuracy Tradeoffs in Thermodynamic Computing,2601.04358,C2,,candidate,https://arxiv.org/abs/2601.04358
+paper:2601.10774,paper,Analytic Bijections for Smooth and Interpretable Normalizing Flows,2601.10774,C2,,include,https://arxiv.org/abs/2601.10774
+paper:2601.18273,paper,Toward Scalable Normalizing Flows for the Hubbard Model,2601.18273,C2,,include,https://arxiv.org/abs/2601.18273
+paper:2601.20708,paper,A scalable flow-based approach to mitigate topological freezing,2601.20708,C2,,include,https://arxiv.org/abs/2601.20708
+paper:2602.06849,paper,Improved Sampling Schedules for Discrete Diffusion Models,2602.06849,C2,,candidate,https://arxiv.org/abs/2602.06849
+paper:2602.08502,paper,Preserving Hamiltonian Locality in Real-Space Coarse-Graining via Kernel Projection,2602.08502,C2,,include,https://arxiv.org/abs/2602.08502
+paper:2602.10989,paper,Variational Optimality of Föllmer Processes in Generative Diffusions,2602.10989,C2,,candidate,https://arxiv.org/abs/2602.10989
+paper:2602.21426,paper,Proximal-IMH: Proximal Posterior Proposals for Independent Metropolis-Hastings with Approximate Operators,2602.21426,C2,,candidate,https://arxiv.org/abs/2602.21426
+paper:2603.00252,paper,A Monte Carlo estimator of flow fields for sampling and noise problems,2603.00252,C2,,include,https://arxiv.org/abs/2603.00252
+paper:2603.02984,paper,Variance reduction in lattice QCD observables via normalizing flows,2603.02984,C2,,include,https://arxiv.org/abs/2603.02984
+paper:2603.12299,paper,Regenerative Rejection Sampling,2603.12299,C2,,candidate,https://arxiv.org/abs/2603.12299
+paper:2603.12501,paper,Normalizing-flow-based density of states for (1+1)D U(1) lattice gauge theory with a $θ$-term,2603.12501,C2,,include,https://arxiv.org/abs/2603.12501
+paper:2603.14695,paper,Scaling Autoregressive Models for Lattice Thermodynamics,2603.14695,C2,,include,https://arxiv.org/abs/2603.14695
+paper:2604.01287,paper,Enhanced Sampling Techniques for Lattice Gauge Theory,2604.01287,C2,,include,https://arxiv.org/abs/2604.01287
+paper:2604.07762,paper,Generative optimal transport via forward-backward HJB matching,2604.07762,C2,,candidate,https://arxiv.org/abs/2604.07762
+paper:2604.07867,paper,Stochastic Thermodynamics for Autoregressive Generative Models: A Non-Markovian Perspective,2604.07867,C2,,candidate,https://arxiv.org/abs/2604.07867
+paper:2604.10209,paper,Scalable Generative Sampling and Multilevel Estimation for Lattice Field Theories Near Criticality,2604.10209,C4,critical_sampling,include,https://arxiv.org/abs/2604.10209
+paper:2604.12416,paper,Machine learning for four-dimensional SU(3) lattice gauge theories,2604.12416,C2,,include,https://arxiv.org/abs/2604.12416
+paper:2604.15694,paper,Neural Continuous-Time Markov Chain: Discrete Diffusion via Decoupled Jump Timing and Direction,2604.15694,C2,,candidate,https://arxiv.org/abs/2604.15694
+paper:2604.26534,paper,Neural and Tensor Networks in the Study of Quantum Annealing Processors,2604.26534,C2,,candidate,https://arxiv.org/abs/2604.26534
+paper:2605.05764,paper,Weighted Phase-Space Paths for Exact Wigner Dynamics,2605.05764,C2,,candidate,https://arxiv.org/abs/2605.05764
+paper:2605.06829,paper,"A Unified Measure-Theoretic View of Diffusion, Score-Based, and Flow Matching Generative Models",2605.06829,C2,,candidate,https://arxiv.org/abs/2605.06829
+paper:2605.11199,paper,Operator Spectroscopy of Trained Lattice Samplers,2605.11199,C4,author_context,include,https://arxiv.org/abs/2605.11199
+paper:2605.12379,paper,Discrete Flow Matching for Offline-to-Online Reinforcement Learning,2605.12379,C2,,candidate,https://arxiv.org/abs/2605.12379
+paper:2605.13681,paper,Sampling from Flow Language Models via Marginal-Conditioned Bridges,2605.13681,C2,,candidate,https://arxiv.org/abs/2605.13681
+paper:2605.16020,paper,Variational Autoregressive Networks with probability priors,2605.16020,C2,,include,https://arxiv.org/abs/2605.16020
+paper:2605.22444,paper,Normalizing flows for all-orders QED corrections in lattice field theory,2605.22444,C2,,include,https://arxiv.org/abs/2605.22444
+paper:2605.22723,paper,The Value of Covariance Matching in Gaussian DDPMs and the Lanczos Sampler,2605.22723,C2,,candidate,https://arxiv.org/abs/2605.22723
+paper:2605.23434,paper,Onsager-Machlup Posterior Transport for Deep Gaussian Processes,2605.23434,C2,,candidate,https://arxiv.org/abs/2605.23434
+paper:2605.27079,paper,Trust Region Q Adjoint Matching,2605.27079,C2,,candidate,https://arxiv.org/abs/2605.27079
+paper:2605.27770,paper,Sampling Triangulations and Calabi-Yau Threefolds with Autoregressive GNNs,2605.27770,C2,,candidate,https://arxiv.org/abs/2605.27770
+paper:2605.30722,paper,Self-Certifying Transport MCMC via Dual Spectral-Gap Certificates,2605.30722,C2,,candidate,https://arxiv.org/abs/2605.30722
+paper:2606.06179,paper,Diffusion Models Observe Only Gradients: A Geometric Perspective on Score Matching Errors,2606.06179,C2,,candidate,https://arxiv.org/abs/2606.06179
+paper:2606.12710,paper,A Stabilized Path-Space Approach to Diffusion-Based Posterior Sampling,2606.12710,C2,,candidate,https://arxiv.org/abs/2606.12710
+paper:2606.13790,paper,Stochastic Path Sampler For Lattice Field Theory,2606.13790,C4,root_sps,include,https://arxiv.org/abs/2606.13790
+paper:2606.17252,paper,Stochastic Thermodynamics of Score Matching in Diffusion Models,2606.17252,C2,,candidate,https://arxiv.org/abs/2606.17252
+paper:2606.27481,paper,Sampling the Schwinger Model with Gauge-Equivariant Diffusion,2606.27481,C2,,include,https://arxiv.org/abs/2606.27481
+paper:2607.07127,paper,Weight-Space Physics: Interpretable Hypernetworks for Lattice Quantum Field Theories,2607.07127,C2,,include,https://arxiv.org/abs/2607.07127
+paper:2607.07453,paper,Collaborate to decorrelate in path space: Hamiltonian replica exchange transition interface sampling (HRETIS),2607.07453,C2,,candidate,https://arxiv.org/abs/2607.07453
+paper:2607.08505,paper,Diffusion Models for Sampling Near Criticality in Lattice Field Theories,2607.08505,C4,forward_neighbor,include,https://arxiv.org/abs/2607.08505
+paper:2607.08757,paper,Score Accuracy Along the Forward Diffusion Does Not Certify Numerical Stability in Diffusion Sampling,2607.08757,C2,,candidate,https://arxiv.org/abs/2607.08757
+paper:2607.11631,paper,Markov Chain Monte Carlo with Diffusion Paths,2607.11631,C2,,candidate,https://arxiv.org/abs/2607.11631
+paper:2607.12587,paper,Lattice Configuration Generation with a Self-Learning Diffusion Model,2607.12587,C2,,include,https://arxiv.org/abs/2607.12587
+paper:2607.13757,paper,Girsanov Reweighting for Uncertainty Propagation in Rare-Event Kinetics,2607.13757,C2,,candidate,https://arxiv.org/abs/2607.13757
+query:P01,query,identifier probe P01,,,identifier_probe,,
+query:P02,query,identifier probe P02,,,identifier_probe,,
+query:P03,query,identifier probe P03,,,identifier_probe,,
+query:P04,query,identifier probe P04,,,identifier_probe,,
+query:P05,query,identifier probe P05,,,identifier_probe,,
+query:P06,query,identifier probe P06,,,identifier_probe,,
+query:P07,query,identifier probe P07,,,identifier_probe,,
+query:P08,query,identifier probe P08,,,identifier_probe,,
+query:P09,query,identifier probe P09,,,identifier_probe,,
+query:P10,query,identifier probe P10,,,identifier_probe,,
+query:P11,query,identifier probe P11,,,identifier_probe,,
+query:P12,query,identifier probe P12,,,identifier_probe,,
+query:Q01,query,2606.13790,,,identity,,
+query:Q02,query,"ti:""Stochastic Path Sampler For Lattice Field Theory""",,,identity,,
+query:Q03,query,"all:""stochastic path sampler""",,,method,,
+query:Q04,query,"all:""lattice field theory"" AND all:""neural sampler""",,,domain,,
+query:Q05,query,"all:""lattice field theory"" AND all:""normalizing flow""",,,method,,
+query:Q06,query,"all:""stochastic normalizing flow"" AND all:lattice",,,method,,
+query:Q07,query,"all:nonequilibrium AND all:""lattice field""",,,mechanism,,
+query:Q08,query,"all:""path space"" AND all:sampling",,,mechanism,,
+query:Q09,query,"all:""entropy production"" AND all:sampling",,,mechanism,,
+query:Q10,query,"all:diffusion AND all:""lattice field theory""",,,adjacent,,
+query:Q11,query,"all:""critical slowing down"" AND all:lattice",,,problem,,
+query:Q12,query,all:Jarzynski AND all:lattice,,,method_precedent,,
+query:Q13,query,au:Qian_M,,,author_lineage,,
+query:Q14,query,au:Aarts_G AND all:lattice,,,author_lineage,,
+query:Q15,query,"au:Chen_S AND all:""stochastic""",,,author_lineage,,
+query:Q16,query,all:autocorrelation AND all:lattice AND all:sampling,,,verification,,
+query:Q17,query,"all:""independence Metropolis"" AND all:sampling",,,exactness,,
+query:Q18,query,"all:""Schrodinger bridge"" AND all:sampling",,,method,,
+query:Q19,query,"all:""independence Metropolis"" AND all:lattice",,,exactness,,
+query:Q20,query,"all:""path space"" AND all:""lattice field theory""",,,mechanism,,
+query:Q21,query,"all:""stochastic quantization"" AND all:""lattice field theory""",,,mechanism,,
+query:Q22,query,"all:""topological freezing"" AND all:""normalizing flow""",,,problem,,
+query:Q23,query,"all:multilevel AND all:""lattice field theory""",,,scaling,,
+query:Q24,query,au:Lucini_B AND all:sampling,,,author_lineage,,
