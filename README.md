@@ -3,11 +3,13 @@
 Turn a spoken research clue into a literature package that another person can
 check.
 
-**Part 1 is complete:** identify the exact object, expand the search in several
-rounds, read the selected papers, connect every retained claim to a source, and
-leave unresolved questions visible. The public worked example is the
-Stochastic Path Sampler (SPS). We are extending the same approach to the later
-steps of research: methods, experiments, proposals, papers, and presentations.
+**Parts 1 and 2 now have public checked runs.** Part 1 identifies the exact
+object, expands the search in several rounds, reads the selected papers,
+connects every retained claim to a source, and leaves unresolved questions
+visible. Part 2 reads the technical lineage,
+reconstructs formulas and algorithms, maps available official code, and runs a
+bounded reproduction. The public worked lineage is SPS and PIS. Parts 3-6
+remain planned.
 
 ```text
 verbal clue -> exact target -> candidate pool -> paper reading
@@ -24,14 +26,15 @@ latest public status update, not necessarily a completion date.
 | Part | Research step | Current public status | Last update |
 |---|---|---|---:|
 | 1 | Understand the literature: identify, search, read, trace, and audit | **Complete and public.** SPS public package released 2026-07-13; fresh full rerun passed 21/21 checks. | 2026-07-16 |
-| 2 | Learn current methods, formulas, implementations, and progress | **In progress.** One complete SPS run has been executed and verified end to end through T3, including equation-level reading, predecessor comparison, algorithm reconstruction, review, and usage records. | 2026-07-16 |
+| 2 | Learn current methods, formulas, implementations, and progress | **Complete for the public T0-T5 contract.** SPS passes the paper-to-algorithm branch through T3; official PIS code supplies a verified T4 map and one bounded T5 objective reproduction. | 2026-07-16 |
 | 3 | Design, execute, diagnose, and validate the research | **Planned.** No public end-to-end run has been released. | 2026-07-16 |
 | 4 | Prepare a complete research or funding proposal | **Planned.** No public end-to-end run has been released. | 2026-07-16 |
 | 5 | Write, choose a venue, submit, and revise the paper | **Planned.** No public end-to-end run has been released. | 2026-07-16 |
 | 6 | Produce slides, posters, and talks for different audiences | **Planned.** No public end-to-end run has been released. | 2026-07-16 |
 
-Open the [Part 1 SPS case](sps/README.md) or the
-[Part 2 SPS technical-learning run](sps/part2/runs/sps-goal-mode-rerun-20260716/README.md).
+Open the [Part 1 SPS case](sps/README.md), the
+[Part 2 SPS technical-learning run](sps/part2/runs/sps-goal-mode-rerun-20260716/README.md),
+or the [Part 2 PIS code and reproduction run](sps/part2/runs/pis-t4-t5-minimal-reproduction-20260716/README.md).
 
 ## Try it first: no installation
 

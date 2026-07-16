@@ -1,0 +1,3 @@
+case_id,case,target_level,source_status,code_status,reproduction_status,checked_conclusion,next_action
+C01,SPS,T3,exact paper and lineage verified,not publicly available in paper v1,not requested in the completed T3 contract,the skill records the unavailable branch without inventing code,monitor later SPS versions
+C02,PIS,T5,exact paper and official repository verified,commit and source hashes locked,formula-level objective check PASS,the skill traces a checked formula to official code and retains machine output,add a full benchmark reproduction only if requested

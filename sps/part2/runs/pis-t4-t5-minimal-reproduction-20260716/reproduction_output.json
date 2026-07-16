@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "expected": "c1cbc1f3f28f69aa001df44762fb919de5804ebb",
+      "name": "locked_commit",
+      "observed": "c1cbc1f3f28f69aa001df44762fb919de5804ebb",
+      "status": "PASS"
+    },
+    {
+      "expected": "28fa5ab4ec8a00d9897ead9c55f66bbe0877f00d202b859181b136c05817af0e",
+      "name": "locked_source_hash",
+      "observed": "28fa5ab4ec8a00d9897ead9c55f66bbe0877f00d202b859181b136c05817af0e",
+      "status": "PASS"
+    },
+    {
+      "expected": 12.5,
+      "name": "quadratic_control_cost",
+      "observed": 12.5,
+      "status": "PASS"
+    },
+    {
+      "expected": 8.0,
+      "name": "objective_decomposition",
+      "observed": 8.0,
+      "status": "PASS"
+    }
+  ],
+  "commit": "c1cbc1f3f28f69aa001df44762fb919de5804ebb",
+  "observed": {
+    "prior_nll": 0.0,
+    "quad_reg": 12.5,
+    "reg_loss": 3.0,
+    "sample_nll": 5.0,
+    "total_loss": 8.0
+  },
+  "overall": "PASS",
+  "python_version": "3.9.6",
+  "repository": "https://github.com/qsh-zh/pis",
+  "schema_version": "part2-minimal-reproduction-v1",
+  "source_file": "src/models/loss.py",
+  "source_sha256": "28fa5ab4ec8a00d9897ead9c55f66bbe0877f00d202b859181b136c05817af0e",
+  "torch_version": "2.7.0"
+}

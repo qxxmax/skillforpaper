@@ -27,10 +27,11 @@ Organize the research lifecycle into six parts:
    submit, and revise.
 6. Present the toy: prepare slides, posters, and talks for different audiences.
 
-Part 1 is public and tested. Part 2 is in progress, with one complete SPS run
-executed and verified end to end through T3, including predecessor equations,
-algorithm reconstruction, review, and a Goal-mode usage log. Parts 3-6 are
-planned.
+Parts 1 and 2 are public and tested. Part 2 includes a complete SPS
+paper-to-algorithm run through T3 and a code-available PIS lineage branch
+through T5, including formula-to-code mapping and a bounded objective
+reproduction. SPS v1's unavailable-code branch is retained explicitly. Parts
+3-6 are planned.
 
 ## Start With Input Mode
 
@@ -222,7 +223,11 @@ a minimal reproduction:
    separate.
 5. Apply the requested T0-T5 competence checks. A small reproduction may test
    understanding; new experiments belong to Part 3.
-6. Build requested TeX/PDF exports and run
+6. For T4, require an official repository, locked version, files, symbols, and
+   configuration. For T5, retain the command, environment, machine output,
+   output hash, interpretation, and boundary. An unavailable official-code
+   branch must stop explicitly.
+7. Build requested TeX/PDF exports and run
    `scripts/validate_part2_learning_package.py <package-directory>`.
 
 ## Literature / Related Work / Novelty Router

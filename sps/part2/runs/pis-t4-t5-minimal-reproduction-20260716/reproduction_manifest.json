@@ -1,0 +1,11 @@
+{
+  "schema_version": "part2-reproduction-manifest-v1",
+  "repository": "https://github.com/qsh-zh/pis",
+  "code_version": "c1cbc1f3f28f69aa001df44762fb919de5804ebb",
+  "source_file": "src/models/loss.py",
+  "source_sha256": "28fa5ab4ec8a00d9897ead9c55f66bbe0877f00d202b859181b136c05817af0e",
+  "command": "python3 scripts/verify_pis_loss_formula.py --repo pis --output reproduction_output.json",
+  "output_file": "reproduction_output.json",
+  "output_sha256": "0b410e8e76929144da6f96a2d2307d3204770630176faa68f2ed38356a3c21fc",
+  "status": "PASS"
+}

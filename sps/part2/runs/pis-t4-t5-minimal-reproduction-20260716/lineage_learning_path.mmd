@@ -1,0 +1,11 @@
+flowchart LR
+  PIS["P002: PIS\ncontrolled forward path\ntrajectory weights"]
+  CODE["Official PIS code\nlocked commit"]
+  TEST["T5 fixed objective check\nPASS"]
+  SPS["P001: SPS\npaired path measures\ntrajectory IMH"]
+  HOLD["SPS v1 code branch\nunavailable at cutoff"]
+
+  PIS -->|"formula to code"| CODE
+  CODE -->|"official functions"| TEST
+  PIS -->|"checked successor comparison"| SPS
+  SPS -->|"paper release statement"| HOLD
