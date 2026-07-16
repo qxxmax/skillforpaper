@@ -27,9 +27,10 @@ Organize the research lifecycle into six parts:
    submit, and revise.
 6. Present the toy: prepare slides, posters, and talks for different audiences.
 
-Part 1 is public and tested. Part 2 has an SPS example verified through T3,
-including predecessor equations, algorithm reconstruction, review, and a
-Goal-mode usage log. Parts 3-6 are planned.
+Part 1 is public and tested. Part 2 is in progress, with one complete SPS run
+executed and verified end to end through T3, including predecessor equations,
+algorithm reconstruction, review, and a Goal-mode usage log. Parts 3-6 are
+planned.
 
 ## Start With Input Mode
 
