@@ -16,6 +16,8 @@ verbal clue -> exact target -> candidate pool -> paper reading
 
 Part 1 public package: **2026-07-13**
 
+Latest fresh audit rerun: **2026-07-16**
+
 Repository: <https://github.com/qxxmax/skillforpaper>
 
 ## Try it first: no installation
@@ -82,17 +84,49 @@ and once in Codex Goal mode:
 | Direct citation edges checked | 58 / 58 | 58 / 58 |
 | Final validation | PASS | PASS |
 
-This supports workflow reproducibility under the recorded contract. It is not
-a strict model benchmark: Goal mode did not expose its exact deployment model,
-and exact token/cache counters were unavailable for these matched runs. See the
-[full comparison and boundaries](sps/comparison/cost_effect_summary.md).
+Both runs produced the same recorded outputs. This is not a strict model
+benchmark because Goal mode did not expose its deployment model and neither run
+provided exact token/cache counters. See the
+[full comparison](sps/comparison/cost_effect_summary.md).
+
+### Latest fresh rerun
+
+The 2026-07-16 run started again from the verbal clue and rebuilt its own
+L0-L10 search, source checks, C4 records, lineage, Dijkstra replay, and stopping
+record.
+
+| Stage | Recorded result |
+|---|---:|
+| Fresh route retrievals | 36 / 36 passed |
+| Raw records -> unique candidates -> active C0-C2 | 371 -> 308 -> 151 |
+| C3 source gate | 21 / 21 PDFs; 489 pages |
+| C4 claim gate | 14 / 14 planned core papers |
+| Evidence / claim rows | 70 / 14 |
+| Checked direct citations / visual source pages | 10 / 7 |
+| Dijkstra graph | 254 nodes / 464 edges |
+| Equal-budget replay at 20 papers | 14 C4 anchors vs 8 for screen order |
+| Final validation | PASS, 21 / 21 checks |
+
+| Selected comparison | Earlier `gpt-5.6-sol/xhigh` | 2026-07-16 Goal rerun | Boundary |
+|---|---:|---:|---|
+| Deduplicated candidates | 578 | 308 | Different search contracts |
+| C3/full-text sources | 27 PDFs / 611 pages | 21 PDFs / 489 pages | Different reading plans |
+| Deep reading records | 27 four-dimension records | 14 C4 records | Different depth schemas |
+| Evidence / claim rows | 108 / 10 | 70 / 14 | Different output contracts |
+| Recorded elapsed time | 22 min 25 s | 49 min 17 s | Not a speed benchmark |
+| Recorded tokens | unavailable | 806,679 Goal-counter delta | No price comparison |
+
+The earlier SOL run covered a larger pool under its broader frozen contract;
+the fresh Goal rerun added explicit C0-C4 gates, source-page screenshots, an
+executable Dijkstra replay, and a stopping record. These observations do not
+establish that one model is better or cheaper. See the
+[case summary and historical comparison](sps/comparison/sol_xhigh_vs_goal_full_rerun_20260716.md).
 
 ## What the results look like
 
-The table previews below are rendered directly from the
-[final SPS Excel workbook](sps/runs/codex-goal-mode-full-dijkstra-20260713/sps_literature_audit_full_dijkstra.xlsx),
-without retyping or restyling the cells. The sheet and range are stated under
-each heading. Click an image to inspect it at full resolution.
+The previews below come directly from the
+[final SPS Excel workbook](sps/runs/codex-goal-mode-full-dijkstra-20260713/sps_literature_audit_full_dijkstra.xlsx).
+Each heading gives the sheet and range.
 
 ### Source table
 
@@ -139,8 +173,9 @@ Screenshot provenance and exact ranges are recorded in
 | [Native SPS paper reading record](sps/runs/codex-goal-mode-full-dijkstra-20260713/native_paper_reading_record_sps.md) | Identity, equations, experiments, numbers, boundaries, and source anchors |
 | [Audit workbook](sps/runs/codex-goal-mode-full-dijkstra-20260713/sps_literature_audit_full_dijkstra.xlsx) | Source, reading, evidence, relation, number, and gap tables in one workbook |
 | [Ordinary run vs Goal mode](sps/comparison/cost_effect_summary.md) | Matched results, measured cost, and comparison limits |
+| [Latest rerun vs earlier SOL](sps/comparison/sol_xhigh_vs_goal_full_rerun_20260716.md) | Fresh case summary, historical comparison, and the non-benchmark boundary |
 | [With vs without Dijkstra](sps/comparison/dijkstra_effect_and_cost.md) | Equal-budget selection effect and the costs that were actually observed |
-| [Final validation report](sps/runs/codex-goal-mode-full-dijkstra-20260713/final_validation_report.md) | The 19 checked output gates and their status |
+| [Final validation report](sps/runs/codex-goal-mode-full-dijkstra-20260713/final_validation_report.md) | The 19 validation checks and their status |
 
 Downloaded third-party papers and full-text caches are not distributed.
 
@@ -181,11 +216,17 @@ python3 -m pip install -r requirements-optional.txt
 | Part | Research step | Status |
 |---|---|---|
 | 1 | Understand the literature: identify, search, read, trace, and audit | Public and tested |
-| 2 | Learn current methods, formulas, implementations, and progress | Planned |
+| 2 | Learn current methods, formulas, implementations, and progress | SPS example verified through T3 |
 | 3 | Design, execute, diagnose, and validate the research | Planned |
 | 4 | Prepare a complete research or funding proposal | Planned |
 | 5 | Write, choose a venue, submit, and revise the paper | Planned |
 | 6 | Produce slides, posters, and talks for different audiences | Planned |
+
+The first completed Part 2 example is the
+[SPS Goal-mode run](sps/part2/runs/sps-goal-mode-rerun-20260716/README.md).
+It includes five equation-level reading records, a predecessor comparison,
+formula-to-algorithm trace, technical review, lineage graph, LaTeX/PDF report,
+and stage-level Goal token and elapsed-time observations.
 
 </details>
 

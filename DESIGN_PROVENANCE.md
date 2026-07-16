@@ -1,24 +1,22 @@
-# Design Provenance And External Boundaries
+# Development Sources
 
-## Public Implementation
+## Scope
 
-`play-the-toy-with-children` is a self-contained skill maintained in this
-repository. It does not vendor or execute the external paper-reading projects
-listed below. Its public scripts, templates, evidence contracts, graph runner,
-and SPS test packet live under this repository's history.
+`play-the-toy-with-children` is implemented in this repository. The projects
+below were reviewed during development, but they are not runtime dependencies
+and their source files are not included here.
 
-The native single-paper module uses this repository's own sequence:
+The paper-reading sequence used by this skill is:
 
 ```text
 identity lock -> paper map -> position -> mechanism -> evidence
 -> boundary separation -> safe synthesis
 ```
 
-## External Systems Evaluated Locally
+## Projects Reviewed
 
-The following projects were downloaded into a separate local test directory and
-evaluated on the SPS paper. They are benchmarks and design inputs, not runtime
-dependencies or redistributed components.
+The tested commit is recorded so the comparison can be repeated against the
+same version.
 
 | Project | Tested commit | What was evaluated |
 |---|---|---|
@@ -30,34 +28,20 @@ dependencies or redistributed components.
 | [agentscope-ai/OpenJudge](https://github.com/agentscope-ai/OpenJudge) | `2151def` | review and bibliography verification failure behavior |
 | [huggingface/skills](https://github.com/huggingface/skills) | `7039bdc` | paper retrieval from the Hugging Face surface |
 
-`academic-research-suite` is also installed separately in the local Codex
-environment. It is not included in this repository and is not required by this
-skill.
+## Practices Retained
 
-## What Was Abstracted
-
-The external trials reinforced four general workflow requirements:
+The comparison led to four requirements:
 
 - confirm and acquire the exact paper before interpretation;
 - store structured, source-anchored reading records;
 - separate extraction from critique;
-- treat a partially failed pipeline as failed rather than emitting a
-  success-looking report.
+- report a failed stage as failed.
 
-These requirements are implemented here with independent wording, schemas, and
-validators integrated into the C0-C4 evidence model. External outputs may be
-used as candidate notes only; they must return to the original paper before
-promotion.
+The schemas, validators, graph runner, and SPS example in this repository were
+written for this project. External output can be used as a reading lead, but a
+claim is retained only after checking the original source.
 
-## Text And Code Screen
-
-On 2026-07-13, the public skill tree was compared locally against the evaluated
-external corpus and the installed academic-research suite. After case and
-punctuation normalization, no exact substantive line of at least 60 characters
-matched. This is a limited exact-match screen, not a legal opinion or a proof
-that broad workflow ideas are unique.
-
-## License Boundary
+## Licenses
 
 Each external project remains governed by its own license and attribution
 requirements. No external source file should be copied into this repository

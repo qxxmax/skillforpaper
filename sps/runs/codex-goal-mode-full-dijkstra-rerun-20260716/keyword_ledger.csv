@@ -1,0 +1,12 @@
+term_id,term,facet,source_anchor,status
+K01,stochastic path sampler,method identity,Root PDF p. 1 abstract,root_grounded
+K02,unnormalized target,problem,Root PDF p. 1 abstract,root_grounded
+K03,path-space variational free energy,objective,Root PDF p. 1 abstract,root_grounded
+K04,entropy production,objective,Root PDF p. 1 abstract,root_grounded
+K05,extended-space independence Metropolis-Hastings,correction,"Root PDF pp. 7-8, Sec. 2.4",root_grounded
+K06,critical slowing down,failure mode,Root PDF p. 1 abstract,root_grounded
+K07,stochastic normalizing flow,method lineage,"Root PDF p. 30, Refs. [19-20]",root_grounded
+K08,Jarzynski equality,method lineage,"Root PDF p. 30, Refs. [19-20]",root_grounded
+K09,Schrodinger bridge,adjacent method,"Root PDF p. 31, Ref. [33]",root_grounded
+K10,denoising diffusion sampler,adjacent method,"Root PDF p. 31, Ref. [34]",root_grounded
+K11,observable-level cost,evaluation gap,"Root PDF p. 21, Sec. 4",root_grounded

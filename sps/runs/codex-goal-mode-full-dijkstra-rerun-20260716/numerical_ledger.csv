@@ -1,0 +1,14 @@
+metric,value,definition,source,boundary
+configured_search_routes,24,Q01-Q24 protocol entries; P01-P12 are separate identifier probes.,search_protocol.csv; identifier_probes.csv,"Route count is a workflow setting, not literature completeness."
+successful_retrieval_routes,36,Route-level current arXiv retrievals with status OK.,retrieval_log_all_rounds.csv,Transport success does not make every hit relevant.
+raw_route_records,371,All records returned by the current L0-L10 route set before deduplication.,route_results.csv,A record can appear from more than one route.
+deduplicated_candidates,308,Unique records after identifier deduplication.,candidate_screening_table.csv,Candidate-level evidence is at most C2 before full-text review.
+screened_include_candidate_exclude,94 / 57 / 157,C0-C2 screening decisions for the deduplicated pool.,candidate_screening_table.csv,Excluded papers are retained with reasons; they are not silently discarded.
+selected_full_texts,21,Predeclared reading set after screening.,selected_fulltexts.csv,"Selection is a bounded reading plan, not all active candidates."
+C3_download_passes,21 / 21,"Downloaded PDFs with checksum, page-count, and text-extraction pass.",fulltext_download_status.tsv; fulltext_gate_report.md,"C3 proves source integrity, not a method claim."
+C4_claim_anchors,14 / 14,"Planned core records with problem, method, result, and boundary anchors.",c4_reading_notes.psv; evidence_registry.csv,Claims remain scoped to the cited source and anchor.
+evidence_records,70,Identity/problem/method/result/boundary records compiled from C4 notes.,evidence_registry.csv,Record count is not a scientific quality metric.
+direct_citation_edges,10,SPS bibliography entries with exact title and arXiv-id context checked.,relation_ledger.csv; root_bibliography.csv; visual_source_audit.csv,A citation edge does not establish empirical equivalence.
+navigation_graph_nodes_edges,254 / 464,Current graph nodes / weighted edges supplied to Dijkstra.,dijkstra_graph_nodes.csv; dijkstra_graph_edges.csv,"The graph is search navigation metadata, not scientific evidence."
+key_visual_source_pages,7,"Selected identity, bibliography, and branch-anchor pages visually inspected.",visual_source_audit.csv,Key-only policy; every PDF is C3-verified separately.
+dijkstra_replay_C4_at_budget_20,14 vs 8,C4 anchors reached by Dijkstra and screen-only orders at the same 20-paper replay budget.,dijkstra_selection_comparison.csv,"Replay against this predeclared reading plan, not a general algorithm benchmark."

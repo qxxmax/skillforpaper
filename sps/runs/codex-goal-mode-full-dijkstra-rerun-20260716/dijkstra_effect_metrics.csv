@@ -1,0 +1,11 @@
+budget_papers,method,C4_anchors_found,C4_anchor_recall,C3_fulltexts_found,C3_fulltext_recall,direct_citations_found,direct_citation_recall,selected_clusters_found
+5,dijkstra,5,0.357143,5,0.238095,4,0.4,5
+5,screen_only,3,0.214286,4,0.190476,0,0.0,4
+10,dijkstra,9,0.642857,10,0.47619,9,0.9,9
+10,screen_only,7,0.5,8,0.380952,3,0.3,7
+20,dijkstra,14,1.0,16,0.761905,10,1.0,14
+20,screen_only,8,0.571429,13,0.619048,4,0.4,11
+40,dijkstra,14,1.0,19,0.904762,10,1.0,15
+40,screen_only,9,0.642857,15,0.714286,5,0.5,12
+60,dijkstra,14,1.0,19,0.904762,10,1.0,15
+60,screen_only,11,0.785714,17,0.809524,6,0.6,13

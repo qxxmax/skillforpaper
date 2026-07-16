@@ -1,4 +1,4 @@
-# Proposal AI Quality Audit Template
+# Proposal Prose And Evidence Audit
 
 Project:
 Draft reviewed:
@@ -12,12 +12,12 @@ Reviewer:
 - Main style risk:
 - Main evidence risk:
 
-## Empty-Prose / AI-Style Scan
+## Prose Scan
 
 | Check | Finding | Action |
 |---|---|---|
-| Self-referential workflow narration |  | keep / revise / remove |
-| Generic AI framing |  | keep / revise / remove |
+| Internal process narration |  | keep / revise / remove |
+| Generic method framing |  | keep / revise / remove |
 | Repeated `will` constructions |  | keep / revise / remove |
 | Defensive `not X but Y` framing |  | keep / revise / remove |
 | Inflated adjectives |  | keep / revise / remove |
@@ -38,4 +38,3 @@ Reviewer:
 - [ ] References verified enough for draft use
 - [ ] Placeholders removed from audience-facing text
 - [ ] UTF-8 / Unicode engine selected for multilingual text
-

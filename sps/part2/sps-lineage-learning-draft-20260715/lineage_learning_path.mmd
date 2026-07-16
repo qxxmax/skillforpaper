@@ -1,0 +1,21 @@
+flowchart LR
+  P002["P002: Path Integral Sampler<br/>stochastic-control path"]
+  P003["P003: Denoising Diffusion Samplers<br/>forward/reverse path densities"]
+  P007["P007: Stochastic Normalizing Flows<br/>nonequilibrium path weights"]
+  P001["P001: SPS<br/>focal lattice path sampler"]
+  P031["P031: Diffusion Near Criticality<br/>later comparison node"]
+
+  P002 -->|"R0171: checked citation"| P001
+  P003 -->|"R0177: checked citation"| P001
+  P007 -->|"R0172: checked citation"| P001
+  P001 -->|"R0199: checked citation"| P031
+
+  classDef focal fill:#F5C7D6,stroke:#7A2948,stroke-width:2px,color:#24141A;
+  classDef source fill:#E7F1EA,stroke:#3F6B50,color:#1E2D23;
+  classDef later fill:#E9EDF5,stroke:#4C5E7D,color:#202737;
+  class P001 focal;
+  class P002,P003,P007 source;
+  class P031 later;
+
+%% Arrows prove checked direct citation only. Method inheritance and novelty
+%% remain separate claims that require source-supported comparison.

@@ -67,7 +67,7 @@ named polish rounds.  A mature research deck usually needs at least:
   result number, protocol detail, or formula.  If a source is unavailable,
   record it in the ledger/status file rather than presenting a missing-source
   placeholder as slide content.
-- Prose round: remove generic, AI-like, repetitive, or workflow-meta language
+- Prose round: remove generic, repetitive, or workflow-meta language
   from the audience-facing slides.
 - Visual emphasis round: use red or other alert color only for core claims,
   key numbers, comparison caveats, and terms the speaker must point to.
@@ -81,7 +81,7 @@ named polish rounds.  A mature research deck usually needs at least:
   understand for each important keyword before the next slide can be read.  Add
   compact checkpoint slides or table rows only for terms whose absence would
   break the logic; leave minor details for speaker notes or backup.
-- Hard de-bloat round: when the deck still reads wordy, remove AI/process
+- Hard de-bloat round: when the deck still reads wordy, remove process
   language, repeated caveats, generic bottom lines, and redundant checkpoints.
   Preserve scientific evidence and key definitions, not the scaffolding used to
   create them.
@@ -95,8 +95,7 @@ Acceptance tests:
 - Every literature slide has citation anchors.
 - Every result slide has a source figure, table, or value; unavailable metrics
   are tracked outside the audience-facing slide.
-- No audience-facing slide contains AI self-talk, workflow narration, or
-  process-completeness filler.
+- No audience-facing slide contains internal process notes.
 - Every limitation or failure-mode slide has a diagnostic or boundary
   statement.
 - Every non-original visual appears in `visual_source_ledger.md`.

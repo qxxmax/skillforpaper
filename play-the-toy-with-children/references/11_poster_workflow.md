@@ -17,14 +17,14 @@ The first pass is successful only if the user can answer:
 
 - "Is this the main point readers should remember?"
 - "Is anything important missing from the source map?"
-- "Which proof objects should carry the poster?"
+- "Which results or figures should carry the poster?"
 
 ## Poster Versus Source Map
 
 The poster is not the full ledger.  Use this split:
 
 - Source map: complete chapter/section/evidence table.
-- Poster: one dominant thesis, one mechanism, three to five proof objects.
+- Poster: one dominant thesis, one mechanism, and three to five evidence panels.
 - Supplement or deck: extra chapters, appendices, formulas, and diagnostics.
 
 When a user says "not complete," expand the source map first.  Then redesign the
@@ -59,9 +59,9 @@ Recommended layout:
 
 ```text
 title / thesis
-problem -> method -> core formula -> diagnostic gates -> conclusion
+problem -> method -> core formula -> diagnostics -> conclusion
 full-source-map signal
-proof objects
+evidence panels
 boundary / takeaway
 ```
 

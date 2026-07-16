@@ -1,0 +1,17 @@
+{
+  "run_id": "sps-goal-mode-rerun-20260716",
+  "execution_mode": "Codex Goal mode",
+  "goal_objective": "Rerun SPS Part 2 in a new folder and record cumulative Goal-mode token and elapsed-time snapshots.",
+  "started_at": "2026-07-16T08:26:12+02:00",
+  "source_part1_run": "../../../runs/codex-goal-mode-full-dijkstra-20260713",
+  "focal_paper_id": "P001",
+  "focal_arxiv_id": "2606.13790v1",
+  "target_learning_level": "T3",
+  "final_pre_completion_snapshot": "S06",
+  "final_completion_snapshot": "S07",
+  "final_tokens_used": 1161662,
+  "final_time_used_seconds": 6367,
+  "token_source": "Codex Goal status tokensUsed",
+  "time_source": "Codex Goal status timeUsedSeconds",
+  "usage_note": "Goal snapshots are cumulative counters exposed by Goal mode, not OpenAI API response.usage fields."
+}

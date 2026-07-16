@@ -1,14 +1,14 @@
 # Python script map
 
-The repository contains 43 Python files, but they do not form one large
-application. They belong to four different layers:
+The repository's Python files do not form one large application. They belong
+to four different layers:
 
-| Layer | Count | Who uses it? | Installed with the skill? |
-|---|---:|---|---|
-| Installer | 1 | Someone installing or updating the skill manually | No |
-| General skill tools | 6 | Codex when a task needs validation, graphing, Dijkstra, or exact API accounting | Yes |
-| Public SPS checks | 2 | Maintainers checking the shareable SPS package | No |
-| Frozen SPS run scripts | 34 | Maintainers reproducing a recorded experiment | No |
+| Layer | Scope | Who uses it? | Installed with the skill? |
+|---|---|---|---|
+| Installer | One entry point | Someone installing or updating the skill manually | No |
+| General skill tools | Shared validators, graphing, Dijkstra, and optional API accounting | Codex | Yes |
+| Public SPS maintenance | Export checks and generated comparison tables | Maintainers | No |
+| Frozen SPS run scripts | Per-run reproducibility snapshots | Maintainers | No |
 
 For ordinary use, send the skill prompt in Codex. You do not need to choose or
 run a Python file yourself.
@@ -24,27 +24,29 @@ Codex skill directory.
 
 ## General skill tools
 
-These six scripts live under `play-the-toy-with-children/scripts/`:
+These seven scripts live under `play-the-toy-with-children/scripts/`:
 
 | Script | Purpose | When it is needed |
 |---|---|---|
 | `smoke_test.py` | Checks required skill files and reports optional capability readiness. | Installation check |
-| `validate_paper_reading_record.py` | Rejects a paper-reading record that lacks identity, anchors, evidence IDs, or resolved placeholders. | Before promoting reading notes into claims |
+| `validate_paper_reading_record.py` | Rejects a paper-reading record that lacks identity, anchors, evidence IDs, or resolved placeholders. | Before using reading notes as claim support |
 | `validate_keyword_query_graph.py` | Checks keyword provenance, query routes, and graph-relation contracts. | Multi-round or graph-based searches |
-| `run_literature_dijkstra.py` | Runs auditable shortest-path navigation on literature-node and edge tables. | Only when Dijkstra graph mode is requested |
+| `validate_part2_learning_package.py` | Checks the Part 2 contract, innovation and formula ledgers, competence levels, and requested exports. | Before using a technical-learning package |
+| `run_literature_dijkstra.py` | Runs shortest-path navigation with recorded node, edge, and cost tables. | Only when Dijkstra graph mode is requested |
 | `render_literature_views.py` | Produces separate landscape, lineage, and audit-funnel figures. | Only when public graph images are requested |
 | `observable_research_runner.py` | Calls the Responses API while recording the usage counters exposed by the API. | Only for an API-observable token/cost experiment |
 
-The first four use the Python standard library. Graph rendering additionally
+The first five use the Python standard library. Graph rendering additionally
 uses `matplotlib` and `networkx`. Exact API accounting additionally uses the
 `openai` package and an API key.
 
-## Public SPS checks
+## Public SPS maintenance
 
 | Script | Purpose |
 |---|---|
 | `sps/scripts/validate_public_export.py` | Checks the public repository boundary, required files, workbook, JSON files, and links without distributing downloaded papers. |
 | `sps/scripts/validate_dijkstra_public_run.py` | Recomputes the public Dijkstra paths and checks the recorded graph invariants. |
+| `sps/scripts/build_sol_goal_rerun_comparison.py` | Rebuilds the 2026-07-16 SPS case summary and the protocol-aware comparison with the earlier SOL run from recorded JSON/CSV artifacts. |
 
 These scripts test the published example; they are not needed to conduct a new
 literature review.
@@ -87,8 +89,5 @@ own copies of the execution scripts. Six script pairs are byte-for-byte
 identical. Keeping them inside each run makes the historical package
 self-contained, but it also makes the repository look more complicated.
 
-A future cleanup can move shared experiment code to
-`sps/reproduction/common/` and leave only configuration, logs, outputs, and a
-code hash inside each run. Until the manifests and validators are migrated,
-the frozen copies should not be deleted because they are part of the recorded
-audit trail.
+The frozen copies remain because the run manifests reference them. Moving them
+requires a versioned migration of those manifests and validators.

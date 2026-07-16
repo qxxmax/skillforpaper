@@ -15,6 +15,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 SPS = ROOT / "sps"
 RUNS = SPS / "runs"
+PART2 = SPS / "part2" / "sps-lineage-learning-draft-20260715"
+PART2_GOAL = SPS / "part2" / "runs" / "sps-goal-mode-rerun-20260716"
+FRESH_PART1 = RUNS / "codex-goal-mode-full-dijkstra-rerun-20260716"
 
 
 def fail(message: str) -> None:
@@ -31,13 +34,18 @@ required = [
     ROOT / "play-the-toy-with-children" / "agents" / "openai.yaml",
     ROOT / "play-the-toy-with-children" / "scripts" / "smoke_test.py",
     ROOT / "play-the-toy-with-children" / "scripts" / "validate_paper_reading_record.py",
+    ROOT / "play-the-toy-with-children" / "scripts" / "validate_part2_learning_package.py",
     ROOT / "play-the-toy-with-children" / "references" / "38_native_paper_reading_protocol.md",
+    ROOT / "play-the-toy-with-children" / "references" / "39_part2_technical_learning_and_innovation_audit.md",
     ROOT / "play-the-toy-with-children" / "templates" / "paper_reading_record_template.md",
     ROOT / "play-the-toy-with-children" / "templates" / "paper_reading_ledger_template.csv",
     ROOT / "play-the-toy-with-children" / "templates" / "paper_review_gate_template.md",
     SPS / "README.md",
     SPS / "comparison" / "cost_effect_summary.csv",
+    SPS / "comparison" / "sol_xhigh_vs_goal_full_rerun_20260716.csv",
+    SPS / "comparison" / "sol_xhigh_vs_goal_full_rerun_20260716.md",
     SPS / "comparison" / "dijkstra_effect_and_cost.csv",
+    SPS / "scripts" / "build_sol_goal_rerun_comparison.py",
     SPS / "scripts" / "validate_dijkstra_public_run.py",
     RUNS / "gpt-5.6-sol-xhigh-matched" / "run_metrics.json",
     RUNS / "codex-goal-mode-matched" / "run_metrics.json",
@@ -48,6 +56,45 @@ required = [
     RUNS / "codex-goal-mode-full-dijkstra-20260713" / "native_paper_reading_ledger.csv",
     RUNS / "codex-goal-mode-full-dijkstra-20260713" / "native_paper_review_gate_sps.md",
     RUNS / "codex-goal-mode-full-dijkstra-20260713" / "final_validation_report.md",
+    FRESH_PART1 / "README.md",
+    FRESH_PART1 / "run_report.md",
+    FRESH_PART1 / "final_validation_report.md",
+    FRESH_PART1 / "runtime_accounting.md",
+    FRESH_PART1 / "numerical_ledger.csv",
+    SPS / "part2" / "README.md",
+    PART2 / "README.md",
+    PART2 / "part2_learning_contract.md",
+    PART2 / "part2_learning_report.md",
+    PART2 / "innovation_delta.csv",
+    PART2 / "equation_code_map.csv",
+    PART2 / "review_core.md",
+    PART2 / "lineage_learning_path.mmd",
+    PART2 / "part2_learning_report.tex",
+    PART2 / "part2_learning_report.pdf",
+    PART2 / "part2_validation.json",
+    PART2_GOAL / "README.md",
+    PART2_GOAL / "part2_learning_contract.md",
+    PART2_GOAL / "part2_learning_report.md",
+    PART2_GOAL / "innovation_delta.csv",
+    PART2_GOAL / "equation_code_map.csv",
+    PART2_GOAL / "review_core.md",
+    PART2_GOAL / "lineage_learning_path.mmd",
+    PART2_GOAL / "part2_learning_report.tex",
+    PART2_GOAL / "part2_learning_report.pdf",
+    PART2_GOAL / "source_identity_ledger.csv",
+    PART2_GOAL / "paper_reading_ledger.csv",
+    PART2_GOAL / "paper_reading_record_P001.md",
+    PART2_GOAL / "paper_reading_record_P002.md",
+    PART2_GOAL / "paper_reading_record_P003.md",
+    PART2_GOAL / "paper_reading_record_P004.md",
+    PART2_GOAL / "paper_reading_record_P007.md",
+    PART2_GOAL / "goal_usage_snapshots.csv",
+    PART2_GOAL / "goal_usage_summary.md",
+    PART2_GOAL / "invocation_manifest.json",
+    PART2_GOAL / "run_log.md",
+    PART2_GOAL / "output_manifest.md",
+    PART2_GOAL / "artifact_refresh_manifest.md",
+    PART2_GOAL / "part2_validation.json",
 ]
 for path in required:
     if not path.exists():
@@ -83,11 +130,20 @@ for path in ROOT.rglob("*.json"):
         json.load(handle)
     json_count += 1
 
+allowed_derived_pdfs = {
+    (PART2 / "part2_learning_report.pdf").resolve(),
+    (PART2_GOAL / "part2_learning_report.pdf").resolve(),
+}
 for path in ROOT.rglob("*.pdf"):
-    if "graphs" not in path.relative_to(ROOT).parts:
+    if (
+        "graphs" not in path.relative_to(ROOT).parts
+        and path.resolve() not in allowed_derived_pdfs
+    ):
         fail(f"non-graph PDF found: {path.relative_to(ROOT)}")
 
-text_suffixes = {".md", ".json", ".csv", ".py", ".txt", ".yaml", ".yml", ".mmd"}
+text_suffixes = {
+    ".md", ".json", ".csv", ".py", ".txt", ".yaml", ".yml", ".mmd", ".tex",
+}
 for path in ROOT.rglob("*"):
     if not path.is_file() or path.suffix.lower() not in text_suffixes:
         continue
@@ -102,8 +158,12 @@ for document in [
     ROOT / "DESIGN_PROVENANCE.md",
     SPS / "README.md",
     SPS / "comparison" / "cost_effect_summary.md",
+    SPS / "comparison" / "sol_xhigh_vs_goal_full_rerun_20260716.md",
     SPS / "comparison" / "dijkstra_effect_and_cost.md",
     RUNS / "codex-goal-mode-full-dijkstra-20260713" / "README.md",
+    FRESH_PART1 / "README.md",
+    SPS / "part2" / "README.md",
+    PART2_GOAL / "README.md",
 ]:
     text = document.read_text(encoding="utf-8")
     for target in re.findall(r"\[[^]]+\]\(([^)]+)\)", text):
@@ -155,6 +215,67 @@ subprocess.run(
             / "codex-goal-mode-full-dijkstra-20260713"
             / "native_paper_reading_record_sps.md"
         ),
+    ],
+    check=True,
+)
+
+subprocess.run(
+    [
+        sys.executable,
+        str(
+            ROOT
+            / "play-the-toy-with-children"
+            / "scripts"
+            / "validate_keyword_query_graph.py"
+        ),
+        "--keyword-ledger",
+        str(RUNS / "codex-goal-mode-full-dijkstra-20260713" / "keyword_ledger.csv"),
+        "--query-matrix",
+        str(RUNS / "codex-goal-mode-full-dijkstra-20260713" / "query_matrix.csv"),
+        "--relation-ledger",
+        str(RUNS / "codex-goal-mode-full-dijkstra-20260713" / "relation_ledger.csv"),
+    ],
+    check=True,
+)
+
+subprocess.run(
+    [
+        sys.executable,
+        str(
+            ROOT
+            / "play-the-toy-with-children"
+            / "scripts"
+            / "validate_part2_learning_package.py"
+        ),
+        "--self-test",
+    ],
+    check=True,
+)
+
+subprocess.run(
+    [
+        sys.executable,
+        str(
+            ROOT
+            / "play-the-toy-with-children"
+            / "scripts"
+            / "validate_part2_learning_package.py"
+        ),
+        str(PART2),
+    ],
+    check=True,
+)
+
+subprocess.run(
+    [
+        sys.executable,
+        str(
+            ROOT
+            / "play-the-toy-with-children"
+            / "scripts"
+            / "validate_part2_learning_package.py"
+        ),
+        str(PART2_GOAL),
     ],
     check=True,
 )

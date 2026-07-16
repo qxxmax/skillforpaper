@@ -1,0 +1,2 @@
+map_id,paper_id,equation_id,equation_role,latex,source_anchor,evidence_id,algorithm_step,code_repo,code_version,code_file,code_symbol,config_or_data,implementation_status,reproduction_test,observed_result,boundary,status
+M001,<PaperID>,F01,<role>,<LaTeX>,<p. N Eq. (X)>,<EvidenceID>,<algorithm step>,<official URL or unavailable>,<commit/tag>,<path or unavailable>,<symbol or unavailable>,<config/data>,pending,<command or not_requested>,<result or pending>,<scope boundary>,pending

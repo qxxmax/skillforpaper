@@ -1,0 +1,7 @@
+root_author,related_paper_arxiv_id,related_paper,relationship,source
+Shiyang Chen,2111.15141,Path Integral Sampler: a stochastic control approach for sampling,shared author across current arXiv metadata,fresh_arxiv_metadata.csv
+Gert Aarts; Kai Zhou,2309.17082,Diffusion Models as Stochastic Quantization in Lattice Field Theory,shared author across current arXiv metadata,fresh_arxiv_metadata.csv
+Gert Aarts; Kai Zhou,2311.03578,Generative Diffusion Models for Lattice Field Theory,shared author across current arXiv metadata,fresh_arxiv_metadata.csv
+Moxian Qian; Shiyang Chen,2512.19575,Variational Autoregressive Networks Applied to $φ^4$ Field Theory Systems,shared author across current arXiv metadata,fresh_arxiv_metadata.csv
+Moxian Qian,2605.11199,Operator Spectroscopy of Trained Lattice Samplers,shared author across current arXiv metadata,fresh_arxiv_metadata.csv
+Biagio Lucini; Gert Aarts,2607.08505,Diffusion Models for Sampling Near Criticality in Lattice Field Theories,shared author across current arXiv metadata,fresh_arxiv_metadata.csv

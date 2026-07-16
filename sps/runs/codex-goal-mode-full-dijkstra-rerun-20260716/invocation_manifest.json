@@ -1,0 +1,27 @@
+{
+  "started_at": "2026-07-16T11:34:25+02:00",
+  "runner_surface": "Codex desktop Goal mode",
+  "model_identifier": "not exposed by the desktop runtime",
+  "skill": "play-the-toy-with-children",
+  "part": "Part 1: literature research",
+  "topic": "SPS / stochastic path sampler for lattice field theory",
+  "intent_mode": {
+    "primary": "cover",
+    "secondary": "evaluate"
+  },
+  "scan_level": "full",
+  "graph_mode": "on",
+  "optimizer": "dijkstra",
+  "screenshot_policy": "key-only",
+  "freshness_policy": "New raw source retrieval; historical runs are comparison-only.",
+  "required_outputs": [
+    "source matrix",
+    "paper-reading records",
+    "claim/evidence ledger",
+    "keyword and query ledger",
+    "lineage graph",
+    "gap ledger",
+    "auditable report",
+    "runtime accounting"
+  ]
+}

@@ -1,0 +1,6 @@
+gap_id,question,status,evidence_boundary,next_step
+G01,SPS cost-normalized observable efficiency,Open,Root warns autocorrelation units differ and total cost is not matched.,Run matched schedule and observable-level GPU-hour comparison.
+G02,SPS scaling beyond reported 2D phi4,Open,Root numerical evidence is 2D phi4.,"Test more volumes, dimensions, and model families."
+G03,Correction versus uncorrected proposal quality,Partially resolved,Root uses IMH correction and shows uncorrected proposal diagnostics.,"Report acceptance, weights, and corrected observable errors together."
+G04,Topological-freezing application,Open for SPS,"Nearby nonequilibrium CP(N-1) work exists, but no SPS test is claimed here.",Design an SPS versus nonequilibrium and PTBC comparison.
+G05,Mechanism of learned SPS paths,Open,"Operator spectroscopy gives a related diagnostic framework, not an SPS analysis.",Project trained SPS fields with held-out and negative controls.

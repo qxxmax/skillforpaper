@@ -117,3 +117,7 @@ Before final prose or graphs, run
 relation ledgers. A passing schema check does not prove scientific correctness;
 it proves that provenance and relation claims are inspectable.
 
+The validator reports the detected schema. New runs should use the canonical
+templates. `compact_v1` exists only so archived public runs can be reused and
+checked at the level their recorded fields support; it does not silently add
+canonical provenance fields or upgrade their evidence level.

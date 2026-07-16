@@ -1,0 +1,13 @@
+metric,gpt_5_6_sol_xhigh,goal_full_rerun_20260716,comparison_status
+Runtime identity,gpt-5.6-sol; xhigh; confirmed,Codex Goal mode; deployment model and effort not exposed,Configuration description only
+Search contract,30 fresh + 6 fixed legacy routes,24 L0-L10 queries + 12 identifier probes; all freshly retrieved,Different route definitions
+Recorded elapsed time,1345 s (22 min 25 s),"2957 s (49 min 17 s), S00-S02 Goal-counter delta",Not a speed benchmark; contracts differ
+Recorded tokens,Unavailable,"806,679 Goal-counter delta",No token or price comparison possible
+Deduplicated candidates,578,308,"Reflects query scope, not model quality"
+C3/full-text sources,27 PDFs / 611 pages,21 PDFs / 489 pages,Different reading plans
+Deep reading records,27 four-dimension records,14 C4 claim-anchored records,Different depth schema
+Evidence / claim rows,108 / 10,70 / 14,Counts follow different output contracts
+Checked direct-citation edges,58,10,Whole-root screen versus selected C4 lineage
+Executable Dijkstra,Not part of this run,254 nodes / 464 edges; budget 20: 14 vs 8 C4 anchors,Current-run navigation diagnostic only
+Key visual source pages,Not recorded in run metrics,7,Current-run audit feature
+Final validation,PASS,PASS (21/21 checks),Both completed their own declared contracts

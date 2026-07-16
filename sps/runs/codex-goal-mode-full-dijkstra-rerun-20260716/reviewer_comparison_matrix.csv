@@ -1,0 +1,5 @@
+question_id,reviewer_question,response_boundary,source
+Q01,Is the sampler exact?,"SPS uses extended-space IMH; inspect the correction, not the proposal alone.",Root PDF pp. 7-8.
+Q02,Does higher ESS prove physical efficiency?,No. Observable errors and matched total cost remain a documented gap.,Root PDF p. 21; G01.
+Q03,Is a neighboring method a baseline?,"Only when the model, schedule, correction, and cost are matched.",C4 boundaries in the claim-source ledger.
+Q04,Which links are citations?,Only relation_ledger entries labeled direct_citation; method neighbors are declared separately.,relation_ledger.csv.

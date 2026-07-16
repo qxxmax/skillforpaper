@@ -1,17 +1,11 @@
 ---
 name: play-the-toy-with-children
 description: >-
-  Use when turning a research topic, dataset, codebase, draft, manuscript,
-  book, or empty idea into source-grounded academic outputs including
-  iterative literature or market landscape, high-recall source-discovery
-  optimization with auditable stopping rules, literature graph navigation and
-  controlled workflow evaluation, research proposal polish, grant or project
-  proposal structure, paper outline or draft, revision plan, chapter map,
-  argument tree, formula/concept inventory, evidence ledger, core
-  formula/claim visuals, slide deck, PPT deck, poster, or refreshed
-  TeX/PDF/PPTX/zip exports after a research update. Also use when the user wants to iterate a
-  science-writing or research-to-poster skill and record how users should
-  interact with it.
+  Use for source-checked research workflows: literature discovery, paper
+  reading, claim audits, literature graphs, method learning, formula-to-code
+  mapping, proposals, papers, books, slides, and posters. Also use when
+  refreshing TeX/PDF/PPTX outputs after the evidence changes, or improving the
+  skill from recorded feedback and tests.
 ---
 
 # Play The Toy With Children
@@ -33,18 +27,18 @@ Organize the research lifecycle into six parts:
    submit, and revise.
 6. Present the toy: prepare slides, posters, and talks for different audiences.
 
-The current public release and SPS test package validate **Part 1**. Treat the
-later output modes as provisional workflow routes; do not describe Parts 2-6
-as complete or fully tested without corresponding public test artifacts.
+Part 1 is public and tested. Part 2 has an SPS example verified through T3,
+including predecessor equations, algorithm reconstruction, review, and a
+Goal-mode usage log. Parts 3-6 are planned.
 
 ## Start With Input Mode
 
 Identify the user's starting state:
 
-- Topic only: clarify the research question and offer a landscape-research gate.
+- Topic only: define the question and choose the search scope.
 - Data/code only: inspect what the evidence can support before drafting.
 - Draft/manuscript/book/PDF: extract the current argument before rewriting.
-- Nothing yet: create a topic-discovery and literature-scoping path.
+- No material yet: start with topic discovery and literature scope.
 
 Ask or infer whether to run a landscape/literature loop:
 
@@ -54,30 +48,30 @@ Ask or infer whether to run a landscape/literature loop:
 - Monitor loop: repeat literature search after the thesis, proposal aims,
   slide spine, or reviewer objections change.
 
-## Diagnosis Before Writing
+## Before Writing
 
-Before drafting a paper, PPT, or poster, produce four diagnostic artifacts:
+Before a substantial paper, deck, or poster, outline:
 
-1. Project or chapter map: unit title, core problem, core claim, evidence/formula, and relation to the main spine.
-2. Argument tree: one-sentence thesis, chapter/section claims, supporting claims, and boundaries.
-3. Formula/concept inventory: core formulas versus intermediate derivations, what each says, and how it can be visualized.
-4. Display-figure candidates: hero figure, formula cards, logic flow, evidence panels, and claim-boundary panels.
+1. the project or chapter map;
+2. the main claim and supporting argument;
+3. the formulas or concepts that need explanation;
+4. the figures and tables that carry the evidence.
 
-Do not treat these as decoration.  They are the control surface for later paper,
-PPT, and poster work.
+Keep the complete source map separate from the material selected for the final
+artifact.
 
 ## Focus And Completeness Rule
 
-Separate the artifacts:
+Use each file for one job:
 
-- Source map equals completeness.
-- Poster/PPT equals selective argument.
-- Paper draft equals ordered prose supported by the source map.
-- Interaction log equals how the user corrected the agent's focus and scope.
+- Source map: all checked material.
+- Poster or deck: the selected argument.
+- Paper draft: ordered prose supported by the source map.
+- Interaction log: decisions that changed focus or scope.
 
-When the user says the focus is unclear, make the thesis the largest object or
-the first paragraph.  When the user says something is missing, expand the source
-map or evidence ledger first, then choose what belongs in the public artifact.
+When the focus is unclear, rewrite the thesis and remove material that does not
+support it. When evidence is missing, update the source map before rewriting the
+public artifact.
 
 ## Core Visual Contract
 
@@ -91,7 +85,7 @@ problem -> method -> core formula -> evidence -> boundary -> conclusion
 For learned samplers and path methods, the default spine is:
 
 ```text
-target density -> learned path/protocol -> exact weight -> diagnostic gates -> bounded claim
+target density -> learned path/protocol -> exact weight -> diagnostics -> supported claim
 ```
 
 See `references/14_core_formula_claim_visuals.md` for formula and claim visual
@@ -103,14 +97,17 @@ camera-ready, read `references/17_camera_ready_poster_rebuild.md`.
 
 ## Output Modes
 
-- Literature mode: build a source-discovery loop, high-recall search strategy
-  when completeness matters, comparison matrix, gap ledger, novelty statement,
-  citation shortlist, and open-question list.
-- Proposal mode: polish or draft a grant, fellowship, project, or research proposal around the ask, significance, gap, hypothesis, staged validation, aims, approach, feasibility, risks, and reviewer-facing objections.
-- Paper mode: build literature position, thesis, outline, claim ledger, figures/tables, then draft.
-- Slides mode: build a talk or deck spine with one claim per slide, action-title headings, proof objects, backup derivations, literature/local figures, and visual continuity.
-- Poster mode: one dominant thesis, one mechanism, three to five proof objects, and a bottom takeaway.
-- Book mode: make a full chapter map before selecting a public-facing poster/deck spine.
+- Literature mode: confirm the target, expand the search, read the core papers,
+  and produce the source, claim, lineage, and gap records.
+- Proposal mode: organize the problem, gap, aims, method, evidence, risks, and
+  deliverables.
+- Paper mode: establish the literature position, thesis, claim ledger, outline,
+  figures, and draft.
+- Slides mode: give each slide one clear point, its evidence, and any needed
+  backup.
+- Poster mode: show one thesis, one mechanism, and the strongest results.
+- Book mode: build the chapter map before selecting material for shorter
+  outputs.
 
 For iterative literature/market research, read
 `references/18_iterative_literature_loop.md`.  When the user is improving this
@@ -148,9 +145,14 @@ required experiment output, read `references/37_observable_api_runner.md` and
 use `scripts/observable_research_runner.py`. Do not estimate counters missing
 from the runtime, and do not compare runs with different stage contracts.
 When the user asks to read, explain, summarize, compare, or critique a paper,
-or a candidate is promoted into the core reading set, read
+or a paper is added to the core reading set, read
 `references/38_native_paper_reading_protocol.md` and use its native reading
 record before generating polished prose or review judgments.
+When the user asks for Part 2, wants to learn a method efficiently, trace a
+technical difference through a paper lineage, connect formulas to algorithms or
+code, audit the technical core, reproduce a published result, or compile a
+technical learning note to Markdown, TeX, or PDF, read
+`references/39_part2_technical_learning_and_innovation_audit.md`.
 When the user requests a family tree, genealogy, landscape, citation graph,
 author graph, or search-process figure, also read
 `references/36_multiview_literature_graph_contract.md`.
@@ -197,10 +199,30 @@ If one or more papers must be read rather than merely located:
 5. Keep author statements separate from reviewer inference. If evaluation or
    critique is requested, create `paper_review_gate.md` from
    `templates/paper_review_gate_template.md` only after extraction passes.
-6. Treat external summaries or paper-reading skills as candidate notes. They do
-   not promote evidence until checked against the exact paper.
+6. Treat external summaries as reading leads. Use them only after checking the
+   exact paper.
 7. Run `scripts/validate_paper_reading_record.py paper_reading_record.md` before
    using the record in a report, proposal, paper, or slide deck.
+
+## Part 2 Technical Learning Router
+
+If the user wants to understand how a method works, learn current technical
+progress, identify the core innovation faster, map formulas to code, or perform
+a minimal reproduction:
+
+1. Read `references/39_part2_technical_learning_and_innovation_audit.md` and
+   create the learning contract.
+2. Reuse Part 1 evidence and graph files. Send any missing identity, source, or
+   lineage item back to Part 1.
+3. Order the prerequisite, focal, and later papers with checked edges, then run
+   R0-R6 reading on the papers used for technical comparison.
+4. Fill the comparison, equation/code, review, and learning-report templates.
+   Keep source statements, synthesis, reviewer inference, and open questions
+   separate.
+5. Apply the requested T0-T5 competence checks. A small reproduction may test
+   understanding; new experiments belong to Part 3.
+6. Build requested TeX/PDF exports and run
+   `scripts/validate_part2_learning_package.py <package-directory>`.
 
 ## Literature / Related Work / Novelty Router
 
@@ -242,8 +264,8 @@ reviewer-risk analysis, or current-source validation:
      `templates/citation_generation_log_template.md`
    - `cross_validation_matrix.md` from
      `templates/cross_validation_matrix_template.md`
-   The conclusion must say what is auditable under the current scope, not that
-   the literature is absolutely complete.
+   State what was checked under the current scope; do not call the literature
+   absolutely complete.
 7. If the source count, screened count, green-check count, or facet coverage is
    below the user's purpose, or the user says the literature is not enough, read
    `references/30_candidate_pool_expansion_gate.md` and create
@@ -321,7 +343,7 @@ reviewer-risk analysis, or current-source validation:
    - access-control screenshots are marked as weak evidence rather than
      verified source pages;
    - expanded candidate pools are labeled metadata-only until candidates are
-     promoted into core records.
+     added to core records.
 19. For full scans, create or update:
    - `literature_matrix.md`
    - `reviewer_comparison_matrix.md`
@@ -378,7 +400,7 @@ style of an existing deck:
 8. Build `equation_notation_audit.md` for every displayed formula and notation
    convention.
 9. Polish slides in named rounds and record them.  At minimum distinguish:
-   evidence/figure grounding, AI/meta-prose cleanup, and visual-emphasis plus
+   evidence/figure grounding, process-prose cleanup, and visual-emphasis plus
    slide-by-slide logic audit.  Add a readability / word-economy round when
    paper figures or dense text are present: check whether figure-internal labels
    are readable, crop or zoom dense panels, and delete redundant explanatory
@@ -389,7 +411,7 @@ style of an existing deck:
    emphasis only for core claims, key result numbers, comparison caveats, and
    terms the speaker must point to.
 10. If the user says the slides have too much filler, run a hard de-bloat pass:
-   remove AI/self-referential labels, workflow narration, repeated caveats,
+   remove internal process labels, repeated caveats,
    generic bottom lines, and any sentence the speaker can say aloud.  Delete
    redundant checkpoint slides instead of preserving them for process
    completeness.
@@ -412,8 +434,8 @@ experimental idea into a funding proposal:
    `templates/funding_proposal_spine_template.md`.
 4. Check that the proposal has a concrete scientific object, direct baselines,
    staged validation, metrics, risks, alternatives, and deliverables.
-5. Before TeX/PDF conversion, create `proposal_ai_quality_audit.md` from
-   `templates/proposal_ai_quality_audit_template.md` and remove empty or
+5. Before TeX/PDF conversion, create `proposal_prose_quality_audit.md` from
+   `templates/proposal_prose_quality_audit_template.md` and remove empty or
    defensive prose in Markdown.
 6. Convert to TeX/PDF only after the Markdown proposal spine and aims are
    stable.  Use UTF-8 and a Unicode-capable TeX engine for multilingual text.

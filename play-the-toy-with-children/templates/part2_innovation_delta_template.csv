@@ -1,0 +1,2 @@
+delta_id,focal_paper_id,predecessor_paper_id,successor_paper_id,dimension,inherited_component,changed_component,claimed_or_observed_effect,statement_layer,evidence_id,source_anchor,reasoning,confidence,status
+D001,<PaperID>,<PaperID>,<PaperID or none>,objective,<inherited object>,<changed object>,<source-supported effect>,unresolved,<EvidenceID or pending>,<p. N Sec./Eq./Fig./Table>,<why this may be the checked difference>,low,pending

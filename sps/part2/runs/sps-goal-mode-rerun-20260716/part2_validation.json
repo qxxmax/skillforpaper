@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "package_status": "VERIFIED",
+  "report_status": "VERIFIED",
+  "review_status": "READY",
+  "ready_for_use": true,
+  "target_competence": "T3",
+  "innovation_rows": 8,
+  "equation_code_rows": 8,
+  "evidence_ids": 13,
+  "source_anchors": 125,
+  "unresolved_placeholders": 0,
+  "errors": [],
+  "source_part1_run": "../../../runs/codex-goal-mode-full-dijkstra-20260713",
+  "evidence_refs": 13,
+  "paper_refs": 6,
+  "relation_refs": 5,
+  "citation_evidence_refs": 1,
+  "unresolved_source_refs": {
+    "EvidenceID": [],
+    "PaperID": [],
+    "relation ID": [],
+    "citation EvidenceID": []
+  }
+}

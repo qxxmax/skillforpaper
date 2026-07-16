@@ -1,7 +1,7 @@
 # Skill Literature Basis
 
-Use this reference only when improving this play-the-toy-with-children skill from
-literature, competing systems, or workflow papers.  Do not load it for ordinary
+Use this reference only when improving the skill from literature, competing
+systems, or workflow papers. Do not load it for ordinary
 proposal, slides, or paper work unless the user asks how the skill itself should
 evolve.
 
@@ -17,10 +17,6 @@ Primary sources checked on 2026-06-16:
 - AutoResearchClaw: https://arxiv.org/abs/2605.20025
 - The AI Scientist: https://arxiv.org/abs/2408.06292
 
-Local synthesis source:
-
-- `PROJECT_ROOT/.agents/skills/eft-paper-revision/references/source_synthesis.md`
-
 ## What To Borrow
 
 | Work | What it contributes | Borrow for this skill | Boundary |
@@ -35,8 +31,7 @@ Local synthesis source:
 
 ## Skill-Design Implications
 
-The play-the-toy-with-children skill should not be a poster skill.  It should be a
-research-to-argument system:
+The skill is a research-to-argument system rather than a poster-only tool:
 
 ```text
 input material

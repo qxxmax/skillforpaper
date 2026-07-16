@@ -1,0 +1,7 @@
+route_id,round,family,facet,raw_hits,unique_hits,status
+Q19,L5,correction,exactness,4,4,OK
+Q20,L6,path_lattice,mechanism,1,1,OK
+Q21,L7,stochastic_quantization,mechanism,6,6,OK
+Q22,L8,topology,problem,8,8,OK
+Q23,L9,multiscale,scaling,17,17,OK
+Q24,L10,author,author_lineage,0,0,OK

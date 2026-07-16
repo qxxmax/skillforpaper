@@ -1,0 +1,4 @@
+route_id,root_identifier_returned,title_match,returned_title,source_url,raw_file
+Q01,PASS,PASS,Stochastic Path Sampler For Lattice Field Theory,https://arxiv.org/abs/2606.13790,raw/arxiv/Q01.xml
+Q02,PASS,PASS,Stochastic Path Sampler For Lattice Field Theory,https://arxiv.org/abs/2606.13790,raw/arxiv/Q02.xml
+P01,PASS,PASS,Stochastic Path Sampler For Lattice Field Theory,https://arxiv.org/abs/2606.13790,raw/arxiv/P01.xml

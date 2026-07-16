@@ -5,8 +5,8 @@ registered here.  Final reports cite `EvidenceID`, not just `PaperID`.
 
 | EvidenceID | PaperID | Evidence type | What it verifies | URL / DOI / Source | Page / Section | ScreenshotRef | Quote / Extract | Verification level | Checked by | RoundID | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| E0001 | P0001 | E_DOI | metadata |  |  |  |  | C1 | AI / human | R0001 |  |
-| E0002 | P0001 | E_SCREENSHOT | claim / table / figure / method |  | p. 5 / Figure 2 | screenshots/E0002_p5_fig2.png |  | C4 | AI / human | R0002 |  |
+| E0001 | P0001 | E_DOI | metadata |  |  |  |  | C1 | automated metadata check | R0001 |  |
+| E0002 | P0001 | E_SCREENSHOT | claim / table / figure / method |  | p. 5 / Figure 2 | screenshots/E0002_p5_fig2.png |  | C4 | manual source check | R0002 |  |
 
 ## Evidence Rules
 

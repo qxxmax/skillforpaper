@@ -1,0 +1,15 @@
+edge_id,source_arxiv_id,target_arxiv_id,relation_type,relation_basis,evidence_id,confidence,review_status
+R001,2606.13790,1904.12072,direct_citation,"Exact title and arXiv identifier in SPS reference [5], printed p. 29 (PDF page 30).",CIT-1904.12072,high,exact_identifier_context_verified
+R002,2606.13790,2003.06413,direct_citation,"Exact title and arXiv identifier in SPS reference [8], printed p. 30 (PDF page 31).",CIT-2003.06413,high,exact_identifier_context_verified
+R003,2606.13790,2512.19575,direct_citation,"Exact title and arXiv identifier in SPS reference [11], printed p. 30 (PDF page 31).",CIT-2512.19575,high,exact_identifier_context_verified
+R004,2606.13790,2201.08862,direct_citation,"Exact title and arXiv identifier in SPS reference [19], printed p. 30 (PDF page 31).",CIT-2201.08862,high,exact_identifier_context_verified
+R005,2606.13790,2210.03139,direct_citation,"Exact title and arXiv identifier in SPS reference [20], printed p. 30 (PDF page 31).",CIT-2210.03139,high,exact_identifier_context_verified
+R006,2606.13790,2309.17082,direct_citation,"Exact title and arXiv identifier in SPS reference [25], printed p. 31 (PDF page 32).",CIT-2309.17082,high,exact_identifier_context_verified
+R007,2606.13790,2605.11199,direct_citation,"Exact title and arXiv identifier in SPS reference [32], printed p. 31 (PDF page 32).",CIT-2605.11199,high,exact_identifier_context_verified
+R008,2606.13790,2111.15141,direct_citation,"Exact title and arXiv identifier in SPS reference [33], printed p. 31 (PDF page 32).",CIT-2111.15141,high,exact_identifier_context_verified
+R009,2606.13790,2302.13834,direct_citation,"Exact title and arXiv identifier in SPS reference [34], printed p. 31 (PDF page 32).",CIT-2302.13834,high,exact_identifier_context_verified
+R010,2606.13790,2211.01364,direct_citation,"Exact title and arXiv identifier in SPS reference [35], printed p. 31 (PDF page 32).",CIT-2211.01364,high,exact_identifier_context_verified
+M001,2606.13790,2310.11979,method_neighbor,nonequilibrium topological-freezing method neighbor; not asserted as a direct citation.,,medium,non_citation_relation_declared
+M002,2606.13790,2402.06561,method_neighbor,nonequilibrium topological-freezing evaluation neighbor; not asserted as a direct citation.,,medium,non_citation_relation_declared
+M003,2606.13790,2604.10209,method_neighbor,multiscale critical-sampling comparison neighbor; not asserted as a direct citation.,,medium,non_citation_relation_declared
+M004,2606.13790,2607.08505,method_neighbor,post-root diffusion and diagnostic neighbor; not asserted as a direct citation.,,medium,non_citation_relation_declared

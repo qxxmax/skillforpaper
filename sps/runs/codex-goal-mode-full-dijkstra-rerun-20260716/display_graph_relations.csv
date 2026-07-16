@@ -1,0 +1,15 @@
+EdgeID,SourceID,TargetID,EdgeType,DirectlyCited,EvidenceID,RelationBasis,Confidence,HumanReviewStatus,PublicGraphStatus
+R001,2606.13790,1904.12072,direct_citation,yes,CIT-1904.12072,"Exact title and arXiv identifier in SPS reference [5], printed p. 29 (PDF page 30).",high,reviewed,show
+R002,2606.13790,2003.06413,direct_citation,yes,CIT-2003.06413,"Exact title and arXiv identifier in SPS reference [8], printed p. 30 (PDF page 31).",high,reviewed,show
+R003,2606.13790,2512.19575,direct_citation,yes,CIT-2512.19575,"Exact title and arXiv identifier in SPS reference [11], printed p. 30 (PDF page 31).",high,reviewed,show
+R004,2606.13790,2201.08862,direct_citation,yes,CIT-2201.08862,"Exact title and arXiv identifier in SPS reference [19], printed p. 30 (PDF page 31).",high,reviewed,show
+R005,2606.13790,2210.03139,direct_citation,yes,CIT-2210.03139,"Exact title and arXiv identifier in SPS reference [20], printed p. 30 (PDF page 31).",high,reviewed,show
+R006,2606.13790,2309.17082,direct_citation,yes,CIT-2309.17082,"Exact title and arXiv identifier in SPS reference [25], printed p. 31 (PDF page 32).",high,reviewed,show
+R007,2606.13790,2605.11199,direct_citation,yes,CIT-2605.11199,"Exact title and arXiv identifier in SPS reference [32], printed p. 31 (PDF page 32).",high,reviewed,show
+R008,2606.13790,2111.15141,direct_citation,yes,CIT-2111.15141,"Exact title and arXiv identifier in SPS reference [33], printed p. 31 (PDF page 32).",high,reviewed,show
+R009,2606.13790,2302.13834,direct_citation,yes,CIT-2302.13834,"Exact title and arXiv identifier in SPS reference [34], printed p. 31 (PDF page 32).",high,reviewed,show
+R010,2606.13790,2211.01364,direct_citation,yes,CIT-2211.01364,"Exact title and arXiv identifier in SPS reference [35], printed p. 31 (PDF page 32).",high,reviewed,show
+M001,2606.13790,2310.11979,conceptual_neighbor,no,,nonequilibrium topological-freezing method neighbor; not asserted as a direct citation.,medium,reviewed,show
+M002,2606.13790,2402.06561,conceptual_neighbor,no,,nonequilibrium topological-freezing evaluation neighbor; not asserted as a direct citation.,medium,reviewed,show
+M003,2606.13790,2604.10209,conceptual_neighbor,no,,multiscale critical-sampling comparison neighbor; not asserted as a direct citation.,medium,reviewed,show
+M004,2606.13790,2607.08505,conceptual_neighbor,no,,post-root diffusion and diagnostic neighbor; not asserted as a direct citation.,medium,reviewed,show

@@ -1,0 +1,13 @@
+probe_id,round,family,arxiv_id,reason
+P01,L0,root,2606.13790,Root identifier supplied by the verbal clue.
+P02,L1,root_reference_hypothesis,2111.15141,Path-space sampling candidate to be newly verified.
+P03,L1,root_reference_hypothesis,2201.08862,Stochastic-normalizing-flow candidate to be newly verified.
+P04,L1,root_reference_hypothesis,2210.03139,Stochastic-normalizing-flow candidate to be newly verified.
+P05,L1,root_reference_hypothesis,1904.12072,Flow-based lattice-MCMC candidate to be newly verified.
+P06,L1,root_reference_hypothesis,2003.06413,Gauge-flow candidate to be newly verified.
+P07,L1,root_reference_hypothesis,2101.08176,Gauge-flow follow-up candidate to be newly verified.
+P08,L3,author_context,2512.19575,Recent author-context candidate to be newly verified.
+P09,L3,author_context,2605.11199,Recent author-context candidate to be newly verified.
+P10,L4,forward_neighbor,2607.08505,Recent adjacent-method candidate to be newly verified.
+P11,L2,adjacent_hypothesis,2211.01364,Adjacent sampler candidate to be newly verified.
+P12,L2,adjacent_hypothesis,2302.13834,Adjacent sampler candidate to be newly verified.

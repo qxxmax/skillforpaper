@@ -1,0 +1,20 @@
+flowchart LR
+  P002["P002 / PIS (2022)<br/>one controlled path<br/>trajectory weights"]
+  P003["P003 / DDS (2023)<br/>OU reverse path KL<br/>ELBO-preserving integrator"]
+  P004["P004 / CMCD (2024)<br/>score-coupled forward/backward drifts<br/>trajectory weights"]
+  P007["P007 / SNF (2022)<br/>lattice path ratios<br/>affine + stochastic blocks"]
+  P001["P001 / SPS (2026)<br/>independent drift nets + learned diffusion<br/>extended-space trajectory IMH"]
+  P031["P031 / later citing paper (2026)<br/>citation confirmed<br/>method reuse not established"]
+
+  P002 -->|"R0171: direct citation"| P001
+  P003 -->|"R0177: direct citation"| P001
+  P004 -->|"R0178: direct citation"| P001
+  P007 -->|"R0172: direct citation"| P001
+  P001 -.->|"R0199: citation only"| P031
+
+  classDef predecessor fill:#e9f2ff,stroke:#3b6ea8,color:#17233b;
+  classDef focal fill:#ffe4ad,stroke:#9b5c00,color:#3b2500;
+  classDef unresolved fill:#f2f2f2,stroke:#777,color:#333;
+  class P002,P003,P004,P007 predecessor;
+  class P001 focal;
+  class P031 unresolved;

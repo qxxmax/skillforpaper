@@ -1,7 +1,7 @@
-# Dijkstra gate: effect and cost
+# Dijkstra ranking: effect and cost
 
 This comparison asks a narrow question: **what changed when the same SPS
-candidate pool was ranked with an executable literature-graph Dijkstra gate?**
+candidate pool was ranked with executable literature-graph Dijkstra?**
 
 | Metric | Without Dijkstra | With Dijkstra | Result |
 |---|---:|---:|---|
@@ -15,7 +15,7 @@ candidate pool was ranked with an executable literature-graph Dijkstra gate?**
 
 After source verification and gap closure, the final package contains 37 read
 papers, 10 declared facets, 185 evidence entries, and 199 checked direct
-citation relations. The complete run passed 19/19 validation gates.
+citation relations. The complete run passed 19/19 validation checks.
 
 ## Cost
 
@@ -26,10 +26,8 @@ citation relations. The complete run passed 19/19 validation gates.
 - API dollar cost: unavailable because this task exposed no billable API usage
   object.
 
-The two ranking arms share discovery, candidate screening, and the downstream
-run. Therefore the task does **not** provide independent token or wall-time
-costs for relevance-only versus Dijkstra. It measures a controlled selection
-effect inside one run. A strict no-skill versus skill benchmark would require
-two separately executed, matched tasks and is not claimed here.
+Both ranking arms share discovery, screening, and downstream processing, so
+per-arm token and wall-time costs are unavailable. This experiment measures
+the change in paper selection, not a full no-skill versus skill benchmark.
 
 Full packet: [`codex-goal-mode-full-dijkstra-20260713`](../runs/codex-goal-mode-full-dijkstra-20260713/README.md).

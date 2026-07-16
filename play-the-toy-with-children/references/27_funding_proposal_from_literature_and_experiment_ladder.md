@@ -95,12 +95,12 @@ Avoid wording:
 
 > The model solves the instrument-control problem.
 
-## AI / Empty-Prose Cleanup Gate
+## Prose Cleanup Gate
 
 Before converting to TeX or PDF, run a Markdown-only cleanup pass:
 
-- remove self-referential workflow narration
-- replace "generic AI" framing with object-specific scientific language
+- remove internal process narration
+- replace generic method framing with object-specific scientific language
 - remove repeated "will" constructions where present-tense method statements
   are clearer
 - replace defensive "this is not..." language with affirmative scope
@@ -110,7 +110,7 @@ Before converting to TeX or PDF, run a Markdown-only cleanup pass:
   deliverable
 - keep unsupported claims in the risk or future-work section
 
-Generate a `proposal_ai_quality_audit.md` recording what was changed and what
+Generate a `proposal_prose_quality_audit.md` recording what was changed and what
 still needs evidence.
 
 ## TeX / PDF Gate
@@ -125,4 +125,3 @@ Only move to TeX/PDF after the Markdown passes:
 
 For TeX, use UTF-8 and a Unicode-capable engine when the proposal contains
 Chinese or mixed-language titles.
-
