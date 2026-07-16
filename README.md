@@ -24,7 +24,7 @@ latest public status update, not necessarily a completion date.
 | Part | Research step | Current public status | Last update |
 |---|---|---|---:|
 | 1 | Understand the literature: identify, search, read, trace, and audit | **Complete and public.** SPS public package released 2026-07-13; fresh full rerun passed 21/21 checks. | 2026-07-16 |
-| 2 | Learn current methods, formulas, implementations, and progress | **In progress.** The first SPS example is verified through T3, with equation-level reading, predecessor comparison, algorithm reconstruction, review, and usage records. | 2026-07-16 |
+| 2 | Learn current methods, formulas, implementations, and progress | **In progress.** One complete SPS run has been executed and verified end to end through T3, including equation-level reading, predecessor comparison, algorithm reconstruction, review, and usage records. | 2026-07-16 |
 | 3 | Design, execute, diagnose, and validate the research | **Planned.** No public end-to-end run has been released. | 2026-07-16 |
 | 4 | Prepare a complete research or funding proposal | **Planned.** No public end-to-end run has been released. | 2026-07-16 |
 | 5 | Write, choose a venue, submit, and revise the paper | **Planned.** No public end-to-end run has been released. | 2026-07-16 |
