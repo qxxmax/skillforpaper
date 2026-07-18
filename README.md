@@ -18,6 +18,29 @@ verbal clue -> exact target -> candidate pool -> paper reading
 
 Repository: <https://github.com/qxxmax/skillforpaper>
 
+## Literature lineage example
+
+A literature run on nonlinear Hamiltonian Monte Carlo produced two
+complementary views. These are public research-audit outputs, not manuscript
+figures. The unpublished article draft, TeX, PDF, manuscript figures, and
+private result files are not included in this repository update.
+
+### Method landscape
+
+This view places the target method among nearby HMC, flow, transport, and
+learned-dynamics families. Dashed links mark mechanism-level comparisons rather
+than verified direct citations.
+
+[![Nonlinear HMC method landscape](readme_assets/nhmc_lineage/nhmc_method_landscape.png)](readme_assets/nhmc_lineage/nhmc_method_landscape.png)
+
+### Source-checked direct citations
+
+This view keeps only direct citation links checked against the original
+papers. Solid links are source-backed citation relations. Graph distance and
+Dijkstra paths are search-navigation metadata, not scientific evidence.
+
+[![Nonlinear HMC direct-citation lineage](readme_assets/nhmc_lineage/nhmc_direct_citation_lineage.png)](readme_assets/nhmc_lineage/nhmc_direct_citation_lineage.png)
+
 ## Six-part roadmap
 
 Roadmap status last reviewed: **2026-07-16**. The dates below record the
