@@ -9,11 +9,14 @@ it is an iterative, evidence-aware, graph-based literature recall optimizer.
 1. Intent modes
 2. Mode schema
 3. Required state files
-4. Evidence registry
-5. Mode-specific scoring
-6. Multi-round loop
-7. User commands
-8. Required round response
+4. State write order
+5. Call ledger
+6. Interrupted-run recovery
+7. Evidence registry
+8. Mode-specific scoring
+9. Multi-round loop
+10. User commands
+11. Required round response
 
 ## Intent Modes
 
@@ -209,6 +212,81 @@ report workflows, create or update these files:
 
 Do not delete candidate papers silently.  Move them to confirmed,
 unconfirmed, or excluded with reasons.
+
+At every scan level, including quick scans, create `output_manifest.md`
+**first**, listing each planned run file with status `planned`. The manifest is
+a live run ledger, not a final delivery checklist.
+
+## State Write Order
+
+State files must never claim a file that is not on disk. A run that dies
+mid-write must leave the manifest behind the disk, never ahead of it.
+
+For every produced or updated file, follow this order:
+
+1. Write the artifact file to disk.
+2. Update its `output_manifest.md` row (`planned` → `in_progress` →
+   `on_disk` → `verified`).
+3. Only then may `research_state.md`, `round_log.md`, or a report reference
+   the file as existing.
+
+Manifest status values:
+
+| status | meaning |
+|---|---|
+| `planned` | listed but not yet written |
+| `in_progress` | partially written this round |
+| `on_disk` | complete file exists at the recorded path |
+| `verified` | checked by a validator or by manifest reconciliation |
+| `needs_update` | source evidence changed after the file was written |
+
+At the end of every round, the five state files must be mutually consistent:
+every action in `round_log.md` has a manifest row, and every `on_disk` /
+`verified` row has a real file.
+
+## Call Ledger
+
+`round_log.md` is the only authoritative budget counter. The budget line in
+`research_state.md` is a mirror; when they disagree, the call ledger wins.
+
+Every web search and every URL fetch gets one row, including retries and
+failed calls:
+
+```text
+| # | RoundID | type | target | yield | running total |
+|---|---|---|---|---|---|
+| 1 | R0001 | fetch | arxiv.org/abs/XXXX.XXXXX | full text, C4 anchors | 1/8 |
+| 2 | R0002 | search | "topic keywords" | 3 new candidates | 2/8 |
+```
+
+Counting rules:
+
+- One search query = one call. One URL fetch = one call.
+- Retrying the same URL counts again.
+- Local file reads, template reads, and reads of already-fetched content are
+  free and are not logged here.
+
+A full or high-recall scan additionally uses `search_budget_contract.md`; the
+call ledger is the lightweight budget record for quick scans.
+
+## Interrupted-Run Recovery
+
+When entering a run directory that already contains state files (resuming your
+own interrupted run or taking over another agent's), reconcile before doing
+any new work:
+
+1. Diff `output_manifest.md` against the disk. Rows claiming `on_disk` or
+   `verified` with no file are demoted to `planned` and redone. Files on disk
+   with no row are registered before use.
+2. Recount the call ledger in `round_log.md` and correct the mirror in
+   `research_state.md`.
+3. Treat claims in `research_state.md` about produced files as unverified
+   until step 1 confirms them.
+4. Record the reconciliation as a round in `round_log.md` (action:
+   `resume_reconciliation`), then continue the normal loop.
+
+`scripts/validate_run_state.py <run-directory>` automates steps 1–2 and
+reports mismatches; run it first when resuming.
 
 ## Evidence Registry
 

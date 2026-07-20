@@ -33,6 +33,32 @@ through T5, including formula-to-code mapping and a bounded objective
 reproduction. SPS v1's unavailable-code branch is retained explicitly. Parts
 3-6 are planned.
 
+## Minimal Run Contract
+
+Every literature/source run has a required file set determined by its scan
+level. Create `output_manifest.md` first, before any other run file.
+
+| scan level | must-read references | mandatory run files |
+|---|---|---|
+| none (local material only) | `38_native_paper_reading_protocol.md` if papers are read | `paper_reading_record.md` per read paper |
+| quick | `33_literature_intent_modes_and_state_loop.md`, `18_iterative_literature_loop.md` | `output_manifest.md`, `research_state.md`, `candidate_pool.md`, `evidence_registry.md`, `round_log.md` |
+| full | quick set, plus router-triggered references below | quick set, plus `search_budget_contract.md`, `search_scope.md`, `search_route_log.md`, `candidate_screening_table.md`, `coverage_stopping_report.md`, keyword/query ledgers |
+| monitor | full set, plus `31_artifact_refresh_and_export_gate.md` | full set, plus `artifact_refresh_manifest.md` |
+
+Three run-state laws apply at every scan level (details and the recovery
+procedure are in `references/33_literature_intent_modes_and_state_loop.md`):
+
+1. Write order: artifact file lands on disk first, then its
+   `output_manifest.md` row is updated, then `research_state.md` may reference
+   it. State files must never claim a file that is not on disk.
+2. Call ledger: every web search or fetch gets one row in the `round_log.md`
+   call ledger with a running total. The round log is the only authoritative
+   budget counter; `research_state.md` only mirrors it.
+3. Resume: when entering an existing run directory, reconcile
+   `output_manifest.md` against the disk and recount the call ledger before
+   doing any new work. `scripts/validate_run_state.py <run-directory>` performs
+   this check.
+
 ## Start With Input Mode
 
 Identify the user's starting state:

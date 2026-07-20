@@ -1,16 +1,28 @@
 # Output Manifest
 
-This file records generated outputs and their evidence basis.
+This file is the live run ledger. Create it **first**, at every scan level
+including quick scans, before any other run file. Update a row immediately
+after its file lands on disk, never before (see the state write order in
+`references/33_literature_intent_modes_and_state_loop.md`).
 
-## Current Deliverables
+Status values: `planned` → `in_progress` → `on_disk` → `verified`, plus
+`needs_update` when source evidence changes after the file was written.
+When resuming an interrupted run, reconcile this table against the disk before
+doing any new work.
+
+## Run Files And Deliverables
 
 | Output | Format | Source files | Evidence requirement | Status | Notes |
 |---|---|---|---|---|---|
-| final_report.md | markdown | confirmed_literature.md, evidence_table.md, missing_risk_report.md | EvidenceID required for substantive claims | planned / generated / needs_update |  |
-| final_report.tex | tex | final_report.md, references.bib, screenshots/ | EvidenceID + BibTeX required | planned / generated / needs_update |  |
-| final_report.pdf | pdf | final_report.tex | compiled from TeX | planned / generated / needs_update |  |
-| literature_graph.json | json | genealogy_graph.md | graph nodes/edges | planned / generated / needs_update |  |
-| audit_package.md | markdown | search_log.md, round_log.md, evidence_registry.md | all actions logged | planned / generated / needs_update |  |
+| research_state.md | markdown | — | mode, scope, budget mirror | planned |  |
+| candidate_pool.md | markdown | search rounds | C-level per candidate | planned |  |
+| evidence_registry.md | markdown | fetched sources | EvidenceID + anchors | planned |  |
+| round_log.md | markdown | — | call ledger rows for every web call | planned |  |
+| final_report.md | markdown | confirmed_literature.md, evidence_table.md, missing_risk_report.md | EvidenceID required for substantive claims | planned |  |
+| final_report.tex | tex | final_report.md, references.bib, screenshots/ | EvidenceID + BibTeX required | planned |  |
+| final_report.pdf | pdf | final_report.tex | compiled from TeX | planned |  |
+| literature_graph.json | json | genealogy_graph.md | graph nodes/edges | planned |  |
+| audit_package.md | markdown | search_log.md, round_log.md, evidence_registry.md | all actions logged | planned |  |
 
 ## Report Sections
 
