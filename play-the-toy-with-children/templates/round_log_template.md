@@ -2,6 +2,16 @@
 
 Each round records diagnosis, action, result, file updates, and next step.
 
+## Call Ledger
+
+This table is the only authoritative budget counter; the budget line in
+`research_state.md` mirrors it. One search query = one call, one URL fetch =
+one call; retries and failed calls count too. Local file reads are free.
+
+| # | RoundID | type (search/fetch) | target | yield | running total |
+|---|---|---|---|---|---|
+| 1 | R0001 | fetch | https://example.org/abs/XXXX.XXXXX | full text | 1/8 |
+
 ## R0001
 
 **Date:**  
