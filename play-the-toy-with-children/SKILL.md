@@ -45,6 +45,14 @@ level. Create `output_manifest.md` first, before any other run file.
 | full | quick set, plus router-triggered references below | quick set, plus `search_budget_contract.md`, `search_scope.md`, `search_route_log.md`, `candidate_screening_table.md`, `coverage_stopping_report.md`, keyword/query ledgers |
 | monitor | full set, plus `31_artifact_refresh_and_export_gate.md` | full set, plus `artifact_refresh_manifest.md` |
 
+Router-triggered additions to the mandatory set: deep-reading any paper adds
+`paper_reading_record.md` (Native Paper Reading Router); a requested final
+report adds `report.md` / the literature report; `graph_mode` adds the graph
+files of reference 36. All of these get manifest rows like any other run
+file. Pool caps bind the active pool only — overflow goes to the monitor
+tier of `candidate_screening_table.md`, never silently dropped
+(reference 30).
+
 Three run-state laws apply at every scan level (details and the recovery
 procedure are in `references/33_literature_intent_modes_and_state_loop.md`):
 

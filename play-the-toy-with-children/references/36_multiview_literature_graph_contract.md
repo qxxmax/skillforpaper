@@ -44,6 +44,15 @@ plausible history do not establish a direct citation.
 If an external paper helps explain history but is absent from the bibliography,
 use `external_historical_relation` or `conceptual_neighbor`.
 
+`DirectlyCited=yes` is reserved for `direct_citation` edges only — the
+schema validator enforces exactly this pairing. A `forward_citation` edge
+verified through a citation index is also "directly checked" in the everyday
+sense, but its `DirectlyCited` stays `no`; the index check lives in
+`RelationBasis` and its `EvidenceID`.
+
+The optional `Weight` column feeds shortest-path runs (see reference 29 for
+the default `cost = -ln(strength) + penalty` mapping when it is empty).
+
 ## Multi-Label Node Contract
 
 Keep scientific membership separate from display placement:

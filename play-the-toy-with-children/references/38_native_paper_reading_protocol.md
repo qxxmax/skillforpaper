@@ -42,6 +42,18 @@ p. 21, Table 3, row "L=16"
 Appendix B, Algorithm 1, steps 4-7
 ```
 
+For HTML-rendered sources (e.g. arXiv HTML full text) there are no page
+numbers; section/equation/figure/table anchors alone are valid and pass the
+validator (`Sec. 3.5, Eqs. (27)–(30)` is a complete anchor).
+
+R0 identity-lock metadata (version/date/page count) sometimes does not come
+with the full-text fetch — an HTML fetch may return the body without the
+listing metadata. Spending **one** extra budget call on a metadata source
+(arXiv API, INSPIRE, DOI record) to complete the identity lock is the
+intended move and is always worth it; if the budget truly cannot cover it,
+record the missing fields as `pending` with the inference source noted (e.g.
+"month/year inferred from arXiv ID, unconfirmed") rather than guessing.
+
 Identity fields may be supported by a canonical metadata page. Method,
 equation, experiment, numerical, and limitation claims require the full text.
 Do not convert a source URL or a shortest-path score into claim evidence.

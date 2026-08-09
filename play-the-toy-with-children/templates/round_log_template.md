@@ -6,7 +6,10 @@ Each round records diagnosis, action, result, file updates, and next step.
 
 This table is the only authoritative budget counter; the budget line in
 `research_state.md` mirrors it. One search query = one call, one URL fetch =
-one call; retries and failed calls count too. Local file reads are free.
+one call; retries, failed, and blocked calls count too. A batch/fan-out
+query gets one row per actual call (shared QueryID in the target column).
+Local file reads are free. At stop time, backfill the `actual` column of
+`search_budget_contract.md` from this ledger.
 
 | # | RoundID | type (search/fetch) | target | yield | running total |
 |---|---|---|---|---|---|

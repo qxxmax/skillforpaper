@@ -230,6 +230,16 @@ For every produced or updated file, follow this order:
 3. Only then may `research_state.md`, `round_log.md`, or a report reference
    the file as existing.
 
+Two practical relaxations (the invariant "state never leads the disk" still
+holds):
+
+- A file written complete in a single atomic write may jump `planned` →
+  `on_disk` directly; `in_progress` is only for files genuinely left partial
+  across steps.
+- At full-scan scale, manifest rows may be updated **in one batch at the end
+  of each round** instead of after every single file, provided the batch
+  happens before the round's entry in `round_log.md` references those files.
+
 Manifest status values:
 
 | status | meaning |
@@ -262,12 +272,26 @@ failed calls:
 Counting rules:
 
 - One search query = one call. One URL fetch = one call.
-- Retrying the same URL counts again.
+- Retrying the same URL counts again. Failed and blocked calls (timeouts,
+  HTTP 429, empty responses) count and are logged with their failure noted.
+- A batch or fan-out query (e.g. one author-channel QueryID expanded into N
+  API calls) gets **one ledger row per actual call**; the shared QueryID goes
+  in the target column, so `query_yield_log.csv` rows may map to multiple
+  ledger rows.
 - Local file reads, template reads, and reads of already-fetched content are
   free and are not logged here.
 
 A full or high-recall scan additionally uses `search_budget_contract.md`; the
-call ledger is the lightweight budget record for quick scans.
+call ledger is the lightweight budget record for quick scans. At stop time,
+the `actual` column of the budget contract's allocation table must be
+backfilled from the ledger (with ledger row references); a contract whose
+actuals are blank at delivery is incomplete.
+
+If a required channel is permanently blocked mid-run (rate limits, access
+walls), log each failed attempt, mark the channel `blocked` in
+`channel_coverage_plan.md`, substitute the nearest equivalent channel family
+where one exists, and record the resulting blind spot in
+`missing_risk_report.md`. Do not silently retry past three failures.
 
 ## Interrupted-Run Recovery
 
@@ -312,6 +336,12 @@ Verification levels:
 | C2 | abstract or source summary checked |
 | C3 | full text checked |
 | C4 | specific claim verified by page, quote, note, or screenshot |
+
+A bibliography entry read inside an already-C4-verified full text is a common
+special case: annotate it `C1(bib-of-C4)`. The citation context is trusted,
+but the entry's own metadata is still single-source and needs an independent
+source (arXiv/DOI/index record) to reach C2 — reference 34's cross-validation
+rule applies unchanged.
 
 Final reports must cite `EvidenceID`, not just `PaperID`.
 
@@ -429,7 +459,12 @@ The user may control the loop with these commands or natural equivalents:
 
 ## Required Round Response
 
-At the end of every multi-round loop, respond with:
+For a **quick scan**, a lightweight round entry in `round_log.md` (diagnosis,
+action, result, file patches, next step — the round_log template structure)
+is sufficient; the full response format below is not required, and its graph
+sections apply only when `graph_mode` is on.
+
+At the end of every multi-round loop (full/cover scans), respond with:
 
 ```text
 # Round RXXXX Result

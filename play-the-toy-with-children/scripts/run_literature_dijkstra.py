@@ -38,10 +38,17 @@ def main() -> None:
     parser.add_argument("--weight-column", default="weight")
     parser.add_argument("--edge-id-column", default="edge_id")
     parser.add_argument("--relation-column", default="relation")
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="allow writing into a non-empty output directory (legitimate re-runs after ledger fixes)",
+    )
     args = parser.parse_args()
 
-    if args.output_dir.exists() and any(args.output_dir.iterdir()):
-        raise SystemExit(f"Output directory is not empty: {args.output_dir}")
+    if not args.force and args.output_dir.exists() and any(args.output_dir.iterdir()):
+        raise SystemExit(
+            f"Output directory is not empty: {args.output_dir} (use --force to re-run)"
+        )
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     node_rows = read_csv(args.nodes)

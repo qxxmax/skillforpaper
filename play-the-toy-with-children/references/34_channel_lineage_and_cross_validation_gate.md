@@ -54,6 +54,15 @@ default scientific literature set is:
 If a required channel is inaccessible, record it as `blocked` and explain the
 likely blind spot in `missing_risk_report.md`.
 
+Blocked-channel substitution rule: stop retrying after three failed attempts
+(each attempt still counts in the call ledger), then substitute the nearest
+equivalent channel family — e.g. Semantic Scholar rate-limited → INSPIRE-HEP
+or OpenAlex for citation lookups — and mark the substitution in
+`channel_coverage_plan.md`. Findings that were meant to be cross-validated by
+the blocked channel stay single-channel and must be dated and flagged as such
+(e.g. "forward citations = 2, INSPIRE-scoped, as of <date>"); do not present
+them at the confidence level the two-channel check would have given.
+
 ## Cross-Validation Rules
 
 Do not rely on a single source for core bibliographic claims.  For confirmed

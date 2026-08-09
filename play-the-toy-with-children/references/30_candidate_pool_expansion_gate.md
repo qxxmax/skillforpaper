@@ -45,6 +45,18 @@ For narrow new topics, lower counts are acceptable only when the route log
 shows multiple independent routes and the residual-risk report names the
 remaining blind spots.
 
+## Pool Cap And Monitor Tier
+
+A pool cap applies only to the **active pool** (candidates being screened,
+verified, or cited). It must never force discarding still-relevant hits: when
+the active pool is at cap and new relevant items keep appearing, move
+lower-priority relevant hits to a **monitor tier** in
+`candidate_screening_table.md` (title-level screening, no verification
+budget, uncapped). Monitor items are not deleted, not verified, and not
+citable; promote them into the pool later by displacing a weaker entry, with
+the swap recorded. In `cover` mode this two-tier structure is the default —
+a hard cap alone contradicts the high-recall objective.
+
 ## Facet Quotas
 
 Do not judge adequacy by global count alone.  Define required facets and set a

@@ -129,13 +129,36 @@ When graph mode is active, create:
 - `evidence_registry.md`
 - `round_log.md`
 - `paper_verification_ledger.md`
-- `literature_graph_nodes.md`
-- `literature_graph_edges.md`
+- `relation_ledger.csv` and `literature_graph_nodes.csv` — the canonical
+  machine-readable graph files consumed by the validators and the Dijkstra
+  runner (see reference 36)
+- `literature_graph_edges.md` / `literature_graph_nodes.md` — optional
+  human-readable views derived from the CSVs, never the other way around
 - `ranked_reading_list.md`
 - `literature_lineage_graph.mmd` or `graph.json` when visualization matters.
 - `graph_optimizer_evaluation.md` when comparing strategies.
 
 Use the matching templates in `templates/`.
+
+### Deriving Dijkstra Inputs From The Relation Ledger
+
+`run_literature_dijkstra.py` consumes `source/target/weight` CSV columns.
+Derive the weight from the ledger, do not invent it per run: use the optional
+`Weight` column of `relation_ledger_template.csv` when filled, otherwise the
+default mapping `cost = -ln(strength) + penalty`, where `strength` comes from
+`Confidence` and `penalty` adds a fixed surcharge for non-citation edge types
+(conceptual/topical edges). Keep the conversion script or command in the run
+directory so the ranking is reproducible.
+
+### Single-Root Star-Graph Limitation
+
+When only the root's bibliography is verified, every checked citation edge is
+root→X, the graph is a star, and Dijkstra cannot reorder papers within that
+set — its within-budget value concentrates in the 2-hop tail (forward
+citations, external additions, monitor items). This is expected, not a
+failure. State the limitation in `graph_optimizer_evaluation.md`; fetching
+neighbor bibliographies to get real path structure is a deliberate budget
+decision, not a default.
 
 ## Full Lineage Scan Gate
 

@@ -6,7 +6,10 @@ Checks (see references/33_literature_intent_modes_and_state_loop.md):
 1. Mandatory quick-scan files exist: output_manifest.md, research_state.md,
    candidate_pool.md, evidence_registry.md, round_log.md.
 2. Manifest rows claiming `on_disk` or `verified` have a real file; files in
-   the run directory have a manifest row (state write order).
+   the run directory have a manifest row (state write order). Only top-level
+   files are reconciled: subdirectory artifacts (e.g. dijkstra/, sources/,
+   scripts_local/) are covered by a manifest row for the directory's key
+   output or are treated as internal working data.
 3. The call-ledger count in round_log.md matches the budget mirror in
    research_state.md, when both are present.
 
