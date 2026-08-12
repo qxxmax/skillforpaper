@@ -25,16 +25,33 @@ def check_required_files() -> list[str]:
         SKILL_DIR / "scripts" / "run_retrieval_backends.py",
         SKILL_DIR / "scripts" / "validate_paper_reading_record.py",
         SKILL_DIR / "scripts" / "validate_keyword_query_graph.py",
+        SKILL_DIR / "scripts" / "validate_run_state.py",
+        SKILL_DIR / "scripts" / "validate_part3_run_package.py",
+        SKILL_DIR / "scripts" / "validate_review_response.py",
         SKILL_DIR / "references" / "33_literature_intent_modes_and_state_loop.md",
         SKILL_DIR / "references" / "35_keyword_ontology_and_query_matrix.md",
         SKILL_DIR / "references" / "36_multiview_literature_graph_contract.md",
         SKILL_DIR / "references" / "37_observable_api_runner.md",
         SKILL_DIR / "references" / "38_native_paper_reading_protocol.md",
         SKILL_DIR / "references" / "40_retrieval_backend_and_citation_expansion.md",
+        SKILL_DIR / "references" / "41_experiment_design_and_run_ledger.md",
+        SKILL_DIR / "references" / "42_diagnosis_and_claim_promotion_gate.md",
+        SKILL_DIR / "references" / "43_paper_assembly_from_ledgers.md",
+        SKILL_DIR / "references" / "44_venue_selection_and_submission_gate.md",
+        SKILL_DIR / "references" / "45_review_response_and_revision_loop.md",
         SKILL_DIR / "templates" / "paper_reading_record_template.md",
         SKILL_DIR / "templates" / "paper_reading_ledger_template.csv",
         SKILL_DIR / "templates" / "paper_review_gate_template.md",
         SKILL_DIR / "templates" / "retrieval_backend_manifest_template.csv",
+        SKILL_DIR / "templates" / "experiment_contract_template.md",
+        SKILL_DIR / "templates" / "run_ledger_template.csv",
+        SKILL_DIR / "templates" / "claim_promotion_ledger_template.md",
+        SKILL_DIR / "templates" / "compute_budget_template.md",
+        SKILL_DIR / "templates" / "env_snapshot_template.md",
+        SKILL_DIR / "templates" / "venue_profile_template.md",
+        SKILL_DIR / "templates" / "submission_package_manifest_template.md",
+        SKILL_DIR / "templates" / "review_response_matrix_template.csv",
+        SKILL_DIR / "templates" / "revision_diff_ledger_template.md",
     ]
     errors = [f"missing {path.relative_to(SKILL_DIR)}" for path in required if not path.is_file()]
     if (SKILL_DIR / "SKILL.md").is_file():
@@ -113,6 +130,24 @@ def main() -> int:
         run_command(
             [sys.executable, str(SKILL_DIR / "scripts" / "run_retrieval_backends.py"), "--self-test"],
             "RETRIEVAL ADAPTER",
+        )
+    )
+    errors.extend(
+        run_command(
+            [sys.executable, str(SKILL_DIR / "scripts" / "validate_run_state.py"), "--self-test"],
+            "RUN STATE",
+        )
+    )
+    errors.extend(
+        run_command(
+            [sys.executable, str(SKILL_DIR / "scripts" / "validate_part3_run_package.py"), "--self-test"],
+            "PART3 RUN PACKAGE",
+        )
+    )
+    errors.extend(
+        run_command(
+            [sys.executable, str(SKILL_DIR / "scripts" / "validate_review_response.py"), "--self-test"],
+            "REVIEW RESPONSE",
         )
     )
     errors.extend(run_sample_contract())

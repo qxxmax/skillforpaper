@@ -178,11 +178,68 @@ def validate(run_dir: Path) -> dict[str, object]:
     }
 
 
+GOOD_LEDGER = """RunID,ExperimentID,Command,ConfigRef,Seed,Env,Status,KeyMetric,ArtifactPath,Note
+E1-R001,E1,python train.py,cfg/base.yaml,42,env-abc,completed,acc=0.91,runs/E1-R001/,baseline
+E1-R002,E1,python train.py --lr 0.01,cfg+lr0.01,42,env-abc,failed,—,runs/E1-R002/,loss diverged
+"""
+
+GOOD_CLAIMS = """# Claim Promotion Ledger
+
+| ClaimID | Statement | Level | RunRefs | ExperimentID | GateNotes |
+|---|---|---|---|---|---|
+| C-01 | "acc 0.91 baseline, single seed" | candidate_claim | E1-R001 | E1 | repetition pending |
+"""
+
+GOOD_CONTRACT = "# Experiment Contract: E1\n\n- Hypothesis: example\n"
+GOOD_BUDGET = "# Compute Budget\n\n| E1 | baseline | 2 | 1h | 2 | 1h |  |\n"
+
+BAD_LEDGER = GOOD_LEDGER.replace(",loss diverged", ",").replace(
+    "E1-R002,E1", "E1-R002,E9"
+)
+BAD_CLAIMS = GOOD_CLAIMS.replace("candidate_claim", "validated_claim").replace(
+    "repetition pending", "—"
+).replace("E1-R001", "E1-R404")
+
+
+def self_test() -> int:
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as temp:
+        run_dir = Path(temp)
+        (run_dir / "run_ledger.csv").write_text(GOOD_LEDGER, encoding="utf-8")
+        (run_dir / "claim_promotion_ledger.md").write_text(GOOD_CLAIMS, encoding="utf-8")
+        (run_dir / "experiment_contract.md").write_text(GOOD_CONTRACT, encoding="utf-8")
+        (run_dir / "compute_budget.md").write_text(GOOD_BUDGET, encoding="utf-8")
+        good = validate(run_dir)
+        if good["status"] != "CONSISTENT" or good["errors"]:
+            print(f"self-test FAIL: good fixture not CONSISTENT: {good['errors']}")
+            return 1
+
+        (run_dir / "run_ledger.csv").write_text(BAD_LEDGER, encoding="utf-8")
+        (run_dir / "claim_promotion_ledger.md").write_text(BAD_CLAIMS, encoding="utf-8")
+        bad = validate(run_dir)
+        expected_rules = ["RUN003", "CLAIM003", "CLAIM004", "EXP001"]
+        joined = " | ".join(bad["errors"])
+        missing = [r for r in expected_rules if r not in joined]
+        if bad["status"] != "MISMATCH" or missing:
+            print(f"self-test FAIL: bad fixture missed rules {missing}; got {bad['errors']}")
+            return 1
+
+    print("self-test PASS: good fixture CONSISTENT, bad fixture trips RUN/CLAIM/EXP rules")
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("run_directory", type=Path)
+    parser.add_argument("run_directory", type=Path, nargs="?")
     parser.add_argument("--json", action="store_true", help="emit JSON only")
+    parser.add_argument("--self-test", action="store_true", help="run built-in fixtures")
     args = parser.parse_args()
+
+    if args.self_test:
+        return self_test()
+    if args.run_directory is None:
+        parser.error("run_directory is required unless --self-test is given")
 
     if not args.run_directory.is_dir():
         print(f"error: not a directory: {args.run_directory}", file=sys.stderr)

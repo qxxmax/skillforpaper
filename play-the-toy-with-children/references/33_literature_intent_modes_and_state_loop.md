@@ -311,7 +311,10 @@ any new work:
    `resume_reconciliation`), then continue the normal loop.
 
 `scripts/validate_run_state.py <run-directory>` automates steps 1–2 and
-reports mismatches; run it first when resuming.
+reports mismatches; run it first when resuming. It auto-detects the run
+profile (literature, Part 2, Part 3, Part 5) from marker files and applies
+that profile's mandatory set from the Minimal Run Contract; `--profile`
+overrides detection.
 
 ## Evidence Registry
 

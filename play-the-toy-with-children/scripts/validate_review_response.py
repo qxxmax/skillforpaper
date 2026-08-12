@@ -170,15 +170,65 @@ def validate(matrix_path: Path, ledger_path: Path) -> dict[str, object]:
     }
 
 
+GOOD_MATRIX = """RowID,Reviewer,CommentQuote,Class,Disposition,ResponseSummary,DiffRefs,Status
+R1-01,Reviewer 1,"sign error in Eq. (3)",factual_error_ours,revised,"fixed; see Sec 3.1",D-01,done
+R2-01,Reviewer 2,"run ablation Y",new_experiment,declined_with_reason,"beyond rebuttal budget",—,done
+"""
+
+GOOD_LEDGER = """# Revision Diff Ledger
+
+| DiffID | Location | Old (short quote) | New (short quote) | MatrixRows | Notes |
+|---|---|---|---|---|---|
+| D-01 | Sec 3.1 | "minus" | "plus" | R1-01 |  |
+| D-02 | Sec 4 | — | "typo fix" | self |  |
+"""
+
+BAD_MATRIX = GOOD_MATRIX.replace("D-01,done", "D-99,open").replace(
+    "declined_with_reason", "pending"
+)
+
+
+def self_test() -> int:
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as temp:
+        run_dir = Path(temp)
+        (run_dir / MATRIX_NAME).write_text(GOOD_MATRIX, encoding="utf-8")
+        (run_dir / LEDGER_NAME).write_text(GOOD_LEDGER, encoding="utf-8")
+        good = validate(run_dir / MATRIX_NAME, run_dir / LEDGER_NAME)
+        if good["status"] != "READY" or good["errors"]:
+            print(f"self-test FAIL: good fixture not READY: {good['errors']}")
+            return 1
+
+        (run_dir / MATRIX_NAME).write_text(BAD_MATRIX, encoding="utf-8")
+        bad = validate(run_dir / MATRIX_NAME, run_dir / LEDGER_NAME)
+        expected_fragments = ["status is 'open'", "DiffRef 'D-99'", "'pending'"]
+        joined = " | ".join(bad["errors"])
+        missing = [f for f in expected_fragments if f not in joined]
+        if bad["status"] != "BLOCKED" or missing:
+            print(f"self-test FAIL: bad fixture missed: {missing}; got {bad['errors']}")
+            return 1
+
+    print("self-test PASS: good fixture READY, bad fixture BLOCKED with expected errors")
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "run_directory",
         type=Path,
+        nargs="?",
         help=f"directory containing {MATRIX_NAME} and {LEDGER_NAME}",
     )
     parser.add_argument("--json", action="store_true", help="emit JSON only")
+    parser.add_argument("--self-test", action="store_true", help="run built-in fixtures")
     args = parser.parse_args()
+
+    if args.self_test:
+        return self_test()
+    if args.run_directory is None:
+        parser.error("run_directory is required unless --self-test is given")
 
     matrix_path = args.run_directory / MATRIX_NAME
     if not matrix_path.is_file():

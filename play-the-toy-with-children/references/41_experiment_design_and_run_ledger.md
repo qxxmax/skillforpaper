@@ -70,7 +70,8 @@ Ledger laws:
 
 ## Environment Snapshot
 
-Before the first real run of an experiment, record `env_snapshot.md`: code
+Before the first real run of an experiment, record `env_snapshot.md` (from
+`templates/env_snapshot_template.md`): code
 commit hash, key package versions, hardware, and how to rebuild. One snapshot
 per environment, referenced by ledger rows; a new snapshot when the
 environment changes. Results from unsnapshotted environments are capped at

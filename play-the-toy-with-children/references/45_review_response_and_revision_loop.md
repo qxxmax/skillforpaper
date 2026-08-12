@@ -47,7 +47,7 @@ Track every manuscript change in `revision_diff_ledger.md`: location
 (section/paragraph), old text (short quote), new text (short quote), and the
 matrix row(s) that motivated it. Changes with no motivating row are allowed
 (self-caught defects) but must still be logged — reviewers notice unexplained
-changes. Before sending, run `validate_review_response.py`: every matrix row
+changes. Before sending, run `scripts/validate_review_response.py`: every matrix row
 must have a response and a disposition; every `revised` disposition must
 reference at least one diff ledger entry.
 

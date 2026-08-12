@@ -21,3 +21,14 @@ Artifact target:
 - Claims to remove:
 - Claims needing more evidence:
 - Claims allowed only in future-work language:
+
+## Numbers Freeze (Part 5)
+
+Before submission, freeze every number that appears in the abstract,
+introduction, or conclusions and check it against its source
+(see `references/43_paper_assembly_from_ledgers.md`). A prose number with no
+frozen source row is a blocker.
+
+| Number (as written in prose) | Where it appears | Source (figure/table/log/RunID) | Checked on | Match? |
+|---|---|---|---|---|
+|  |  |  |  |  |

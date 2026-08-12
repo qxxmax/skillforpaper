@@ -34,9 +34,11 @@ paper-to-algorithm run through T3 and a code-available PIS lineage branch
 through T5, including formula-to-code mapping and a bounded objective
 reproduction. SPS v1's unavailable-code branch is retained explicitly. Part 3's
 experiment-contract, run-ledger, and claim-promotion contracts (references
-41-42) and Part 5's assembly, submission-gate, and review-response contracts
-(references 43-45) are implemented but not yet exercised by a complete test
-run. Parts 4 and 6 are planned.
+41-42) are implemented with validator self-tests but not yet exercised by a
+real experiment. Part 5's contracts (references 43-45) have a first worked
+submission rehearsal on the SPS case; the review-response loop is covered by
+validator self-tests only, since no real referee reports exist yet. Parts 4
+and 6 are planned.
 
 ## Minimal Run Contract
 
@@ -295,8 +297,9 @@ Part 2's bounded scope, or reviewer-requested runs:
    as one row in `run_ledger.csv` from `templates/run_ledger_template.csv`.
    Failures keep their artifacts and a one-line diagnosis; a result with no
    ledger row cannot be used.
-4. Snapshot the environment in `env_snapshot.md` (commit, versions,
-   hardware) before real runs; unsnapshotted results stay preliminary.
+4. Snapshot the environment in `env_snapshot.md` from
+   `templates/env_snapshot_template.md` (commit, versions, hardware) before
+   real runs; unsnapshotted results stay preliminary.
 5. When results exist, read
    `references/42_diagnosis_and_claim_promotion_gate.md` and maintain
    `claim_promotion_ledger.md` from

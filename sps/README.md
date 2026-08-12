@@ -10,6 +10,10 @@ A separate
 uses the same sources to explain the method, compare predecessor equations,
 reconstruct the algorithm through T3, and review its main claims.
 
+A [Part 5 submission rehearsal](part5/runs/prl-submission-rehearsal-20260812/README.md)
+consumes both packages to profile candidate venues (PRL, SciPost Physics) and
+run the submission gate, which honestly reports the remaining blockers.
+
 ## Target paper
 
 - Title: *Stochastic Path Sampler For Lattice Field Theory*
