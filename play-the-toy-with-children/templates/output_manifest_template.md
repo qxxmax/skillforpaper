@@ -18,11 +18,11 @@ doing any new work.
 | candidate_pool.md | markdown | search rounds | C-level per candidate | planned |  |
 | evidence_registry.md | markdown | fetched sources | EvidenceID + anchors | planned |  |
 | round_log.md | markdown | — | call ledger rows for every web call | planned |  |
-| final_report.md | markdown | confirmed_literature.md, evidence_table.md, missing_risk_report.md | EvidenceID required for substantive claims | planned |  |
+| final_report.md | markdown | candidate_pool.md, evidence_registry.md, missing_risk_report.md | EvidenceID required for substantive claims | planned |  |
 | final_report.tex | tex | final_report.md, references.bib, screenshots/ | EvidenceID + BibTeX required | planned |  |
 | final_report.pdf | pdf | final_report.tex | compiled from TeX | planned |  |
-| literature_graph.json | json | genealogy_graph.md | graph nodes/edges | planned |  |
-| audit_package.md | markdown | search_log.md, round_log.md, evidence_registry.md | all actions logged | planned |  |
+| literature_lineage_graph.mmd | mermaid | relation_ledger.csv, literature_graph_nodes.csv | checked edges only | planned |  |
+| audit_package.md | markdown | search_route_log.md, round_log.md, evidence_registry.md | all actions logged | planned |  |
 
 ## Report Sections
 

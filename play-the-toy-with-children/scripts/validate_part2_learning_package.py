@@ -164,6 +164,55 @@ def read_csv(path: Path, required: set[str], errors: list[str]) -> list[dict[str
         return []
 
 
+def read_markdown_table(
+    path: Path, required: set[str], errors: list[str]
+) -> list[dict[str, str]]:
+    """Parse the first Markdown table containing the required columns.
+
+    Part 1 runs keep their ledgers as Markdown tables (evidence_registry.md,
+    paper_verification_ledger.md); accept those directly instead of demanding
+    a CSV conversion. Column names are normalized to snake_case to match the
+    CSV ledger schema (e.g. "EvidenceID" -> "evidence_id").
+    """
+
+    def normalize(name: str) -> str:
+        cleaned = re.sub(r"[^0-9A-Za-z]+", " ", name).strip()
+        parts = re.sub(r"(?<=[a-z0-9])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])", " ", cleaned).split()
+        return "_".join(part.lower() for part in parts)
+
+    try:
+        lines = path.read_text(encoding="utf-8").splitlines()
+    except OSError as exc:
+        errors.append(f"cannot read {path.name}: {exc}")
+        return []
+
+    rows: list[dict[str, str]] = []
+    header: list[str] | None = None
+    table_found = False
+    for line in lines:
+        stripped = line.strip()
+        if not stripped.startswith("|"):
+            header = None
+            continue
+        cells = [cell.strip() for cell in stripped.strip("|").split("|")]
+        if all(set(cell) <= {"-", ":", " "} for cell in cells):
+            continue
+        normalized = [normalize(cell) for cell in cells]
+        if header is None:
+            if required <= set(normalized):
+                header = normalized
+                table_found = True
+            continue
+        row = dict(zip(header, cells))
+        if any(value for value in row.values()):
+            rows.append(row)
+    if not table_found:
+        errors.append(
+            f"{path.name} has no Markdown table with columns: {', '.join(sorted(required))}"
+        )
+    return rows
+
+
 def sha256(path: Path) -> str:
     digest = hashlib.sha256()
     with path.open("rb") as handle:
@@ -216,11 +265,18 @@ def resolve_part1_ledgers(
     }
     ledger_rows: dict[str, list[dict[str, str]]] = {}
     for name, (path, required_columns) in ledger_specs.items():
-        if not path.is_file():
-            errors.append(f"Source Part 1 run lacks {path.name}")
+        markdown_fallback = path.with_suffix(".md")
+        if path.is_file():
+            ledger_rows[name] = read_csv(path, required_columns, errors)
+        elif markdown_fallback.is_file():
+            ledger_rows[name] = read_markdown_table(
+                markdown_fallback, required_columns, errors
+            )
+        else:
+            errors.append(
+                f"Source Part 1 run lacks {path.name} (or {markdown_fallback.name})"
+            )
             ledger_rows[name] = []
-            continue
-        ledger_rows[name] = read_csv(path, required_columns, errors)
 
     evidence_refs = set(EVIDENCE_PATTERN.findall(package_text))
     paper_refs = set(PAPER_ID_PATTERN.findall(package_text))

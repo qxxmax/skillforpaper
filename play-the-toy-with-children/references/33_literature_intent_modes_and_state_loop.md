@@ -193,9 +193,10 @@ Stop rule:
 
 Outputs:
 
-- `confirmed_literature.md`, `unconfirmed_literature.md`,
-  `included_literature.md`, `excluded_literature.md`, `search_log.md`,
-  citation/topic/author graph, `missing_risk_report.md`, and audit package.
+- `candidate_pool.md` (confirmed / unconfirmed / excluded recorded in its
+  Status column), `search_route_log.md`, the citation/topic/author graph
+  (`relation_ledger.csv` + `literature_lineage_graph.mmd`),
+  `missing_risk_report.md`, and the audit package.
 
 ## Required State Files
 
@@ -492,12 +493,10 @@ At the end of every multi-round loop (full/cover scans), respond with:
 ## 5. File patches
 
 - research_state.md:
-- candidate_pool.md:
-- search_log.md:
-- confirmed_literature.md:
-- unconfirmed_literature.md:
+- candidate_pool.md: (confirmed / unconfirmed / excluded live in its Status column)
+- search_route_log.md:
 - evidence_registry.md:
-- genealogy_graph.md:
+- relation_ledger.csv / literature_lineage_graph.mmd:
 - missing_risk_report.md:
 - round_log.md:
 

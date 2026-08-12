@@ -54,12 +54,11 @@ Files updated this round:
 
 - research_state.md:
 - candidate_pool.md:
-- search_log.md:
-- confirmed_literature.md:
-- unconfirmed_literature.md:
+- search_route_log.md:
 - evidence_registry.md:
-- genealogy_graph.md:
+- relation_ledger.csv / literature_lineage_graph.mmd:
 - missing_risk_report.md:
+- output_manifest.md:
 
 ### Next Best Action
 

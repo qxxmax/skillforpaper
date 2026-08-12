@@ -44,6 +44,7 @@ level. Create `output_manifest.md` first, before any other run file.
 | quick | `33_literature_intent_modes_and_state_loop.md`, `18_iterative_literature_loop.md` | `output_manifest.md`, `research_state.md`, `candidate_pool.md`, `evidence_registry.md`, `round_log.md` |
 | full | quick set, plus router-triggered references below | quick set, plus `search_budget_contract.md`, `search_scope.md`, `search_route_log.md`, `candidate_screening_table.md`, `coverage_stopping_report.md`, keyword/query ledgers |
 | monitor | full set, plus `31_artifact_refresh_and_export_gate.md` | full set, plus `artifact_refresh_manifest.md` |
+| Part 2 learning run | `39_part2_technical_learning_and_innovation_audit.md`, `38_native_paper_reading_protocol.md` | quick set, plus `part2_learning_contract.md`, `part2_learning_report.md`, `innovation_delta.csv`, `equation_code_map.csv`, `review_core.md`, `paper_reading_record.md` per deep-read paper |
 
 Router-triggered additions to the mandatory set: deep-reading any paper adds
 `paper_reading_record.md` (Native Paper Reading Router); a requested final

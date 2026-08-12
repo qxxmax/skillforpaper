@@ -4,13 +4,19 @@ Use this reference when the user asks for literature review, market research,
 related work, novelty positioning, proposal background, citation grounding, or
 source verification.
 
+Every scan level runs under the Minimal Run Contract and the three run-state
+laws in `SKILL.md` and reference 33: `output_manifest.md` is created first,
+every web call gets a call-ledger row in `round_log.md`, and state files never
+claim files that are not on disk.
+
 ## Gate
 
 At the start of a play-the-toy-with-children task, ask or infer the scan level:
 
 - None: stay within provided/local material.
-- Quick: 5-15 high-signal sources, enough to identify likely neighbors and
-  novelty risks.
+- Quick: 5-15 high-signal sources after screening (reference 30's quick row —
+  20-40 screened candidates — is the before-screening count), enough to
+  identify likely neighbors and novelty risks.
 - Full: broad same-field comparison with seed search, backward/forward
   snowballing, source verification, and a gap ledger.
 - Monitor: repeat the loop when the thesis, method, proposal aims, slide story,

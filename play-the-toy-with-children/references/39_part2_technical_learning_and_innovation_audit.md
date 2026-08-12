@@ -16,6 +16,10 @@ learning check, not a new research result.
 
 ## Entry Contract
 
+Part 2 runs are runs: the Minimal Run Contract and the three run-state laws
+apply (`output_manifest.md` first, per-call ledger in `round_log.md`, state
+never leads the disk), alongside the quick-set state files.
+
 Create `part2_learning_contract.md` before deep reading. Declare:
 
 - target topic, method, or capability;
@@ -165,14 +169,18 @@ Loop rules:
 
 ## Output Contract
 
-Required files:
+Required files (these exact names — the validator checks them; the matching
+templates carry a `part2_` prefix, e.g. `part2_innovation_delta_template.csv`
+is the template for `innovation_delta.csv`):
 
 - `part2_learning_contract.md`;
 - `part2_learning_report.md`;
 - `innovation_delta.csv`;
 - `equation_code_map.csv`;
 - `review_core.md`;
-- reused Part 1 evidence and relation ledgers;
+- reused Part 1 evidence and relation ledgers — the Part 1 run's
+  `evidence_registry.md` and `paper_verification_ledger.md` Markdown tables
+  are accepted directly by the package validator; no CSV conversion is needed;
 - `output_manifest.md` and `artifact_refresh_manifest.md` when exports exist.
 
 Before export, resolve every referenced `PaperID`, relation ID, `EvidenceID`,
