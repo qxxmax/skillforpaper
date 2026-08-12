@@ -41,6 +41,38 @@ The schemas, validators, graph runner, and SPS example in this repository were
 written for this project. External output can be used as a reading lead, but a
 claim is retained only after checking the original source.
 
+## Part 3 Sources (Experiment Execution)
+
+References 41-42, the experiment/run/claim templates, and
+`validate_part3_run_package.py` were designed against these systems, reviewed
+in August 2026:
+
+| Source | What was retained |
+|---|---|
+| [Xcientist research harness](https://arxiv.org/abs/2606.18874) | contract-governed experiment steps: declared inputs, deliverables, and acceptance criteria before execution |
+| [XScientist](https://arxiv.org/abs/2607.12301) | failed branches are kept as evidence, not deleted; they explain later fixes and narrowed conclusions |
+| [AiScientist file-as-bus](https://arxiv.org/abs/2604.13018) | persistent workspace state as the backbone of long-horizon work; matches this skill's manifest-first law |
+| [RepoCheck](https://github.com/WtxwNs/RepoCheck) | reproducibility checks as numbered rules (`ENV001`, `SEED001`, ...) a validator can report per rule |
+
+Deliberately out of scope: Part 3 does not schedule or execute experiments
+(that is a tracking tool's job); it governs the evidence discipline around
+them.
+
+## Part 5 Sources (Submission And Review Response)
+
+References 43-45, the venue/submission/review templates, and
+`validate_review_response.py` were designed against these practices, reviewed
+in August 2026:
+
+| Source | What was retained |
+|---|---|
+| [NeurIPS Paper Checklist](https://neurips.cc/public/guides/PaperChecklist) and the [Main Track Handbook](https://neurips.cc/Conferences/2026/MainTrackHandbook) | checklist items are scored claims; a justified "no" beats an unsupported "yes"; every "yes" points to a section |
+| [Rebuttal letter benchmark study](https://manusights.com/blog/how-to-write-rebuttal-letter-to-journal-reviewers-benchmark) | point-by-point response with verbatim quotes; respond to every point; evidence-based disagreement without heat |
+| [Revision response matrix template](https://manusights.com/blog/revision-response-matrix-template) | atomic comment decomposition into a matrix; change tracking linked to reviewer rows |
+
+The comment-class taxonomy, the diff-ledger cross-check, and the validator
+contract are original to this repository.
+
 ## Licenses
 
 Each external project remains governed by its own license and attribution

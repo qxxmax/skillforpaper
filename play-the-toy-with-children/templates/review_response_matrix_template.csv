@@ -1,0 +1,4 @@
+RowID,Reviewer,CommentQuote,Class,Disposition,ResponseSummary,DiffRefs,Status
+R1-01,Reviewer 1,"verbatim operative sentence from the review",factual_error_ours,revised,"fixed Eq. (3) sign; response points to Sec 3.1",D-01,done
+R1-02,Reviewer 1,"example: please compare with method X",citation_request,revised,"verified X at C3 via Part 1; added discussion",D-02,done
+R2-01,Reviewer 2,"example: why not run ablation Y?",new_experiment,declined_with_reason,"compute estimate 40 GPU-h > rebuttal budget; committed to revision",—,done

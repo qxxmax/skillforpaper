@@ -5,7 +5,9 @@ description: >-
   reading, claim audits, literature graphs, method learning, formula-to-code
   mapping, proposals, papers, books, slides, and posters. Also use when
   refreshing TeX/PDF/PPTX outputs after the evidence changes, or improving the
-  skill from recorded feedback and tests.
+  skill from recorded feedback and tests. Also covers experiment contracts,
+  run ledgers, claim promotion, venue selection, submission packages,
+  rebuttals, and review responses.
 ---
 
 # Play The Toy With Children
@@ -30,8 +32,11 @@ Organize the research lifecycle into six parts:
 Parts 1 and 2 are public and tested. Part 2 includes a complete SPS
 paper-to-algorithm run through T3 and a code-available PIS lineage branch
 through T5, including formula-to-code mapping and a bounded objective
-reproduction. SPS v1's unavailable-code branch is retained explicitly. Parts
-3-6 are planned.
+reproduction. SPS v1's unavailable-code branch is retained explicitly. Part 3's
+experiment-contract, run-ledger, and claim-promotion contracts (references
+41-42) and Part 5's assembly, submission-gate, and review-response contracts
+(references 43-45) are implemented but not yet exercised by a complete test
+run. Parts 4 and 6 are planned.
 
 ## Minimal Run Contract
 
@@ -45,6 +50,8 @@ level. Create `output_manifest.md` first, before any other run file.
 | full | quick set, plus router-triggered references below | quick set, plus `search_budget_contract.md`, `search_scope.md`, `search_route_log.md`, `candidate_screening_table.md`, `coverage_stopping_report.md`, keyword/query ledgers |
 | monitor | full set, plus `31_artifact_refresh_and_export_gate.md` | full set, plus `artifact_refresh_manifest.md` |
 | Part 2 learning run | `39_part2_technical_learning_and_innovation_audit.md`, `38_native_paper_reading_protocol.md` | quick set, plus `part2_learning_contract.md`, `part2_learning_report.md`, `innovation_delta.csv`, `equation_code_map.csv`, `review_core.md`, `paper_reading_record.md` per deep-read paper |
+| Part 3 experiment run | `41_experiment_design_and_run_ledger.md`, `42_diagnosis_and_claim_promotion_gate.md` | `output_manifest.md`, `research_state.md`, `round_log.md`, `experiment_contract.md`, `compute_budget.md`, `run_ledger.csv`, `claim_promotion_ledger.md`, `env_snapshot.md` per environment |
+| Part 5 submission run | `43_paper_assembly_from_ledgers.md`, `44_venue_selection_and_submission_gate.md` | `output_manifest.md`, `research_state.md`, `round_log.md`, `claim_evidence_ledger.md`, `venue_profile.md` per candidate venue, `submission_package_manifest.md` per submission; arrived reviews add `review_response_matrix.csv` and `revision_diff_ledger.md` |
 
 Router-triggered additions to the mandatory set: deep-reading any paper adds
 `paper_reading_record.md` (Native Paper Reading Router); a requested final
@@ -270,6 +277,70 @@ a minimal reproduction:
    branch must stop explicitly.
 7. Build requested TeX/PDF exports and run
    `scripts/validate_part2_learning_package.py <package-directory>`.
+
+## Part 3 Experiment Execution Router
+
+If the user asks to design, run, extend, diagnose, or audit experiments —
+new numerical studies, ablations, baseline comparisons, reproduction beyond
+Part 2's bounded scope, or reviewer-requested runs:
+
+1. Read `references/41_experiment_design_and_run_ledger.md`. Write
+   `experiment_contract.md` from `templates/experiment_contract_template.md`
+   before the first run: hypothesis, variables, metrics, pre-registered
+   success criterion, baselines, budget, stop condition, and outcome map.
+   Later changes are logged amendments, never silent edits.
+2. Create `compute_budget.md` from `templates/compute_budget_template.md`;
+   backfill the `actual` column from the run ledger at stop.
+3. Record every executed run — including failed, crashed, and discarded —
+   as one row in `run_ledger.csv` from `templates/run_ledger_template.csv`.
+   Failures keep their artifacts and a one-line diagnosis; a result with no
+   ledger row cannot be used.
+4. Snapshot the environment in `env_snapshot.md` (commit, versions,
+   hardware) before real runs; unsnapshotted results stay preliminary.
+5. When results exist, read
+   `references/42_diagnosis_and_claim_promotion_gate.md` and maintain
+   `claim_promotion_ledger.md` from
+   `templates/claim_promotion_ledger_template.md`. Only `validated_claim`
+   rows may back manuscript sentences; a negative result is a valid,
+   complete outcome.
+6. Missing sources go back to Part 1; missing technical understanding to
+   Part 2. Run `scripts/validate_part3_run_package.py <run-directory>`
+   before handing results to Part 5.
+
+## Part 5 Submission And Review Router
+
+If the user asks to assemble a manuscript from existing evidence, choose a
+venue, prepare or check a submission package, post to arXiv, write a rebuttal
+or revision, or handle a decision letter:
+
+1. Read `references/43_paper_assembly_from_ledgers.md`. Part 5 consumes
+   ledgers and does not create new evidence: missing sources go back to
+   Part 1, missing technical understanding to Part 2, missing results to
+   Part 3.
+2. Maintain `claim_evidence_ledger.md`: every substantive sentence traces to
+   an `EvidenceID`, a validated own result, or an explicit boundary statement.
+   Freeze abstract/conclusion numbers against their sources before submission.
+3. For venue choice or submission preparation, read
+   `references/44_venue_selection_and_submission_gate.md` and create:
+   - `venue_profile.md` per candidate venue from
+     `templates/venue_profile_template.md`, dated from current official
+     guidelines;
+   - `submission_package_manifest.md` from
+     `templates/submission_package_manifest_template.md`.
+   Run the full submission gate before every submission and resubmission.
+4. When reviews arrive, read
+   `references/45_review_response_and_revision_loop.md`, then:
+   - decompose every review into atomic rows in `review_response_matrix.csv`
+     from `templates/review_response_matrix_template.csv`;
+   - log every manuscript change in `revision_diff_ledger.md` from
+     `templates/revision_diff_ledger_template.md`;
+   - run `scripts/validate_review_response.py <run-directory>` before sending
+     any response letter.
+5. Reviewer-requested citations go through Part 1 verification before being
+   cited; reviewer-requested experiments get a Part 3 contract with a
+   deadline-capped budget before anything is promised.
+6. Refresh public exports per
+   `references/31_artifact_refresh_and_export_gate.md`.
 
 ## Literature / Related Work / Novelty Router
 

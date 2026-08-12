@@ -1,0 +1,4 @@
+RunID,ExperimentID,Command,ConfigRef,Seed,Env,Status,KeyMetric,ArtifactPath,Note
+E1-R001,E1,python train.py --config cfg/base.yaml,cfg/base.yaml,42,env-a1b2c3,completed,acc=0.91,runs/E1-R001/,baseline run per contract
+E1-R002,E1,python train.py --config cfg/base.yaml --lr 0.01,cfg/base.yaml+lr0.01,42,env-a1b2c3,failed,—,runs/E1-R002/,loss diverged at step 300; lr too high
+E1-R003,E1,python train.py --config cfg/base.yaml --lr 0.003,cfg/base.yaml+lr0.003,42,env-a1b2c3,completed,acc=0.93,runs/E1-R003/,retry after E1-R002 diagnosis
