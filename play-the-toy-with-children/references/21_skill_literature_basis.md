@@ -17,6 +17,19 @@ Primary sources checked on 2026-06-16:
 - AutoResearchClaw: https://arxiv.org/abs/2605.20025
 - The AI Scientist: https://arxiv.org/abs/2408.06292
 
+Retrieval implementations and official API contracts checked on 2026-07-17:
+
+- paper-search-mcp: https://github.com/openags/paper-search-mcp
+- smart-semantic-scholar-mcp:
+  https://github.com/spideryzarc/smart-semantic-scholar-mcp
+- LitReviewSkill: https://github.com/Zsun79/LitReviewSkill
+- ResearchPilot-Skills:
+  https://github.com/JosephElvisMaman1/ResearchPilot-Skills
+- OpenAlex API: https://developers.openalex.org/api-reference/works
+- Semantic Scholar API: https://api.semanticscholar.org/api-docs/graphs
+- Crossref REST API:
+  https://www.crossref.org/documentation/retrieve-metadata/rest-api/
+
 ## What To Borrow
 
 | Work | What it contributes | Borrow for this skill | Boundary |
@@ -28,6 +41,10 @@ Primary sources checked on 2026-06-16:
 | PaperOrchestra | Converts raw research materials into paper drafts with literature synthesis and visuals. | Keep a source map, literature matrix, figure plan, and artifact-specific rendering path. | Do not jump from raw material to polished prose without the claim/evidence ledger. |
 | AutoResearchClaw | Uses iterative hypothesis, failure recovery, verifiable reporting, and human-in-the-loop intervention modes. | Make literature and proposal work looped, with checkpoint questions and risk-led continuation. | Human checkpoints are intentional, not a failure of automation. |
 | The AI Scientist | Shows end-to-end idea-code-experiment-visual-paper-review loops. | Treat paper/proposal/slides as downstream artifacts of evidence and review loops. | Do not let fully autonomous writing overtake evidence boundaries. |
+| paper-search-mcp | Provides a common paper schema, concurrent multi-source search, deduplication, and OA-first download fallback. | Use it as an optional discovery/acquisition backend behind our candidate ledger. | Search output stays metadata-only; do not use access-control bypasses. |
+| smart-semantic-scholar-mcp | Separates broad search from batch hydration and adds cache-aware citation, recommendation, and author routes. | Adopt broad-first/detail-later retrieval, timestamps, cache provenance, and separate citation/semantic routes. | Do not filter only by citation count; recent and small-field work would disappear. |
+| LitReviewSkill | Keeps iterative search, screening, saturation, logs, full-text hits, and graph outputs in shallow folders. | Keep retrieval, screening, full text, graphs, and logs separate and auditable. | Its checked repository did not expose a clear license file; no code is copied. Abstract screening is not full-text evidence. |
+| ResearchPilot-Skills | Uses normalized schemas and explicit free-API fallbacks for OpenAlex and Crossref. | Normalize backend records before deduplication and preserve platform limitations. | Citation counts are not support/contradiction labels, and current API contracts must be checked before use. |
 
 ## Skill-Design Implications
 

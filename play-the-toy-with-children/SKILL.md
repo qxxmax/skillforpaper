@@ -158,6 +158,12 @@ When the user asks whether the literature/source search is complete, asks for a
 full scan, systematic/scoping review, prior-art search, source triangulation,
 or any "find as much as possible" task, also read
 `references/28_high_recall_search_optimization.md`.
+When the user asks for broad crawling, multi-database discovery, OA-first PDF
+acquisition, citation snowballing, semantic recommendations, or retrieval
+backend comparison, read
+`references/40_retrieval_backend_and_citation_expansion.md` and use
+`scripts/run_retrieval_backends.py`. Keep all returned records at C0 metadata
+candidate level until the existing source and reading gates promote them.
 When the user asks which databases/channels must be searched, how many citation
 generations to expand, how to cross-verify source existence, or how to justify
 coverage without claiming absolute completeness, also read
@@ -270,6 +276,11 @@ a minimal reproduction:
 If the user asks for literature review, market research, related work, novelty
 positioning, proposal background, citation grounding, source verification,
 reviewer-risk analysis, or current-source validation:
+
+For broad discovery or graph expansion, route retrieval through
+`references/40_retrieval_backend_and_citation_expansion.md` before screening.
+Use its backend manifest and event log; do not let a retrieval backend assign
+claim evidence or public graph edges.
 
 1. Read `references/18_iterative_literature_loop.md`.
 2. Read `references/33_literature_intent_modes_and_state_loop.md`.

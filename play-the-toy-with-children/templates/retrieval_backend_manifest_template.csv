@@ -1,0 +1,5 @@
+BackendID,Provider,Role,Interface,CommandOrEndpoint,CredentialEnv,Enabled,VersionOrCommit,License,LastChecked,FailurePolicy,BlindSpot,Notes
+B001,paper-search-mcp,multi_source_discovery,CLI,paper-search,,no,,MIT,,continue_with_other_routes,metadata_not_claim_evidence,
+B002,Semantic Scholar,citation_graph,REST,https://api.semanticscholar.org/graph/v1,SEMANTIC_SCHOLAR_API_KEY,no,,,,record_blocked_route,single_index_and_rate_limits,
+B003,OpenAlex,bibliographic_graph,REST,https://api.openalex.org,OPENALEX_API_KEY,no,,,,record_blocked_route,index_lag_and_machine_assigned_fields,
+B004,Crossref,doi_metadata,REST,https://api.crossref.org,,yes,,,,continue_with_other_routes,publisher_deposited_metadata_only,
