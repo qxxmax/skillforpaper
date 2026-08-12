@@ -1,0 +1,12 @@
+QueryID,Round,RawHits,NewCandidates,UniqueFacetGain,Notes
+Q001,1,3,1,G0,seed pages
+Q002,1,12,8,F2,NeuMC 2503.11482; multilevel 2604.10209; flow review 2401.01297
+Q003,1,10,6,F2,equivariant flow 2002.02428; NF lecture notes (DOI only C1)
+Q004,1,5,2,F1,PIS 2111.15141 locked
+Q005,1,8,3,F1,SPS HTML; TB NeurIPS (ACM DOI only C1)
+Q006,1,9,4,F3,2309.17082; JHEP05(2024)060 metadata
+Q007,1,5,2,F1,CMCD 2307.01050
+Q008,1,8,4,F4,SNF proceedings; 2412.00200
+Q009,1,4,2,F2,2503.11482 NeuMC
+Q010,1,5,1,F1,DDS 2302.13834 metadata
+Q011,1,3,3,G1 forward,SS cites: titles only C0/C1

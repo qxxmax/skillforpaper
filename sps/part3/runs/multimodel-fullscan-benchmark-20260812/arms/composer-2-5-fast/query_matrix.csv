@@ -1,0 +1,12 @@
+QueryID,Round,RouteFamily,AxisCombination,QueryString,DomainLock,NegativeTerms,SourceTermIDs,TargetSource,ExpectedFacet,Status
+Q001,R0001,identifier,seed,arXiv:2606.13790,,,T001,arXiv,G0 seed,executed
+Q002,R0001,lexical,method_x_domain,neural sampler lattice field theory Metropolis-Hastings learned,lattice field theory,instrumentation,T007;T005,arXiv/web,F2 flows+IMH,executed
+Q003,R0001,lexical,method_x_domain,normalizing flow lattice gauge theory exact sampling,lattice gauge,,T007;T005,arXiv/web,F2 gauge flows,executed
+Q004,R0001,lexical,method_x_problem,Path Integral Sampler unnormalized target distribution,unnormalized,,T010;T002,arXiv/web,F1 path-space,executed
+Q005,R0001,lexical,correction_x_method,trajectory level balance neural sampler Metropolis-Hastings,trajectory,,T004;T005,web/acm,F1 TB+MH,executed
+Q006,R0001,lexical,method_x_domain,diffusion model lattice field theory stochastic quantization,lattice field theory,,T008;T011,arXiv/Springer,F3 diffusion LFT,executed
+Q007,R0001,lexical,method_x_problem,Controlled Monte Carlo Diffusions unnormalized sampling backward drift,unnormalized,,T010;T003,arXiv/web,F1 CMCD,executed
+Q008,R0001,lexical,method_x_domain,stochastic normalizing flows lattice field theory,lattice,,T009,arXiv/web,F4 SNF,executed
+Q009,R0001,lexical,domain_benchmark_x_method,NeuMC neural sampling lattice field theories package,lattice field theory,,T007,arXiv/INSPIRE,F2 tooling,executed
+Q010,R0001,lexical,method_x_problem,Denoising Diffusion Samplers unnormalized density 2023,unnormalized,,T010,web,F1 DDS,executed
+Q011,R0001,forward_citation,seed_citations,Semantic Scholar citations arXiv:2606.13790,,,T001,Semantic Scholar,G1 forward,executed

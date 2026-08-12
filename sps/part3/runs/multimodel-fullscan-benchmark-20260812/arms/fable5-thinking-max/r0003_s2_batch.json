@@ -1,0 +1,870 @@
+{
+ "ids": [
+  "1904.12072",
+  "2003.06413",
+  "2007.07115",
+  "2106.05934",
+  "2202.11712",
+  "2107.00734",
+  "2110.02673",
+  "2207.00283",
+  "2005.04857",
+  "2211.03470",
+  "1810.12879",
+  "2002.06707",
+  "2201.08862",
+  "2210.03139",
+  "2409.15937",
+  "2412.19109",
+  "2309.17082",
+  "2502.05504",
+  "2510.26081",
+  "2510.01328",
+  "2111.15141",
+  "2302.13834",
+  "2211.01364",
+  "2307.01198",
+  "2307.01050",
+  "2410.02711",
+  "1812.01729",
+  "2102.07501",
+  "2201.13117",
+  "2208.01893",
+  "0907.5491",
+  "2105.12481",
+  "2112.15532",
+  "2302.08408",
+  "2212.08469",
+  "1604.05544",
+  "1610.09017",
+  "2101.08176",
+  "2401.01297",
+  "2008.05456",
+  "2302.14082",
+  "2402.06561",
+  "2409.18861",
+  "2412.00200",
+  "2410.19602",
+  "2002.09547",
+  "2010.03587",
+  "2405.06672",
+  "2504.11713",
+  "2510.21330",
+  "2503.11482",
+  "1809.10606",
+  "2201.13259",
+  "1505.05770",
+  "1907.05600",
+  "2106.04399",
+  "2607.15682",
+  "2607.08505",
+  "2607.21436",
+  "1706.07561",
+  "1903.03704",
+  "2001.05486",
+  "2006.15167"
+ ],
+ "resp": [
+  {
+   "paperId": "b1e35d23ecdbeec4c7cea862424cbda7b0f8043f",
+   "externalIds": {
+    "ArXiv": "1904.12072",
+    "MAG": "2969814790",
+    "DBLP": "journals/corr/abs-1904-12072",
+    "DOI": "10.1103/PhysRevD.100.034515",
+    "CorpusId": 139104868
+   },
+   "title": "Flow-based generative models for Markov chain Monte Carlo in lattice field theory",
+   "venue": "Physical Review D",
+   "year": 2019,
+   "citationCount": 282
+  },
+  {
+   "paperId": "0da0cdb5a7acd525d6136cbdfb2ad6b03ae9465a",
+   "externalIds": {
+    "MAG": "3012274818",
+    "ArXiv": "2003.06413",
+    "DBLP": "journals/corr/abs-2003-06413",
+    "DOI": "10.1103/PHYSREVLETT.125.121601",
+    "CorpusId": 212717967,
+    "PubMed": "33016765"
+   },
+   "title": "Equivariant flow-based sampling for lattice gauge theory",
+   "venue": "Physical Review Letters",
+   "year": 2020,
+   "citationCount": 219
+  },
+  {
+   "paperId": "2ef3ce3bb5500a72c56d75324d9325bcc7a29133",
+   "externalIds": {
+    "MAG": "3042241440",
+    "ArXiv": "2007.07115",
+    "DBLP": "journals/corr/abs-2007-07115",
+    "CorpusId": 263864555
+   },
+   "title": "On Estimation of Thermodynamic Observables in Lattice Field Theories with Deep Generative Models",
+   "venue": "arXiv.org",
+   "year": 2020,
+   "citationCount": 3
+  },
+  {
+   "paperId": "fa8294b7ed4345251d4cc5efe4c5134808b9298a",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2106-05934",
+    "ArXiv": "2106.05934",
+    "DOI": "10.1103/PhysRevD.104.114507",
+    "CorpusId": 235391051
+   },
+   "title": "Flow-based sampling for fermionic lattice field theories",
+   "venue": "Physical Review D",
+   "year": 2021,
+   "citationCount": 49
+  },
+  {
+   "paperId": "eca2831ec16b0221954404f881304707643a172c",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2202-11712",
+    "ArXiv": "2202.11712",
+    "DOI": "10.1103/PhysRevD.106.014514",
+    "CorpusId": 247083978
+   },
+   "title": "Flow-based sampling in the lattice Schwinger model at criticality",
+   "venue": "Physical Review D",
+   "year": 2022,
+   "citationCount": 43
+  },
+  {
+   "paperId": "269b112bbf6871e0e883325c41841ce9f0752ef9",
+   "externalIds": {
+    "ArXiv": "2107.00734",
+    "CorpusId": 235727407
+   },
+   "title": "Flow-based sampling for multimodal and extended-mode distributions in lattice field theory",
+   "venue": "",
+   "year": 2021,
+   "citationCount": 45
+  },
+  {
+   "paperId": "3ef872012c3afcf00a413a80622572a2946847b4",
+   "externalIds": {
+    "ArXiv": "2110.02673",
+    "DBLP": "journals/corr/abs-2110-02673",
+    "CorpusId": 238407975
+   },
+   "title": "Scaling Up Machine Learning For Quantum Field Theory with Equivariant Continuous Flows",
+   "venue": "arXiv.org",
+   "year": 2021,
+   "citationCount": 39
+  },
+  {
+   "paperId": "9de8679fa57ccc96d30cfba641dfa3dc25b16dfa",
+   "externalIds": {
+    "ArXiv": "2207.00283",
+    "DBLP": "journals/corr/abs-2207-00283",
+    "DOI": "10.21468/SciPostPhys.15.6.238",
+    "CorpusId": 250243853
+   },
+   "title": "Learning Lattice Quantum Field Theories with Equivariant Continuous Flows",
+   "venue": "SciPost Physics",
+   "year": 2022,
+   "citationCount": 58
+  },
+  {
+   "paperId": "779b01b3b44c0430cd5ec64bbc50acb7bbad60dd",
+   "externalIds": {
+    "ArXiv": "2005.04857",
+    "MAG": "3089745963",
+    "DOI": "10.1088/0256-307X/39/12/120502",
+    "CorpusId": 221703082
+   },
+   "title": "Continuous-Mixture Autoregressive Networks Learning the Kosterlitz-Thouless Transition",
+   "venue": "Chinese Physics Letters",
+   "year": 2020,
+   "citationCount": 12
+  },
+  {
+   "paperId": "5bf8235d9066fb4ac5470fa427a3faa440e30108",
+   "externalIds": {
+    "ArXiv": "2211.03470",
+    "DOI": "10.1103/PhysRevD.107.056001",
+    "CorpusId": 253384422
+   },
+   "title": "Fourier-flow model generating Feynman paths",
+   "venue": "Physical Review D",
+   "year": 2022,
+   "citationCount": 15
+  },
+  {
+   "paperId": "46f6e55176debbe286920716a3923fbd2e993cec",
+   "externalIds": {
+    "MAG": "2964314575",
+    "ArXiv": "1810.12879",
+    "DOI": "10.1103/PhysRevD.100.011501",
+    "CorpusId": 53378294
+   },
+   "title": "Regressive and generative neural networks for scalar field theory",
+   "venue": "Physical Review D",
+   "year": 2018,
+   "citationCount": 76
+  },
+  {
+   "paperId": "5f27443ea5e03d1e876426df613268e68ce58891",
+   "externalIds": {
+    "ArXiv": "2002.06707",
+    "DBLP": "journals/corr/abs-2002-06707",
+    "MAG": "3006502260",
+    "CorpusId": 211133098
+   },
+   "title": "Stochastic Normalizing Flows",
+   "venue": "Neural Information Processing Systems",
+   "year": 2020,
+   "citationCount": 225
+  },
+  {
+   "paperId": "482f2b702749629350a7ab355aa2f7bd513ab91e",
+   "externalIds": {
+    "ArXiv": "2201.08862",
+    "DBLP": "journals/corr/abs-2201-08862",
+    "DOI": "10.1007/JHEP07(2022)015",
+    "CorpusId": 246240579
+   },
+   "title": "Stochastic normalizing flows as non-equilibrium transformations",
+   "venue": "Journal of High Energy Physics",
+   "year": 2022,
+   "citationCount": 48
+  },
+  {
+   "paperId": "1bc0ea70197204265af0d5902480cebe88a8f5c0",
+   "externalIds": {
+    "ArXiv": "2210.03139",
+    "DOI": "10.22323/1.430.0005",
+    "CorpusId": 252762219
+   },
+   "title": "Stochastic normalizing flows for lattice field theory",
+   "venue": "Proceedings of The 39th International Symposium on Lattice Field Theory \u2014 PoS(LATTICE2022)",
+   "year": 2022,
+   "citationCount": 10
+  },
+  {
+   "paperId": "690ec48bf2b0de7ae864986b14c8382c1e8c24a8",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2409-15937",
+    "ArXiv": "2409.15937",
+    "DOI": "10.1007/JHEP02(2025)090",
+    "CorpusId": 272831885
+   },
+   "title": "Numerical determination of the width and shape of the effective string using Stochastic Normalizing Flows",
+   "venue": "Journal of High Energy Physics",
+   "year": 2024,
+   "citationCount": 13
+  },
+  {
+   "paperId": "edab038c813ef2088500af902afc4843412b8d1d",
+   "externalIds": {
+    "ArXiv": "2412.19109",
+    "DBLP": "journals/corr/abs-2412-19109",
+    "DOI": "10.48550/arXiv.2412.19109",
+    "CorpusId": 275119119
+   },
+   "title": "Stochastic normalizing flows for Effective String Theory",
+   "venue": "arXiv.org",
+   "year": 2024,
+   "citationCount": 1
+  },
+  {
+   "paperId": "536d8a5d5b3961723152fce081a627ae4a28888c",
+   "externalIds": {
+    "ArXiv": "2309.17082",
+    "DBLP": "journals/corr/abs-2309-17082",
+    "DOI": "10.1007/JHEP05(2024)060",
+    "CorpusId": 263310811
+   },
+   "title": "Diffusion models as stochastic quantization in lattice field theory",
+   "venue": "Journal of High Energy Physics",
+   "year": 2023,
+   "citationCount": 44
+  },
+  {
+   "paperId": "6651d41b1485563879c0e63d30bd9d13ad49817f",
+   "externalIds": {
+    "ArXiv": "2502.05504",
+    "DBLP": "journals/corr/abs-2502-05504",
+    "DOI": "10.48550/arXiv.2502.05504",
+    "CorpusId": 276250586
+   },
+   "title": "Physics-Conditioned Diffusion Models for Lattice Gauge Theory",
+   "venue": "Journal of High Energy Physics",
+   "year": 2025,
+   "citationCount": 17
+  },
+  {
+   "paperId": "a9f62f34f231692f7a3d716d44966e8035e58f67",
+   "externalIds": {
+    "ArXiv": "2510.26081",
+    "DOI": "10.1007/JHEP07(2026)213",
+    "CorpusId": 282592383
+   },
+   "title": "Group-equivariant diffusion models for lattice field theory",
+   "venue": "Journal of High Energy Physics",
+   "year": 2025,
+   "citationCount": 2
+  },
+  {
+   "paperId": "a9cc8c2da7fbd5600afb94853f4afe9ff3b988cd",
+   "externalIds": {
+    "ArXiv": "2510.01328",
+    "DBLP": "journals/corr/abs-2510-01328",
+    "DOI": "10.1007/JHEP12(2025)160",
+    "CorpusId": 281724220
+   },
+   "title": "Combining complex Langevin dynamics with score-based and energy-based diffusion models",
+   "venue": "Journal of High Energy Physics",
+   "year": 2025,
+   "citationCount": 6
+  },
+  {
+   "paperId": "713223e6a06773523195d1f3a9472f0fce940aea",
+   "externalIds": {
+    "DBLP": "conf/iclr/ZhangC22",
+    "ArXiv": "2111.15141",
+    "CorpusId": 244729050
+   },
+   "title": "Path Integral Sampler: a stochastic control approach for sampling",
+   "venue": "International Conference on Learning Representations",
+   "year": 2021,
+   "citationCount": 197
+  },
+  {
+   "paperId": "3ee60ee899941c7056fc10e1b69e71bac0f11c97",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2302-13834",
+    "ArXiv": "2302.13834",
+    "DOI": "10.48550/arXiv.2302.13834",
+    "CorpusId": 257220165
+   },
+   "title": "Denoising Diffusion Samplers",
+   "venue": "International Conference on Learning Representations",
+   "year": 2023,
+   "citationCount": 148
+  },
+  {
+   "paperId": "5f8c041cb8985ee922625b5e65bece10e646f31f",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2211-01364",
+    "ArXiv": "2211.01364",
+    "DOI": "10.48550/arXiv.2211.01364",
+    "CorpusId": 253255370
+   },
+   "title": "An optimal control perspective on diffusion-based generative modeling",
+   "venue": "Trans. Mach. Learn. Res.",
+   "year": 2022,
+   "citationCount": 161
+  },
+  {
+   "paperId": "d174e9d35a9d6d899acbc661e05a937a659ffc42",
+   "externalIds": {
+    "DBLP": "conf/iclr/RichterB24",
+    "ArXiv": "2307.01198",
+    "DOI": "10.48550/arXiv.2307.01198",
+    "CorpusId": 259316542
+   },
+   "title": "Improved sampling via learned diffusions",
+   "venue": "International Conference on Learning Representations",
+   "year": 2023,
+   "citationCount": 111
+  },
+  {
+   "paperId": "4bc358371da87f033e42d71cc0895efac965910a",
+   "externalIds": {
+    "ArXiv": "2307.01050",
+    "DBLP": "conf/iclr/0001PBN24",
+    "CorpusId": 265302649
+   },
+   "title": "Transport meets Variational Inference: Controlled Monte Carlo Diffusions",
+   "venue": "International Conference on Learning Representations",
+   "year": 2023,
+   "citationCount": 22
+  },
+  {
+   "paperId": "03e57a54b5d12f7245ea449c8cf8153d84118021",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2410-02711",
+    "ArXiv": "2410.02711",
+    "DOI": "10.48550/arXiv.2410.02711",
+    "CorpusId": 273098628
+   },
+   "title": "NETS: A Non-Equilibrium Transport Sampler",
+   "venue": "International Conference on Machine Learning",
+   "year": 2024,
+   "citationCount": 68
+  },
+  {
+   "paperId": "9896835f050121358372254a9bce57ca117672c8",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-1812-01729",
+    "MAG": "2902123029",
+    "ArXiv": "1812.01729",
+    "CorpusId": 260441700
+   },
+   "title": "Boltzmann Generators - Sampling Equilibrium States of Many-Body Systems with Deep Learning",
+   "venue": "arXiv.org",
+   "year": 2018,
+   "citationCount": 11
+  },
+  {
+   "paperId": "055daaa67ebb4919f158a470afac1671ce1155cb",
+   "externalIds": {
+    "ArXiv": "2102.07501",
+    "DBLP": "journals/corr/abs-2102-07501",
+    "CorpusId": 231925352
+   },
+   "title": "Annealed Flow Transport Monte Carlo",
+   "venue": "International Conference on Machine Learning",
+   "year": 2021,
+   "citationCount": 103
+  },
+  {
+   "paperId": "14f76aefcc469594f1bcd3f9c55f21c3cec4af7e",
+   "externalIds": {
+    "ArXiv": "2201.13117",
+    "DBLP": "journals/corr/abs-2201-13117",
+    "CorpusId": 246430223
+   },
+   "title": "Continual Repeated Annealed Flow Transport Monte Carlo",
+   "venue": "International Conference on Machine Learning",
+   "year": 2022,
+   "citationCount": 74
+  },
+  {
+   "paperId": "201940ec4311c65a98bdb794297ef07ba2b7bc24",
+   "externalIds": {
+    "ArXiv": "2208.01893",
+    "DBLP": "conf/iclr/MidgleySSSH23",
+    "DOI": "10.48550/arXiv.2208.01893",
+    "CorpusId": 251280102
+   },
+   "title": "Flow Annealed Importance Sampling Bootstrap",
+   "venue": "International Conference on Learning Representations",
+   "year": 2022,
+   "citationCount": 135
+  },
+  {
+   "paperId": "a1ca218cb55ae11710dbcf4e18a7395db2350c69",
+   "externalIds": {
+    "ArXiv": "0907.5491",
+    "DOI": "10.1007/s00220-009-0953-7",
+    "CorpusId": 1364375
+   },
+   "title": "Trivializing maps, the Wilson flow and the HMC algorithm",
+   "venue": "",
+   "year": 2009,
+   "citationCount": 261
+  },
+  {
+   "paperId": "8fcf264910db66aebc2021474dac2716b18accc6",
+   "externalIds": {
+    "ArXiv": "2105.12481",
+    "DOI": "10.1103/PhysRevD.104.094507",
+    "CorpusId": 235195793
+   },
+   "title": "Efficient modeling of trivializing maps for lattice \n\u03d54\n theory using normalizing flows: A first look at scalability",
+   "venue": "Physical Review D",
+   "year": 2021,
+   "citationCount": 51
+  },
+  {
+   "paperId": "c10ede416c052bb2e51f198384ac5808d3cae1b8",
+   "externalIds": {
+    "ArXiv": "2112.15532",
+    "DBLP": "journals/corr/abs-2112-15532",
+    "DOI": "10.22323/1.396.0059",
+    "CorpusId": 245634259
+   },
+   "title": "Machine Learning Trivializing Maps: A First Step Towards Understanding How Flow-Based Samplers Scale Up",
+   "venue": "Proceedings of The 38th International Symposium on Lattice Field Theory \u2014 PoS(LATTICE2021)",
+   "year": 2021,
+   "citationCount": 7
+  },
+  {
+   "paperId": "53e545ba0d7376f8ffed5c9f10174bc7828cd7de",
+   "externalIds": {
+    "ArXiv": "2211.12806",
+    "DOI": "10.1140/epjc/s10052-023-11838-8",
+    "CorpusId": 253801816
+   },
+   "title": "Learning trivializing flows",
+   "venue": "The European Physical Journal C",
+   "year": 2022,
+   "citationCount": 26
+  },
+  {
+   "paperId": "6f0440215d5b8b5d37d7e9439eab7cc5e3dba221",
+   "externalIds": {
+    "ArXiv": "2212.08469",
+    "DOI": "10.1103/PhysRevD.107.L051504",
+    "CorpusId": 254823237
+   },
+   "title": "Learning trivializing gradient flows for lattice gauge theories",
+   "venue": "Physical Review D",
+   "year": 2022,
+   "citationCount": 31
+  },
+  {
+   "paperId": "41e09f18615a951f287190b0ccecf360b5c72484",
+   "externalIds": {
+    "MAG": "2341281302",
+    "ArXiv": "1604.05544",
+    "DOI": "10.1103/PhysRevD.94.034503",
+    "CorpusId": 54955334
+   },
+   "title": "Jarzynski\u2019s theorem for lattice gauge theory",
+   "venue": "",
+   "year": 2016,
+   "citationCount": 39
+  },
+  {
+   "paperId": "66a2eeb0bb1728350855394b1720672574434f26",
+   "externalIds": {
+    "MAG": "2952722994",
+    "ArXiv": "1610.09017",
+    "DOI": "10.22323/1.256.0262",
+    "CorpusId": 54686511
+   },
+   "title": "Applications of Jarzynski's relation in lattice gauge theories",
+   "venue": "",
+   "year": 2016,
+   "citationCount": 3
+  },
+  {
+   "paperId": "bb41162e1283783057ea04cea17f20bbfcd3f9a6",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2101-08176",
+    "ArXiv": "2101.08176",
+    "CorpusId": 231648295
+   },
+   "title": "Introduction to Normalizing Flows for Lattice Field Theory",
+   "venue": "arXiv.org",
+   "year": 2021,
+   "citationCount": 72
+  },
+  {
+   "paperId": "473ceaa5a23d570d985dbc610c4b68b91f36fa89",
+   "externalIds": {
+    "ArXiv": "2401.01297",
+    "DOI": "10.22323/1.453.0114",
+    "CorpusId": 266725372
+   },
+   "title": "Flow-based sampling for lattice field theories",
+   "venue": "Proceedings of The 40th International Symposium on Lattice Field Theory \u2014 PoS(LATTICE2023)",
+   "year": 2024,
+   "citationCount": 22
+  },
+  {
+   "paperId": "6fdc9a8adbaa44855216519808f6238eae123096",
+   "externalIds": {
+    "MAG": "3048457240",
+    "DBLP": "journals/corr/abs-2008-05456",
+    "ArXiv": "2008.05456",
+    "DOI": "10.1103/PHYSREVD.103.074504",
+    "CorpusId": 221103589
+   },
+   "title": "Sampling using SU(N) gauge equivariant flows",
+   "venue": "Physical Review D",
+   "year": 2020,
+   "citationCount": 148
+  },
+  {
+   "paperId": "148d056e80cac94828beaa043177269b74af6be9",
+   "externalIds": {
+    "ArXiv": "2302.14082",
+    "DBLP": "journals/corr/abs-2302-14082",
+    "DOI": "10.48550/arXiv.2302.14082",
+    "CorpusId": 257232703
+   },
+   "title": "Detecting and Mitigating Mode-Collapse for Flow-based Sampling of Lattice Field Theories",
+   "venue": "Physical Review D",
+   "year": 2023,
+   "citationCount": 33
+  },
+  {
+   "paperId": "facfd697d5eaf487fca6bdd4cbff103c9e58bd8c",
+   "externalIds": {
+    "ArXiv": "2402.06561",
+    "DOI": "10.1007/JHEP04(2024)126",
+    "CorpusId": 267616743
+   },
+   "title": "Mitigating topological freezing using out-of-equilibrium simulations",
+   "venue": "Journal of High Energy Physics",
+   "year": 2024,
+   "citationCount": 20
+  },
+  {
+   "paperId": "15971e31b5987a0739357b8731258d22244fc2a0",
+   "externalIds": {
+    "ArXiv": "2409.18861",
+    "DOI": "10.22323/1.466.0040",
+    "CorpusId": 272968755
+   },
+   "title": "Sampling SU(3) pure gauge theory with Stochastic Normalizing Flows",
+   "venue": "Proceedings of The 41st International Symposium on Lattice Field Theory \u2014 PoS(LATTICE2024)",
+   "year": 2024,
+   "citationCount": 9
+  },
+  {
+   "paperId": "60079d8b8b1eb0e5b4e1509cbc81ec27f80f941f",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2412-00200",
+    "ArXiv": "2412.00200",
+    "DOI": "10.1103/PhysRevD.111.074517",
+    "CorpusId": 274436900
+   },
+   "title": "Scaling of Stochastic Normalizing Flows in SU(3) lattice gauge theory",
+   "venue": "Physical Review D",
+   "year": 2024,
+   "citationCount": 14
+  },
+  {
+   "paperId": "436e8b45d94fa96dcf84bff579f03728bc5ac7b2",
+   "externalIds": {
+    "ArXiv": "2410.19602",
+    "CorpusId": 273638608
+   },
+   "title": "Diffusion models for lattice gauge field simulations",
+   "venue": "",
+   "year": 2024,
+   "citationCount": 15
+  },
+  {
+   "paperId": "52c07fb56ad3f0b6aa81502af489a5de162a4d17",
+   "externalIds": {
+    "MAG": "3007848206",
+    "DBLP": "journals/corr/abs-2002-09547",
+    "ArXiv": "2002.09547",
+    "CorpusId": 211259339
+   },
+   "title": "Stochastic Normalizing Flows",
+   "venue": "arXiv.org",
+   "year": 2020,
+   "citationCount": 1
+  },
+  {
+   "paperId": "b69e3f27a35d4328caa8eea8135458ced7558c53",
+   "externalIds": {
+    "MAG": "3092528657",
+    "ArXiv": "2010.03587",
+    "DBLP": "journals/corr/abs-2010-03587",
+    "PubMedCentral": "7996279",
+    "DOI": "10.3390/e23030269",
+    "CorpusId": 222208550,
+    "PubMed": "33668743"
+   },
+   "title": "A Neural Network MCMC Sampler That Maximizes Proposal Entropy",
+   "venue": "Entropy",
+   "year": 2020,
+   "citationCount": 16
+  },
+  {
+   "paperId": "8e44ba0903732d697828caa1b2326c0803aa0ebd",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2405-06672",
+    "ArXiv": "2405.06672",
+    "DOI": "10.48550/arXiv.2405.06672",
+    "CorpusId": 269756967
+   },
+   "title": "Liouville Flow Importance Sampler",
+   "venue": "International Conference on Machine Learning",
+   "year": 2024,
+   "citationCount": 25
+  },
+  {
+   "paperId": "5a74e5f78a88c25ece84d2651b72bba67328d3b8",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2504-11713",
+    "ArXiv": "2504.11713",
+    "DOI": "10.48550/arXiv.2504.11713",
+    "CorpusId": 277824537
+   },
+   "title": "Adjoint Sampling: Highly Scalable Diffusion Samplers via Adjoint Matching",
+   "venue": "International Conference on Machine Learning",
+   "year": 2025,
+   "citationCount": 72
+  },
+  {
+   "paperId": "e1c528976e4eb3b3789449f82d4b23dde17c4b35",
+   "externalIds": {
+    "ArXiv": "2510.21330",
+    "DBLP": "journals/corr/abs-2510-21330",
+    "DOI": "10.48550/arXiv.2510.21330",
+    "CorpusId": 282384517
+   },
+   "title": "SCORENF: Score-based Normalizing Flows for Sampling Unnormalized distributions",
+   "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+   "year": 2025,
+   "citationCount": 0
+  },
+  {
+   "paperId": "daf7effc7c06b120eb1964613d65d5bb53812c6b",
+   "externalIds": {
+    "DBLP": "journals/softx/BialasKSZ25",
+    "ArXiv": "2503.11482",
+    "DOI": "10.1016/j.softx.2025.102253",
+    "CorpusId": 277043561
+   },
+   "title": "NeuMC - a package for neural sampling for lattice field theories",
+   "venue": "SoftwareX",
+   "year": 2025,
+   "citationCount": 1
+  },
+  {
+   "paperId": "305c35a9036cebfe41ab234b2e702b6f9f2f6722",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-1809-10606",
+    "ArXiv": "1809.10606",
+    "MAG": "2893674448",
+    "DOI": "10.1103/PhysRevLett.122.080602",
+    "CorpusId": 52879890,
+    "PubMed": "30932595"
+   },
+   "title": "Solving Statistical Mechanics using Variational Autoregressive Networks",
+   "venue": "Physical Review Letters",
+   "year": 2018,
+   "citationCount": 233
+  },
+  {
+   "paperId": "0116eb4208e9abff3064934d178e655e716d92ad",
+   "externalIds": {
+    "DBLP": "journals/corr/abs-2201-13259",
+    "ArXiv": "2201.13259",
+    "DOI": "10.52202/068431-0431",
+    "CorpusId": 246430534
+   },
+   "title": "Trajectory Balance: Improved Credit Assignment in GFlowNets",
+   "venue": "Neural Information Processing Systems",
+   "year": 2022,
+   "citationCount": 296
+  },
+  {
+   "paperId": "0f899b92b7fb03b609fee887e4b6f3b633eaf30d",
+   "externalIds": {
+    "MAG": "299440670",
+    "ArXiv": "1505.05770",
+    "DBLP": "journals/corr/RezendeM15",
+    "CorpusId": 12554042
+   },
+   "title": "Variational Inference with Normalizing Flows",
+   "venue": "International Conference on Machine Learning",
+   "year": 2015,
+   "citationCount": 5066
+  },
+  {
+   "paperId": "965359b3008ab50dd04e171551220ec0e7f83aba",
+   "externalIds": {
+    "MAG": "2971034910",
+    "ArXiv": "1907.05600",
+    "DBLP": "conf/nips/SongE19",
+    "CorpusId": 196470871
+   },
+   "title": "Generative Modeling by Estimating Gradients of the Data Distribution",
+   "venue": "Neural Information Processing Systems",
+   "year": 2019,
+   "citationCount": 5852
+  },
+  {
+   "paperId": "cb5323ef22a5a38cfba318abadcadee822ccf8a9",
+   "externalIds": {
+    "DBLP": "conf/nips/BengioJKPB21",
+    "ArXiv": "2106.04399",
+    "CorpusId": 235367990
+   },
+   "title": "Flow Network based Generative Models for Non-Iterative Diverse Candidate Generation",
+   "venue": "Neural Information Processing Systems",
+   "year": 2021,
+   "citationCount": 526
+  },
+  {
+   "paperId": "a3feff0bf603dd47bfc6a0edc7d0a4f11f46877d",
+   "externalIds": {
+    "ArXiv": "2607.15682",
+    "CorpusId": 290331788
+   },
+   "title": "Neural Non-Equilibrium Hamiltonian Monte Carlo for Corrected Boltzmann Sampling",
+   "venue": "",
+   "year": 2026,
+   "citationCount": 0
+  },
+  {
+   "paperId": "b4e43080ed606b298e8d53dd493b9388593cf573",
+   "externalIds": {
+    "ArXiv": "2607.08505",
+    "CorpusId": 290009707
+   },
+   "title": "Diffusion Models for Sampling Near Criticality in Lattice Field Theories",
+   "venue": "",
+   "year": 2026,
+   "citationCount": 2
+  },
+  {
+   "paperId": "23f5cb4b56c5161c601c261f62d8240e0181a569",
+   "externalIds": {
+    "ArXiv": "2607.21436",
+    "CorpusId": 290473556
+   },
+   "title": "Stochastic Quantization as Optimal Control",
+   "venue": "",
+   "year": 2026,
+   "citationCount": 0
+  },
+  {
+   "paperId": "ff1ee941c8fe334afd7dcd92b5c4478c0ae16efe",
+   "externalIds": {
+    "MAG": "2963565380",
+    "ArXiv": "1706.07561",
+    "DBLP": "conf/nips/SongZE17",
+    "CorpusId": 8938418
+   },
+   "title": "A-NICE-MC: Adversarial Training for MCMC",
+   "venue": "Neural Information Processing Systems",
+   "year": 2017,
+   "citationCount": 114
+  },
+  {
+   "paperId": "2884e6017cb1605d08aca74a33477a5505f9a087",
+   "externalIds": {
+    "ArXiv": "1903.03704",
+    "MAG": "2920868047",
+    "CorpusId": 88517731
+   },
+   "title": "NeuTra-lizing Bad Geometry in Hamiltonian Monte Carlo Using Neural Transport",
+   "venue": "",
+   "year": 2019,
+   "citationCount": 129
+  },
+  {
+   "paperId": "434e82e8d5025ac35240a4bc5575eab65e36431d",
+   "externalIds": {
+    "MAG": "3000095629",
+    "DBLP": "journals/mlst/GaoIK20",
+    "ArXiv": "2001.05486",
+    "DOI": "10.1088/2632-2153/abab62",
+    "CorpusId": 210701113
+   },
+   "title": "i- flow: High-dimensional integration and sampling with normalizing flows",
+   "venue": "Machine Learning: Science and Technology",
+   "year": 2020,
+   "citationCount": 139
+  },
+  {
+   "paperId": "19316fbef23ba8bddb52dc2ab7c0233242ae1c68",
+   "externalIds": {
+    "ArXiv": "2006.15167",
+    "MAG": "3037842758",
+    "DBLP": "journals/corr/abs-2006-15167",
+    "CorpusId": 220250447
+   },
+   "title": "Deep Involutive Generative Models for Neural MCMC",
+   "venue": "arXiv.org",
+   "year": 2020,
+   "citationCount": 12
+  }
+ ]
+}

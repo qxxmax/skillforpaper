@@ -1,0 +1,19 @@
+QueryID,ExecutedAt,RawHits,DeduplicatedHits,ScreenedHits,IncludedHits,NewTerms,NewFacets,NoisePatterns,Decision,NextAction
+Q001,2026-08-12,1,1,1,1,T003;T004;T005;T013;T014,F5,,keep,build ontology
+Q002,2026-08-12,73,30,22,18,T006,F3,http empty failures before https,keep,snowball Albergo
+Q003,2026-08-12,65,25,20,16,T007,F3,,keep,author Zhou
+Q004,2026-08-12,0,0,0,0,,,429 rate limit,substitute_openalex_inspire,retry once later
+Q005,2026-08-12,24,15,10,8,T010;T015,F5,,keep,diffusion LFT lineage
+Q006,2026-08-12,1,1,1,1,T008,F2,,keep,PDF
+Q007,2026-08-12,1,1,1,1,,,DOI confirm,keep,crossref+S2
+Q008,2026-08-12,20,5,3,2,,,Wilson flow; materials; espresso,narrow_to_title_search,Q016
+Q009,2026-08-12,52,8,3,2,T009,F2,imaging; POMDP; SAR,keep_targeted_ids,id_list verify
+Q010,2026-08-12,6,6,5,5,,,tight OR,keep,
+Q011,2026-08-12,239,30,20,12,T011;T019-like,F4,non-LFT NF MCMC,screen_LFT_first,monitor non-LFT
+Q012,2026-08-12,3,3,3,2,T015,F5,,keep,
+Q013,2026-08-12,20,20,12,8,,,recent 2026 burst,keep,
+Q014,2026-08-12,1,1,1,1,,,publisher DOI,keep,
+Q015,2026-08-12,18,15,10,8,T007,F2;F3,,keep,
+Q016,2026-08-12,10,9,8,7,,,cleaner than Q008,keep,
+Q017,2026-08-12,3,3,3,3,T011;T012,F2;F4,,keep,stop lexical
+Q018,2026-08-12,6,6,6,6,,,C3 integrity,stop_pdfs,coverage report

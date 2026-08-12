@@ -1,0 +1,2170 @@
+[
+ {
+  "call": 12,
+  "target": "arXiv id_list hypothesized IDs",
+  "status": "ok",
+  "entries": [
+   {
+    "id": "2106.04399v2",
+    "title": "Flow Network based Generative Models for Non-Iterative Diverse Candidate Generation",
+    "authors": [
+     "Emmanuel Bengio",
+     "Moksh Jain",
+     "Maksym Korablyov"
+    ]
+   },
+   {
+    "id": "1505.05770v6",
+    "title": "Variational Inference with Normalizing Flows",
+    "authors": [
+     "Danilo Jimenez Rezende",
+     "Shakir Mohamed"
+    ]
+   },
+   {
+    "id": "2201.13259v3",
+    "title": "Trajectory balance: Improved credit assignment in GFlowNets",
+    "authors": [
+     "Nikolay Malkin",
+     "Moksh Jain",
+     "Emmanuel Bengio"
+    ]
+   },
+   {
+    "id": "1809.10606v2",
+    "title": "Solving Statistical Mechanics Using Variational Autoregressive Networks",
+    "authors": [
+     "Dian Wu",
+     "Lei Wang",
+     "Pan Zhang"
+    ]
+   },
+   {
+    "id": "1907.05600v3",
+    "title": "Generative Modeling by Estimating Gradients of the Data Distribution",
+    "authors": [
+     "Yang Song",
+     "Stefano Ermon"
+    ]
+   }
+  ]
+ },
+ {
+  "call": 13,
+  "target": "S2 batch",
+  "status": "FAILED HTTP Error 429: "
+ },
+ {
+  "call": 14,
+  "target": "S2 citations of 1904.12072",
+  "status": "ok",
+  "resp": {
+   "offset": 0,
+   "next": 100,
+   "data": [
+    {
+     "citingPaper": {
+      "paperId": "9de7c782f8ff41aef89ea09ea73ca46b5eb00bc9",
+      "externalIds": {
+       "ArXiv": "2607.21575",
+       "CorpusId": 290473297
+      },
+      "title": "Parallel Tempered Metadynamics for full QCD",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "a3feff0bf603dd47bfc6a0edc7d0a4f11f46877d",
+      "externalIds": {
+       "ArXiv": "2607.15682",
+       "CorpusId": 290331788
+      },
+      "title": "Neural Non-Equilibrium Hamiltonian Monte Carlo for Corrected Boltzmann Sampling",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "d13a7596f09b9c9ca7152f76778e3ae7a24614bd",
+      "externalIds": {
+       "ArXiv": "2607.12587",
+       "CorpusId": 290148749
+      },
+      "title": "Lattice Configuration Generation with a Self-Learning Diffusion Model",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "b4e43080ed606b298e8d53dd493b9388593cf573",
+      "externalIds": {
+       "ArXiv": "2607.08505",
+       "CorpusId": 290009707
+      },
+      "title": "Diffusion Models for Sampling Near Criticality in Lattice Field Theories",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "7201558587d77e683a76d2a3ec48fd438d4cb1d6",
+      "externalIds": {
+       "ArXiv": "2607.07127",
+       "CorpusId": 289973630
+      },
+      "title": "Weight-Space Physics: Interpretable Hypernetworks for Lattice Quantum Field Theories",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "570d8cf906ca7c54811b8ea5fb6920385454fb27",
+      "externalIds": {
+       "ArXiv": "2607.03477",
+       "CorpusId": 289933057
+      },
+      "title": "Flow-Based Surrogates for High-Dimensional Likelihoods in Experimental Neutrino Physics",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "62068be2dda4c6ac26274845521a9923fab2ce3c",
+      "externalIds": {
+       "ArXiv": "2606.30489",
+       "DBLP": "journals/corr/abs-2606-30489",
+       "DOI": "10.48550/arXiv.2606.30489",
+       "CorpusId": 289684223
+      },
+      "title": "Factorizable Normalizing Flows for parameter-dependent density morphing",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "dc3e1cca6be13b5e0e6ebea78f5083167853e06a",
+      "externalIds": {
+       "ArXiv": "2606.30018",
+       "CorpusId": 289684734
+      },
+      "title": "Error bounds for simultaneous Wasserstein contractive adaptive increasingly rare MCMC",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "2e1ea8785b21acaccefae9abbb47b3f5b2924ba3",
+      "externalIds": {
+       "ArXiv": "2605.30453",
+       "DBLP": "journals/corr/abs-2605-30453",
+       "DOI": "10.48550/arXiv.2605.30453",
+       "CorpusId": 288814117
+      },
+      "title": "Generative Models and Statistical Validation",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "a5b680d2fda6b4c94e3eb8474474cb4d98da52ab",
+      "externalIds": {
+       "ArXiv": "2605.22444",
+       "CorpusId": 288649530
+      },
+      "title": "Normalizing flows for all-orders QED corrections in lattice field theory",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "5715189f393cf7cd73f7736221404655005c18cd",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2605-16020",
+       "ArXiv": "2605.16020",
+       "DOI": "10.48550/arXiv.2605.16020",
+       "CorpusId": 288393823
+      },
+      "title": "Variational Autoregressive Networks with probability priors",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "06541789e03e4009ec5e36699b056cdffe82ac93",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2605-12597",
+       "ArXiv": "2605.12597",
+       "DOI": "10.48550/arXiv.2605.12597",
+       "CorpusId": 288254902
+      },
+      "title": "The critical slowing down in diffusion models",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "4ee61176e0ed3427c1992d0d96d2c06540c44cde",
+      "externalIds": {
+       "ArXiv": "2605.07262",
+       "CorpusId": 288110781
+      },
+      "title": "Testing machine-learned distributions against Monte Carlo data for the QCD chiral phase transition",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "be7e57829b2c600a87967f1e63a63c1d7a6640d1",
+      "externalIds": {
+       "ArXiv": "2605.03901",
+       "DBLP": "journals/corr/abs-2605-03901",
+       "DOI": "10.48550/arXiv.2605.03901",
+       "CorpusId": 287980185
+      },
+      "title": "Graph Neural Networks in the Wilson Loop Representation of Abelian Lattice Gauge Theories",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "17f58e76f589350b1d84e0c31e2ce614176b50a0",
+      "externalIds": {
+       "ArXiv": "2605.03984",
+       "DBLP": "journals/corr/abs-2605-03984",
+       "DOI": "10.48550/arXiv.2605.03984",
+       "CorpusId": 287980031
+      },
+      "title": "Flow Sampling: Learning to Sample from Unnormalized Densities via Denoising Conditional Processes",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "5d0bbc04cab94a15ef34aa0b2e3f85dbed006dc2",
+      "externalIds": {
+       "ArXiv": "2605.01145",
+       "CorpusId": 287947933
+      },
+      "title": "When Independent Gaussian Models Break Down: Characterizing Regime-Dependent Modeling Failures in $\\phi^4$ Theory",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "27d901ec7189e861b09dbc8658e9e635676e7304",
+      "externalIds": {
+       "DBLP": "journals/ress/ZengC26",
+       "DOI": "10.1016/j.ress.2026.112917",
+       "CorpusId": 288732848
+      },
+      "title": "Flow matching-guided adaptive Markov Chain Monte Carlo with deep generative proposals for Bayesian model updating in structural health monitoring",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "2dae89e14c614f2d0cd6086affe2703abdadfa13",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2604-27738",
+       "ArXiv": "2604.27738",
+       "DOI": "10.48550/arXiv.2604.27738",
+       "CorpusId": 287915082
+      },
+      "title": "Sampling two-dimensional spin systems with transformers",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "e55811e8457b8041e8522484c15fefd8908327a4",
+      "externalIds": {
+       "ArXiv": "2604.24290",
+       "CorpusId": 287783095
+      },
+      "title": "Lattice field theories with a sign problem",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "5cf8aa45a579d6742282dcb093d09f96aa396f97",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2604-21456",
+       "ArXiv": "2604.21456",
+       "DOI": "10.48550/arXiv.2604.21456",
+       "CorpusId": 287702099
+      },
+      "title": "Tempered Sequential Monte Carlo for Trajectory and Policy Optimization with Differentiable Dynamics",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "6255697e053639be23be95b53f37771e979cbb4a",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2604-20797",
+       "ArXiv": "2604.20797",
+       "DOI": "10.48550/arXiv.2604.20797",
+       "CorpusId": 287669446
+      },
+      "title": "Gauge-Equivariant Graph Neural Networks for Lattice Gauge Theories",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "d817fad7acb3053118891feae997f2be98941f9b",
+      "externalIds": {
+       "ArXiv": "2604.01287",
+       "DOI": "10.22323/1.518.0257",
+       "CorpusId": 287071983
+      },
+      "title": "Enhanced Sampling Techniques for Lattice Gauge Theory",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "c802cdb0a3ab48df5d797cdf2b3493192af21212",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2603-27996",
+       "ArXiv": "2603.27996",
+       "DOI": "10.48550/arXiv.2603.27996",
+       "CorpusId": 286974861
+      },
+      "title": "From Independent to Correlated Diffusion: Generalized Generative Modeling with Probabilistic Computers",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "ae3823c7c18a36cb1cb0fd2ad4511eaa939a88a4",
+      "externalIds": {
+       "ArXiv": "2604.08580",
+       "DBLP": "journals/corr/abs-2604-08580",
+       "DOI": "10.48550/arXiv.2604.08580",
+       "CorpusId": 287351875
+      },
+      "title": "Adjoint Matching through the Lens of the Stochastic Maximum Principle in Optimal Control",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "eb02f863a2230854bb17fc7d458aee39aeede745",
+      "externalIds": {
+       "ArXiv": "2602.12923",
+       "DBLP": "journals/corr/abs-2602-12923",
+       "DOI": "10.48550/arXiv.2602.12923",
+       "CorpusId": 285607005
+      },
+      "title": "Annealing in variational inference mitigates mode collapse: A theoretical study on Gaussian mixtures",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "56341a55e3c9927c9f5cd7cd1792b9dd2b8199e9",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2602-10637",
+       "ArXiv": "2602.10637",
+       "DOI": "10.48550/arXiv.2602.10637",
+       "CorpusId": 285470560
+      },
+      "title": "Coarse-Grained Boltzmann Generators",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "89cee61be76bbc0bacf33acad1fb613b806538fe",
+      "externalIds": {
+       "ArXiv": "2602.09045",
+       "DOI": "10.1103/n3bh-gs98",
+       "CorpusId": 285462220
+      },
+      "title": "Diffusion models for SU(2) lattice gauge theory in two dimensions",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "7e232491ac1b258d8c9bc1a5cd9d7a7809dc7052",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2601-21182",
+       "ArXiv": "2601.21182",
+       "DOI": "10.48550/arXiv.2601.21182",
+       "CorpusId": 285139999
+      },
+      "title": "Rethinking Refinement: Correcting Generative Bias without Noise Injection",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "c1b2b9353f455d97b557a9255d7aa4dd6b693b04",
+      "externalIds": {
+       "ArXiv": "2601.20708",
+       "DBLP": "journals/corr/abs-2601-20708",
+       "DOI": "10.48550/arXiv.2601.20708",
+       "CorpusId": 285102197
+      },
+      "title": "A scalable flow-based approach to mitigate topological freezing",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "a4451723c372f48f6c5182e48de7cc11efaef432",
+      "externalIds": {
+       "ArXiv": "2601.19520",
+       "DOI": "10.1007/JHEP07(2026)027",
+       "CorpusId": 285070993
+      },
+      "title": "Intrinsic width of the flux tube as a tool to explore confining mechanisms in lattice gauge theories",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "1ba838808b2817103f67d6313fbce8e3eeb4b5e0",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2601-18273",
+       "ArXiv": "2601.18273",
+       "DOI": "10.48550/arXiv.2601.18273",
+       "CorpusId": 285050970
+      },
+      "title": "Toward Scalable Normalizing Flows for the Hubbard Model",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "8b13c1d85c47065e803aa45532d87a9cd0c72474",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2601-10774",
+       "ArXiv": "2601.10774",
+       "DOI": "10.48550/arXiv.2601.10774",
+       "CorpusId": 284860910
+      },
+      "title": "Analytic Bijections for Smooth and Interpretable Normalizing Flows",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "9aee3110f1c88389f1cc33d35156ad8c47f3b414",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2512-21829",
+       "ArXiv": "2512.21829",
+       "DOI": "10.48550/arXiv.2512.21829",
+       "CorpusId": 284275451
+      },
+      "title": "Tilt Matching for Scalable Sampling and Fine-Tuning",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "85bbf50c780fc50b81311062d2528a3cb874ac39",
+      "externalIds": {
+       "ArXiv": "2512.22368",
+       "CorpusId": 284313783
+      },
+      "title": "Introduction to Lattice Field Theory",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "6b2c05cccc11833c93ae320730c230552d3d78f8",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2512-20003",
+       "ArXiv": "2512.20003",
+       "DOI": "10.48550/arXiv.2512.20003",
+       "CorpusId": 284132724
+      },
+      "title": "Control Variate Score Matching for Diffusion Models",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "5bbb6ce8327302c0a4f0abef94e866c6c29356da",
+      "externalIds": {
+       "ArXiv": "2512.19575",
+       "CorpusId": 284077742
+      },
+      "title": "Variational Autoregressive Networks Applied to $\\phi^4$ Field Theory Systems",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "30994ea32512493d00a89f8ec53657c70281834c",
+      "externalIds": {
+       "ArXiv": "2512.16607",
+       "CorpusId": 283933795
+      },
+      "title": "Boltzmann generators for amorphous particle systems",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "047498835b4366814caca55cbb1e141e2d3e1fbc",
+      "externalIds": {
+       "ArXiv": "2512.14109",
+       "DOI": "10.1016/j.scib.2026.06.028",
+       "CorpusId": 283908999,
+       "PubMed": "42342511"
+      },
+      "title": "Global fits and the search for new physics: past, present and future.",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "b76b97d311a9b3922bb8f2d6c8d5c39889aa121f",
+      "externalIds": {
+       "ArXiv": "2512.11389",
+       "DOI": "10.22323/1.518.0127",
+       "CorpusId": 283883833
+      },
+      "title": "Computing quantum entanglement with machine learning",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "91a7b5db5f065223d7f99d437047dfa5e77c955e",
+      "externalIds": {
+       "ArXiv": "2512.05251",
+       "DBLP": "journals/corr/abs-2512-05251",
+       "DOI": "10.48550/arXiv.2512.05251",
+       "CorpusId": 283672694
+      },
+      "title": "One-Step Diffusion Samplers via Self-Distillation and Deterministic Flow",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "d2e5d75509809e824ef51ca0216e27f4c9245ef8",
+      "externalIds": {
+       "ArXiv": "2511.15196",
+       "DBLP": "journals/corr/abs-2511-15196",
+       "DOI": "10.48550/arXiv.2511.15196",
+       "CorpusId": 283103806
+      },
+      "title": "Particle Monte Carlo methods for Lattice Field Theory",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "a9f62f34f231692f7a3d716d44966e8035e58f67",
+      "externalIds": {
+       "ArXiv": "2510.26081",
+       "DOI": "10.1007/JHEP07(2026)213",
+       "CorpusId": 282592383
+      },
+      "title": "Group-equivariant diffusion models for lattice field theory",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "63d59b5ccf4063b7204b8b1458045e184767b7e4",
+      "externalIds": {
+       "ArXiv": "2510.26678",
+       "DOI": "10.22323/1.518.0055",
+       "CorpusId": 282592209
+      },
+      "title": "Generative sampling with physics-informed kernels",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "2e63c23b463df5d027a476ecb6c6ea0e36683e3d",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2510-25704",
+       "ArXiv": "2510.25704",
+       "DOI": "10.1007/JHEP04(2026)051",
+       "CorpusId": 282574782
+      },
+      "title": "Scaling flow-based approaches for topology sampling in SU(3) gauge theory",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "e1c528976e4eb3b3789449f82d4b23dde17c4b35",
+      "externalIds": {
+       "ArXiv": "2510.21330",
+       "DBLP": "journals/corr/abs-2510-21330",
+       "DOI": "10.48550/arXiv.2510.21330",
+       "CorpusId": 282384517
+      },
+      "title": "SCORENF: Score-based Normalizing Flows for Sampling Unnormalized distributions",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "bd6d4753ff082dd8081efea3927329d068d1a262",
+      "externalIds": {
+       "ArXiv": "2510.21210",
+       "DBLP": "journals/corr/abs-2510-21210",
+       "DOI": "10.48550/arXiv.2510.21210",
+       "CorpusId": 282384496
+      },
+      "title": "On the flow matching interpretability",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "f5a98d1336a39dfb4d944935741bae12d844a835",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2510-19544",
+       "ArXiv": "2510.19544",
+       "DOI": "10.1073/pnas.2534768123",
+       "CorpusId": 282272148,
+       "PubMed": "42101990"
+      },
+      "title": "Demonstrating Real Advantage of Machine-Learning-Enhanced Monte Carlo for Combinatorial Optimization",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "2c542730aca622094b6c582456fbe69aa5384dd0",
+      "externalIds": {
+       "ArXiv": "2509.23043",
+       "DBLP": "journals/corr/abs-2509-23043",
+       "DOI": "10.48550/arXiv.2509.23043",
+       "CorpusId": 281674639
+      },
+      "title": "IsingFormer: Augmenting Parallel Tempering With Learned Proposals",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "8db3cac5398bef66f95b9de0be388fb7df2dfad9",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2509-12812",
+       "ArXiv": "2509.12812",
+       "DOI": "10.48550/arXiv.2509.12812",
+       "CorpusId": 281325450
+      },
+      "title": "Efficient lattice field theory simulation using adaptive normalizing flow on a resistive memory-based neural differential equation solver",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "7e0610a36bb0fcc479c1f09a2606b7f66951183b",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2509-10866",
+       "ArXiv": "2509.10866",
+       "DOI": "10.1088/2632-2153/ae3050",
+       "CorpusId": 281315616
+      },
+      "title": "Physics-informed neural network solves minimal surfaces in curved spacetime",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "eed2684bd396420b438069a1b0453d9d08c2ead6",
+      "externalIds": {
+       "ArXiv": "2508.20610",
+       "DBLP": "journals/corr/abs-2508-20610",
+       "DOI": "10.48550/arXiv.2508.20610",
+       "CorpusId": 280950111
+      },
+      "title": "Studying Effective String Theory using deep generative models",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "e679536a556b4c54501b5895cde98206db528e4e",
+      "externalIds": {
+       "DBLP": "conf/nips/Cordero-Encinar25",
+       "ArXiv": "2508.15069",
+       "DOI": "10.52202/085713-2711",
+       "CorpusId": 280699806
+      },
+      "title": "Sampling by averaging: A multiscale approach to score estimation",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "54af9e0947060a443d10cd6d7d40abbd38e7d849",
+      "externalIds": {
+       "ArXiv": "2508.04605",
+       "DBLP": "journals/corr/abs-2508-04605",
+       "DOI": "10.48550/arXiv.2508.04605",
+       "CorpusId": 280536234
+      },
+      "title": "Multitask Learning with Stochastic Interpolants",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "5e1e2055d95775e4b6f102a2eb96e96e72b7084c",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2508-03810",
+       "ArXiv": "2508.03810",
+       "DOI": "10.1088/2632-2153/ae6d7d",
+       "CorpusId": 280536786
+      },
+      "title": "Viability of perturbative expansion for quantum field theories on neurons",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "49223b6fac984056e44844c559f297efc164b96b",
+      "externalIds": {
+       "ArXiv": "2507.15768",
+       "DOI": "10.1016/j.physletb.2026.140816",
+       "CorpusId": 280255840
+      },
+      "title": "Toward an event-level analysis of hadron structure using differential programming",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "7783cbb8d06b1b1d976e532b336a2746f43b93fd",
+      "externalIds": {
+       "PubMedCentral": "12271365",
+       "DOI": "10.1038/s41467-025-62039-8",
+       "CorpusId": 280116074,
+       "PubMed": "40676016"
+      },
+      "title": "Flow perturbation to accelerate Boltzmann sampling",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "5b181970d6c53a306fe7bee7ba333fb856d73bcd",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2507-10797",
+       "ArXiv": "2507.10797",
+       "DOI": "10.48550/arXiv.2507.10797",
+       "CorpusId": 280251981
+      },
+      "title": "Multi-Armed Sampling Problem and the End of Exploration",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "3900d5938cb8a5062e09651f278e2f6e9b8aeb48",
+      "externalIds": {
+       "DOI": "10.1134/S1063779624702162",
+       "CorpusId": 279701147
+      },
+      "title": "Application of Neural Networks for Calculating Functional Integrals in Quantum Field Theory",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "ae2a1758a05857ea7c79807d6af7526ec2a49bbf",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2505-23860",
+       "ArXiv": "2505.23860",
+       "DOI": "10.48550/arXiv.2505.23860",
+       "CorpusId": 279070765
+      },
+      "title": "Quantum computing and artificial intelligence: status and perspectives",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "3741c33093a5e0f59b5babb5102bd2701bef47e3",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2505-19431",
+       "ArXiv": "2505.19431",
+       "DOI": "10.48550/arXiv.2505.19431",
+       "CorpusId": 278904562
+      },
+      "title": "Importance Weighted Score Matching for Diffusion Samplers with Enhanced Mode Coverage",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "4fb25bb556794786767bdf582aab83e55cac07e9",
+      "externalIds": {
+       "ArXiv": "2505.19619",
+       "DBLP": "journals/corr/abs-2505-19619",
+       "DOI": "10.48550/arXiv.2505.19619",
+       "CorpusId": 278904560
+      },
+      "title": "SESaMo: Symmetry-Enforcing Stochastic Modulation for Normalizing Flows",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "a145224e7b13a7ea51432d8950b446e798e22b01",
+      "externalIds": {
+       "DBLP": "conf/qce/MartinezD25",
+       "ArXiv": "2505.10553",
+       "DOI": "10.1109/QCE65121.2025.00266",
+       "CorpusId": 278635853
+      },
+      "title": "Flowing Through Hilbert Space: Quantum-Enhanced Generative Models for Lattice Field Theory",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "27dcf4107dc6c16731e02284db2e5523ca5cd2cf",
+      "externalIds": {
+       "ArXiv": "2505.08246",
+       "CorpusId": 286011275
+      },
+      "title": "Identifying Memorization of Diffusion Models through $p$-Laplace Analysis: Estimators, Bounds and Applications",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "5a74e5f78a88c25ece84d2651b72bba67328d3b8",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2504-11713",
+       "ArXiv": "2504.11713",
+       "DOI": "10.48550/arXiv.2504.11713",
+       "CorpusId": 277824537
+      },
+      "title": "Adjoint Sampling: Highly Scalable Diffusion Samplers via Adjoint Matching",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "daf7effc7c06b120eb1964613d65d5bb53812c6b",
+      "externalIds": {
+       "DBLP": "journals/softx/BialasKSZ25",
+       "ArXiv": "2503.11482",
+       "DOI": "10.1016/j.softx.2025.102253",
+       "CorpusId": 277043561
+      },
+      "title": "NeuMC - a package for neural sampling for lattice field theories",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "a5ff99aed42d6401674a4071cd7d15ddbf01a397",
+      "externalIds": {
+       "ArXiv": "2503.09747",
+       "DOI": "10.22323/1.466.0061",
+       "CorpusId": 276961832
+      },
+      "title": "Parallel Tempered Metadynamics",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "87f2627d12f7491cb06382cfb98df6f1e1e4cf16",
+      "externalIds": {
+       "DBLP": "journals/cphysics/BialasCKSWZ26",
+       "ArXiv": "2503.08610",
+       "DOI": "10.1016/j.cpc.2025.109892",
+       "CorpusId": 276928156
+      },
+      "title": "Hierarchical autoregressive neural networks in three-dimensional statistical system",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "4bb04a7b8af8cfef8ff9b31c19cbcd502e969825",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2503-08918",
+       "ArXiv": "2503.08918",
+       "DOI": "10.48550/arXiv.2503.08918",
+       "CorpusId": 276938090
+      },
+      "title": "Multilevel Generative Samplers for Investigating Critical Phenomena",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "67a6cd55d18a18c4506a7b57bb527bb33e926f60",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2502-10843",
+       "ArXiv": "2502.10843",
+       "DOI": "10.48550/arXiv.2502.10843",
+       "CorpusId": 276408852
+      },
+      "title": "LEAPS: A discrete neural sampler via locally equivariant networks",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "0c1ea36509e38bc61b334d87bfdd7a701e6d3de4",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2502-07337",
+       "ArXiv": "2502.07337",
+       "DOI": "10.48550/arXiv.2502.07337",
+       "CorpusId": 276259340
+      },
+      "title": "Neural Flow Samplers with Shortcut Models",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "324dc598cba73d2278705a735988df1098679db7",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2502-07579",
+       "ArXiv": "2502.07579",
+       "DOI": "10.48550/arXiv.2502.07579",
+       "CorpusId": 276259219
+      },
+      "title": "Single-Step Consistent Diffusion Samplers",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "6651d41b1485563879c0e63d30bd9d13ad49817f",
+      "externalIds": {
+       "ArXiv": "2502.05504",
+       "DBLP": "journals/corr/abs-2502-05504",
+       "DOI": "10.48550/arXiv.2502.05504",
+       "CorpusId": 276250586
+      },
+      "title": "Physics-Conditioned Diffusion Models for Lattice Gauge Theory",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "de37208c3a6d4b3b0516541f2c77eeaf0fa28bcf",
+      "externalIds": {
+       "ArXiv": "2501.16955",
+       "DOI": "10.22323/1.466.0030",
+       "CorpusId": 275931950
+      },
+      "title": "CASK: A Gauge Covariant Transformer for Lattice Gauge Theory",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "1a8cb5fe0d813bf3a84e36d2078c819db0c5a1f5",
+      "externalIds": {
+       "ArXiv": "2501.07371",
+       "DBLP": "journals/corr/abs-2501-07371",
+       "DOI": "10.22323/1.466.0069",
+       "CorpusId": 275471640
+      },
+      "title": "Simulating the Hubbard Model with Equivariant Normalizing Flows",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "0a7fea6961f085f47dcf19b373c627c3ea9534e0",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2501-06148",
+       "ArXiv": "2501.06148",
+       "DOI": "10.48550/arXiv.2501.06148",
+       "CorpusId": 275458169
+      },
+      "title": "From discrete-time policies to continuous-time diffusion samplers: Asymptotic equivalences and faster training",
+      "year": 2025
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "edab038c813ef2088500af902afc4843412b8d1d",
+      "externalIds": {
+       "ArXiv": "2412.19109",
+       "DBLP": "journals/corr/abs-2412-19109",
+       "DOI": "10.48550/arXiv.2412.19109",
+       "CorpusId": 275119119
+      },
+      "title": "Stochastic normalizing flows for Effective String Theory",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "e9107203b9fffb22f16ef3b080ef8cb51ce6c724",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2412-17136",
+       "ArXiv": "2412.17136",
+       "DOI": "10.1007/s10994-025-06900-3",
+       "CorpusId": 274981717
+      },
+      "title": "Empirical evaluation of normalizing flows in Markov chain Monte Carlo",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "854d0e7720d498a08ef69a8548250d923a6391c1",
+      "externalIds": {
+       "ArXiv": "2412.12842",
+       "DOI": "10.21468/scipostphys.19.3.077",
+       "CorpusId": 274789656
+      },
+      "title": "Super-resolving normalising flows for lattice field theories",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "27147de2a6936982cf78fa89f65e470c1865ba77",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2412-07637",
+       "ArXiv": "2412.07637",
+       "DOI": "10.48550/arXiv.2412.07637",
+       "CorpusId": 274610273
+      },
+      "title": "Sampling from Boltzmann densities with physics informed low-rank formats",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "2c6d14c8acbd163dd37fee18a86596876b659d4b",
+      "externalIds": {
+       "DOI": "10.3103/S0027134924702096",
+       "CorpusId": 277250010
+      },
+      "title": "Application of Neural Networks for Path Integrals Computation in Relativistic Quantum Mechanics",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "1c803c2188b9f6d5726a54da5b0e618dc6d78e47",
+      "externalIds": {
+       "DBLP": "journals/mlst/AartsHWZ25",
+       "ArXiv": "2410.21212",
+       "DOI": "10.1088/2632-2153/adc53a",
+       "CorpusId": 273654595
+      },
+      "title": "On learning higher-order cumulants in diffusion models",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "21c4f0df2fda3c59bdbc128eb36641750f2d6def",
+      "externalIds": {
+       "DBLP": "journals/mlst/SoletskyiGL25",
+       "ArXiv": "2410.13300",
+       "DOI": "10.1088/2632-2153/adde2a",
+       "CorpusId": 273404189
+      },
+      "title": "A theoretical perspective on mode collapse in variational inference",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "981df0bd903d3a60d40987cec1c0aa897b923df6",
+      "externalIds": {
+       "ArXiv": "2410.13161",
+       "DOI": "10.1103/31d5-hvp6",
+       "CorpusId": 273404175
+      },
+      "title": "Non-Perturbative Trivializing Flows for Lattice Gauge Theories",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "c640a6259931a6d4a6e37871d20206cd3917c07b",
+      "externalIds": {
+       "ArXiv": "2410.05163",
+       "CorpusId": 273186786
+      },
+      "title": "An Efficient On-Policy Deep Learning Framework for Stochastic Optimal Control",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "03e57a54b5d12f7245ea449c8cf8153d84118021",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2410-02711",
+       "ArXiv": "2410.02711",
+       "DOI": "10.48550/arXiv.2410.02711",
+       "CorpusId": 273098628
+      },
+      "title": "NETS: A Non-Equilibrium Transport Sampler",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "690ec48bf2b0de7ae864986b14c8382c1e8c24a8",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2409-15937",
+       "ArXiv": "2409.15937",
+       "DOI": "10.1007/JHEP02(2025)090",
+       "CorpusId": 272831885
+      },
+      "title": "Numerical determination of the width and shape of the effective string using Stochastic Normalizing Flows",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "8beba1025021fc988f71772e30840ce6845fdf65",
+      "externalIds": {
+       "ArXiv": "2408.02005",
+       "CorpusId": 271710285
+      },
+      "title": "Deciphering Complexity: Machine Learning Insights into Chaotic Dynamical Systems",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "3268548a15d7225698113381cbdcc90d049aa07f",
+      "externalIds": {
+       "ArXiv": "2502.02670",
+       "DOI": "10.2172/2426633",
+       "CorpusId": 271814233
+      },
+      "title": "Machine-learning approaches to accelerating lattice simulations",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "77d25964bcac570057fa943087fd3d1c4a818783",
+      "externalIds": {
+       "ArXiv": "2407.19036",
+       "DOI": "10.1103/pvqh-3t24",
+       "CorpusId": 271534495
+      },
+      "title": "Generative flow networks in covariant loop quantum gravity",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "404411107147118be91c34864dec2adc7c1959c5",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2407-10666",
+       "ArXiv": "2407.10666",
+       "DOI": "10.48550/arXiv.2407.10666",
+       "CorpusId": 271213670
+      },
+      "title": "Flow Perturbation to Accelerate Unbiased Sampling of Boltzmann distribution",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "d47b83c622e9e6c00329775ea46f6d90e294e4c3",
+      "externalIds": {
+       "DBLP": "journals/mlst/SchebekINR24",
+       "ArXiv": "2406.12378",
+       "DOI": "10.1088/2632-2153/ad849d",
+       "CorpusId": 271892067
+      },
+      "title": "Efficient mapping of phase diagrams with conditional Boltzmann Generators",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "59d85c87c8a093080f22e4f920ef5f0f950d988e",
+      "externalIds": {
+       "DOI": "10.62051/ijcsit.v3n1.04",
+       "CorpusId": 270559516
+      },
+      "title": "Review of Routing Protocols for Mobile Ad Hoc Networks",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "c92efade08f8355d8ce2889d32079fba7e9761df",
+      "externalIds": {
+       "ArXiv": "2406.02313",
+       "DBLP": "journals/corr/abs-2406-02313",
+       "DOI": "10.1021/acs.jpclett.4c01958",
+       "CorpusId": 270226867,
+       "PubMed": "39503734"
+      },
+      "title": "Neural Thermodynamic Integration: Free Energies from Energy-based Diffusion Models",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "16af38d4ab59146ed3493580f67e2ab131bc81f1",
+      "externalIds": {
+       "ArXiv": "2406.01524",
+       "DOI": "10.1021/acs.jctc.4c00700",
+       "CorpusId": 270213512,
+       "PubMed": "39223750"
+      },
+      "title": "Coarse-Grained Molecular Dynamics with Normalizing Flows.",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "0492a309b3b9693920a165df11d066d9740df40b",
+      "externalIds": {
+       "ArXiv": "2405.14392",
+       "DBLP": "journals/corr/abs-2405-14392",
+       "DOI": "10.48550/arXiv.2405.14392",
+       "CorpusId": 269982085
+      },
+      "title": "Markovian Flow Matching: Accelerating MCMC with Continuous Normalizing Flows",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "a22f392a0ae4d4d4120a40c559896de97bfd276f",
+      "externalIds": {
+       "ArXiv": "2404.18323",
+       "DOI": "10.1007/JHEP10(2024)198",
+       "CorpusId": 269448811
+      },
+      "title": "Flow-based nonperturbative simulation of first-order phase transitions",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "38596c90a7da2fd6544d46a1136630ccbc26234b",
+      "externalIds": {
+       "ArXiv": "2404.16566",
+       "DOI": "10.25950/bfa99422",
+       "CorpusId": 269362242
+      },
+      "title": "Boltzmann Generators and the New Frontier of Computational Sampling in Many-Body Systems",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "b810047f73a781b2b90375a1cff13aa599dae90e",
+      "externalIds": {
+       "ArXiv": "2404.11674",
+       "DBLP": "journals/corr/abs-2404-11674",
+       "DOI": "10.22323/1.453.0011",
+       "CorpusId": 269214016
+      },
+      "title": "Practical applications of machine-learned flows on gauge fields",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "f66b51276f37a0762f6fd011797d3394c7832455",
+      "externalIds": {
+       "ArXiv": "2404.10819",
+       "DOI": "10.22323/1.453.0035",
+       "CorpusId": 269187701
+      },
+      "title": "Multiscale Normalizing Flows for Gauge Theories",
+      "year": 2024
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "9cd0b5c6ef96a62dc3ae2c60b524e6f2c6ce3516",
+      "externalIds": {
+       "ArXiv": "2403.16389",
+       "CorpusId": 268680387
+      },
+      "title": "Illuminating Systematic Trends in Nuclear Data with Generative Machine Learning Models",
+      "year": 2024
+     }
+    }
+   ]
+  }
+ },
+ {
+  "call": 15,
+  "target": "S2 references of 2111.15141",
+  "status": "ok",
+  "resp": {
+   "offset": 0,
+   "citingPaperInfo": {
+    "openAccessPdf": {
+     "url": "",
+     "status": null,
+     "license": null,
+     "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2111.15141, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "title": "Path Integral Sampler: a stochastic control approach for sampling",
+    "authors": [
+     {
+      "authorId": "94615164",
+      "name": "Qinsheng Zhang"
+     },
+     {
+      "authorId": "2307051814",
+      "name": "Yongxin Chen"
+     }
+    ]
+   },
+   "data": [
+    {
+     "citedPaper": {
+      "paperId": "bd9446f3b978e4e2b05a7e9b256aedb6d5c42a1b",
+      "externalIds": {
+       "ArXiv": "2110.07579",
+       "DBLP": "journals/corr/abs-2110-07579",
+       "CorpusId": 238856710
+      },
+      "title": "Diffusion Normalizing Flow",
+      "year": 2021
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "ae1b3e219de31380ed57a62147f0cc6a8e1b0530",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2105-13493",
+       "ArXiv": "2105.13493",
+       "CorpusId": 235248400
+      },
+      "title": "Efficient and Accurate Gradients for Neural SDEs",
+      "year": 2021
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "055daaa67ebb4919f158a470afac1671ce1155cb",
+      "externalIds": {
+       "ArXiv": "2102.07501",
+       "DBLP": "journals/corr/abs-2102-07501",
+       "CorpusId": 231925352
+      },
+      "title": "Annealed Flow Transport Monte Carlo",
+      "year": 2021
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "9ca215b4d40c2a9a6de6b09ab12de20898f6bdc2",
+      "externalIds": {
+       "DBLP": "journals/siamrev/ChenGP21",
+       "DOI": "10.1137/20M1339982",
+       "CorpusId": 234773795
+      },
+      "title": "Stochastic Control Liaisons: Richard Sinkhorn Meets Gaspard Monge on a Schr\u00f6dinger Bridge",
+      "year": 2021
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "90695f261c12265fb2694fe89cf390aad029a7dc",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-2012-08125",
+       "ArXiv": "2012.08125",
+       "MAG": "3112951692",
+       "CorpusId": 227068701
+      },
+      "title": "Learning Energy-Based Models by Diffusion Recovery Likelihood",
+      "year": 2020
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "b69e3f27a35d4328caa8eea8135458ced7558c53",
+      "externalIds": {
+       "MAG": "3092528657",
+       "ArXiv": "2010.03587",
+       "DBLP": "journals/corr/abs-2010-03587",
+       "PubMedCentral": "7996279",
+       "DOI": "10.3390/e23030269",
+       "CorpusId": 222208550,
+       "PubMed": "33668743"
+      },
+      "title": "A Neural Network MCMC Sampler That Maximizes Proposal Entropy",
+      "year": 2020
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "19316fbef23ba8bddb52dc2ab7c0233242ae1c68",
+      "externalIds": {
+       "ArXiv": "2006.15167",
+       "MAG": "3037842758",
+       "DBLP": "journals/corr/abs-2006-15167",
+       "CorpusId": 220250447
+      },
+      "title": "Deep Involutive Generative Models for Neural MCMC",
+      "year": 2020
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "a0dc3135c40e150f0271002a96b7c9680b6cac40",
+      "externalIds": {
+       "DBLP": "conf/nips/TancikSMFRSRBN20",
+       "ArXiv": "2006.10739",
+       "MAG": "3036843665",
+       "CorpusId": 219791950
+      },
+      "title": "Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains",
+      "year": 2020
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "5f27443ea5e03d1e876426df613268e68ce58891",
+      "externalIds": {
+       "ArXiv": "2002.06707",
+       "DBLP": "journals/corr/abs-2002-06707",
+       "MAG": "3006502260",
+       "CorpusId": 211133098
+      },
+      "title": "Stochastic Normalizing Flows",
+      "year": 2020
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "10aa62b729a73b96d5e6c92e8eb5449bbb994ce5",
+      "externalIds": {
+       "MAG": "3005857148",
+       "DOI": "10.1103/physreve.101.023304",
+       "CorpusId": 211096944,
+       "PubMed": "32168605"
+      },
+      "title": "Asymptotically unbiased estimation of physical observables with neural samplers.",
+      "year": 2020
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "434e82e8d5025ac35240a4bc5575eab65e36431d",
+      "externalIds": {
+       "MAG": "3000095629",
+       "DBLP": "journals/mlst/GaoIK20",
+       "ArXiv": "2001.05486",
+       "DOI": "10.1088/2632-2153/abab62",
+       "CorpusId": 210701113
+      },
+      "title": "i- flow: High-dimensional integration and sampling with normalizing flows",
+      "year": 2020
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "e0ae4a0bb0a32f86cbb2a0e76803f1f3b4ee7da9",
+      "externalIds": {
+       "MAG": "3037971676",
+       "ArXiv": "2001.01328",
+       "DBLP": "journals/corr/abs-2001-01328",
+       "CorpusId": 209862121
+      },
+      "title": "Scalable Gradients for Stochastic Differential Equations",
+      "year": 2020
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "3c8a456509e6c0805354bd40a35e3f2dbf8069b1",
+      "externalIds": {
+       "MAG": "2970971581",
+       "DBLP": "journals/corr/abs-1912-01703",
+       "ArXiv": "1912.01703",
+       "CorpusId": 202786778
+      },
+      "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+      "year": 2019
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "e7cf98560ed4e820a43185c69009ea7dba8ea94c",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-1911-02074",
+       "MAG": "2971331792",
+       "ArXiv": "1911.02074",
+       "CorpusId": 202778497
+      },
+      "title": "Computational Separations between Sampling and Optimization",
+      "year": 2019
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "b5080e6eb7bc58417d0a9272a30119ca7a185218",
+      "externalIds": {
+       "MAG": "2986820836",
+       "DBLP": "conf/nips/TitsiasD19",
+       "ArXiv": "1911.01373",
+       "CorpusId": 202763676
+      },
+      "title": "Gradient-based Adaptive Markov Chain Monte Carlo",
+      "year": 2019
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "828ef1369814c540e2cbe04babeb9e4485093683",
+      "externalIds": {
+       "MAG": "3008180535",
+       "DBLP": "conf/icml/CornishCDD20",
+       "CorpusId": 211205251
+      },
+      "title": "Relaxing Bijectivity Constraints with Continuously Indexed Normalising Flows",
+      "year": 2019
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "2eb1ed9d4baf548391d8220c0a8a3d0be79845ed",
+      "externalIds": {
+       "MAG": "2972246420",
+       "DOI": "10.1126/science.aaw1147",
+       "CorpusId": 54458652,
+       "PubMed": "31488660"
+      },
+      "title": "Boltzmann generators: Sampling equilibrium states of many-body systems with deep learning",
+      "year": 2019
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "ef2b790aae2c1e1c7eb8a8777515266b5094de88",
+      "externalIds": {
+       "ArXiv": "1906.02735",
+       "DBLP": "journals/corr/abs-1906-02735",
+       "MAG": "2970641149",
+       "CorpusId": 174801267
+      },
+      "title": "Residual Flows for Invertible Generative Modeling",
+      "year": 2019
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "6faa9f1359cdcfcb8b502a0288d65d98aa229980",
+      "externalIds": {
+       "MAG": "2945043396",
+       "DBLP": "conf/nips/NijkampHZW19",
+       "ArXiv": "1904.09770",
+       "CorpusId": 159040565
+      },
+      "title": "Learning Non-Convergent Non-Persistent Short-Run MCMC Toward Energy-Based Model",
+      "year": 2019
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "c54b0ed93d2b3b3b00e07cdc94dbf19df53d5972",
+      "externalIds": {
+       "MAG": "2940934113",
+       "DOI": "10.1017/9781108186735",
+       "CorpusId": 17740616
+      },
+      "title": "Applied Stochastic Differential Equations",
+      "year": 2019
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "8db8db06ae9330e4bbd9f9c40a2e4f9aa48274b1",
+      "externalIds": {
+       "ArXiv": "1903.04522",
+       "MAG": "2921401540",
+       "DOI": "10.1214/19-aihp1038",
+       "CorpusId": 119132464
+      },
+      "title": "Stability of the logarithmic Sobolev inequality via the F\u00f6llmer process",
+      "year": 2019
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "2884e6017cb1605d08aca74a33477a5505f9a087",
+      "externalIds": {
+       "ArXiv": "1903.03704",
+       "MAG": "2920868047",
+       "CorpusId": 88517731
+      },
+      "title": "NeuTra-lizing Bad Geometry in Hamiltonian Monte Carlo Using Neural Transport",
+      "year": 2019
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "fa2d7908c5eac437b8f3f1000640632a283b7da2",
+      "externalIds": {
+       "DBLP": "conf/colt/TzenR19",
+       "MAG": "2964968771",
+       "ArXiv": "1903.01608",
+       "CorpusId": 71148500
+      },
+      "title": "Theoretical guarantees for sampling and inference in generative models with latent diffusions",
+      "year": 2019
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "8afa6dd9f9ac46462a1fb70a757c4ae1cd45bbf6",
+      "externalIds": {
+       "DBLP": "journals/corr/abs-1810-01367",
+       "MAG": "2963641970",
+       "ArXiv": "1810.01367",
+       "CorpusId": 52908831
+      },
+      "title": "FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models",
+      "year": 2018
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "ae0504bda478fc025a7c37ce1da9b4e437110081",
+      "externalIds": {
+       "MAG": "2945024121",
+       "DBLP": "conf/icml/LiuZCZ019",
+       "CorpusId": 155089997
+      },
+      "title": "Understanding and Accelerating Particle-Based Variational Inference",
+      "year": 2018
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "7a84a692327534fd227fa1e07fcb3816b633c591",
+      "externalIds": {
+       "MAG": "2809090039",
+       "ArXiv": "1806.07572",
+       "DBLP": "conf/nips/JacotHG18",
+       "CorpusId": 49321232
+      },
+      "title": "Neural Tangent Kernel: Convergence and Generalization in Neural Networks",
+      "year": 2018
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "449310e3538b08b43227d660227dfd2875c3c3c1",
+      "externalIds": {
+       "MAG": "2963755523",
+       "DBLP": "conf/nips/ChenRBD18",
+       "ArXiv": "1806.07366",
+       "CorpusId": 49310446
+      },
+      "title": "Neural Ordinary Differential Equations",
+      "year": 2018
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "ff1ee941c8fe334afd7dcd92b5c4478c0ae16efe",
+      "externalIds": {
+       "MAG": "2963565380",
+       "ArXiv": "1706.07561",
+       "DBLP": "conf/nips/SongZE17",
+       "CorpusId": 8938418
+      },
+      "title": "A-NICE-MC: Adversarial Training for MCMC",
+      "year": 2017
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "00054d8e2c599373a41f5654ad8d0ad8b761fe19",
+      "externalIds": {
+       "ArXiv": "1703.01717",
+       "MAG": "2592105405",
+       "DBLP": "conf/icml/GorhamM17",
+       "CorpusId": 16728498
+      },
+      "title": "Measuring Sample Quality with Kernels",
+      "year": 2017
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "91d4c8e1167f50b90a4f3f936af5a57bec7a3058",
+      "externalIds": {
+       "MAG": "2560511802",
+       "DBLP": "journals/ploscb/EastmanSCMZBWSH17",
+       "PubMedCentral": "5549999",
+       "DOI": "10.1371/journal.pcbi.1005659",
+       "CorpusId": 3821924,
+       "PubMed": "28746339"
+      },
+      "title": "OpenMM 7: Rapid development of high performance algorithms for molecular dynamics",
+      "year": 2016
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "2a124978220b2214929d6e6c6cee0a4598d8f3d1",
+      "externalIds": {
+       "MAG": "2530741948",
+       "DBLP": "journals/corr/MohamedL16",
+       "ArXiv": "1610.03483",
+       "CorpusId": 14570343
+      },
+      "title": "Learning in Implicit Generative Models",
+      "year": 2016
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "768f7353718c6d95f2d63f954f2236369a409135",
+      "externalIds": {
+       "DBLP": "journals/corr/LiuW16c",
+       "MAG": "2511837229",
+       "ArXiv": "1608.04471",
+       "CorpusId": 697492
+      },
+      "title": "Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm",
+      "year": 2016
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "3083fe29e94371ccfe34e936fd783f542fc0342f",
+      "externalIds": {
+       "MAG": "1641947403",
+       "DOI": "10.1080/10618600.2015.1060885",
+       "CorpusId": 50103400
+      },
+      "title": "Toward Automatic Model Comparison: An Adaptive Sequential Monte Carlo Approach",
+      "year": 2016
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "09879f7956dddc2a9328f5c1472feeb8402bcbcf",
+      "externalIds": {
+       "MAG": "2950173439",
+       "DBLP": "journals/corr/DinhSB16",
+       "ArXiv": "1605.08803",
+       "CorpusId": 8768364
+      },
+      "title": "Density estimation using Real NVP",
+      "year": 2016
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "8085b60ce1771647f11ccc4728397275b502f359",
+      "externalIds": {
+       "DBLP": "journals/peerj-cs/SalvatierWF16",
+       "MAG": "2217402295",
+       "DOI": "10.7287/peerj.preprints.1686v1",
+       "CorpusId": 7028302
+      },
+      "title": "Probabilistic programming in Python using PyMC3",
+      "year": 2016
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "ba519d7243d6b5d0329a64d85235acc54bc9c815",
+      "externalIds": {
+       "MAG": "2441221256",
+       "DBLP": "conf/icml/LiuLJ16",
+       "ArXiv": "1602.03253",
+       "CorpusId": 17339190
+      },
+      "title": "A Kernelized Stein Discrepancy for Goodness-of-fit Tests",
+      "year": 2016
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "0f899b92b7fb03b609fee887e4b6f3b633eaf30d",
+      "externalIds": {
+       "MAG": "299440670",
+       "ArXiv": "1505.05770",
+       "DBLP": "journals/corr/RezendeM15",
+       "CorpusId": 12554042
+      },
+      "title": "Variational Inference with Normalizing Flows",
+      "year": 2015
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+      "externalIds": {
+       "MAG": "2964121744",
+       "DBLP": "journals/corr/KingmaB14",
+       "ArXiv": "1412.6980",
+       "CorpusId": 6628106
+      },
+      "title": "Adam: A Method for Stochastic Optimization",
+      "year": 2014
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "0b6c88002f9f2c9a4ce990d5fa054acf2f6ab969",
+      "externalIds": {
+       "DBLP": "journals/corr/ChenGP14c",
+       "ArXiv": "1412.4430",
+       "MAG": "2952849779",
+       "DOI": "10.1007/s10957-015-0803-z",
+       "CorpusId": 8968928
+      },
+      "title": "On the Relation Between Optimal Transport and Schr\u00f6dinger Bridges: A Stochastic Control Viewpoint",
+      "year": 2014
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "99bb479fbd172e3e520b2dfc69d3a8c41f542744",
+      "externalIds": {
+       "ArXiv": "1406.4026",
+       "MAG": "2023095801",
+       "DOI": "10.1103/PhysRevE.91.032104",
+       "CorpusId": 6626574,
+       "PubMed": "25871051"
+      },
+      "title": "Path integral control and state-dependent feedback.",
+      "year": 2014
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "6609f2a04229c01f939151e6398c28c86b9ca989",
+      "externalIds": {
+       "ArXiv": "1308.0215",
+       "MAG": "2028981829",
+       "DOI": "10.3934/DCDS.2014.34.1533",
+       "CorpusId": 14387241
+      },
+      "title": "A survey of the Schr\\\"odinger problem and some of its connections with optimal transport",
+      "year": 2013
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "7fd9310a48c732d987e7bd5e6a9e8687f6ba87a2",
+      "externalIds": {
+       "MAG": "1966514629",
+       "DBLP": "conf/cdc/TheodorouT12",
+       "DOI": "10.1109/CDC.2012.6426381",
+       "CorpusId": 899529
+      },
+      "title": "Relative entropy and free energy dualities: Connections to Path Integral and KL control",
+      "year": 2012
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "dd63a63ef76d23c898f122f0f757ac307b836c19",
+      "externalIds": {
+       "MAG": "2015810892",
+       "PubMedCentral": "3325056",
+       "DOI": "10.1198/jasa.2011.tm11181",
+       "CorpusId": 23284154,
+       "PubMed": "22505788"
+      },
+      "title": "Tweedie\u2019s Formula and Selection Bias",
+      "year": 2011
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "e1103d528d874a9e8e84ca443fe3fd5c1ff9eb9e",
+      "externalIds": {
+       "MAG": "2951774616",
+       "DBLP": "journals/jmlr/HoffmanG14",
+       "ArXiv": "1111.4246",
+       "DOI": "10.5555/2627435.2638586",
+       "CorpusId": 12948548
+      },
+      "title": "The No-U-turn sampler: adaptively setting path lengths in Hamiltonian Monte Carlo",
+      "year": 2011
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "f7e59546d75b2fe71d1fdda2773f84bb04fcc6d2",
+      "externalIds": {
+       "MAG": "2182445582",
+       "DBLP": "journals/jmlr/TheodorouBS10",
+       "DOI": "10.5555/1756006.1953033",
+       "CorpusId": 1797388
+      },
+      "title": "A Generalized Path Integral Control Approach to Reinforcement Learning",
+      "year": 2010
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "91dc9bbaa7d45dc7392ffccd4da7b3237c09e0ae",
+      "externalIds": {
+       "MAG": "1595065160",
+       "DOI": "10.1007/978-1-4614-7924-6_4",
+       "CorpusId": 4044139
+      },
+      "title": "Partial Differential Equations",
+      "year": 2005
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "52b49fca4c644419338a05a73119ebf164beafa4",
+      "externalIds": {
+       "MAG": "2097235968",
+       "DOI": "10.1016/S0167-4730(02)00047-4",
+       "CorpusId": 122205583
+      },
+      "title": "Important sampling in high dimensions",
+      "year": 2003
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "3ce93c1a772061161948a6728716f6f4d752809b",
+      "externalIds": {
+       "MAG": "2952349630",
+       "ArXiv": "cond-mat/0212648",
+       "DOI": "10.1111/j.1467-9868.2006.00553.x",
+       "CorpusId": 12074789
+      },
+      "title": "Sequential Monte Carlo samplers",
+      "year": 2002
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "07960627be6d23f3fad40e7d153936b2ca96a704",
+      "externalIds": {
+       "MAG": "1981890344",
+       "DOI": "10.1111/1467-9469.00115",
+       "CorpusId": 120543073
+      },
+      "title": "Log Gaussian Cox Processes",
+      "year": 1998
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "2f59406cce55c7bb9a78521bd14755a0db0aee7d",
+      "externalIds": {
+       "ArXiv": "physics/9803008",
+       "MAG": "1513873506",
+       "DBLP": "journals/sac/Neal01",
+       "DOI": "10.1023/A:1008923215028",
+       "CorpusId": 11112994
+      },
+      "title": "Annealed importance sampling",
+      "year": 1998
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "0996fcdfc91a433d27b510567439a89f1fab9ce4",
+      "externalIds": {
+       "MAG": "2494692541",
+       "DBLP": "reference/stat/Kloeden11a",
+       "DOI": "10.1017/S0305004100030735",
+       "CorpusId": 14529726
+      },
+      "title": "Stochastic differential equations",
+      "year": 1955
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": null,
+      "externalIds": null,
+      "title": "Schr \u00a8 odinger-F \u00a8 ollmer sampler: Sampling without ergodicity",
+      "year": 2021
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "a678db71b803ada578344bcb09e8f9314eff4dec",
+      "externalIds": {
+       "MAG": "3090482648",
+       "DOI": "10.1007/978-3-030-47845-2",
+       "CorpusId": 226640287
+      },
+      "title": "An Introduction to Sequential Monte Carlo",
+      "year": 2020
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "ef4f5a50837a7c1b3e87b9300ffc7ba00d461a0f",
+      "externalIds": {
+       "MAG": "3103181734",
+       "ArXiv": "2002.07217",
+       "DBLP": "conf/nips/LopezBYJR20",
+       "CorpusId": 211146177
+      },
+      "title": "Decision-Making with Auto-Encoding Variational Bayes",
+      "year": 2020
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": null,
+      "externalIds": null,
+      "title": "Deep learning, volume 1",
+      "year": 2016
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": null,
+      "externalIds": null,
+      "title": "D PROOF OF THEOREM 3 The proof is a natural extension of Corollary 7 in Thijssen ",
+      "year": 2015
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "929f3b0b1e63d96ed2c3942ae4eaa88d6bfbf8bf",
+      "externalIds": {
+       "MAG": "2015731569",
+       "DOI": "10.1002/wics.56",
+       "CorpusId": 14552197
+      },
+      "title": "Importance sampling: a review",
+      "year": 2010
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "dc52d1ede1b90bf9d296bc5b34c9310b7eaa99a2",
+      "externalIds": {
+       "MAG": "200806003",
+       "CorpusId": 60282629
+      },
+      "title": "The mnist database of handwritten digits",
+      "year": 2005
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "f7f15848cd0fbb3d08f351595da833b1627de9c3",
+      "externalIds": {
+       "MAG": "2604847669",
+       "DBLP": "books/daglib/0013517",
+       "DOI": "10.1109/tit.2004.834752",
+       "CorpusId": 5436619
+      },
+      "title": "Information Theory, Inference, and Learning Algorithms",
+      "year": 2004
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": null,
+      "externalIds": null,
+      "title": "Dynamic programming and optimal control: Vol. 1",
+      "year": 2000
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": null,
+      "externalIds": null,
+      "title": "\u03c32 and \u03b1 = 1/M2. We note that this setting follows Arbel et al",
+      "year": 1998
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "f5fdc3e66379c0320cf9cc5493dd97cd59673f82",
+      "externalIds": {
+       "MAG": "2023369695",
+       "DOI": "10.1007/BF01442404",
+       "CorpusId": 120438911
+      },
+      "title": "A stochastic control approach to reciprocal diffusion processes",
+      "year": 1991
+     }
+    },
+    {
+     "citedPaper": {
+      "paperId": "7ab21702cdebc5ac592a4a5558e62dd720ffa26f",
+      "externalIds": {
+       "MAG": "2058425167",
+       "DOI": "10.1007/BF01448198",
+       "CorpusId": 121824945
+      },
+      "title": "Stochastic control and nonequilibrium thermodynamical systems",
+      "year": 1989
+     }
+    }
+   ]
+  }
+ },
+ {
+  "call": 16,
+  "target": "S2 citations of seed 2606.13790",
+  "status": "ok",
+  "resp": {
+   "offset": 0,
+   "data": [
+    {
+     "citingPaper": {
+      "paperId": "23f5cb4b56c5161c601c261f62d8240e0181a569",
+      "externalIds": {
+       "ArXiv": "2607.21436",
+       "CorpusId": 290473556
+      },
+      "title": "Stochastic Quantization as Optimal Control",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "a3feff0bf603dd47bfc6a0edc7d0a4f11f46877d",
+      "externalIds": {
+       "ArXiv": "2607.15682",
+       "CorpusId": 290331788
+      },
+      "title": "Neural Non-Equilibrium Hamiltonian Monte Carlo for Corrected Boltzmann Sampling",
+      "year": 2026
+     }
+    },
+    {
+     "citingPaper": {
+      "paperId": "b4e43080ed606b298e8d53dd493b9388593cf573",
+      "externalIds": {
+       "ArXiv": "2607.08505",
+       "CorpusId": 290009707
+      },
+      "title": "Diffusion Models for Sampling Near Criticality in Lattice Field Theories",
+      "year": 2026
+     }
+    }
+   ]
+  }
+ }
+]

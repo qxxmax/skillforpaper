@@ -1,0 +1,9 @@
+QueryID,Round,RouteFamily,AxisCombination,QueryString,DomainLock,NegativeTerms,SourceTermIDs,TargetSource,ExpectedFacet,Status
+Q001,R0001,identifier,seed_lookup,"arXiv:2606.13790",lattice field theory,,T001;T002,arXiv,seed,done
+Q002,R0001,lexical,method_x_domain,"Stochastic Path Sampler lattice field theory",lattice field theory,,T003;T002,web,seed,done
+Q003,R0002,identifier_batch,method_x_domain,"batch: 12 predecessor arXiv IDs",,,T007;T009;T013;T014,Semantic Scholar,F1;F2,done
+Q004,R0002,identifier,method_x_domain,"arxiv:2003.06413",lattice gauge theory,,T014,INSPIRE-HEP,F2,done
+Q005,R0003,fulltext,method_x_correction,"7 core PDF downloads",,,T004;T009;T010;T011,arXiv PDF,F1;F2;F3,done
+Q006,R0004,lexical,method_x_learned_object,"Boltzmann generators deep learning equilibrium sampling",,image classification,T003;T011,web,F1;F3,done
+Q007,R0004,lexical,correction_x_method,"annealed flow transport / flow annealed importance sampling bootstrap FAB",,,T012;T010,web,F1;F3,done
+Q008,R0004,identifier_batch,method_x_correction,"batch: 7 adjacent F1 sampler arXiv IDs",,,T011;T012;T013,Semantic Scholar,F1;F3,done

@@ -1,0 +1,18 @@
+QueryID,ExecutedAt,RawHits,DeduplicatedHits,ScreenedHits,IncludedHits,NewTerms,NewFacets,NoisePatterns,Decision,NextAction
+Q001,2026-08-12T19:30Z,1,1,1,1,"T001-T034 (34 seed terms)",problem;method;correction_validation;domain_benchmark,none,seed_verified,cross_validate_via_inspire
+Q002,2026-08-12T19:30Z,1,1,1,1,none (metadata match),,none,seed_metadata_cross_validated,extract_reference_list
+Q003,2026-08-12T19:30Z,0,0,0,0,none,,rate_limit_429,blocked_substitute_to_openalex,retry_or_substitute_channel
+Q004,2026-08-12T19:31Z,1,1,1,1,"Albergo-Kanwar-Shanahan;RealNVP couplings for phi^4;flow-based MCMC proposal",Facet B foundational,none,include_C3,download_verified_size
+Q005,2026-08-12T19:31Z,1,1,1,1,"path integral sampler;Schrodinger bridge control formulation",Facet A ancestor,none,include_C3,download_verified_size
+Q006,2026-08-12T19:31Z,1,1,1,1,"denoising diffusion sampler;reverse-time control;log-variance loss",Facet A ancestor,none,include_C3,download_verified_size
+Q007,2026-08-12T19:31Z,1,1,1,1,"Nicoli reweighting;NIS estimator for LFT",Facet B + Facet C bridge,none,include_C3,download_verified_size
+Q008,2026-08-12T19:31Z,1,1,1,1,"stochastic normalizing flow;Caselle group Jarzynski/NCT reweighting;non-equilibrium transformations",Facet B + Facet C bridge,none,include_C3,download_verified_size
+Q009,2026-08-12T19:31Z,1,1,1,1,"NETS;annealed importance sampling with learned dynamics;path-space non-equilibrium sampler",Facet A + Facet C bridge,none,include_C3,download_verified_size
+Q010,2026-08-12T19:31Z,1,1,1,1,"diffusion as stochastic quantization;score-based sampling on lattice",Facet A + Facet B bridge,none,include_C3,download_verified_size
+Q011,2026-08-12T19:31Z,1,1,1,1,"gauge-equivariant coupling flow;SU(N) equivariant flow",Facet B extension,none,include_C3,download_verified_size
+Q012,2026-08-12T19:31Z,0,0,0,0,none,,http_403_arxiv_listing_blocked,substitute_to_arxiv_api_search,use_arxiv_api_query
+Q013,2026-08-12T19:32Z,1,1,1,1,"OpenAlex indexed;cited_by_count=0 (no forward citations)",seed metadata third channel,none,seed_verified_third_channel,continue_forward_citation_check
+Q014,2026-08-12T19:32Z,1,1,0,0,"forward citations = 0 (only seed itself returned via OR clause)",,inspire_refersto_finds_no_citing_papers,confirm_forward_citation_zero,include_in_missing_risk
+Q015,2026-08-12T19:33Z,69,69,25,15,"scalable flow topology sampling;NF density of states;analytic bijections;NF-QED corrections;symmetry-preserving NN;multilevel estimation;Schwinger diffusion",Facet B expansion (2025-2026 missed adjacents),some cs.LG cross-appearing entries,include_C1_metadata_only,record_as_potentially_missed
+Q016,2026-08-12T19:33Z,38,38,25,10,"Stochastic Quantization as Optimal Control;self-learning diffusion for lattice generation;diffusion sampling near criticality;SU(2) diffusion 2D;Spectral Diffusion SU(N)",Facet A + Facet B expansion,gamma-ray + neutrino papers as false positives (excluded),include_C1_metadata_only,record_as_potentially_missed
+Q017,2026-08-12T19:33Z,2,2,2,1,"Importance Weighted Score Matching;forward-KL diffusion sampler with IW",Facet A + Facet C correction expansion,seed re-hit expected,include_C1_metadata_only,record_as_potentially_missed

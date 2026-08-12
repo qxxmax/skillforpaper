@@ -1,0 +1,16 @@
+QueryID,Round,RouteFamily,AxisCombination,QueryString,DomainLock,NegativeTerms,SourceTermIDs,TargetSource,ExpectedFacet,Status
+Q001,R0002,lexical,problem_x_method,exact SPS title + citations,lattice field theory,,T001;T002;T007,web,seed,executed
+Q002,R0002,lexical,method_x_correction,learned neural samplers PIS DDS CMCD,unnormalized target,,T005;T006,web,path samplers,executed
+Q003,R0002,domain_archive,method_x_domain,LFT flow sampling MH exact correction,lattice field theory,,T003;T004;T007,web/arXiv,LFT flow,executed
+Q004,R0002,domain_database,method_x_domain,INSPIRE LFT neural flow diffusion,lattice field theory,,T006;T007;T009,web/INSPIRE,LFT,executed
+Q005,R0002,lexical,method_x_correction,AIS learned flow FAB SNF reweighting,unnormalized target,,T005;T009,web,AIS,executed
+Q006,R0002,adversarial,limitation_x_method,LFT flow mode collapse scaling limitation,lattice field theory,,T004;T008;T010,web,limits,executed
+Q007,R0003,identifier,exact_phrase,stochastic path sampler,,,T002,arXiv,seed recall,executed
+Q008,R0005,domain_archive,problem_x_method,unnormalized target distribution AND sampling,unnormalized target,,T001;T006,arXiv,general,executed
+Q009,R0005,domain_archive,method_x_domain,lattice field theory AND normalizing flow AND sampling,lattice field theory,,T004;T007,arXiv,flow,executed
+Q010,R0005,domain_archive,method_x_domain,lattice field theory AND diffusion model,lattice field theory,,T006;T007,arXiv,diffusion,executed
+Q011,R0005,author,author_x_method,SPS author lineage query,,,T004;T006;T007,web/INSPIRE,authors,executed
+Q012,R0007,adversarial,method_x_correction,learned sampler exact correction MH weights SMC,unnormalized target,,T003;T005;T006,web,correction,executed
+Q013,R0007,identifier,exact_phrase,Annealed Flow Transport Monte Carlo,,,T004;T005,arXiv,AFT,executed
+Q014,R0007,identifier,exact_phrase,Flow Annealed Importance Sampling Bootstrap,,,T004;T005,arXiv,FAB,executed
+Q015,R0007,adversarial,older_method,older neural MCMC A-NICE-MC Boltzmann generators,unnormalized density,,T001;T003;T004,web,older,executed

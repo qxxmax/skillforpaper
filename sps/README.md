@@ -12,7 +12,11 @@ reconstruct the algorithm through T3, and review its main claims.
 
 A [Part 3 benchmark run](part3/runs/multimodel-quickscan-benchmark-20260812/README.md)
 tests the quick-scan contract across 8 models plus a no-skill control under
-pre-registered criteria, with an honest partial-support outcome.
+pre-registered criteria, with an honest partial-support outcome. A follow-up
+[full-scan benchmark](part3/runs/multimodel-fullscan-benchmark-20260812/README.md)
+runs the same 8 models through the complete full-scan contract under a
+40-call cap against a frozen 20-paper ground truth (mean recall 70%, all
+arms validator-clean).
 
 A [Part 5 submission rehearsal](part5/runs/prl-submission-rehearsal-20260812/README.md)
 consumes both packages to profile candidate venues (PRL, SciPost Physics) and

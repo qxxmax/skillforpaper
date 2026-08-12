@@ -1,0 +1,9 @@
+QueryID,ExecutedAt,RawHits,DeduplicatedHits,ScreenedHits,IncludedHits,NewTerms,NewFacets,NoisePatterns,Decision,NextAction
+Q001,2026-08-12,1,1,1,1,T001;T002;T004;T005;T006;T008,seed+F1+F2+F3,,keep,harvest reference list
+Q002,2026-08-12,5,1,1,0,,,"seed mirrors (html/pdf/linkedin/arxiver)",keep,identity confirmed
+Q003,2026-08-12,12,12,12,12,,none(validation),,keep,promote bib-of-C4 to C2
+Q004,2026-08-12,1,1,1,1,,none,,keep,physics cross-check
+Q005,2026-08-12,7,7,7,7,,fulltext depth,,keep,C3 evidence recorded
+Q006,2026-08-12,5,1,1,1,T011,F1;F3,"protein/MD context",keep,add Boltzmann Generators (out-of-bib)
+Q007,2026-08-12,5,3,3,3,T012,F1;F3,,keep,add FAB/BootstrapYourFlow/AFT
+Q008,2026-08-12,7,7,6,6,,none(validation),"1 dup (2106.05934)",keep,adjacent F1 cross-validated

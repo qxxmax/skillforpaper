@@ -1,0 +1,19 @@
+QueryID,Round,RouteFamily,AxisCombination,QueryString,DomainLock,NegativeTerms,SourceTermIDs,TargetSource,ExpectedFacet,Status
+Q001,R0,identifier,seed_id,id_list=2606.13790,lattice field theory,,T001;T002,arxiv,F5,executed
+Q002,R1,lexical,method_x_domain,all:"normalizing flow" AND all:lattice,lattice field theory,Wilson flow materials,T006;T002,arxiv,F3,executed
+Q003,R1,lexical,method_x_domain,normalizing flow AND lattice AND (sampler OR MCMC OR "field theory"),lattice field theory,,T006;T002,inspire,F3,executed
+Q004,R1,bibliographic,seed_lookup,ARXIV:2606.13790,,,T001,semanticscholar,F5,failed_429
+Q005,R1,author,author_x_method,a Zhou Kai AND (normalizing flow OR neural OR sampler) AND lattice,lattice,,T006;T002,inspire,F5,executed
+Q006,R1,lexical,method,ti:"Path Integral Sampler",,,T008,arxiv,F2,executed
+Q007,R1,identifier,doi,doi:10.1103/PhysRevD.100.034515,,,T006,openalex,F3,executed
+Q008,R1,lexical,method_x_domain,normalizing flow lattice field theory sampling,lattice,materials espresso,T006;T002,openalex,F3,executed_noisy
+Q009,R1,lexical,method_x_problem,learned diffusions OR Denoising Diffusion Samplers OR Path Integral Sampler,sampling,SAR imaging,T008;T009,arxiv,F2,executed_noisy
+Q010,R1,lexical,method,("stochastic normalizing flow" OR "path integral sampler" OR "denoising diffusion sampler" OR "neural sampler") AND (lattice OR sampling),,,T007;T008,inspire,F2;F3,executed
+Q011,R2,citation_forward,seed_lineage,refersto:recid:1731778 (Albergo),,,T006,inspire,F3;F5,executed
+Q012,R2,citation_forward,seed_lineage,refersto:recid:3168332 (SPS),,,T001,inspire,F5,executed
+Q013,R2,citation_forward,seed_lineage,S2 citations of ARXIV:1904.12072,,,T006,semanticscholar,F1;F3,executed
+Q014,R2,identifier,doi,Crossref 10.1103/PhysRevD.100.034515,,,T006,crossref,F3,executed
+Q015,R2,lexical,method_x_domain,all:"stochastic normalizing flows" AND (lattice OR sampling),lattice OR sampling,,T007,arxiv,F2;F3,executed
+Q016,R2,lexical,method_x_domain,title.search:normalizing flow lattice field,lattice field,,T006;T002,openalex,F3,executed
+Q017,R2,lexical,method_x_correction,CRAFT OR equivariant continuous flows AND lattice,lattice,,T011;T012,arxiv,F2;F4,executed
+Q018,R1,fulltext,pdf_batch,download PDFs 1904.12072 2111.15141 2302.13834 2210.03139 2101.08176 2309.17082 (+seed),,,T006;T008,arxiv_pdf,C3,executed

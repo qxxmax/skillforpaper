@@ -1,0 +1,18 @@
+QueryID,Round,RouteFamily,AxisCombination,QueryString,DomainLock,NegativeTerms,SourceTermIDs,TargetSource,ExpectedFacet,Status
+Q001,R0001,identifier,identifier,"arXiv:2606.13790",hep-lat,,T004,arXiv abs,seed identity,executed
+Q002,R0001,identifier,identifier,"literature q=arxiv:2606.13790",hep-lat,,T004,INSPIRE-HEP API,seed identity cross-validation,executed
+Q003,R0002,identifier,identifier,"paper/arXiv:2606.13790 fields=references",hep-lat,,T004,Semantic Scholar API,seed identity third channel,executed_blocked
+Q004,R0003,identifier,identifier,"pdf/1904.12072",lattice field theory,,T005;T024;T025,arXiv PDF,LFT flows core PDF,executed
+Q005,R0003,identifier,identifier,"pdf/2111.15141",unnormalized target,,T013;T018,arXiv PDF,PIS core PDF,executed
+Q006,R0003,identifier,identifier,"pdf/2302.13834",unnormalized target,,T014;T012,arXiv PDF,DDS core PDF,executed
+Q007,R0003,identifier,identifier,"pdf/2007.07115",lattice field theory,,T005;T032,arXiv PDF,thermodynamic obs core PDF,executed
+Q008,R0003,identifier,identifier,"pdf/2201.08862",lattice field theory,,T010;T019,arXiv PDF,SNF non-equilibrium core PDF,executed
+Q009,R0003,identifier,identifier,"pdf/2410.02711",unnormalized target,,T016;T017;T032,arXiv PDF,NETS core PDF,executed
+Q010,R0003,identifier,identifier,"pdf/2309.17082",lattice field theory,,T012;T021,arXiv PDF,diffusion-as-SQ core PDF,executed
+Q011,R0003,identifier,identifier,"pdf/2003.06413",lattice gauge theory,,T005;T008;T025,arXiv PDF,equivariant flow core PDF,executed
+Q012,R0004,coverage,method_x_domain,"list/hep-lat/2606",hep-lat,,T005;T010;T014,arXiv listing,contemporaneous LFT papers,executed_blocked
+Q013,R0004,identifier,identifier,"works/doi 2606.13790",hep-lat,,T004,OpenAlex API,seed cross-check + citation count,executed
+Q014,R0004,forward_citation,forward,"refersto arxiv 2606.13790",hep-lat,,T004,INSPIRE-HEP API,forward citation coverage,executed
+Q015,R0005,method_x_domain,method_x_domain,"fulltext normalizing flow AND hep-lat AND de>=2023",hep-lat,,T005;T025,INSPIRE-HEP API,LFT flow coverage 2023-2026,executed
+Q016,R0005,method_x_domain,method_x_domain,"fulltext diffusion model AND hep-lat AND de>=2024",hep-lat,,T012;T025,INSPIRE-HEP API,LFT diffusion coverage 2024-2026,executed
+Q017,R0005,method_x_correction,method_x_correction,"(neural sampler OR learned sampler) AND (importance weight OR Metropolis-Hastings OR reweighting OR Jarzynski)",,none required for cross-facet,T013;T014;T016;T017;T019;T032,arXiv API,generic learned-sampler + correction mechanism coverage,executed

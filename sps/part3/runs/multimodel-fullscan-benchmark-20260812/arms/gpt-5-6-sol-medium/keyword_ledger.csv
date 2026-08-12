@@ -1,0 +1,11 @@
+TermID,CanonicalTerm,OriginalPhrase,Axis,Synonyms,Acronyms,BroaderTerm,NeighborTerms,NegativeMeanings,SourcePaperID,SourceSection,SourceAnchor,ProvenanceType,Confidence,Status
+T001,unnormalized target distribution,unnormalized target distribution,problem,energy target; Boltzmann density,,probability distribution,partition function,,P0001,abstract,2606.13790 abstract,source_anchor,high,seed
+T002,path-space variational free energy,path-space variational free energy,method,path KL; entropy production,,variational sampler,Schrödinger bridge,,P0001,§2,E0002,source_anchor,high,seed
+T003,extended-space independence Metropolis-Hastings,extended-space independence Metropolis-Hastings,correction_validation,trajectory IMH,IMH,Metropolis-Hastings,detailed balance,,P0001,§2.4/App B.3,E0002,source_anchor,high,seed
+T004,normalizing flow proposal,normalizing flow proposal,method,flow sampler,NF,generative proposal,continuous flow,electrical power flow,P0002,§II,E0004,source_anchor,high,seed
+T005,importance weights,importance weights,correction_validation,reweighting; work weights,IS,Monte Carlo correction,AIS; SMC; Jarzynski,,P0003,§3/App B,E0006,source_anchor,high,seed
+T006,controlled diffusion sampler,controlled diffusion sampler,method,learned diffusion,,neural sampler,PIS; DDS; CMCD; NETS,image-only diffusion,P0003,abstract,E0005,source_anchor,high,seed
+T007,lattice field theory,lattice field theory,domain_benchmark,lattice gauge; scalar field,LFT,field theory,phi4; Schwinger; SU(N),optical lattice only,P0001,title/abstract,E0017,source_anchor,high,seed
+T008,mode collapse,mode collapse,limitation_direction,support failure,,multimodality,weight degeneracy,,P0001,intro/conclusion,E0002,source_anchor,high,seed
+T009,stochastic normalizing flow,stochastic normalizing flow,method,non-equilibrium flow,SNF,normalizing flow,Jarzynski transport,,P0004,title/abstract,E0007,source_anchor,high,seed
+T010,critical slowing down,critical slowing down,problem,long autocorrelation,,MCMC limitation,topological freezing,,P0001,abstract,E0002,source_anchor,high,seed

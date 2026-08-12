@@ -1,0 +1,16 @@
+QueryID,ExecutedAt,RawHits,DeduplicatedHits,ScreenedHits,IncludedHits,NewTerms,NewFacets,NoisePatterns,Decision,NextAction
+Q001,2026-08-12,5,4,4,1,,seed,duplicates,keep,cross-check
+Q002,2026-08-12,5,5,5,5,path family,path,,keep,PDF
+Q003,2026-08-12,5,5,5,5,flow+MH,LFT flow,,keep,PDF
+Q004,2026-08-12,5,5,5,4,gauge/SNF,LFT,thesis,keep,INSPIRE
+Q005,2026-08-12,5,4,4,3,AIS/FAB,AIS,duplicates,keep,exact
+Q006,2026-08-12,5,4,4,3,limits,limitations,duplicates,keep,audit
+Q007,2026-08-12,1,1,1,1,,seed,,keep,done
+Q008,2026-08-12,20,20,20,4,recent,general,false positives,mixed,screen
+Q009,2026-08-12,20,20,20,12,breadth,flow,noise,keep,saturate
+Q010,2026-08-12,9,9,9,6,breadth,diffusion,proceedings,keep,lineage
+Q011,2026-08-12,5,4,4,2,authors,lineage,profiles,keep,chronology
+Q012,2026-08-12,5,5,5,4,SMC,correction,theory item,keep,synthesize
+Q013,2026-08-12,2,2,2,2,AFT,AFT,,keep,done
+Q014,2026-08-12,2,2,2,1,FAB,FAB,application,keep,done
+Q015,2026-08-12,5,2,2,2,A-NICE,older,duplicate pages,keep,done

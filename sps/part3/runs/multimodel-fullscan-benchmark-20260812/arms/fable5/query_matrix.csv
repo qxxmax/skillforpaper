@@ -1,0 +1,17 @@
+QueryID,Round,RouteFamily,AxisCombination,QueryString,DomainLock,NegativeTerms,SourceTermIDs,TargetSource,ExpectedFacet,Status
+Q001,R0001,identifier,seed_locate,fetch https://arxiv.org/abs/2606.13790,arxiv.org,,T001;T002,arXiv,seed identity,executed
+Q002,R0001,identifier,seed_locate,download https://arxiv.org/pdf/2606.13790,arxiv.org,,T001;T002,arXiv,seed full text + references,executed
+Q003,R0002,lexical,method_x_domain,"all:""normalizing flow"" AND all:""lattice field theory""",lattice field theory,,T006;T002,arXiv API,F2,executed
+Q004,R0002,lexical,method_x_problem,"all:""Boltzmann generator"" OR abs:""neural sampler""",Boltzmann/sampler phrasing,GNN pretraining;linear Boltzmann operator,T004;T003,arXiv API,F1,executed
+Q005,R0002,lexical,method_x_correction,"all:""annealed flow transport"" OR all:""flow annealed importance sampling"" OR (abs:""annealed importance sampling"" AND abs:""neural"")",sampling,,T009;T006,arXiv API,F1/F3,executed
+Q006,R0002,lexical,method_x_domain,"all:""trivializing map""",(none - phrase specific),Milnor fiber;mapping class group;k-dilation,T002;T023,arXiv API,F2 ancestry,executed
+Q007,R0002,lexical,correction_x_domain,"abs:""neural"" AND abs:""importance sampling"" AND abs:""unbiased"" AND abs:""lattice""",lattice,,T007;T002,arXiv API,F3,executed_zero_hits
+Q008,R0002,lexical,method_x_method,"all:""generalizing Hamiltonian Monte Carlo"" OR all:""L2HMC""",HMC phrase,unadjusted HMC theory;epidemiology,T023;T004,arXiv API,F1 learned-MCMC,executed
+Q009,R0002,lexical,method_x_method,"all:""self-learning Monte Carlo""",(phrase specific),condensed-matter-only variants → monitor,T004,arXiv API,F1/F2,executed
+Q010,R0003,identifier,batch_verify,S2 /paper/batch 46 arXiv IDs,,(n/a identifier route),T001-T026,Semantic Scholar,identity cross-validation,executed
+Q011,R0003,identifier,seed_verify,S2 /paper/arXiv:2606.13790,,,T001,Semantic Scholar,seed metadata,failed_429
+Q012,R0003,forward_citation,seed_citations,S2 /paper/arXiv:2606.13790/citations,,,T001,Semantic Scholar,descendants,executed
+Q013,R0003,identifier,seed_verify,INSPIRE q=arxiv:2606.13790,,,T001,INSPIRE-HEP,seed third channel,executed
+Q014,R0003,lexical,method_x_domain,INSPIRE t:(generative OR flow OR diffusion OR ML) AND t:(sampling OR sampler) AND t:lattice,lattice (INSPIRE hep-native),,T004;T002,INSPIRE-HEP,F2 recall check,executed
+Q015,R0005,lexical,limitation_x_method,web: NF LFT critical slowing down scaling limitations mode collapse negative result,lattice field theory,,T015;T016;T006,web search,F2 adversarial,executed
+Q016,R0005,lexical,method_x_correction,web: benchmark evaluation neural samplers unnormalized densities diffusion samplers 2024-2026,unnormalized densities,,T004;T003;T010,web search,F1 adversarial,executed

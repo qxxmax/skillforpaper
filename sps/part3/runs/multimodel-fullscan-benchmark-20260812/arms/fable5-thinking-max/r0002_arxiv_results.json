@@ -1,0 +1,1929 @@
+{
+ "Q001": {
+  "query": "all:\"normalizing flow\" AND all:\"lattice field theory\"",
+  "totalResults": 47,
+  "returned": 30,
+  "entries": [
+   {
+    "id": "2210.03139v1",
+    "title": "Stochastic normalizing flows for lattice field theory",
+    "published": "2022-10-06",
+    "authors": [
+     "Michele Caselle",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2112.15035v1",
+    "title": "Normalizing flows for the real-time sign problem",
+    "published": "2021-12-30",
+    "authors": [
+     "Yukari Yamauchi",
+     "Scott Lawrence"
+    ]
+   },
+   {
+    "id": "2501.07371v1",
+    "title": "Simulating the Hubbard Model with Equivariant Normalizing Flows",
+    "published": "2025-01-13",
+    "authors": [
+     "Dominic Schuh",
+     "Janik Kreit",
+     "Evan Berkowitz"
+    ]
+   },
+   {
+    "id": "2603.12501v1",
+    "title": "Normalizing-flow-based density of states for (1+1)D U(1) lattice gauge theory with a $\u03b8$-term",
+    "published": "2026-03-12",
+    "authors": [
+     "Simran Singh",
+     "Lena Funcke"
+    ]
+   },
+   {
+    "id": "2605.22444v1",
+    "title": "Normalizing flows for all-orders QED corrections in lattice field theory",
+    "published": "2026-05-21",
+    "authors": [
+     "Nils Hermansson-Truedsson",
+     "Gurtej Kanwar"
+    ]
+   },
+   {
+    "id": "2101.08176v3",
+    "title": "Introduction to Normalizing Flows for Lattice Field Theory",
+    "published": "2021-01-20",
+    "authors": [
+     "Michael S. Albergo",
+     "Denis Boyda",
+     "Daniel C. Hackett"
+    ]
+   },
+   {
+    "id": "2304.01798v1",
+    "title": "Locality-constrained autoregressive cum conditional normalizing flow for lattice field theory simulations",
+    "published": "2023-04-04",
+    "authors": [
+     "Dinesh P. R."
+    ]
+   },
+   {
+    "id": "2502.00263v1",
+    "title": "Progress in Normalizing Flows for 4d Gauge Theories",
+    "published": "2025-02-01",
+    "authors": [
+     "Ryan Abbott",
+     "Denis Boyda",
+     "Daniel C. Hackett"
+    ]
+   },
+   {
+    "id": "2509.12812v1",
+    "title": "Efficient lattice field theory simulation using adaptive normalizing flow on a resistive memory-based neural differential equation solver",
+    "published": "2025-09-16",
+    "authors": [
+     "Meng Xu",
+     "Jichang Yang",
+     "Ning Lin"
+    ]
+   },
+   {
+    "id": "2412.19109v2",
+    "title": "Stochastic normalizing flows for Effective String Theory",
+    "published": "2024-12-26",
+    "authors": [
+     "Michele Caselle",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2309.14983v1",
+    "title": "Sampling Nambu-Goto theory using Normalizing Flows",
+    "published": "2023-09-26",
+    "authors": [
+     "Michele Caselle",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2404.10819v1",
+    "title": "Multiscale Normalizing Flows for Gauge Theories",
+    "published": "2024-04-16",
+    "authors": [
+     "Ryan Abbott",
+     "Michael S. Albergo",
+     "Denis Boyda"
+    ]
+   },
+   {
+    "id": "2207.00980v1",
+    "title": "Conditional Normalizing flow for Monte Carlo sampling in lattice scalar field theory",
+    "published": "2022-07-03",
+    "authors": [
+     "Ankur Singha",
+     "Dipankar Chakrabarti",
+     "Vipul Arora"
+    ]
+   },
+   {
+    "id": "2505.10553v2",
+    "title": "Flowing Through Hilbert Space: Quantum-Enhanced Generative Models for Lattice Field Theory",
+    "published": "2025-05-15",
+    "authors": [
+     "Jehu Martinez",
+     "Andrea Delgado"
+    ]
+   },
+   {
+    "id": "2106.05934v2",
+    "title": "Flow-based sampling for fermionic lattice field theories",
+    "published": "2021-06-10",
+    "authors": [
+     "Michael S. Albergo",
+     "Gurtej Kanwar",
+     "S\u00e9bastien Racani\u00e8re"
+    ]
+   },
+   {
+    "id": "2208.03832v2",
+    "title": "Sampling QCD field configurations with gauge-equivariant flow models",
+    "published": "2022-08-07",
+    "authors": [
+     "Ryan Abbott",
+     "Michael S. Albergo",
+     "Aleksandar Botev"
+    ]
+   },
+   {
+    "id": "2601.18273v1",
+    "title": "Toward Scalable Normalizing Flows for the Hubbard Model",
+    "published": "2026-01-26",
+    "authors": [
+     "Janik Kreit",
+     "Andrea Bulgarelli",
+     "Lena Funcke"
+    ]
+   },
+   {
+    "id": "2510.21330v1",
+    "title": "SCORENF: Score-based Normalizing Flows for Sampling Unnormalized distributions",
+    "published": "2025-10-24",
+    "authors": [
+     "Vikas Kanaujia",
+     "Vipul Arora"
+    ]
+   },
+   {
+    "id": "2101.05755v5",
+    "title": "Normalizing Flows and the Real-Time Sign Problem",
+    "published": "2021-01-14",
+    "authors": [
+     "Scott Lawrence",
+     "Yukari Yamauchi"
+    ]
+   },
+   {
+    "id": "2302.14082v2",
+    "title": "Detecting and Mitigating Mode-Collapse for Flow-based Sampling of Lattice Field Theories",
+    "published": "2023-02-27",
+    "authors": [
+     "Kim A. Nicoli",
+     "Christopher J. Anders",
+     "Tobias Hartung"
+    ]
+   },
+   {
+    "id": "2503.11482v1",
+    "title": "NeuMC -- a package for neural sampling for lattice field theories",
+    "published": "2025-03-14",
+    "authors": [
+     "Piotr Bialas",
+     "Piotr Korcyl",
+     "Tomasz Stebel"
+    ]
+   },
+   {
+    "id": "2112.01586v1",
+    "title": "HMC with Normalizing Flows",
+    "published": "2021-12-02",
+    "authors": [
+     "Sam Foreman",
+     "Taku Izubuchi",
+     "Luchang Jin"
+    ]
+   },
+   {
+    "id": "2604.10209v1",
+    "title": "Scalable Generative Sampling and Multilevel Estimation for Lattice Field Theories Near Criticality",
+    "published": "2026-04-11",
+    "authors": [
+     "A. Singha",
+     "J. Kauffmann",
+     "E. Cellini"
+    ]
+   },
+   {
+    "id": "2201.08862v3",
+    "title": "Stochastic normalizing flows as non-equilibrium transformations",
+    "published": "2022-01-21",
+    "authors": [
+     "Michele Caselle",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2501.18288v1",
+    "title": "Normalizing flows for SU($N$) gauge theories employing singular value decomposition",
+    "published": "2025-01-30",
+    "authors": [
+     "Javad Komijani",
+     "Marina K. Marinkovic"
+    ]
+   },
+   {
+    "id": "2603.02984v2",
+    "title": "Variance reduction in lattice QCD observables via normalizing flows",
+    "published": "2026-03-03",
+    "authors": [
+     "Ryan Abbott",
+     "Denis Boyda",
+     "Yang Fu"
+    ]
+   },
+   {
+    "id": "2409.18861v2",
+    "title": "Sampling SU(3) pure gauge theory with Stochastic Normalizing Flows",
+    "published": "2024-09-27",
+    "authors": [
+     "Andrea Bulgarelli",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2504.18126v1",
+    "title": "Lecture Notes on Normalizing Flows for Lattice Quantum Field Theories",
+    "published": "2025-04-25",
+    "authors": [
+     "Miranda C. N. Cheng",
+     "Niki Stratikopoulou"
+    ]
+   },
+   {
+    "id": "2308.13294v2",
+    "title": "Training normalizing flows with computationally intensive target probability distributions",
+    "published": "2023-08-25",
+    "authors": [
+     "Piotr Bialas",
+     "Piotr Korcyl",
+     "Tomasz Stebel"
+    ]
+   },
+   {
+    "id": "2601.10774v2",
+    "title": "Analytic Bijections for Smooth and Interpretable Normalizing Flows",
+    "published": "2026-01-15",
+    "authors": [
+     "Mathis Gerdes",
+     "Miranda C. N. Cheng"
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ "Q002": {
+  "query": "all:\"flow-based sampling\" AND all:\"lattice\"",
+  "totalResults": 17,
+  "returned": 17,
+  "entries": [
+   {
+    "id": "2003.06413v1",
+    "title": "Equivariant flow-based sampling for lattice gauge theory",
+    "published": "2020-03-13",
+    "authors": [
+     "Gurtej Kanwar",
+     "Michael S. Albergo",
+     "Denis Boyda"
+    ]
+   },
+   {
+    "id": "2106.05934v2",
+    "title": "Flow-based sampling for fermionic lattice field theories",
+    "published": "2021-06-10",
+    "authors": [
+     "Michael S. Albergo",
+     "Gurtej Kanwar",
+     "S\u00e9bastien Racani\u00e8re"
+    ]
+   },
+   {
+    "id": "2208.08903v2",
+    "title": "GomalizingFlow.jl: A Julia package for Flow-based sampling algorithm for lattice field theory",
+    "published": "2022-08-18",
+    "authors": [
+     "Akio Tomiya",
+     "Satoshi Terasaki"
+    ]
+   },
+   {
+    "id": "2202.11712v1",
+    "title": "Flow-based sampling in the lattice Schwinger model at criticality",
+    "published": "2022-02-23",
+    "authors": [
+     "Michael S. Albergo",
+     "Denis Boyda",
+     "Kyle Cranmer"
+    ]
+   },
+   {
+    "id": "2401.01297v2",
+    "title": "Flow-based sampling for lattice field theories",
+    "published": "2024-01-02",
+    "authors": [
+     "Gurtej Kanwar"
+    ]
+   },
+   {
+    "id": "2107.00734v2",
+    "title": "Flow-based sampling for multimodal and extended-mode distributions in lattice field theory",
+    "published": "2021-07-01",
+    "authors": [
+     "Daniel C. Hackett",
+     "Chung-Chun Hsieh",
+     "Sahil Pontula"
+    ]
+   },
+   {
+    "id": "2207.08945v3",
+    "title": "Gauge-equivariant flow models for sampling in lattice field theories with pseudofermions",
+    "published": "2022-07-18",
+    "authors": [
+     "Ryan Abbott",
+     "Michael S. Albergo",
+     "Denis Boyda"
+    ]
+   },
+   {
+    "id": "2211.07541v1",
+    "title": "Aspects of scaling and scalability for flow-based sampling of lattice QCD",
+    "published": "2022-11-14",
+    "authors": [
+     "Ryan Abbott",
+     "Michael S. Albergo",
+     "Aleksandar Botev"
+    ]
+   },
+   {
+    "id": "2304.01798v1",
+    "title": "Locality-constrained autoregressive cum conditional normalizing flow for lattice field theory simulations",
+    "published": "2023-04-04",
+    "authors": [
+     "Dinesh P. R."
+    ]
+   },
+   {
+    "id": "2305.02402v1",
+    "title": "Normalizing flows for lattice gauge theory in arbitrary space-time dimension",
+    "published": "2023-05-03",
+    "authors": [
+     "Ryan Abbott",
+     "Michael S. Albergo",
+     "Aleksandar Botev"
+    ]
+   },
+   {
+    "id": "2512.11389v1",
+    "title": "Computing quantum entanglement with machine learning",
+    "published": "2025-12-12",
+    "authors": [
+     "Andrea Bulgarelli",
+     "Elia Cellini",
+     "Karl Jansen"
+    ]
+   },
+   {
+    "id": "2208.03832v2",
+    "title": "Sampling QCD field configurations with gauge-equivariant flow models",
+    "published": "2022-08-07",
+    "authors": [
+     "Ryan Abbott",
+     "Michael S. Albergo",
+     "Aleksandar Botev"
+    ]
+   },
+   {
+    "id": "2302.14082v2",
+    "title": "Detecting and Mitigating Mode-Collapse for Flow-based Sampling of Lattice Field Theories",
+    "published": "2023-02-27",
+    "authors": [
+     "Kim A. Nicoli",
+     "Christopher J. Anders",
+     "Tobias Hartung"
+    ]
+   },
+   {
+    "id": "2106.01975v1",
+    "title": "Machine Learning and Variational Algorithms for Lattice Field Theory",
+    "published": "2021-06-03",
+    "authors": [
+     "Gurtej Kanwar"
+    ]
+   },
+   {
+    "id": "2410.14466v2",
+    "title": "Flow-Based Sampling for Entanglement Entropy and the Machine Learning of Defects",
+    "published": "2024-10-18",
+    "authors": [
+     "Andrea Bulgarelli",
+     "Elia Cellini",
+     "Karl Jansen"
+    ]
+   },
+   {
+    "id": "2008.05456v2",
+    "title": "Sampling using $SU(N)$ gauge equivariant flows",
+    "published": "2020-08-12",
+    "authors": [
+     "Denis Boyda",
+     "Gurtej Kanwar",
+     "S\u00e9bastien Racani\u00e8re"
+    ]
+   },
+   {
+    "id": "2203.01243v2",
+    "title": "Flow-based density of states for complex actions",
+    "published": "2022-03-02",
+    "authors": [
+     "Jan M. Pawlowski",
+     "Julian M. Urban"
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ "Q003": {
+  "query": "all:\"stochastic normalizing flows\"",
+  "totalResults": 20,
+  "returned": 20,
+  "entries": [
+   {
+    "id": "2109.11375v4",
+    "title": "Stochastic Normalizing Flows for Inverse Problems: a Markov Chains Viewpoint",
+    "published": "2021-09-23",
+    "authors": [
+     "Paul Hagemann",
+     "Johannes Hertrich",
+     "Gabriele Steidl"
+    ]
+   },
+   {
+    "id": "2002.09547v2",
+    "title": "Stochastic Normalizing Flows",
+    "published": "2020-02-21",
+    "authors": [
+     "Liam Hodgkinson",
+     "Chris van der Heide",
+     "Fred Roosta"
+    ]
+   },
+   {
+    "id": "2210.03139v1",
+    "title": "Stochastic normalizing flows for lattice field theory",
+    "published": "2022-10-06",
+    "authors": [
+     "Michele Caselle",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2002.06707v3",
+    "title": "Stochastic Normalizing Flows",
+    "published": "2020-02-16",
+    "authors": [
+     "Hao Wu",
+     "Jonas K\u00f6hler",
+     "Frank No\u00e9"
+    ]
+   },
+   {
+    "id": "2201.08862v3",
+    "title": "Stochastic normalizing flows as non-equilibrium transformations",
+    "published": "2022-01-21",
+    "authors": [
+     "Michele Caselle",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2412.19109v2",
+    "title": "Stochastic normalizing flows for Effective String Theory",
+    "published": "2024-12-26",
+    "authors": [
+     "Michele Caselle",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2409.18861v2",
+    "title": "Sampling SU(3) pure gauge theory with Stochastic Normalizing Flows",
+    "published": "2024-09-27",
+    "authors": [
+     "Andrea Bulgarelli",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2412.00200v3",
+    "title": "Scaling of Stochastic Normalizing Flows in $\\mathrm{SU}(3)$ lattice gauge theory",
+    "published": "2024-11-29",
+    "authors": [
+     "Andrea Bulgarelli",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2409.15937v2",
+    "title": "Numerical determination of the width and shape of the effective string using Stochastic Normalizing Flows",
+    "published": "2024-09-24",
+    "authors": [
+     "Michele Caselle",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2210.07751v1",
+    "title": "Blind Super-Resolution for Remote Sensing Images via Conditional Stochastic Normalizing Flows",
+    "published": "2022-10-14",
+    "authors": [
+     "Hanlin Wu",
+     "Ning Ni",
+     "Shan Wang"
+    ]
+   },
+   {
+    "id": "2512.04282v2",
+    "title": "Inference-time Stochastic Refinement of GRU-Normalizing Flow for Real-time Video Motion Transfer",
+    "published": "2025-12-03",
+    "authors": [
+     "Tasmiah Haque",
+     "Srinjoy Das"
+    ]
+   },
+   {
+    "id": "2601.18273v1",
+    "title": "Toward Scalable Normalizing Flows for the Hubbard Model",
+    "published": "2026-01-26",
+    "authors": [
+     "Janik Kreit",
+     "Andrea Bulgarelli",
+     "Lena Funcke"
+    ]
+   },
+   {
+    "id": "2402.06561v2",
+    "title": "Mitigating topological freezing using out-of-equilibrium simulations",
+    "published": "2024-02-09",
+    "authors": [
+     "Claudio Bonanno",
+     "Alessandro Nada",
+     "Davide Vadacchino"
+    ]
+   },
+   {
+    "id": "2111.12506v3",
+    "title": "Generalized Normalizing Flows via Markov Chains",
+    "published": "2021-11-24",
+    "authors": [
+     "Paul Hagemann",
+     "Johannes Hertrich",
+     "Gabriele Steidl"
+    ]
+   },
+   {
+    "id": "2201.13117v3",
+    "title": "Continual Repeated Annealed Flow Transport Monte Carlo",
+    "published": "2022-01-31",
+    "authors": [
+     "Alexander G. D. G. Matthews",
+     "Michael Arbel",
+     "Danilo J. Rezende"
+    ]
+   },
+   {
+    "id": "2310.11979v1",
+    "title": "Out-of-equilibrium simulations to fight topological freezing",
+    "published": "2023-10-18",
+    "authors": [
+     "Claudio Bonanno",
+     "Alessandro Nada",
+     "Davide Vadacchino"
+    ]
+   },
+   {
+    "id": "2309.14983v1",
+    "title": "Sampling Nambu-Goto theory using Normalizing Flows",
+    "published": "2023-09-26",
+    "authors": [
+     "Michele Caselle",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2604.12416v1",
+    "title": "Machine learning for four-dimensional SU(3) lattice gauge theories",
+    "published": "2026-04-14",
+    "authors": [
+     "Urs Wenger"
+    ]
+   },
+   {
+    "id": "2510.25704v2",
+    "title": "Scaling flow-based approaches for topology sampling in $\\mathrm{SU}(3)$ gauge theory",
+    "published": "2025-10-29",
+    "authors": [
+     "Claudio Bonanno",
+     "Andrea Bulgarelli",
+     "Elia Cellini"
+    ]
+   },
+   {
+    "id": "2601.20708v1",
+    "title": "A scalable flow-based approach to mitigate topological freezing",
+    "published": "2026-01-28",
+    "authors": [
+     "Claudio Bonanno",
+     "Andrea Bulgarelli",
+     "Elia Cellini"
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ "Q004": {
+  "query": "all:\"annealed importance sampling\" AND all:\"normalizing flow\"",
+  "totalResults": 6,
+  "returned": 6,
+  "entries": [
+   {
+    "id": "2411.16234v2",
+    "title": "Flow Annealed Importance Sampling Bootstrap meets Differentiable Particle Physics",
+    "published": "2024-11-25",
+    "authors": [
+     "Annalena Kofler",
+     "Vincent Stimper",
+     "Mikhail Mikhasenko"
+    ]
+   },
+   {
+    "id": "2208.01893v3",
+    "title": "Flow Annealed Importance Sampling Bootstrap",
+    "published": "2022-08-03",
+    "authors": [
+     "Laurence Illing Midgley",
+     "Vincent Stimper",
+     "Gregor N. C. Simm"
+    ]
+   },
+   {
+    "id": "1912.06073v1",
+    "title": "Normalizing Constant Estimation with Gaussianized Bridge Sampling",
+    "published": "2019-12-12",
+    "authors": [
+     "He Jia",
+     "Uro\u0161 Seljak"
+    ]
+   },
+   {
+    "id": "2111.11510v4",
+    "title": "Bootstrap Your Flow",
+    "published": "2021-11-22",
+    "authors": [
+     "Laurence Illing Midgley",
+     "Vincent Stimper",
+     "Gregor N. C. Simm"
+    ]
+   },
+   {
+    "id": "2102.07501v2",
+    "title": "Annealed Flow Transport Monte Carlo",
+    "published": "2021-02-15",
+    "authors": [
+     "Michael Arbel",
+     "Alexander G. D. G. Matthews",
+     "Arnaud Doucet"
+    ]
+   },
+   {
+    "id": "2201.13117v3",
+    "title": "Continual Repeated Annealed Flow Transport Monte Carlo",
+    "published": "2022-01-31",
+    "authors": [
+     "Alexander G. D. G. Matthews",
+     "Michael Arbel",
+     "Danilo J. Rezende"
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ "Q005": {
+  "query": "all:\"Boltzmann generator\"",
+  "totalResults": 50,
+  "returned": 30,
+  "entries": [
+   {
+    "id": "2211.10771v1",
+    "title": "RL Boltzmann Generators for Conformer Generation in Data-Sparse Environments",
+    "published": "2022-11-19",
+    "authors": [
+     "Yash Patel",
+     "Ambuj Tewari"
+    ]
+   },
+   {
+    "id": "2305.08483v1",
+    "title": "A Boltzmann generator for the isobaric-isothermal ensemble",
+    "published": "2023-05-15",
+    "authors": [
+     "Steyn van Leeuwen",
+     "Alberto P\u00e9rez de Alba Ort\u00edz",
+     "Marjolein Dijkstra"
+    ]
+   },
+   {
+    "id": "2502.18462v3",
+    "title": "Scalable Equilibrium Sampling with Sequential Boltzmann Generators",
+    "published": "2025-02-25",
+    "authors": [
+     "Charlie B. Tan",
+     "Avishek Joey Bose",
+     "Chen Lin"
+    ]
+   },
+   {
+    "id": "2406.12378v2",
+    "title": "Efficient mapping of phase diagrams with conditional Boltzmann Generators",
+    "published": "2024-06-18",
+    "authors": [
+     "Maximilian Schebek",
+     "Michele Invernizzi",
+     "Frank No\u00e9"
+    ]
+   },
+   {
+    "id": "2406.14426v2",
+    "title": "Transferable Boltzmann Generators",
+    "published": "2024-06-20",
+    "authors": [
+     "Leon Klein",
+     "Frank No\u00e9"
+    ]
+   },
+   {
+    "id": "2509.25486v2",
+    "title": "Scalable Boltzmann Generators for equilibrium sampling of large-scale materials",
+    "published": "2025-09-29",
+    "authors": [
+     "Maximilian Schebek",
+     "Frank No\u00e9",
+     "Jutta Rogal"
+    ]
+   },
+   {
+    "id": "2606.29110v1",
+    "title": "Few-Step Boltzmann Generators via Scalable Likelihood Flow Maps",
+    "published": "2026-06-27",
+    "authors": [
+     "RuiKang OuYang",
+     "Hanlin Yu",
+     "Xinyue Ai"
+    ]
+   },
+   {
+    "id": "2512.16607v2",
+    "title": "Boltzmann generators for amorphous particle systems",
+    "published": "2025-12-18",
+    "authors": [
+     "Louis Grenioux",
+     "Leonardo Galliano",
+     "Ludovic Berthier"
+    ]
+   },
+   {
+    "id": "2606.27361v1",
+    "title": "Autoregressive Boltzmann Generators",
+    "published": "2026-06-25",
+    "authors": [
+     "Danyal Rehman",
+     "Charlie B. Tan",
+     "Yoshua Bengio"
+    ]
+   },
+   {
+    "id": "2602.10637v2",
+    "title": "Coarse-Grained Boltzmann Generators",
+    "published": "2026-02-11",
+    "authors": [
+     "Weilong Chen",
+     "Bojun Zhao",
+     "Jan Eckwert"
+    ]
+   },
+   {
+    "id": "2108.01590v2",
+    "title": "Temperature Steerable Flows and Boltzmann Generators",
+    "published": "2021-08-03",
+    "authors": [
+     "Manuel Dibak",
+     "Leon Klein",
+     "Andreas Kr\u00e4mer"
+    ]
+   },
+   {
+    "id": "2603.05109v1",
+    "title": "Sampling the Liquid-Gas Critical Point with Boltzmann Generators",
+    "published": "2026-03-05",
+    "authors": [
+     "Luigi de Santis",
+     "John Russo",
+     "Andrea Ninarello"
+    ]
+   },
+   {
+    "id": "2501.19077v2",
+    "title": "Temperature-Annealed Boltzmann Generators",
+    "published": "2025-01-31",
+    "authors": [
+     "Henrik Schopmans",
+     "Pascal Friederich"
+    ]
+   },
+   {
+    "id": "1812.01729v2",
+    "title": "Boltzmann Generators -- Sampling Equilibrium States of Many-Body Systems with Deep Learning",
+    "published": "2018-12-04",
+    "authors": [
+     "Frank No\u00e9",
+     "Simon Olsson",
+     "Jonas K\u00f6hler"
+    ]
+   },
+   {
+    "id": "2404.16566v1",
+    "title": "Boltzmann Generators and the New Frontier of Computational Sampling in Many-Body Systems",
+    "published": "2024-04-25",
+    "authors": [
+     "Alessandro Coretti",
+     "Sebastian Falkner",
+     "Jan Weinreich"
+    ]
+   },
+   {
+    "id": "2401.04246v1",
+    "title": "Scalable Normalizing Flows Enable Boltzmann Generators for Macromolecules",
+    "published": "2024-01-08",
+    "authors": [
+     "Joseph C. Kim",
+     "David Bloore",
+     "Karan Kapoor"
+    ]
+   },
+   {
+    "id": "2510.18460v2",
+    "title": "Learning Boltzmann Generators via Constrained Mass Transport",
+    "published": "2025-10-21",
+    "authors": [
+     "Christopher von Klitzing",
+     "Denis Blessing",
+     "Henrik Schopmans"
+    ]
+   },
+   {
+    "id": "2506.01158v2",
+    "title": "Efficient Regression-Based Training of Normalizing Flows for Boltzmann Generators",
+    "published": "2025-06-01",
+    "authors": [
+     "Danyal Rehman",
+     "Oscar Davis",
+     "Jiarui Lu"
+    ]
+   },
+   {
+    "id": "2602.03729v3",
+    "title": "Efficient Training of Boltzmann Generators Using Off-Policy Log-Dispersion Regularization",
+    "published": "2026-02-03",
+    "authors": [
+     "Henrik Schopmans",
+     "Christopher von Klitzing",
+     "Pascal Friederich"
+    ]
+   },
+   {
+    "id": "2601.21026v2",
+    "title": "Diffusion-based Annealed Boltzmann Generators : benefits, pitfalls and hopes",
+    "published": "2026-01-28",
+    "authors": [
+     "Louis Grenioux",
+     "Maxence Noble"
+    ]
+   },
+   {
+    "id": "2604.05303v1",
+    "title": "Jeffreys Flow: Robust Boltzmann Generators for Rare Event Sampling via Parallel Tempering Distillation",
+    "published": "2026-04-07",
+    "authors": [
+     "Guang Lin",
+     "Christian Moya",
+     "Di Qi"
+    ]
+   },
+   {
+    "id": "2507.00846v3",
+    "title": "BoltzNCE: Learning Likelihoods for Boltzmann Generation with Stochastic Interpolants and Noise Contrastive Estimation",
+    "published": "2025-07-01",
+    "authors": [
+     "Rishal Aggarwal",
+     "Jacky Chen",
+     "Nicholas M. Boffi"
+    ]
+   },
+   {
+    "id": "2312.13110v3",
+    "title": "Pre-training of Molecular GNNs via Conditional Boltzmann Generator",
+    "published": "2023-12-20",
+    "authors": [
+     "Daiki Koge",
+     "Naoaki Ono",
+     "Shigehiko Kanaya"
+    ]
+   },
+   {
+    "id": "1110.0689v1",
+    "title": "Bounds for the state-modulated resolvent of a linear Boltzmann generator",
+    "published": "2011-10-04",
+    "authors": [
+     "Jeremy Clark",
+     "Lo\u00efc Dubois"
+    ]
+   },
+   {
+    "id": "2111.01292v2",
+    "title": "Free energy calculation of crystalline solids using normalizing flow",
+    "published": "2021-11-01",
+    "authors": [
+     "Rasool Ahmad",
+     "Wei Cai"
+    ]
+   },
+   {
+    "id": "2206.01729v2",
+    "title": "Torsional Diffusion for Molecular Conformer Generation",
+    "published": "2022-06-01",
+    "authors": [
+     "Bowen Jing",
+     "Gabriele Corso",
+     "Jeffrey Chang"
+    ]
+   },
+   {
+    "id": "2302.11430v1",
+    "title": "Differentiable Rotamer Sampling with Molecular Force Fields",
+    "published": "2023-02-22",
+    "authors": [
+     "Congzhou M. Sha",
+     "Jian Wang",
+     "Nikolay V. Dokholyan"
+    ]
+   },
+   {
+    "id": "2312.05340v2",
+    "title": "Transition Path Sampling with Boltzmann Generator-based MCMC Moves",
+    "published": "2023-12-08",
+    "authors": [
+     "Michael Plainer",
+     "Hannes St\u00e4rk",
+     "Charlotte Bunne"
+    ]
+   },
+   {
+    "id": "2403.01902v2",
+    "title": "Random Generation of Git Graphs",
+    "published": "2024-03-04",
+    "authors": [
+     "Julien Courtiel",
+     "Martin P\u00e9pin"
+    ]
+   },
+   {
+    "id": "2601.21025v3",
+    "title": "A Diffusive Classification Loss for Learning Energy-based Generative Models",
+    "published": "2026-01-28",
+    "authors": [
+     "RuiKang OuYang",
+     "Louis Grenioux",
+     "Jos\u00e9 Miguel Hern\u00e1ndez-Lobato"
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ "Q006": {
+  "query": "all:\"unnormalized\" AND all:\"neural\" AND all:\"sampler\"",
+  "totalResults": 23,
+  "returned": 23,
+  "entries": [
+   {
+    "id": "2110.02787v1",
+    "title": "Relative Entropy Gradient Sampler for Unnormalized Distributions",
+    "published": "2021-10-06",
+    "authors": [
+     "Xingdong Feng",
+     "Yuan Gao",
+     "Jian Huang"
+    ]
+   },
+   {
+    "id": "2502.07337v2",
+    "title": "Neural Flow Samplers with Shortcut Models",
+    "published": "2025-02-11",
+    "authors": [
+     "Wuhao Chen",
+     "Zijing Ou",
+     "Yingzhen Li"
+    ]
+   },
+   {
+    "id": "2010.03587v1",
+    "title": "A Neural Network MCMC sampler that maximizes Proposal Entropy",
+    "published": "2020-10-07",
+    "authors": [
+     "Zengyi Li",
+     "Yubei Chen",
+     "Friedrich T. Sommer"
+    ]
+   },
+   {
+    "id": "2510.03824v2",
+    "title": "Proximal Diffusion Neural Sampler",
+    "published": "2025-10-04",
+    "authors": [
+     "Wei Guo",
+     "Jaemoo Choi",
+     "Yuchen Zhu"
+    ]
+   },
+   {
+    "id": "2007.15130v1",
+    "title": "Unnormalized Variational Bayes",
+    "published": "2020-07-29",
+    "authors": [
+     "Saeed Saremi"
+    ]
+   },
+   {
+    "id": "2506.05231v2",
+    "title": "Progressive Tempering Sampler with Diffusion",
+    "published": "2025-06-05",
+    "authors": [
+     "Severi Rissanen",
+     "RuiKang OuYang",
+     "Jiajun He"
+    ]
+   },
+   {
+    "id": "2405.06672v2",
+    "title": "Liouville Flow Importance Sampler",
+    "published": "2024-05-03",
+    "authors": [
+     "Yifeng Tian",
+     "Nishant Panda",
+     "Yen Ting Lin"
+    ]
+   },
+   {
+    "id": "2606.13790v1",
+    "title": "Stochastic Path Sampler For Lattice Field Theory",
+    "published": "2026-06-11",
+    "authors": [
+     "Shiyang Chen",
+     "Moxian Qian",
+     "Gert Aarts"
+    ]
+   },
+   {
+    "id": "2509.00316v1",
+    "title": "Continuously Tempered Diffusion Samplers",
+    "published": "2025-08-30",
+    "authors": [
+     "Ezra Erives",
+     "Bowen Jing",
+     "Peter Holderrieth"
+    ]
+   },
+   {
+    "id": "2410.15336v1",
+    "title": "Diffusion-PINN Sampler",
+    "published": "2024-10-20",
+    "authors": [
+     "Zhekun Shi",
+     "Longlin Yu",
+     "Tianyu Xie"
+    ]
+   },
+   {
+    "id": "2410.12456v2",
+    "title": "Training Neural Samplers with Reverse Diffusive KL Divergence",
+    "published": "2024-10-16",
+    "authors": [
+     "Jiajun He",
+     "Wenlin Chen",
+     "Mingtian Zhang"
+    ]
+   },
+   {
+    "id": "2505.19431v1",
+    "title": "Importance Weighted Score Matching for Diffusion Samplers with Enhanced Mode Coverage",
+    "published": "2025-05-26",
+    "authors": [
+     "Chenguang Wang",
+     "Xiaoyu Zhang",
+     "Kaiyuan Cui"
+    ]
+   },
+   {
+    "id": "2410.01432v2",
+    "title": "Adaptive teachers for amortized samplers",
+    "published": "2024-10-02",
+    "authors": [
+     "Minsu Kim",
+     "Sanghyeok Choi",
+     "Taeyoung Yun"
+    ]
+   },
+   {
+    "id": "2307.00667v1",
+    "title": "Morse Neural Networks for Uncertainty Quantification",
+    "published": "2023-07-02",
+    "authors": [
+     "Benoit Dherin",
+     "Huiyi Hu",
+     "Jie Ren"
+    ]
+   },
+   {
+    "id": "2111.15141v2",
+    "title": "Path Integral Sampler: a stochastic control approach for sampling",
+    "published": "2021-11-30",
+    "authors": [
+     "Qinsheng Zhang",
+     "Yongxin Chen"
+    ]
+   },
+   {
+    "id": "2502.08696v3",
+    "title": "Scalable Discrete Diffusion Samplers: Combinatorial Optimization and Statistical Physics",
+    "published": "2025-02-12",
+    "authors": [
+     "Sebastian Sanokowski",
+     "Wilhelm Berghammer",
+     "Martin Ennemoser"
+    ]
+   },
+   {
+    "id": "2607.15682v1",
+    "title": "Neural Non-Equilibrium Hamiltonian Monte Carlo for Corrected Boltzmann Sampling",
+    "published": "2026-07-17",
+    "authors": [
+     "Moxian Qian"
+    ]
+   },
+   {
+    "id": "1611.01722v2",
+    "title": "Learning to Draw Samples: With Application to Amortized MLE for Generative Adversarial Learning",
+    "published": "2016-11-06",
+    "authors": [
+     "Dilin Wang",
+     "Qiang Liu"
+    ]
+   },
+   {
+    "id": "2510.23106v1",
+    "title": "Sampling from Energy distributions with Target Concrete Score Identity",
+    "published": "2025-10-27",
+    "authors": [
+     "Sergei Kholkin",
+     "Francisco Vargas",
+     "Alexander Korotin"
+    ]
+   },
+   {
+    "id": "2606.16073v2",
+    "title": "Stop the Sampler! Classifier-Based Adaptive Stopping for Sampling Kernels",
+    "published": "2026-06-15",
+    "authors": [
+     "Kirill Korolev",
+     "Nikita Morozov",
+     "Stepan Pavlenko"
+    ]
+   },
+   {
+    "id": "1707.06626v2",
+    "title": "Learning to Draw Samples with Amortized Stein Variational Gradient Descent",
+    "published": "2017-07-20",
+    "authors": [
+     "Yihao Feng",
+     "Dilin Wang",
+     "Qiang Liu"
+    ]
+   },
+   {
+    "id": "2504.11713v3",
+    "title": "Adjoint Sampling: Highly Scalable Diffusion Samplers via Adjoint Matching",
+    "published": "2025-04-16",
+    "authors": [
+     "Aaron Havens",
+     "Benjamin Kurt Miller",
+     "Bing Yan"
+    ]
+   },
+   {
+    "id": "2605.04013v1",
+    "title": "Conditional Diffusion Sampling",
+    "published": "2026-05-05",
+    "authors": [
+     "Francisco M. Castro-Mac\u00edas",
+     "Pablo Morales-\u00c1lvarez",
+     "Saifuddin Syed"
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ "Q007": {
+  "query": "all:\"diffusion model\" AND all:\"lattice gauge theory\"",
+  "totalResults": 6,
+  "returned": 6,
+  "entries": [
+   {
+    "id": "2601.19552v1",
+    "title": "Generalizable Equivariant Diffusion Models for Non-Abelian Lattice Gauge Theory",
+    "published": "2026-01-27",
+    "authors": [
+     "Gert Aarts",
+     "Diaa E. Habibi",
+     "Andreas Ipp"
+    ]
+   },
+   {
+    "id": "2502.05504v2",
+    "title": "Physics-Conditioned Diffusion Models for Lattice Gauge Theory",
+    "published": "2025-02-08",
+    "authors": [
+     "Qianteng Zhu",
+     "Gert Aarts",
+     "Wei Wang"
+    ]
+   },
+   {
+    "id": "2410.19602v1",
+    "title": "Diffusion models for lattice gauge field simulations",
+    "published": "2024-10-25",
+    "authors": [
+     "Qianteng Zhu",
+     "Gert Aarts",
+     "Wei Wang"
+    ]
+   },
+   {
+    "id": "2605.06134v1",
+    "title": "Diffusion model for SU(N) gauge theories",
+    "published": "2026-05-07",
+    "authors": [
+     "Javad Komijani",
+     "Marina K. Marinkovic",
+     "Lara Turgut"
+    ]
+   },
+   {
+    "id": "2602.09045v3",
+    "title": "Diffusion Models for SU(2) Lattice Gauge Theory in Two Dimensions",
+    "published": "2026-02-04",
+    "authors": [
+     "H. Alharazin",
+     "J. Yu. Panteleeva",
+     "B. -D. Sun"
+    ]
+   },
+   {
+    "id": "2605.17326v1",
+    "title": "Noise scheduling and linear dynamics in diffusion models on Lie groups",
+    "published": "2026-05-17",
+    "authors": [
+     "Javad Komijani"
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ "Q008": {
+  "query": "all:\"trivializing\" AND all:\"lattice\"",
+  "totalResults": 3762,
+  "returned": 30,
+  "entries": [
+   {
+    "id": "2310.03381v1",
+    "title": "Learning Trivializing Flows in a $\u03c6^4$ theory from coarser lattices",
+    "published": "2023-10-05",
+    "authors": [
+     "David Albandea",
+     "Luigi Del Debbio",
+     "Pilar Hern\u00e1ndez"
+    ]
+   },
+   {
+    "id": "1203.5855v1",
+    "title": "Lattice QCD with 12 Degenerate Quark Flavors",
+    "published": "2012-03-27",
+    "authors": [
+     "Xiao-Yong Jin",
+     "Robert D. Mawhinney"
+    ]
+   },
+   {
+    "id": "2212.08469v2",
+    "title": "Learning Trivializing Gradient Flows for Lattice Gauge Theories",
+    "published": "2022-12-16",
+    "authors": [
+     "Simone Bacchio",
+     "Pan Kessel",
+     "Stefan Schaefer"
+    ]
+   },
+   {
+    "id": "hep-lat/0408036v1",
+    "title": "Calorons with non-trivial holonomy on and off the lattice",
+    "published": "2004-08-25",
+    "authors": [
+     "Falk Bruckmann",
+     "E. M. Ilgenfritz",
+     "B. V. Martemyanov"
+    ]
+   },
+   {
+    "id": "hep-lat/9709057v1",
+    "title": "The $(\u03bb\u03a6^4)_4$ theory on the lattice: effective potential and triviality",
+    "published": "1997-09-17",
+    "authors": [
+     "A. Agodi",
+     "G. Andronico",
+     "P. Cea"
+    ]
+   },
+   {
+    "id": "2212.11387v1",
+    "title": "Use of Schwinger-Dyson equation in constructing an approximate trivializing map",
+    "published": "2022-12-21",
+    "authors": [
+     "Peter Boyle",
+     "Taku Izubuchi",
+     "Luchang Jin"
+    ]
+   },
+   {
+    "id": "2112.15532v1",
+    "title": "Machine Learning Trivializing Maps: A First Step Towards Understanding How Flow-Based Samplers Scale Up",
+    "published": "2021-12-31",
+    "authors": [
+     "Luigi Del Debbio",
+     "Joe Marsh Rossney",
+     "Michael Wilson"
+    ]
+   },
+   {
+    "id": "2401.06860v1",
+    "title": "Trivializing Flow in 2D O(3) sigma model",
+    "published": "2024-01-12",
+    "authors": [
+     "Christopher Chamness",
+     "Kostas Orginos",
+     "Daniel Kovner"
+    ]
+   },
+   {
+    "id": "1010.6150v1",
+    "title": "A Ginsparg-Wilson approach to lattice $\\mathcal{CP}$ symmetry",
+    "published": "2010-10-29",
+    "authors": [
+     "Nigel Cundy"
+    ]
+   },
+   {
+    "id": "2302.08408v3",
+    "title": "Learning Trivializing Flows",
+    "published": "2023-02-16",
+    "authors": [
+     "David Albandea",
+     "Luigi Del Debbio",
+     "Pilar Hern\u00e1ndez"
+    ]
+   },
+   {
+    "id": "0907.5491v3",
+    "title": "Trivializing maps, the Wilson flow and the HMC algorithm",
+    "published": "2009-07-31",
+    "authors": [
+     "Martin L\u00fcscher"
+    ]
+   },
+   {
+    "id": "2105.14571v3",
+    "title": "Homotopy data as part of the lattice field: A first study",
+    "published": "2021-05-30",
+    "authors": [
+     "Pietro Dall'Olio",
+     "Jos\u00e9 A. Zapata"
+    ]
+   },
+   {
+    "id": "2304.04655v1",
+    "title": "Exploring conformality in lattice N=4 supersymmetric Yang--Mills",
+    "published": "2023-04-10",
+    "authors": [
+     "David Schaich"
+    ]
+   },
+   {
+    "id": "2111.15022v1",
+    "title": "Lattice artefacts on the Landau gauge gluon propagator from hypercubic tensor representations",
+    "published": "2021-11-29",
+    "authors": [
+     "Guilherme Catumba",
+     "Orlando Oliveira",
+     "Paulo J. Silva"
+    ]
+   },
+   {
+    "id": "hep-lat/0011072v1",
+    "title": "Overlap Fermions on a $20^4$ Lattice",
+    "published": "2000-11-17",
+    "authors": [
+     "K. F. Liu",
+     "S. J. Dong",
+     "F. X. Lee"
+    ]
+   },
+   {
+    "id": "hep-lat/9709107v1",
+    "title": "Yang-Mills classical solutions and fermionic zero modes from lattice calculations",
+    "published": "1997-09-24",
+    "authors": [
+     "M. Garcia Perez",
+     "A. Gonzalez-Arroyo",
+     "A. Montero"
+    ]
+   },
+   {
+    "id": "hep-lat/9312041v1",
+    "title": "How well do lattice simulations reproduce the different aspects of the geometric Schwinger model",
+    "published": "1993-12-09",
+    "authors": [
+     "H. Dilger",
+     "H. Joos"
+    ]
+   },
+   {
+    "id": "1703.08571v1",
+    "title": "A Worm Algorithm for the Lattice CP(N-1) Model",
+    "published": "2017-03-15",
+    "authors": [
+     "Tobias Rindlisbacher",
+     "Philippe de Forcrand"
+    ]
+   },
+   {
+    "id": "hep-lat/0509079v1",
+    "title": "Low-lying spectrum for lattice Dirac operators with twisted mass",
+    "published": "2005-09-22",
+    "authors": [
+     "Christof Gattringer",
+     "Stefan Solbrig"
+    ]
+   },
+   {
+    "id": "2105.12481v2",
+    "title": "Efficient Modelling of Trivializing Maps for Lattice $\u03c6^4$ Theory Using Normalizing Flows: A First Look at Scalability",
+    "published": "2021-05-26",
+    "authors": [
+     "Luigi Del Debbio",
+     "Joe Marsh Rossney",
+     "Michael Wilson"
+    ]
+   },
+   {
+    "id": "2409.00502v2",
+    "title": "Generalized BKT Transitions and Persistent Order on the Lattice",
+    "published": "2024-08-31",
+    "authors": [
+     "Evan Berkowitz",
+     "Seth Buesing",
+     "Shi Chen"
+    ]
+   },
+   {
+    "id": "1111.2193v1",
+    "title": "Lattice Determination of the Anomalous Magnetic Moment of the Muon",
+    "published": "2011-11-09",
+    "authors": [
+     "Michele Della Morte",
+     "Benjamin J\u00e4ger",
+     "Andreas J\u00fcttner"
+    ]
+   },
+   {
+    "id": "0710.3151v1",
+    "title": "New Higgs physics from the lattice",
+    "published": "2007-10-16",
+    "authors": [
+     "Zoltan Fodor",
+     "Kieran Holland",
+     "Julius Kuti"
+    ]
+   },
+   {
+    "id": "hep-lat/0609006v1",
+    "title": "Critical Exponents for U(1) Lattice Gauge Theory at Finite Temperature",
+    "published": "2006-09-06",
+    "authors": [
+     "Bernd A. Berg",
+     "Alexei Bazavov"
+    ]
+   },
+   {
+    "id": "1411.5828v1",
+    "title": "Nucleon axial form factors from two-flavour Lattice QCD",
+    "published": "2014-11-21",
+    "authors": [
+     "P. M. Junnarkar",
+     "S. Capitani",
+     "D. Djukanovic"
+    ]
+   },
+   {
+    "id": "2211.00425v1",
+    "title": "Improved lattice method for determining entanglement measures in SU(N) gauge theories",
+    "published": "2022-11-01",
+    "authors": [
+     "Tobias Rindlisbacher",
+     "Niko Jokela",
+     "Arttu P\u00f6nni"
+    ]
+   },
+   {
+    "id": "0810.0085v2",
+    "title": "Topological susceptibility in (2+1)-flavor lattice QCD with overlap fermion",
+    "published": "2008-10-01",
+    "authors": [
+     "T. W. Chiu",
+     "S. Aoki",
+     "S. Hashimoto"
+    ]
+   },
+   {
+    "id": "1211.1159v1",
+    "title": "Lattice calculations of the leading hadronic contribution to (g-2)_mu",
+    "published": "2012-11-06",
+    "authors": [
+     "Michele Della Morte",
+     "Benjamin J\u00e4ger",
+     "Andreas J\u00fcttner"
+    ]
+   },
+   {
+    "id": "2110.12189v1",
+    "title": "Thermal QCD with external imaginary electric fields on the lattice",
+    "published": "2021-10-23",
+    "authors": [
+     "Gergely Endrodi",
+     "Gergely Marko"
+    ]
+   },
+   {
+    "id": "2111.03998v2",
+    "title": "Investigating quark confinement from the viewpoint of lattice gauge-scalar models",
+    "published": "2021-11-07",
+    "authors": [
+     "Ryu Ikeda",
+     "Kei-Ichi Kondo"
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ "Q009": {
+  "query": "all:\"Jarzynski\" AND all:\"lattice\"",
+  "totalResults": 32,
+  "returned": 30,
+  "entries": [
+   {
+    "id": "1610.09017v1",
+    "title": "Applications of Jarzynski's relation in lattice gauge theories",
+    "published": "2016-10-27",
+    "authors": [
+     "Alessandro Nada",
+     "Michele Caselle",
+     "Gianluca Costagliola"
+    ]
+   },
+   {
+    "id": "1604.05544v2",
+    "title": "Jarzynski's theorem for lattice gauge theory",
+    "published": "2016-04-19",
+    "authors": [
+     "Michele Caselle",
+     "Gianluca Costagliola",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2210.03139v1",
+    "title": "Stochastic normalizing flows for lattice field theory",
+    "published": "2022-10-06",
+    "authors": [
+     "Michele Caselle",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2309.15480v1",
+    "title": "Entanglement entropy from non-equilibrium lattice simulations",
+    "published": "2023-09-27",
+    "authors": [
+     "Andrea Bulgarelli",
+     "Marco Panero"
+    ]
+   },
+   {
+    "id": "1809.01609v1",
+    "title": "Thermolubricity and the Jarzynski equality",
+    "published": "2018-09-05",
+    "authors": [
+     "Franco Pellegrini",
+     "Emanuele Panizon",
+     "Giuseppe Santoro"
+    ]
+   },
+   {
+    "id": "1303.2141v3",
+    "title": "Non-equilibrium Approach to Thermodynamics using Jarzynski Equality and Diagonal Entropy",
+    "published": "2013-03-08",
+    "authors": [
+     "Van A. Ngo",
+     "Stephan Haas"
+    ]
+   },
+   {
+    "id": "1203.3332v2",
+    "title": "Exact Results for the Jarzynski Equality in Ising Spin Glass Models Derived by Using a Gauge Symmetry",
+    "published": "2012-03-15",
+    "authors": [
+     "Chiaki Yamaguchi"
+    ]
+   },
+   {
+    "id": "2404.02965v2",
+    "title": "Quantum thermodynamics of nonequilibrium processes in lattice gauge theories",
+    "published": "2024-04-03",
+    "authors": [
+     "Zohreh Davoudi",
+     "Christopher Jarzynski",
+     "Niklas Mueller"
+    ]
+   },
+   {
+    "id": "2108.13444v1",
+    "title": "Calculation of the running coupling in non-Abelian gauge theories from Jarzynski's equality",
+    "published": "2021-08-30",
+    "authors": [
+     "Olmo Francesconi",
+     "Marco Panero",
+     "David Preti"
+    ]
+   },
+   {
+    "id": "cond-mat/0702044v2",
+    "title": "Temperature-extended Jarzynski relation: Application to the numerical calculation of the surface tension",
+    "published": "2007-02-02",
+    "authors": [
+     "Christophe Chatelain"
+    ]
+   },
+   {
+    "id": "1801.03110v2",
+    "title": "QCD thermodynamics from lattice calculations with non-equilibrium methods: The SU(3) equation of state",
+    "published": "2018-01-09",
+    "authors": [
+     "Michele Caselle",
+     "Alessandro Nada",
+     "Marco Panero"
+    ]
+   },
+   {
+    "id": "1710.04435v1",
+    "title": "The equation of state with non-equilibrium methods",
+    "published": "2017-10-12",
+    "authors": [
+     "Alessandro Nada",
+     "Michele Caselle",
+     "Marco Panero"
+    ]
+   },
+   {
+    "id": "1609.02157v2",
+    "title": "Out-of-equilibrium protocol for R\u00e9nyi entropies via the Jarzynski equality",
+    "published": "2016-09-07",
+    "authors": [
+     "Vincenzo Alba"
+    ]
+   },
+   {
+    "id": "2412.00200v3",
+    "title": "Scaling of Stochastic Normalizing Flows in $\\mathrm{SU}(3)$ lattice gauge theory",
+    "published": "2024-11-29",
+    "authors": [
+     "Andrea Bulgarelli",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2409.18861v2",
+    "title": "Sampling SU(3) pure gauge theory with Stochastic Normalizing Flows",
+    "published": "2024-09-27",
+    "authors": [
+     "Andrea Bulgarelli",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2310.11979v1",
+    "title": "Out-of-equilibrium simulations to fight topological freezing",
+    "published": "2023-10-18",
+    "authors": [
+     "Claudio Bonanno",
+     "Alessandro Nada",
+     "Davide Vadacchino"
+    ]
+   },
+   {
+    "id": "2201.00806v1",
+    "title": "Tensor-Network Approach to Work Statistics for 1D Quantum Lattice Systems",
+    "published": "2022-01-03",
+    "authors": [
+     "Jiayin Gu",
+     "Fan Zhang",
+     "H. T. Quan"
+    ]
+   },
+   {
+    "id": "2201.08862v3",
+    "title": "Stochastic normalizing flows as non-equilibrium transformations",
+    "published": "2022-01-21",
+    "authors": [
+     "Michele Caselle",
+     "Elia Cellini",
+     "Alessandro Nada"
+    ]
+   },
+   {
+    "id": "2402.06561v2",
+    "title": "Mitigating topological freezing using out-of-equilibrium simulations",
+    "published": "2024-02-09",
+    "authors": [
+     "Claudio Bonanno",
+     "Alessandro Nada",
+     "Davide Vadacchino"
+    ]
+   },
+   {
+    "id": "2405.02552v2",
+    "title": "Fock Space and Field Theoretic Description of Nonequilibrium Work Relations",
+    "published": "2024-05-04",
+    "authors": [
+     "Andrew J. Baish",
+     "Benjamin P. Vollmayr-Lee"
+    ]
+   },
+   {
+    "id": "2402.10872v2",
+    "title": "Dynamically Robust Counterdiabatic Topological Pumping",
+    "published": "2024-02-16",
+    "authors": [
+     "Joshua Chiel",
+     "Christopher Jarzynski",
+     "Jay Sau"
+    ]
+   },
+   {
+    "id": "2304.03311v2",
+    "title": "Entanglement entropy from non-equilibrium Monte Carlo simulations",
+    "published": "2023-04-06",
+    "authors": [
+     "Andrea Bulgarelli",
+     "Marco Panero"
+    ]
+   },
+   {
+    "id": "2411.00620v2",
+    "title": "Topological susceptibility of $\\mathrm{SU}(3)$ pure-gauge theory from out-of-equilibrium simulations",
+    "published": "2024-11-01",
+    "authors": [
+     "Claudio Bonanno",
+     "Alessandro Nada",
+     "Davide Vadacchino"
+    ]
+   },
+   {
+    "id": "2410.02711v3",
+    "title": "NETS: A Non-Equilibrium Transport Sampler",
+    "published": "2024-10-03",
+    "authors": [
+     "Michael S. Albergo",
+     "Eric Vanden-Eijnden"
+    ]
+   },
+   {
+    "id": "cond-mat/0409613v1",
+    "title": "Free energy differences : Representations, estimators, and sampling strategies",
+    "published": "2004-09-23",
+    "authors": [
+     "Arjun R. Acharya"
+    ]
+   },
+   {
+    "id": "math-ph/0701047v1",
+    "title": "A selection of nonequilibrium issues",
+    "published": "2007-01-16",
+    "authors": [
+     "C. Maes",
+     "K. Netocny",
+     "B. Shergelashvili"
+    ]
+   },
+   {
+    "id": "0706.2818v1",
+    "title": "Protein mechanical unfolding: a model with binary variables",
+    "published": "2007-06-19",
+    "authors": [
+     "A. Imparato",
+     "A. Pelizzola",
+     "M. Zamparo"
+    ]
+   },
+   {
+    "id": "2502.19418v2",
+    "title": "Work and heat exchanged during sudden quenches of strongly coupled quantum systems",
+    "published": "2025-02-26",
+    "authors": [
+     "Zohreh Davoudi",
+     "Christopher Jarzynski",
+     "Niklas Mueller"
+    ]
+   },
+   {
+    "id": "0705.3256v1",
+    "title": "Reconstructing the free energy landscape of a mechanically unfolded model protein",
+    "published": "2007-05-22",
+    "authors": [
+     "Alberto Imparato",
+     "Stefano Luccioli",
+     "Alessandro Torcini"
+    ]
+   },
+   {
+    "id": "0803.1811v2",
+    "title": "Free energy landscape of mechanically unfolded model proteins: extended Jarzinsky versus inherent structure reconstruction",
+    "published": "2008-03-12",
+    "authors": [
+     "Stefano Luccioli",
+     "Alberto Imparato",
+     "Alessandro Torcini"
+    ]
+   }
+  ],
+  "status": "ok"
+ }
+}

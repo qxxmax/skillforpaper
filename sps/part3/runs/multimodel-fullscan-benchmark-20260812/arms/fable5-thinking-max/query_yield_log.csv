@@ -1,0 +1,18 @@
+QueryID,ExecutedAt,RawHits,DeduplicatedHits,ScreenedHits,IncludedHits,NewTerms,NewFacets,NoisePatterns,Decision,NextAction
+Q001,2026-08-12,47,26,30,3,,,generic flow applications,keep,monitor tail to screening table
+Q002,2026-08-12,17,10,17,2,,,none serious,keep,bib[9] ID recovered
+Q003,2026-08-12,20,15,20,4,T025,,image-processing SNF papers,keep,P0014 ID recovered
+Q004,2026-08-12,6,6,6,3,T025;T026,,none,keep,AFT/CRAFT/FAB family added
+Q005,2026-08-12,50,29,30,1,,,molecular conformer/protein noise,keep with negative note,only physics-adjacent BG papers pooled
+Q006,2026-08-12,23,22,23,4,T030,,uncertainty-quantification noise,keep,SEED RECALLED; same-author 2607.15682 found
+Q007,2026-08-12,6,4,6,1,,,none,keep,mostly dedup with seed bib
+Q008,2026-08-12,3762,28,30,5,T023-anchored,,generic lattice QCD dominates,keep but query too broad,should have used exact phrase "trivializing map"
+Q009,2026-08-12,32,25,30,3,T027;T028,,biophysics Jarzynski applications,keep,non-learned noneq lattice line recovered
+Q010/call12,2026-08-12,5,5,5,5,,,none,keep,5 bib identities confirmed
+Q012/call13+17,2026-08-12,63,63,63,63,,,call13 429 rate-limited then retried,keep,whole pool two-source
+Q011/call14,2026-08-12,100,~70 new,100,2,,,long monitor tail,keep,F2 forward saturation confirmed
+Q013/call15,2026-08-12,63,~55 new,63,7,,,textbook/tooling refs,keep,mechanism roots recovered
+Q_seed_fwd/call16,2026-08-12,3,2 new,3,2,,,none,keep,forward lineage of seed
+Q014-15/call18-19,2026-08-12,13,0 new,13,0,,,2002.06707 not in INSPIRE,keep,third-channel cross-validation
+Q016/call27,2026-08-12,4,4,4,2,,,none,keep,ERQ0002 resolved; L2HMC added
+Q017/call28,2026-08-12,16,15,16,1,,,non-physics senses of CSD,stop,saturation signal

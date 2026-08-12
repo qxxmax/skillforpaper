@@ -1,0 +1,200 @@
+{
+ "call27": [
+  {
+   "id": "1910.13496v2",
+   "title": "Asymptotically unbiased estimation of physical observables with neural samplers",
+   "authors": [
+    "Kim A. Nicoli",
+    "Shinichi Nakajima",
+    "Nils Strodthoff"
+   ],
+   "pub": "2019-10-29"
+  },
+  {
+   "id": "cond-mat/0212648v1",
+   "title": "Sequential monte carlo samplers",
+   "authors": [
+    "Pierre Del Moral",
+    "Arnaud Doucet"
+   ],
+   "pub": "2002-12-31"
+  },
+  {
+   "id": "1711.09268v3",
+   "title": "Generalizing Hamiltonian Monte Carlo with Neural Networks",
+   "authors": [
+    "Daniel Levy",
+    "Matthew D. Hoffman",
+    "Jascha Sohl-Dickstein"
+   ],
+   "pub": "2017-11-25"
+  },
+  {
+   "id": "physics/9803008v2",
+   "title": "Annealed Importance Sampling",
+   "authors": [
+    "Radford M. Neal"
+   ],
+   "pub": "1998-03-08"
+  }
+ ],
+ "call28": [
+  {
+   "id": "2605.12597v2",
+   "title": "The critical slowing down in diffusion models",
+   "authors": [
+    "Luca Maria Del Bono",
+    "Giulio Biroli",
+    "Patrick Charbonneau"
+   ],
+   "pub": "2026-05-12"
+  },
+  {
+   "id": "2607.25370v1",
+   "title": "Critical slowing down for predicting controller induced loss of control in quadrotors",
+   "authors": [
+    "Jasper J. van Beers",
+    "Prashant Solanki",
+    "Erik-Jan van Kampen"
+   ],
+   "pub": "2026-07-28"
+  },
+  {
+   "id": "1605.07383v2",
+   "title": "From Local Chaos to Critical Slowing Down: A Theory of the Functional Connectivity of Small Neural Circuits",
+   "authors": [
+    "Diego Fasoli",
+    "Anna Cattani",
+    "Stefano Panzeri"
+   ],
+   "pub": "2016-05-24"
+  },
+  {
+   "id": "2602.23840v1",
+   "title": "A novel gauge-equivariant neural-network architecture for preconditioners in lattice QCD",
+   "authors": [
+    "Simon Pfahler",
+    "Daniel Kn\u00fcttel",
+    "Christoph Lehner"
+   ],
+   "pub": "2026-02-27"
+  },
+  {
+   "id": "2401.06481v2",
+   "title": "Machine learning a fixed point action for SU(3) gauge theory with a gauge equivariant convolutional neural network",
+   "authors": [
+    "Kieran Holland",
+    "Andreas Ipp",
+    "David I. M\u00fcller"
+   ],
+   "pub": "2024-01-12"
+  },
+  {
+   "id": "2311.17816v1",
+   "title": "Fixed point actions from convolutional neural networks",
+   "authors": [
+    "Kieran Holland",
+    "Andreas Ipp",
+    "David I. M\u00fcller"
+   ],
+   "pub": "2023-11-29"
+  },
+  {
+   "id": "2602.23731v2",
+   "title": "A Machine Learning Approach for Lattice Gauge Fixing",
+   "authors": [
+    "Ho Hsiao",
+    "Benjamin J. Choi",
+    "Hiroshi Ohno"
+   ],
+   "pub": "2026-02-27"
+  },
+  {
+   "id": "2304.10438v1",
+   "title": "Gauge-equivariant pooling layers for preconditioners in lattice QCD",
+   "authors": [
+    "Christoph Lehner",
+    "Tilo Wettig"
+   ],
+   "pub": "2023-04-20"
+  },
+  {
+   "id": "2405.16288v1",
+   "title": "Generating configurations of increasing lattice size with machine learning and the inverse renormalization group",
+   "authors": [
+    "Dimitrios Bachtis"
+   ],
+   "pub": "2024-05-25"
+  },
+  {
+   "id": "2502.02127v1",
+   "title": "Exploring Generative Networks for Manifolds with Non-Trivial Topology",
+   "authors": [
+    "Shiyang Chen",
+    "Gert Aarts",
+    "Biagio Lucini"
+   ],
+   "pub": "2025-02-04"
+  },
+  {
+   "id": "2108.11494v1",
+   "title": "Super-resolution of spin configurations based on flow-based generative models",
+   "authors": [
+    "Kenta Shiina",
+    "Lee Hwee Kuan",
+    "Hiroyuki Mori"
+   ],
+   "pub": "2021-08-25"
+  },
+  {
+   "id": "2502.03315v2",
+   "title": "HMC and gradient flow with machine-learned classically perfect fixed-point actions",
+   "authors": [
+    "Kieran Holland",
+    "Andreas Ipp",
+    "David I. M\u00fcller"
+   ],
+   "pub": "2025-02-05"
+  },
+  {
+   "id": "2509.06450v1",
+   "title": "Anticipating AMOC transitions via deep learning",
+   "authors": [
+    "Wenjie Zhang",
+    "Yu Huang",
+    "Sebastian Bathiany"
+   ],
+   "pub": "2025-09-08"
+  },
+  {
+   "id": "2507.12554v1",
+   "title": "Self-learning Monte Carlo Method: A Review",
+   "authors": [
+    "Gaopei Pan",
+    "Chuang Chen",
+    "Zi Yang Meng"
+   ],
+   "pub": "2025-07-16"
+  },
+  {
+   "id": "2605.16020v1",
+   "title": "Variational Autoregressive Networks with probability priors",
+   "authors": [
+    "Piotr Bia\u0142as",
+    "Piotr Korcyl",
+    "Tomasz Stebel"
+   ],
+   "pub": "2026-05-15"
+  },
+  {
+   "id": "2105.12481v2",
+   "title": "Efficient Modelling of Trivializing Maps for Lattice $\u03c6^4$ Theory Using Normalizing Flows: A First Look at Scalability",
+   "authors": [
+    "Luigi Del Debbio",
+    "Joe Marsh Rossney",
+    "Michael Wilson"
+   ],
+   "pub": "2021-05-26"
+  }
+ ]
+}

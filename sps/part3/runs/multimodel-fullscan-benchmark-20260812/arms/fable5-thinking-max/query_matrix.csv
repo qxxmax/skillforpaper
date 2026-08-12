@@ -1,0 +1,18 @@
+QueryID,Round,RouteFamily,AxisCombination,QueryString,DomainLock,NegativeTerms,SourceTermIDs,TargetSource,ExpectedFacet,Status
+Q001,R0002,lexical,method_x_domain,"all:""normalizing flow"" AND all:""lattice field theory""",lattice field theory,,T011;T002,arXiv API,F2,executed
+Q002,R0002,lexical,method_x_domain,"all:""flow-based sampling"" AND all:""lattice""",lattice,,T011;T002,arXiv API,F2,executed
+Q003,R0002,lexical,method,"all:""stochastic normalizing flows""",implicit (exact phrase),,T012,arXiv API,F1+F3,executed
+Q004,R0002,lexical,correction_x_method,"all:""annealed importance sampling"" AND all:""normalizing flow""",sampling context,,T017;T011,arXiv API,F1+F3,executed
+Q005,R0002,lexical,method,"all:""Boltzmann generator""",implicit (exact phrase),,T018,arXiv API,F1,executed
+Q006,R0002,lexical,problem_x_method,"all:""unnormalized"" AND all:""neural"" AND all:""sampler""",unnormalized,,T003,arXiv API,F1,executed
+Q007,R0002,lexical,method_x_domain,"all:""diffusion model"" AND all:""lattice gauge theory""",lattice gauge theory,,T013;T002,arXiv API,F2,executed
+Q008,R0002,lexical,method_x_domain,"all:""trivializing"" AND all:""lattice""",lattice,,T023;T002,arXiv API,F2,executed
+Q009,R0002,lexical,correction_x_domain,"all:""Jarzynski"" AND all:""lattice""",lattice,,T017;T002,arXiv API,F3+F2,executed
+Q010,R0003,identifier,batch_metadata,arXiv API id_list batch for pooled candidate IDs,already constrained,,pool,arXiv API,all,executed
+Q011,R0003,citation,forward_of_core,Semantic Scholar citations of 1904.12072,already constrained,,P0002,Semantic Scholar API,F2,executed
+Q012,R0003,citation,batch_identity,Semantic Scholar batch lookup of pooled arXiv IDs,already constrained,,pool,Semantic Scholar API,all,executed
+Q013,R0003,citation,backward_of_core,Semantic Scholar references of 2111.15141 (PIS),already constrained,,P0029,Semantic Scholar API,F1,executed
+Q014,R0004,domain_database,cross_validation,INSPIRE-HEP query for hep-lat core records,hep-lat scope,,pool F2 core,INSPIRE API,F2,executed
+Q015,R0004,domain_database,cross_validation,INSPIRE-HEP query for seed record 2606.13790,hep-lat scope,,P0001,INSPIRE API,seed,executed
+Q016,R0006,identifier,gap_fill,arXiv id_list 1910.13496;1711.09268;physics/9803008;cond-mat/0212648,already constrained,,ERQ0002;hypothesis,arXiv API,F1+F3,executed
+Q017,R0006,lexical,problem_x_method_adversarial,"all:""neural network"" AND all:""critical slowing down""",critical slowing down,control/neuro/climate senses,T004,arXiv API,F2 older/negative,executed
