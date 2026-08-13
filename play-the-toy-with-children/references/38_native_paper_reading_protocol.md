@@ -44,7 +44,13 @@ Appendix B, Algorithm 1, steps 4-7
 
 For HTML-rendered sources (e.g. arXiv HTML full text) there are no page
 numbers; section/equation/figure/table anchors alone are valid and pass the
-validator (`Sec. 3.5, Eqs. (27)–(30)` is a complete anchor).
+validator (`Sec. 3.5, Eqs. (27)–(30)` is a complete anchor). Both `Table 3`
+and the abbreviated `Tab. 3` are accepted anchor forms.
+
+Validator conventions for VERIFIED records: ASCII angle brackets are treated
+as unresolved placeholders (`<...>`), so write expectation values with
+Unicode angle brackets (`⟨φ²⟩`) or TeX (`\langle \phi^2 \rangle`), never
+`<phi^2>`.
 
 R0 identity-lock metadata (version/date/page count) sometimes does not come
 with the full-text fetch — an HTML fetch may return the body without the

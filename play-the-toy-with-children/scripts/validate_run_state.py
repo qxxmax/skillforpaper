@@ -15,6 +15,14 @@ Minimal Run Contract in SKILL.md):
    output or are treated as internal working data.
 3. The call-ledger count in round_log.md matches the budget mirror in
    research_state.md, when both are present.
+4. The current round in research_state.md matches the latest round heading in
+   round_log.md; every RoundID cited in the call ledger has a narrative round
+   entry.
+5. Every EvidenceID cited in round_log.md exists in evidence_registry.md.
+6. Files in one-level subdirectories (sources/, figures/, ...) have a manifest
+   row, unless the directory itself has one (warning only).
+7. When the run is closed (stop status is not `continue`), the actual column
+   of the search-budget-contract allocation table is backfilled.
 
 Exit code 0 = consistent, 1 = mismatches found. Run this first when resuming
 an interrupted run.
@@ -162,6 +170,53 @@ def parse_state_budget_used(state: str) -> int | None:
     return int(match.group(1)) if match else None
 
 
+EVIDENCE_ID_RE = re.compile(r"\bE-[A-Z]+-\d{4}\b|\bE\d{4}\b")
+
+
+def parse_state_current_round(state: str) -> str | None:
+    match = re.search(r"Current round[:*\s]+[^\n]*?(R\d{4})", state)
+    return match.group(1) if match else None
+
+
+def parse_round_headings(round_log: str) -> list[str]:
+    return re.findall(r"^##\s+(R\d{4})", round_log, flags=re.MULTILINE)
+
+
+def parse_ledger_round_ids(round_log: str) -> list[str]:
+    return sorted(set(re.findall(r"^\|\s*\d+\s*\|\s*(R\d{4})", round_log, flags=re.MULTILINE)))
+
+
+def parse_stop_status(state: str) -> str | None:
+    match = re.search(
+        r"Current stop status[:*]*\s*([^\n]+)", state, flags=re.IGNORECASE
+    )
+    return match.group(1).strip().lstrip("* ") if match else None
+
+
+EMPTY_CELL_VALUES = {"", "-", "—", "–", "n/a"}
+
+
+def parse_unfilled_actual_stages(contract: str) -> list[str]:
+    """Stage names in the allocation table whose actual column is empty."""
+    unfilled: list[str] = []
+    actual_col: int | None = None
+    for line in contract.splitlines():
+        if not line.strip().startswith("|"):
+            continue
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        if actual_col is None:
+            for idx, cell in enumerate(cells):
+                if "actual" in cell.lower():
+                    actual_col = idx
+                    break
+            continue
+        if not cells or set(cells[0]) <= {"-", " ", ":"}:
+            continue
+        if len(cells) > actual_col and cells[actual_col].lower() in EMPTY_CELL_VALUES:
+            unfilled.append(cells[0])
+    return unfilled
+
+
 def validate(run_dir: Path, profile: str | None = None) -> dict[str, object]:
     errors: list[str] = []
     warnings: list[str] = []
@@ -201,17 +256,38 @@ def validate(run_dir: Path, profile: str | None = None) -> dict[str, object]:
         for name in sorted(on_disk):
             if name not in manifest:
                 errors.append(f"file on disk has no manifest row: {name}")
+        # One-level subdirectory files: covered by an own row or a row for
+        # the directory itself; anything else is flagged as a warning.
+        for subdir in sorted(p for p in run_dir.iterdir() if p.is_dir() and not p.name.startswith(".")):
+            dir_key_present = any(
+                key.rstrip("/") == subdir.name for key in manifest
+            )
+            if dir_key_present:
+                continue
+            uncovered = [
+                f"{subdir.name}/{f.name}"
+                for f in sorted(subdir.iterdir())
+                if f.is_file()
+                and f.suffix not in IGNORED_SUFFIXES
+                and not f.name.startswith(".")
+                and f"{subdir.name}/{f.name}" not in manifest
+            ]
+            if uncovered:
+                warnings.append(
+                    f"subdirectory files without a manifest row (add rows or one row for '{subdir.name}/'): "
+                    + ", ".join(uncovered)
+                )
 
     round_log_path = run_dir / "round_log.md"
     state_path = run_dir / "research_state.md"
-    if round_log_path.is_file():
-        ledger_total = parse_call_ledger_total(
-            round_log_path.read_text(encoding="utf-8")
-        )
+    round_log_text = round_log_path.read_text(encoding="utf-8") if round_log_path.is_file() else None
+    state_text = state_path.read_text(encoding="utf-8") if state_path.is_file() else None
+    if round_log_text is not None:
+        ledger_total = parse_call_ledger_total(round_log_text)
         if ledger_total is None:
             warnings.append("round_log.md has no Call Ledger section")
-        elif state_path.is_file():
-            mirror = parse_state_budget_used(state_path.read_text(encoding="utf-8"))
+        elif state_text is not None:
+            mirror = parse_state_budget_used(state_text)
             if mirror is None:
                 warnings.append("research_state.md has no parseable 'Used: n' budget mirror")
             elif mirror != ledger_total:
@@ -219,6 +295,54 @@ def validate(run_dir: Path, profile: str | None = None) -> dict[str, object]:
                     f"budget mismatch: call ledger says {ledger_total} calls, "
                     f"research_state.md mirrors {mirror} (ledger wins)"
                 )
+
+        headings = parse_round_headings(round_log_text)
+        if state_text is not None and headings:
+            state_round = parse_state_current_round(state_text)
+            latest = max(headings)
+            if state_round is None:
+                warnings.append("research_state.md has no parseable 'Current round: Rnnnn'")
+            elif state_round < latest:
+                errors.append(
+                    f"research_state.md current round {state_round} is behind "
+                    f"round_log.md latest round {latest} (stale state)"
+                )
+            elif state_round > latest:
+                errors.append(
+                    f"research_state.md current round {state_round} is ahead of "
+                    f"round_log.md latest round {latest} (state leads disk)"
+                )
+        for round_id in parse_ledger_round_ids(round_log_text):
+            if round_id not in headings:
+                errors.append(
+                    f"call ledger cites {round_id} but round_log.md has no "
+                    f"'## {round_id}' narrative entry (reconstruct and mark it)"
+                )
+
+        registry_path = run_dir / "evidence_registry.md"
+        if registry_path.is_file():
+            registry_ids = set(EVIDENCE_ID_RE.findall(registry_path.read_text(encoding="utf-8")))
+            cited = set(EVIDENCE_ID_RE.findall(round_log_text))
+            for evidence_id in sorted(cited - registry_ids):
+                errors.append(
+                    f"round_log.md cites {evidence_id} but evidence_registry.md "
+                    f"has no such entry (state leads disk)"
+                )
+
+    contract_path = run_dir / "search_budget_contract.md"
+    if contract_path.is_file():
+        unfilled = parse_unfilled_actual_stages(contract_path.read_text(encoding="utf-8"))
+        if unfilled:
+            stop_status = parse_stop_status(state_text) if state_text else None
+            run_closed = stop_status is not None and "continue" not in stop_status.lower()
+            message = (
+                "search_budget_contract.md actual column not backfilled for: "
+                + ", ".join(unfilled)
+            )
+            if run_closed:
+                errors.append(message + f" (run closed: {stop_status})")
+            else:
+                warnings.append(message)
 
     return {
         "run_directory": str(run_dir),
@@ -273,7 +397,47 @@ def self_test() -> int:
             print(f"self-test FAIL: literature fixture: {bad['profiles']} {bad['errors']}")
             return 1
 
-    print("self-test PASS: part3 profile CONSISTENT, bare literature dir flagged")
+        stale_dir = Path(temp) / "stale"
+        stale_dir.mkdir()
+        (stale_dir / "research_state.md").write_text(
+            "**Current round:** R0001\nUsed: 2\n"
+            "**Current stop status:** saturated_under_budget\n",
+            encoding="utf-8",
+        )
+        (stale_dir / "round_log.md").write_text(
+            "## Call Ledger\n\n"
+            "| # | RoundID | type | target | yield | running total |\n"
+            "|---|---|---|---|---|---|\n"
+            "| 1 | R0002 | fetch | x | ok (E0001) | 1/10 |\n"
+            "| 2 | R0003 | fetch | y | ok | 2/10 |\n\n"
+            "## R0003\n\nnarrative\n",
+            encoding="utf-8",
+        )
+        (stale_dir / "evidence_registry.md").write_text("# Registry\n(no rows)\n", encoding="utf-8")
+        (stale_dir / "candidate_pool.md").write_text("# Pool\n", encoding="utf-8")
+        (stale_dir / "search_budget_contract.md").write_text(
+            "| stage | planned budget | actual budget | notes |\n"
+            "|---|---:|---:|---|\n"
+            "| retrieval | 14 | — | |\n",
+            encoding="utf-8",
+        )
+        stale = validate(stale_dir)
+        joined = " | ".join(stale["errors"])
+        expected_fragments = [
+            "R0001 is behind",
+            "no '## R0002' narrative entry",
+            "cites E0001 but evidence_registry.md",
+            "actual column not backfilled",
+        ]
+        missing = [frag for frag in expected_fragments if frag not in joined]
+        if stale["status"] != "MISMATCH" or missing:
+            print(f"self-test FAIL: stale fixture missing {missing}: {stale['errors']}")
+            return 1
+
+    print(
+        "self-test PASS: part3 profile CONSISTENT, bare literature dir flagged, "
+        "stale-state fixture raises round/narrative/evidence/backfill errors"
+    )
     return 0
 
 

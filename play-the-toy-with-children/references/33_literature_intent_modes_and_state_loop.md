@@ -307,7 +307,14 @@ any new work:
    `research_state.md`.
 3. Treat claims in `research_state.md` about produced files as unverified
    until step 1 confirms them.
-4. Record the reconciliation as a round in `round_log.md` (action:
+4. If the call ledger cites a RoundID that has no `## Rnnnn` narrative entry
+   (the round ran but its write-up was lost), reconstruct the entry from the
+   ledger rows and the files on disk, and mark it `reconstructed` — do not
+   leave dangling ledger rows and do not renumber later rounds.
+5. Bring the `Current round` field in `research_state.md` up to the latest
+   round heading in `round_log.md`; the validator treats a stale or leading
+   round number as a mismatch.
+6. Record the reconciliation as a round in `round_log.md` (action:
    `resume_reconciliation`), then continue the normal loop.
 
 `scripts/validate_run_state.py <run-directory>` automates steps 1–2 and

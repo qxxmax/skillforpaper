@@ -111,15 +111,29 @@ ALLOWED_LAYERS = {
 
 EVIDENCE_PATTERN = re.compile(r"\bE(?:\d{4,}|-[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*)\b")
 PAPER_ID_PATTERN = re.compile(r"\bP\d{3}\b")
-RELATION_ID_PATTERN = re.compile(r"\bR\d{4}\b")
+# REL-NN is the template convention (no collision with RoundIDs); bare R\d{4}
+# edge IDs from older runs are still accepted and disambiguated against the
+# round log.
+RELATION_ID_PATTERN = re.compile(r"\bREL-\d+\b|\bR\d{4}\b")
 CITATION_EVIDENCE_PATTERN = re.compile(r"\bCIT-\d+-\d+\b")
 ANCHOR_PATTERN = re.compile(
     r"(?:\bp\.\s*\d+|\bpp\.\s*\d+|\bSec\.\s*[A-Za-z0-9]|"
     r"\bEq\.\s*\(?[A-Za-z0-9]|\bFig\.\s*[A-Za-z0-9]|"
-    r"\bTable\s*[A-Za-z0-9]|\bAppendix\s+[A-Za-z0-9])",
+    r"\bTab(?:le)?\.?\s*[A-Za-z0-9]|\bAppendix\s+[A-Za-z0-9])",
     re.IGNORECASE,
 )
 PLACEHOLDER_PATTERN = re.compile(r"<[^>\n]+>|\b(?:TODO|TBD)\b", re.IGNORECASE)
+
+
+def find_evidence_ids(text: str) -> set[str]:
+    """EvidenceIDs in text, ignoring wildcard families like `E-SPS-*`."""
+    found: set[str] = set()
+    for match in EVIDENCE_PATTERN.finditer(text):
+        tail = text[match.end() : match.end() + 2]
+        if tail.startswith("*") or tail.startswith("-*"):
+            continue
+        found.add(match.group(0))
+    return found
 
 
 def table_field(text: str, field: str) -> str | None:
@@ -150,15 +164,29 @@ def ordered_headings(text: str, headings: list[str], errors: list[str], label: s
         errors.append(f"{label} headings are out of order")
 
 
+def normalize_column(name: str) -> str:
+    """CamelCase / spaced headers -> snake_case ("EvidenceID" -> "evidence_id")."""
+    cleaned = re.sub(r"[^0-9A-Za-z]+", " ", name).strip()
+    parts = re.sub(
+        r"(?<=[a-z0-9])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])", " ", cleaned
+    ).split()
+    return "_".join(part.lower() for part in parts)
+
+
 def read_csv(path: Path, required: set[str], errors: list[str]) -> list[dict[str, str]]:
     try:
         with path.open(newline="", encoding="utf-8") as handle:
             reader = csv.DictReader(handle)
-            headers = set(reader.fieldnames or [])
+            fieldnames = list(reader.fieldnames or [])
+            key_map = {name: normalize_column(name) for name in fieldnames}
+            headers = set(key_map.values())
             missing = sorted(required - headers)
             if missing:
                 errors.append(f"{path.name} missing columns: {', '.join(missing)}")
-            return list(reader)
+            return [
+                {key_map[key]: (value or "") for key, value in row.items() if key in key_map}
+                for row in reader
+            ]
     except (OSError, csv.Error) as exc:
         errors.append(f"cannot read {path.name}: {exc}")
         return []
@@ -175,10 +203,7 @@ def read_markdown_table(
     CSV ledger schema (e.g. "EvidenceID" -> "evidence_id").
     """
 
-    def normalize(name: str) -> str:
-        cleaned = re.sub(r"[^0-9A-Za-z]+", " ", name).strip()
-        parts = re.sub(r"(?<=[a-z0-9])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])", " ", cleaned).split()
-        return "_".join(part.lower() for part in parts)
+    normalize = normalize_column
 
     try:
         lines = path.read_text(encoding="utf-8").splitlines()
@@ -249,39 +274,57 @@ def resolve_part1_ledgers(
             "citation_evidence_refs": 0,
         }
 
-    source_path = Path(source_value)
-    source_run = source_path if source_path.is_absolute() else directory / source_path
-    source_run = source_run.resolve()
-    ledger_specs = {
-        "evidence": (source_run / "evidence_registry.csv", {"evidence_id"}),
-        "relation": (
-            source_run / "relation_ledger.csv",
-            {"edge_id", "evidence_id"},
-        ),
-        "paper": (
-            source_run / "paper_verification_ledger.csv",
-            {"paper_id"},
-        ),
-    }
-    ledger_rows: dict[str, list[dict[str, str]]] = {}
-    for name, (path, required_columns) in ledger_specs.items():
-        markdown_fallback = path.with_suffix(".md")
-        if path.is_file():
-            ledger_rows[name] = read_csv(path, required_columns, errors)
-        elif markdown_fallback.is_file():
-            ledger_rows[name] = read_markdown_table(
-                markdown_fallback, required_columns, errors
-            )
-        else:
-            errors.append(
-                f"Source Part 1 run lacks {path.name} (or {markdown_fallback.name})"
-            )
-            ledger_rows[name] = []
+    # Multi-source imports (reference 39 encourages merging several Part 1
+    # runs with ID-prefix re-mapping): the field may list several paths
+    # separated by ";" or ",". Each ledger must resolve in at least one
+    # source; available IDs are the union across sources.
+    source_paths = [
+        part.strip() for part in re.split(r"[;,]", source_value) if part.strip()
+    ]
+    source_runs = []
+    for raw in source_paths:
+        candidate = Path(raw)
+        resolved = candidate if candidate.is_absolute() else directory / candidate
+        source_runs.append((raw, resolved.resolve()))
 
-    evidence_refs = set(EVIDENCE_PATTERN.findall(package_text))
+    ledger_specs = {
+        "evidence": ("evidence_registry", {"evidence_id"}),
+        "relation": ("relation_ledger", {"edge_id", "evidence_id"}),
+        "paper": ("paper_verification_ledger", {"paper_id"}),
+    }
+    ledger_rows: dict[str, list[dict[str, str]]] = {name: [] for name in ledger_specs}
+    for name, (stem, required_columns) in ledger_specs.items():
+        found = False
+        for _, source_run in source_runs:
+            csv_path = source_run / f"{stem}.csv"
+            md_path = source_run / f"{stem}.md"
+            if csv_path.is_file():
+                ledger_rows[name].extend(read_csv(csv_path, required_columns, errors))
+                found = True
+            elif md_path.is_file():
+                ledger_rows[name].extend(
+                    read_markdown_table(md_path, required_columns, errors)
+                )
+                found = True
+        if not found:
+            errors.append(
+                f"no Source Part 1 run provides {stem}.csv (or {stem}.md); "
+                f"searched: {', '.join(raw for raw, _ in source_runs)}"
+            )
+
+    evidence_refs = find_evidence_ids(package_text)
     paper_refs = set(PAPER_ID_PATTERN.findall(package_text))
     relation_refs = set(RELATION_ID_PATTERN.findall(package_text))
     citation_refs = set(CITATION_EVIDENCE_PATTERN.findall(package_text))
+
+    # RoundIDs share the R\d{4} shape with relation-edge IDs. Any token that
+    # the run's own round_log.md knows as a round is not a relation reference.
+    round_log_path = directory / "round_log.md"
+    if round_log_path.is_file():
+        known_rounds = set(
+            re.findall(r"\bR\d{4}\b", round_log_path.read_text(encoding="utf-8"))
+        )
+        relation_refs -= known_rounds
 
     available_evidence = {
         row.get("evidence_id", "").strip() for row in ledger_rows.get("evidence", [])
@@ -377,7 +420,11 @@ def validate_package(directory: Path) -> dict[str, object]:
     if not innovation_rows:
         errors.append("innovation_delta.csv has no data rows")
     if not code_rows:
-        errors.append("equation_code_map.csv has no data rows")
+        errors.append(
+            "equation_code_map.csv has no data rows (for T0-T3 runs without "
+            "code tracing, keep one row per core formula with "
+            "implementation_status=not_requested)"
+        )
 
     target = table_field(contract, "Target competence")
     if not target or not re.fullmatch(r"T[0-5]", target):
@@ -393,7 +440,7 @@ def validate_package(directory: Path) -> dict[str, object]:
         + [paths["innovation"].read_text(encoding="utf-8")]
         + [paths["code_map"].read_text(encoding="utf-8")]
     )
-    evidence_ids = sorted(set(EVIDENCE_PATTERN.findall(all_text)))
+    evidence_ids = sorted(find_evidence_ids(all_text))
     anchors = ANCHOR_PATTERN.findall(all_text)
     placeholders = PLACEHOLDER_PATTERN.findall(all_text)
 
@@ -590,12 +637,20 @@ def self_test() -> None:
             "evidence_id\n",
             encoding="utf-8",
         )
-        (source_run / "relation_ledger.csv").write_text(
-            "edge_id,evidence_id\n",
-            encoding="utf-8",
-        )
         (source_run / "paper_verification_ledger.csv").write_text(
             "paper_id\nP000\nP001\n",
+            encoding="utf-8",
+        )
+        # Second source: relation ledger only, CamelCase headers (template
+        # style) to exercise both multi-source resolution and normalization.
+        source_run_b = directory / "run" / "part1b"
+        source_run_b.mkdir(parents=True)
+        (source_run_b / "relation_ledger.csv").write_text(
+            "EdgeID,SourceID,TargetID,EdgeType,EvidenceID\n",
+            encoding="utf-8",
+        )
+        (directory / "round_log.md").write_text(
+            "## Call Ledger\n\n## R0009\n\nimports recorded in round R0009\n",
             encoding="utf-8",
         )
         (directory / "part2_learning_contract.md").write_text(
@@ -603,11 +658,13 @@ def self_test() -> None:
 
 Package status: `DRAFT`
 
+Imported families: E-SPS-* re-mapped in round R0009.
+
 | Field | Value |
 |---|---|
 | Topic or method | Test method |
 | Target capability | Explain the method |
-| Source Part 1 run | run/part1 |
+| Source Part 1 run | run/part1; run/part1b |
 | Focal PaperIDs | P001 |
 | Mode | understand |
 | Target competence | T2 |

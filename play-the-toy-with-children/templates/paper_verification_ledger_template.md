@@ -1,6 +1,6 @@
 # Paper Verification Ledger
 
-| id | title | year | identifier / URL | source | verification level | access | status | claim supported | next action |
+| PaperID | title | year | identifier / URL | source | verification level | access | status | claim supported | next action |
 |---|---|---:|---|---|---|---|---|---|---|
 
 Verification levels:

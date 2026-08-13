@@ -23,7 +23,12 @@ never leads the disk), alongside the quick-set state files.
 Create `part2_learning_contract.md` before deep reading. Declare:
 
 - target topic, method, or capability;
-- source Part 1 run and graph/ledger paths;
+- source Part 1 run and graph/ledger paths — several runs may be listed
+  separated by `;` (the validator resolves each ledger against the union).
+  When imported IDs are re-mapped with prefixes, name the full IDs or the
+  prefix in prose ("the E-SPS family"); never write wildcard forms like
+  `E-SPS-*` expecting them to resolve as references — the validator treats
+  wildcards as prose, not as ID citations;
 - focal paper or method family;
 - mode: `understand`, `reproduce`, `track`, or `transfer`;
 - target competence level T0-T5;
@@ -127,6 +132,12 @@ source equation -> symbols and assumptions -> algorithm step
 
 Use `equation_code_map.csv`. Record unavailable official code as `unavailable`.
 If code implements a different version, record both versions.
+
+The file is mandatory at every competence level and must have data rows. For
+T0-T3 runs where code tracing is not requested, keep one row per core formula
+with `implementation_status=not_requested` and record any known repository as
+a lead in the notes — do not mark the whole file `not_applicable` in the
+manifest.
 
 ## Technical Review
 

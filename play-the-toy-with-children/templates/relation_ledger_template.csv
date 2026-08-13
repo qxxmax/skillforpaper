@@ -1,2 +1,2 @@
 EdgeID,SourceID,TargetID,EdgeType,DirectlyCited,EvidenceID,RelationBasis,Confidence,HumanReviewStatus,PublicGraphStatus,Weight
-E001,,,conceptual_neighbor,no,,,,unreviewed,hold,
+REL-01,,,conceptual_neighbor,no,,,,unreviewed,hold,

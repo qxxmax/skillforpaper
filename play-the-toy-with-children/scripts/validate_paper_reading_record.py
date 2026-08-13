@@ -36,7 +36,7 @@ IDENTITY_FIELDS = [
 ANCHOR_PATTERN = re.compile(
     r"(?:\bp\.\s*\d+|\bpp\.\s*\d+|\bSec\.\s*[A-Za-z0-9]|"
     r"\bEq\.\s*\(?[A-Za-z0-9]|\bFig\.\s*[A-Za-z0-9]|"
-    r"\bTable\s*[A-Za-z0-9]|\bAppendix\s+[A-Za-z0-9])",
+    r"\bTab(?:le)?\.?\s*[A-Za-z0-9]|\bAppendix\s+[A-Za-z0-9])",
     re.IGNORECASE,
 )
 EVIDENCE_PATTERN = re.compile(r"\bE(?:\d{4,}|-[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*)\b")
