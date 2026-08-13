@@ -1,0 +1,4 @@
+SlideID,Assertion,Level,EvidenceRefs,FigureIDs,TimeSec,Note
+S01,{complete-sentence headline stating the slide's message},background,—,—,60,{why this slide serves the core message}
+S02,{assertion backed by a promoted claim},validated_claim,{ClaimID or EvidenceID},{F01},90,{one line}
+S03,{honest boundary statement: what was not tested},boundary,{ledger row or boundary note},—,45,{one line}

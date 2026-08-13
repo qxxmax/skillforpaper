@@ -28,6 +28,7 @@ def check_required_files() -> list[str]:
         SKILL_DIR / "scripts" / "validate_run_state.py",
         SKILL_DIR / "scripts" / "validate_part3_run_package.py",
         SKILL_DIR / "scripts" / "validate_review_response.py",
+        SKILL_DIR / "scripts" / "validate_part6_talk_package.py",
         SKILL_DIR / "references" / "33_literature_intent_modes_and_state_loop.md",
         SKILL_DIR / "references" / "35_keyword_ontology_and_query_matrix.md",
         SKILL_DIR / "references" / "36_multiview_literature_graph_contract.md",
@@ -52,6 +53,10 @@ def check_required_files() -> list[str]:
         SKILL_DIR / "templates" / "submission_package_manifest_template.md",
         SKILL_DIR / "templates" / "review_response_matrix_template.csv",
         SKILL_DIR / "templates" / "revision_diff_ledger_template.md",
+        SKILL_DIR / "templates" / "presentation_contract_template.md",
+        SKILL_DIR / "templates" / "slide_claim_map_template.csv",
+        SKILL_DIR / "templates" / "figure_provenance_template.md",
+        SKILL_DIR / "templates" / "qa_bank_template.md",
     ]
     errors = [f"missing {path.relative_to(SKILL_DIR)}" for path in required if not path.is_file()]
     if (SKILL_DIR / "SKILL.md").is_file():
@@ -148,6 +153,12 @@ def main() -> int:
         run_command(
             [sys.executable, str(SKILL_DIR / "scripts" / "validate_review_response.py"), "--self-test"],
             "REVIEW RESPONSE",
+        )
+    )
+    errors.extend(
+        run_command(
+            [sys.executable, str(SKILL_DIR / "scripts" / "validate_part6_talk_package.py"), "--self-test"],
+            "PART6 TALK PACKAGE",
         )
     )
     errors.extend(run_sample_contract())

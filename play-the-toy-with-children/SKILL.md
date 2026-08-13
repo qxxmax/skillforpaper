@@ -32,13 +32,14 @@ Organize the research lifecycle into six parts:
 Parts 1 and 2 are public and tested. Part 2 includes a complete SPS
 paper-to-algorithm run through T3 and a code-available PIS lineage branch
 through T5, including formula-to-code mapping and a bounded objective
-reproduction. SPS v1's unavailable-code branch is retained explicitly. Part 3's
-experiment-contract, run-ledger, and claim-promotion contracts (references
-41-42) are implemented with validator self-tests but not yet exercised by a
-real experiment. Part 5's contracts (references 43-45) have a first worked
-submission rehearsal on the SPS case; the review-response loop is covered by
-validator self-tests only, since no real referee reports exist yet. Parts 4
-and 6 are planned.
+reproduction. SPS v1's unavailable-code branch is retained explicitly.
+Part 3's contracts (references 41-42) have been exercised by two real
+experiments (E1 quick-scan and E2 full-scan multi-model benchmarks, both
+with pre-registered criteria). Part 5's contracts (references 43-45) have a
+first worked submission rehearsal on the SPS case; the review-response loop
+is covered by validator self-tests only, since no real referee reports exist
+yet. Part 6's contracts (references 46-47) cover talks, seminars, and
+posters. Part 4 is planned.
 
 ## Minimal Run Contract
 
@@ -54,6 +55,7 @@ level. Create `output_manifest.md` first, before any other run file.
 | Part 2 learning run | `39_part2_technical_learning_and_innovation_audit.md`, `38_native_paper_reading_protocol.md` | quick set, plus `part2_learning_contract.md`, `part2_learning_report.md`, `innovation_delta.csv`, `equation_code_map.csv`, `review_core.md`, `paper_reading_record.md` per deep-read paper |
 | Part 3 experiment run | `41_experiment_design_and_run_ledger.md`, `42_diagnosis_and_claim_promotion_gate.md` | `output_manifest.md`, `research_state.md`, `round_log.md`, `experiment_contract.md`, `compute_budget.md`, `run_ledger.csv`, `claim_promotion_ledger.md`, `env_snapshot.md` per environment |
 | Part 5 submission run | `43_paper_assembly_from_ledgers.md`, `44_venue_selection_and_submission_gate.md` | `output_manifest.md`, `research_state.md`, `round_log.md`, `claim_evidence_ledger.md`, `venue_profile.md` per candidate venue, `submission_package_manifest.md` per submission; arrived reviews add `review_response_matrix.csv` and `revision_diff_ledger.md` |
+| Part 6 talk run | `46_presentation_contract_and_slide_claim_map.md`, `47_audience_tiering_poster_and_qa_bank.md` | `output_manifest.md`, `research_state.md`, `round_log.md`, `presentation_contract.md`, `slide_claim_map.csv`, `figure_provenance.md`, `qa_bank.md` |
 
 Router-triggered additions to the mandatory set: deep-reading any paper adds
 `paper_reading_record.md` (Native Paper Reading Router); a requested final
@@ -343,6 +345,36 @@ or revision, or handle a decision letter:
    cited; reviewer-requested experiments get a Part 3 contract with a
    deadline-capped budget before anything is promised.
 6. Refresh public exports per
+   `references/31_artifact_refresh_and_export_gate.md`.
+
+## Part 6 Presentation Router
+
+If the user asks to prepare a talk, seminar, colloquium, poster, or lecture
+from existing research material, or to update a deck after the evidence
+changed:
+
+1. Read `references/46_presentation_contract_and_slide_claim_map.md`. Part 6
+   projects ledgers under a time budget and creates no new evidence; gaps
+   route back to Parts 1-3.
+2. Write `presentation_contract.md` from
+   `templates/presentation_contract_template.md` before the first slide:
+   audience tier, duration, the one core message as a complete sentence, the
+   ledgers consumed, and the highest claim level the talk may assert.
+3. Maintain `slide_claim_map.csv` from
+   `templates/slide_claim_map_template.csv`: one row per slide, headline as
+   an assertion sentence, claim level at or below the source's promoted
+   level, and evidence refs. Boundary slides (what was not tested) are
+   mandatory content, not filler.
+4. Resolve every figure in `figure_provenance.md` from
+   `templates/figure_provenance_template.md`; a figure without provenance
+   stays off the deck.
+5. For non-specialist audiences or posters, read
+   `references/47_audience_tiering_poster_and_qa_bank.md`: re-tiering
+   rewrites vocabulary, never upgrades claim levels. Write `qa_bank.md` from
+   `templates/qa_bank_template.md` before the talk; append received
+   questions after it.
+6. Run `scripts/validate_part6_talk_package.py <run-directory>` before the
+   talk is given or the deck is shared. Export via
    `references/31_artifact_refresh_and_export_gate.md`.
 
 ## Literature / Related Work / Novelty Router

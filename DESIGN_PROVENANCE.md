@@ -73,6 +73,21 @@ in August 2026:
 The comment-class taxonomy, the diff-ledger cross-check, and the validator
 contract are original to this repository.
 
+## Part 6 Sources (Talks, Posters, QA)
+
+References 46-47, the presentation templates, and
+`validate_part6_talk_package.py` were designed against these practices,
+reviewed in August 2026:
+
+| Source | What was retained |
+|---|---|
+| [Assertion-evidence approach](https://www.assertion-evidence.com/) (Michael Alley, *The Craft of Scientific Presentations*, Springer) | each slide headline is one complete assertion sentence; the body is visual evidence for that assertion, not a bulleted list |
+| [Trees, Maps, and Theorems](https://principiae.be/X0100.php/pdfs/TM&Th-2.0-summary.pdf) (Jean-luc Doumont) | three laws — adapt to the audience, maximize signal-to-noise, use effective redundancy; one message per slide and one core message per talk |
+| [Better Poster](https://www.cos.io/blog/researcher-qa-poster-project) (Mike Morrison, OSF templates) | main finding centered in plain language; silent-presenter strip readable without the author; detail kept to an evidence panel |
+
+The claim-level cap on slides, the figure provenance gate, and the QA bank
+contract are original to this repository.
+
 ## Licenses
 
 Each external project remains governed by its own license and attribution

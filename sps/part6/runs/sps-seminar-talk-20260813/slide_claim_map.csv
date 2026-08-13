@@ -1,0 +1,10 @@
+SlideID,Assertion,Level,EvidenceRefs,FigureIDs,TimeSec,Note
+S01,Critical slowing down makes local-update MCMC expensive near the continuum limit,background,—,—,90,motivates why learned samplers exist
+S02,The learned-sampler landscape around SPS has three verified facets: samplers for unnormalized targets; lattice specializations; correction mechanisms,validated_claim,coverage_stopping_report + landscape graph of the July rerun,F01,150,orients the audience on the map
+S03,SPS inherits PIS's data-free path-control sampling and specializes it to lattice theory with a discrete Langevin proposal,validated_claim,D001,F02,150,first lineage delta
+S04,SPS's training objective is the DDS-family discrete forward-path KL against an unnormalized backward path measure,validated_claim,D002,—,120,objective is inherited not invented
+S05,Against CMCD SPS parameterizes independent forward/backward drifts plus a learned scalar diffusion instead of a score-coupled drift pair,validated_claim,D003,—,120,design difference is explicit
+S06,SPS corrects suboptimal learned paths by extended-space independence Metropolis-Hastings; under the stated support condition the chain keeps the target invariant,validated_claim,D004,—,150,the exactness mechanism
+S07,The evidence behind this talk went through a screened funnel with recorded exclusions rather than a curated reading list,observation,audit funnel export of the July rerun,F03,90,method-of-the-map slide
+S08,The isolated benefit of SPS's drift parameterization is not measured anywhere in the verified record and its tests stop at two-dimensional phi4,boundary,D003 effect cell; part2_learning_report boundary section,—,120,honesty slide
+S09,SPS is a verified recombination of inherited parts and the open question is whether its specific parameterization earns its cost,validated_claim,D001; D002; D003; D004,—,90,closing restatement of the core message

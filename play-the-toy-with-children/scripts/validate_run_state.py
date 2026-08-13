@@ -49,6 +49,12 @@ PROFILE_FILES: dict[str, list[str]] = {
         "claim_promotion_ledger.md",
     ],
     "part5": ["claim_evidence_ledger.md"],
+    "part6": [
+        "presentation_contract.md",
+        "slide_claim_map.csv",
+        "figure_provenance.md",
+        "qa_bank.md",
+    ],
 }
 
 # Marker files whose presence pulls a profile into the mandatory union.
@@ -65,6 +71,7 @@ PROFILE_MARKERS: dict[str, list[str]] = {
         "review_response_matrix.csv",
         "revision_diff_ledger.md",
     ],
+    "part6": ["presentation_contract.md", "slide_claim_map.csv"],
 }
 
 

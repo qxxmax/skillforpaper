@@ -22,6 +22,11 @@ A [Part 5 submission rehearsal](part5/runs/prl-submission-rehearsal-20260812/REA
 consumes both packages to profile candidate venues (PRL, SciPost Physics) and
 run the submission gate, which honestly reports the remaining blockers.
 
+A [Part 6 talk package](part6/runs/sps-seminar-talk-20260813/README.md)
+projects the verified ledgers into a seminar evidence package: one core
+message, assertion-per-slide with claim-level caps, figure provenance, and a
+QA bank whose hardest answers are honest boundaries.
+
 ## Target paper
 
 - Title: *Stochastic Path Sampler For Lattice Field Theory*
